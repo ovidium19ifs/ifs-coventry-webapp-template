@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="angular-1.6.3" type="javaScript">
+    <properties>
+      <sourceFilesUrls>
+        <item url="file://$PROJECT_DIR$/angular-1.6.3" />
+      </sourceFilesUrls>
+    </properties>
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/angular-1.6.3" />
+    </CLASSES>
+    <DOCUMENTATION>
+      <root url="https://docs.angularjs.org/api" />
+    </DOCUMENTATION>
+    <SOURCES />
+  </library>
+</component>

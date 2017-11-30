@@ -1,0 +1,97 @@
+{
+  "name": "Tester_1",
+  "chapters" : [
+    {
+      "blockname": "Pre-Placement",
+      "name": "Definition",
+      "sections": []
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Procedure",
+      "sections": [
+        {
+          "name": "Contact disability Office",
+          "type": "text/info"
+        },
+        {
+          "name": "Documents",
+          "type": "text/links"
+        },
+        {
+          "name": "What is evidence?",
+          "type": "text/info"
+        },
+        {
+          "name": "Medical evidence",
+          "type": "text/info"
+        },
+        {
+          "name": "What to do/verify",
+          "type": "text/info"
+        },
+        {
+          "name": "Sign data protection",
+          "type": "text/info"
+        },
+        {
+          "name": "Make your department aware",
+          "type": "text/info"
+        },
+        {
+          "name": "Speak to personal tutor",
+          "type": "text/info"
+        }
+      ]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Benefits",
+      "sections":[
+        {
+          "name": "Support from DST",
+          "type": "text/links"
+        },
+        {
+          "name": "Funding from DSA",
+          "type": "text/links"
+        },
+        {
+          "name": "Funding information",
+          "type": "video/youtube"
+        }
+      ]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Quiz",
+      "sections":[
+        {
+          "name": "Quiz",
+          "type": "modal/quiz"
+        }
+      ]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Reflection",
+      "sections":[]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Flowchart",
+      "sections":[]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Summary",
+      "sections":[]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "References",
+      "sections":[]
+    }
+  ]
+
+}

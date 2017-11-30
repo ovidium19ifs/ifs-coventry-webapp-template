@@ -1,0 +1,148 @@
+{
+  "name": "Disclosure",
+  "content": [
+    {
+
+    },
+    {
+
+    },
+    {
+
+    }
+  ],
+
+  "chapters" : [
+    {
+      "blockname": "Disclosure",
+      "name": "Definition",
+      "sections": []
+
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Procedure",
+      "sections": [
+        {
+          "name": "Contact disability Office",
+          "type": "text/info"
+        },
+        {
+          "name": "Documents",
+          "type": "text/links"
+        },
+        {
+          "name": "What is evidence?",
+          "type": "text/info"
+        },
+        {
+          "name": "Medical evidence",
+          "type": "text/info"
+        },
+        {
+          "name": "What to do/verify",
+          "type": "text/info"
+        },
+        {
+          "name": "Sign data protection",
+          "type": "text/info"
+        },
+        {
+          "name": "Make your department aware",
+          "type": "text/info"
+        },
+        {
+          "name": "Speak to personal tutor",
+          "type": "text/info"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Other Menu",
+      "sections": [
+        {
+          "name": "Contact disability Office",
+          "type": "text/info"
+        },
+        {
+          "name": "Documents",
+          "type": "text/links"
+        },
+        {
+          "name": "What is evidence?",
+          "type": "text/info"
+        },
+        {
+          "name": "Medical evidence",
+          "type": "text/info"
+        },
+        {
+          "name": "What to do/verify",
+          "type": "text/info"
+        },
+        {
+          "name": "Sign data protection",
+          "type": "text/info"
+        },
+        {
+          "name": "Make your department aware",
+          "type": "text/info"
+        },
+        {
+          "name": "Speak to personal tutor",
+          "type": "text/info"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Benefits",
+      "sections":[
+        {
+          "name": "Support from DST",
+          "type": "text/links"
+        },
+        {
+          "name": "Funding from DSA",
+          "type": "text/links"
+        },
+        {
+          "name": "Funding information",
+          "type": "video/youtube"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Quiz",
+      "sections":[
+        {
+          "name": "Quiz",
+          "type": "modal/quiz"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Reflection",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Flowchart",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Summary",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "References",
+      "sections":[]
+    }
+  ]
+
+}

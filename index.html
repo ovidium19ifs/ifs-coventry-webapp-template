@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="MyApp">
+<head >
+    <base href="/">
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/cards.css">
+    <script src="angular-1.6.3/docs/components/jquery-3.1.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.js"></script>
+    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="angular-1.6.3/angular.js"></script>
+    <script src="angular-1.6.3/angular-resource.js"></script>
+    <script src="angular-1.6.3/angular-route.js"></script>
+    <script src="angular-1.6.3/angular-animate.js"></script>
+
+
+</head>
+<body ng-controller="TestCtrl" ng-cloak>
+    <!-- This bit is the top-bar sticky. Header and navigation menu -->
+    <header class="container-fluid top-bar">
+        <nav class="navbar navbar-light navbar-expand flex-column flex-md-row">
+            <a class="navbar-brand" href="#">
+                IFS
+                <span class="navbar-text">Students...</span>
+            </a>
+            <ul class="navbar-nav mr-md-auto text-center mt-2 mt-lg-0 justify-content-around" style="flex:1">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+<!-- ---------------------------------------------------------------- -->
+
+    <div class="container-fluid">
+        <div class="row main-content ">
+            <!-- Left-side sticky panel - Search function and navigation menu -->
+            <div class="d-flex flex-column col-md-3  col-lg-2 order-0 side-menu px-0" style="min-width:230px">
+                <form class="d-flex align-items-center search-box mx-0 ">
+                    <input type="search" placeholder="Search..." class="form-control">
+                </form>
+                <nav-menu data="data" class="px-2" id="navigation"></nav-menu>
+
+
+                <!--
+                <nav class="navbar-nav navbar-light navbar-expand-md" >
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rsSidebar" aria-controls="rsSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="navbar-collapse collapse" id="rsSidebar">
+                        <ul class="nav rs-sidebar flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link">Link 1</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link">Link 2</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link">Link 3</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link">Link 4</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link">Link 5</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item ">
+                                <a href="" class="nav-link">Link 6</a>
+                                <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 1</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 2</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="" class="nav-link">Sub-Link 3</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </nav>
+                -->
+            </div>
+            <!-- this is where data will be loaded -->
+            <div class="col col-md col-lg order-1 content py-5">
+                <div class="container">
+                    <div class="nav-buttons w-100">
+                        <button class="btn btn-primary float-left" ng-hide="lowEnd" ng-click="goToPrevious()">
+                            <span class="fa fa-chevron-left mr-2" ></span>
+                            Previous
+                        </button>
+                        <button class="btn btn-primary float-right" ng-hide="highEnd" ng-click="goToNext()">
+                            Next
+                            <span class="fa fa-chevron-right ml-2 "></span>
+                        </button>
+                    </div>
+                    <div class="clearfix my-3 py-3"></div>
+                    <ng-view ></ng-view>
+                    <ng-include src="'templates/text-card-template.html'" ></ng-include>
+                </div>
+
+            </div>
+
+            <!-- this right panel will show all sections in a chapter for quick scanning of the document -->
+            <div class="col col-md-2 col-lg-3 order-2 aside">
+                <div class="font-control btn-group-sm float-right" role="group" aria-label="Font Size Controls">
+                    <button class="btn btn-secondary font-size-modifier">-</button>
+                    <button class="btn btn-secondary font-size-modifier">+</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+<script src="scripts/services/dataFetcher.js"></script>
+<script src="scripts/controllers/TestCtrl.js"></script>
+<script src="scripts/controllers/MainContentCtrl.js"></script>
+<script src="scripts/controllers/IntroductionCtrl.js"></script>
+<script src="scripts/directives/navMenu.js"></script>
+<script src="scripts/services/navigate.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+
+
+       $(".font-size-modifier").on("click",function(e){
+           var text = $(e.target).text();
+           var html = $("html");
+           var val = html.css("font-size").substring(0,2);
+           console.log(val);
+
+           if (text==="-"){
+               html.css({"font-size": val-1 + "px" });
+           }
+           else if (text==="+"){
+               html.css({"font-size": (Number(val)+1) + "px" });
+           }
+
+        });
+
+    });
+</script>
+</html>

@@ -1,0 +1,92 @@
+
+#navigation{
+    max-height: 75vh;
+    overflow: auto;
+    padding-bottom: 2rem;
+}
+.rs-sidebar{
+    min-width: 100%;
+    margin-top:1rem;
+    overflow-y: auto;
+}
+.rs-sidebar >li>a{
+    font-size:1.2rem;
+    color:#3949AB;
+    border-bottom: 1px solid #3949AB;
+
+    box-shadow: 0 3px 4px -1px #3949AB;
+    padding-left: 5px;
+}
+.rs-sidebar >li.active{
+
+}
+.rs-sidebar >li.active > a{
+    border-bottom:none;
+    box-shadow:none;
+}
+.rs-sidebar >li.active >ul>li:first-child{
+    border-top:1px solid #3949AB;
+    box-shadow:0px 3px 6px -2px #3949AB inset;
+}
+.rs-sidebar >li.active > ul>li:last-child{
+    border-bottom:1px solid #3949AB;
+}
+.rs-sidebar >li > ul{
+    border-left: 1px solid  #3949AB;
+}
+.rs-sidebar > li > ul > li {
+    border-bottom:1px solid lightgray;
+}
+.rs-sidebar > li > ul >li > a{
+    color:#7E57C2;
+}
+.rs-sidebar >li>ul>li:hover{
+    background-color:#D1C4E9;
+}
+.rs-sidebar >li>ul>li.sub-active:hover{
+    background-color:#673AB7;
+    color:white;
+}
+.rs-sub.ng-hide{
+    max-height: 0;
+}
+.rs-sub.ng-hide-add,
+.rs-sub.ng-hide-remove{
+    transition:all linear 0.15s;
+}
+.rs-sub{
+    max-height: 500px;
+}
+
+.sub-active{
+    background-color:#673AB7;
+
+}
+.sub-active a.chapter-link{
+    color: white;
+}
+.block-link:hover{
+    color:lightslategray;
+}
+.chapter-link:hover{
+    color:darkslategray;
+}
+a{
+    text-decoration: none;
+}
+.rs-sidebar >li{
+    padding: 0.7rem 0;
+
+}
+.nav.rs-sub li>a{
+    padding-left:10px;
+}
+@media  (max-width: 768px){
+    #navigation{
+
+
+
+    }
+
+
+}
