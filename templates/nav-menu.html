@@ -4,11 +4,11 @@
     </button>
     <div class="navbar-collapse collapse" id="rsSidebar">
         <ul class="nav rs-sidebar flex-column flex-nowrap">
-            <li class="nav-item" ng-repeat="block in data" ng-class="{active: selected===block.name}" ng-click="select($index,$event)">
-                <a href="" class="nav-link block-link ">{{block.name}}</a>
+            <li class="nav-item" ng-repeat="block in data" ng-class="{active: selected===block.name}" >
+                <a href="" class="nav-link block-link small " ng-click="select($index,$event)">{{block.name}}</a>
                 <ul class=" nav rs-sub flex-column flex-nowrap" ng-show="selected===block.name">
                     <li class="nav-item" ng-repeat="chapter in block.chapters" ng-class="{'sub-active':chSelected === (block.name+'-'+chapter.name)}"  ng-click="selectChapter(block.name,chapter.name,$event)">
-                        <a href="" class="nav-link chapter-link h-100 "  ng-click="selectChapter($parent.$index,$index,$event)">{{chapter.name}}</a>
+                        <a href="" class="nav-link chapter-link h-100 small"  ng-click="selectChapter($parent.$index,$index,$event)">{{chapter.name}}</a>
                     </li>
                 </ul>
             </li>

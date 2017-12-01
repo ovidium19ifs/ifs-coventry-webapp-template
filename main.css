@@ -5,13 +5,13 @@ html{
 }
 body{
     box-sizing: border-box;
-
 }
 /* the sticky nav-bar at the top*/
 .top-bar{
     display:flex;
     flex-direction: column;
-    background: radial-gradient(#9575CD 40%, #311B92 175% );
+    /*background: radial-gradient(#9575CD 40%, #311B92 175% );*/
+    background-color:#d06aff;
 
 }
 /* header in nav-bar*/
@@ -29,7 +29,7 @@ body{
 }
 .search-box{
     padding:1rem;
-    border-bottom: 1px solid #D7CCC8;
+    border-bottom: 1px solid #F4E9D4;
 }
 .search-box:focus{
     transition: box-shadow ease-in-out 0.15s,border-color ease-in-out 0.15s;
@@ -44,6 +44,11 @@ body{
 .content{
     max-height: 90vh;
     overflow-y: auto;
+    background-color: #F0E4F5;
+    color: #005369;
+}
+.aside{
+    background-color: #f0ebf2;
 }
 
 /* header changes at the "md" breakpoint*/
