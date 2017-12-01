@@ -1,6 +1,7 @@
 application.factory("navigate",function($location){
     "use strict";
     var data;
+    var path="/";
     var current_bl_index,current_ch_index;
     return{
         urlIsValid:function(routeParams){
@@ -9,7 +10,6 @@ application.factory("navigate",function($location){
 
                 var bl_name = routeParams.blockname;
                 var ch_name = routeParams.chaptername;
-                console.log(data);
                 current_bl_index = data.findIndex(function (elem) {
                     return elem.name === bl_name;
                 });
@@ -17,18 +17,17 @@ application.factory("navigate",function($location){
                     current_ch_index = data[current_bl_index].chapters.findIndex(function (elem) {
                         return elem.name === ch_name;
                     });
-                console.log(current_bl_index + " " + current_ch_index);
                 return (!(current_bl_index === -1 || current_ch_index === -1));
             }
             else if(routeParams.hasOwnProperty("blockname")){
                 var bl_name=routeParams.blockname;
-                console.log("url: "+"blocks/"+bl_name);
                 current_bl_index = data.findIndex(function (elem) {
                     return elem.name === bl_name;
                 });
                 current_ch_index=-1;
                 return current_bl_index!==-1;
             }
+            else return false;
          },
         errorPage: function(){
             current_bl_index=-1;
@@ -49,10 +48,17 @@ application.factory("navigate",function($location){
             return data[index];
         },
         goTo : function(bl_name,ch_name){
-            if (ch_name)
+            if (ch_name){
                 $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
-            else
+                path="/blocks/"+bl_name+"/chapter/"+ch_name;
+            }
+
+
+            else{
                 $location.path("/blocks/"+bl_name);
+                path= "/blocks/"+bl_name;
+            }
+
         },
         lowEnd: function(){
             return (current_bl_index===0 && current_ch_index<=-1) || ( current_bl_index===-1 && current_ch_index===-1)
@@ -66,18 +72,20 @@ application.factory("navigate",function($location){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
-                console.log(ch_name);
                 $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                path="/blocks/"+bl_name+"/chapter/"+ch_name;
             }
             else if (current_ch_index<data[current_bl_index].chapters.length-1){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
                 $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                path="/blocks/"+bl_name+"/chapter/"+ch_name;
             }
             else if (current_ch_index === data[current_bl_index].chapters.length-1){
                 bl_name = data[current_bl_index+1].name;
                 $location.path("/blocks/"+bl_name);
+                path="/blocks/"+bl_name;
             }
         },
         goToPrevious: function(){
@@ -101,10 +109,18 @@ application.factory("navigate",function($location){
             }
         },
         getDataBlock: function(name){
-            console.log(data);
+
             return data.find(function(elem){
                 return elem.name===name;
             });
+        },
+        getIndex: function(name){
+            return data.findIndex(function(elem){
+                return elem.name===name;
+            });
+        },
+        getPath: function(){
+            return path;
         }
     }
 });

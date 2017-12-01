@@ -4,6 +4,6 @@ application.controller("IntroductionCtrl",function($scope,navigate,$routeParams)
         navigate.errorPage();
     }
     $scope.data = navigate.getDataBlock($routeParams.blockname);
-    console.log($scope.data);
+
 
 });

@@ -16,7 +16,7 @@ application.config(function ($routeProvider,$locationProvider) {
             template: "<div>Index hello</div>"
         })
         .otherwise({
-            redirectTo: ""
+            redirectTo: "/404"
         });
     $locationProvider.html5Mode(true);
 });
