@@ -12,5 +12,5 @@ app.get("*",function(req,res){
     console.log("Requested index");
     res.sendFile(rootPath+"/index.html");
 });
-app.listen(process.env.PORT || 8080);
+app.listen(process.env.PORT || 8000);
 console.log("Listening on port 8080....");

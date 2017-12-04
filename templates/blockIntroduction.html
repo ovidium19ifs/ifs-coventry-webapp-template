@@ -1,3 +1,20 @@
-<div class="container-fluid">
-    Introduction: {{data.name}}
+
+<div class="card introduction">
+    <div class="card-header">
+        <h2 class="card-title d-inline">{{data.name}}</h2>
+        <h4 class="float-right">Chapter {{index}} of {{dataLength}}</h4>
+    </div>
+
+    <div class="card-body">
+
+        <div ng-repeat="section in data.introcontent">
+
+            <h4 class="card-subtitle">{{section.title}}</h4>
+            <div ng-repeat = "component in section.components">
+                <ng-include src="'templates/components/text/paragraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
+                <ng-include src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
+            </div>
+            <hr class="mid-section-sep" ng-if="section['space_after']==='true'">
+        </div>
+    </div>
 </div>

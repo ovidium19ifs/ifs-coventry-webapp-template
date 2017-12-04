@@ -2,13 +2,42 @@
   "name": "Disclosure",
   "introcontent": [
     {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "This section will introduce the concept of disclosure and guidelines for disclosing a disability at the University.",
+          "space_after": "false"
+        }
 
+      ],
+      "space_after": "true"
     },
     {
-
-    },
-    {
-
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "list-text",
+          "list_elements":[
+            {
+              "text": "To provide a clear definition of the concept of disclosure."
+            },
+            {
+              "text": "To provide students with adequate guidelines and practical tips about how to disclose a disability."
+            },
+            {
+              "text": "To provide students with a step-by-step guide of how disclosure is evidenced and recorded at the University."
+            },
+            {
+              "text": "To support students understand their rights and responsibilities with respect to disclosure."
+            }
+          ],
+          "space_after": "false"
+        }
+      ],
+      "space_after": "false"
     }
   ],
 

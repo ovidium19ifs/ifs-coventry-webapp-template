@@ -1,0 +1,7 @@
+<h6 ng-show="component.subtitle">{{component.subtitle}}</h6>
+<ul>
+    <li class="learning-outcome" ng-repeat="elem in component['list_elements']">
+        {{elem.text}}
+    </li>
+</ul>
+<hr class="mid-section-sep" ng-if="component['space_after']==='true'">

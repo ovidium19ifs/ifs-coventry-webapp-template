@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="main.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/cards.css">
+    <link rel="stylesheet" href="css/introduction.css">
     <script src="angular-1.6.3/docs/components/jquery-3.1.1/jquery.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.js"></script>
     <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
@@ -52,7 +53,7 @@
                 <form class="d-flex align-items-center search-box mx-0 ">
                     <input type="search" placeholder="Search..." class="form-control">
                 </form>
-                <nav-menu data="data" class="px-2" id="navigation"></nav-menu>
+                <nav-menu data="data" class="px-2" id="navigation" ng-show="data"></nav-menu>
 
 
                 <!--
@@ -154,14 +155,14 @@
                 -->
             </div>
             <!-- this is where data will be loaded -->
-            <div class="col col-md col-lg order-1 content py-5">
+            <div class="col col-md col-lg order-1 content py-5" ng-show="data" ng-cloak>
                 <div class="container">
                     <div class="nav-buttons w-100">
-                        <button class="btn btn-primary float-left" ng-hide="lowEnd" ng-click="goToPrevious()">
+                        <button class="btn  float-left content-nav" ng-hide="lowEnd" ng-click="goToPrevious()">
                             <span class="fa fa-chevron-left mr-2" ></span>
                             Previous
                         </button>
-                        <button class="btn btn-primary float-right" ng-hide="highEnd" ng-click="goToNext()">
+                        <button class="btn  float-right content-nav" ng-hide="highEnd" ng-click="goToNext()">
                             Next
                             <span class="fa fa-chevron-right ml-2 "></span>
                         </button>
@@ -174,7 +175,7 @@
             </div>
 
             <!-- this right panel will show all sections in a chapter for quick scanning of the document -->
-            <div class="col col-md-2 col-lg-3 order-2 aside">
+            <div class="col col-md-2 col-lg-2 order-2 aside">
                 <div class="font-control btn-group-sm float-right" role="group" aria-label="Font Size Controls">
                     <button class="btn btn-secondary font-size-modifier">-</button>
                     <button class="btn btn-secondary font-size-modifier">+</button>
@@ -185,11 +186,12 @@
 </body>
 <script src="app.js"></script>
 <script src="scripts/services/dataFetcher.js"></script>
+<script src="scripts/directives/navMenu.js"></script>
+<script src="scripts/services/navigate.js"></script>
 <script src="scripts/controllers/TestCtrl.js"></script>
 <script src="scripts/controllers/MainContentCtrl.js"></script>
 <script src="scripts/controllers/IntroductionCtrl.js"></script>
-<script src="scripts/directives/navMenu.js"></script>
-<script src="scripts/services/navigate.js"></script>
+
 <script type="text/javascript">
     $(document).ready(function () {
 

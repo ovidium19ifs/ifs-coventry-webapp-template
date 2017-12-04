@@ -38,6 +38,8 @@ application.factory("navigate",function($location){
             data = fullData;
             current_bl_index=0;
             current_ch_index=-1;
+            console.log(data);
+
         },
         getBlockByIndex: function(index,ch_index){
             if (ch_index){
@@ -110,9 +112,14 @@ application.factory("navigate",function($location){
         },
         getDataBlock: function(name){
 
-            return data.find(function(elem){
-                return elem.name===name;
-            });
+            for (var i=0;i<data.length;i++){
+                if (data[i].name===name){
+                    return [data[i],i]
+                }
+            }
+        },
+        getDataLength: function(){
+            return data.length;
         },
         getIndex: function(name){
             return data.findIndex(function(elem){

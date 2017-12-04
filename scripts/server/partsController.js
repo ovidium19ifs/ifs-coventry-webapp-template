@@ -13,6 +13,7 @@ module.exports.get = function(req,res){
     }
     var results="[";
     for (var i=0;i<files.length;i++){
+        console.log(files[i]);
         if (files[i].indexOf(".json")===files[i].length-5){
 
             var fileContents = fs.readFileSync(fullPath+"/"+files[i]);
@@ -23,6 +24,7 @@ module.exports.get = function(req,res){
     results+="]";
 
     res.setHeader("Content-Type","application/json");
+
     res.send(results);
     res.end();
 

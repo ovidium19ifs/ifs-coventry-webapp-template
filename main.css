@@ -11,7 +11,7 @@ body{
     display:flex;
     flex-direction: column;
     /*background: radial-gradient(#9575CD 40%, #311B92 175% );*/
-    background-color:#d06aff;
+    background-color:#d7a1c2;
 
 }
 /* header in nav-bar*/
@@ -44,8 +44,16 @@ body{
 .content{
     max-height: 90vh;
     overflow-y: auto;
-    background-color: #F0E4F5;
+    background-color: #e4dce8;
+    /*#f0ebf2
+      #f6f6d4*/
     color: #005369;
+}
+.btn.content-nav{
+    background-color: #690053;
+    color: #f0ebf2;
+    border-radius: 10px;
+    width:7rem;
 }
 .aside{
     background-color: #f0ebf2;
@@ -89,7 +97,11 @@ body{
 
 
 
-
+.card.introduction .mid-section-sep{
+    color: green;
+    border-color: green;
+    background-color: green;
+}
 }
 @media (max-width: 1100px){
     .aside{
