@@ -38,7 +38,7 @@ application.factory("navigate",function($location){
             data = fullData;
             current_bl_index=0;
             current_ch_index=-1;
-            console.log(data);
+
 
         },
         getBlockByIndex: function(index,ch_index){
@@ -110,16 +110,37 @@ application.factory("navigate",function($location){
                 $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
             }
         },
-        getDataBlock: function(name){
-
-            for (var i=0;i<data.length;i++){
-                if (data[i].name===name){
-                    return [data[i],i]
+        getDataBlock: function(name,chapter){
+            /*
+            if (!chapter)
+                for (var i=0;i<data.length;i++){
+                    if (data[i].name===name){
+                        return [data[i],i]
+                    }
                 }
+            else{
+                    for (var i=0;i<data.length;i++){
+                        if (data[i].name === name){
+                            for (var j=0;j<data.chapters.length;j++){
+                                if (data[i].chapters[j].name===chapter)
+                                    return [data[i].chapters[j]]
+                            }
+                        }
+                    }
+            }*/
+
+            if (current_ch_index>-1){
+                return [data[current_bl_index].chapters[current_ch_index],current_ch_index];
+            }
+            else{
+                return [data[current_bl_index],current_bl_index];
             }
         },
         getDataLength: function(){
             return data.length;
+        },
+        getBlockLength: function(){
+            return data[current_bl_index].chapters.length;
         },
         getIndex: function(name){
             return data.findIndex(function(elem){

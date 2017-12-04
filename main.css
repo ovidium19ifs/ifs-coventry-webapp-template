@@ -96,12 +96,6 @@ body{
     }
 
 
-
-.card.introduction .mid-section-sep{
-    color: green;
-    border-color: green;
-    background-color: green;
-}
 }
 @media (max-width: 1100px){
     .aside{

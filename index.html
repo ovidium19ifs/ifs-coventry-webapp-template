@@ -155,21 +155,21 @@
                 -->
             </div>
             <!-- this is where data will be loaded -->
-            <div class="col col-md col-lg order-1 content py-5" ng-show="data" ng-cloak>
+            <div class="col col-md col-lg order-1 content py-5" ng-show="data">
                 <div class="container">
                     <div class="nav-buttons w-100">
-                        <button class="btn  float-left content-nav" ng-hide="lowEnd" ng-click="goToPrevious()">
+                        <button class="btn  float-left content-nav d-inline" ng-hide="lowEnd" ng-click="goToPrevious()">
                             <span class="fa fa-chevron-left mr-2" ></span>
                             Previous
                         </button>
-                        <button class="btn  float-right content-nav" ng-hide="highEnd" ng-click="goToNext()">
+                        <button class="btn  float-right content-nav d-inline" ng-hide="highEnd" ng-click="goToNext()">
                             Next
                             <span class="fa fa-chevron-right ml-2 "></span>
                         </button>
                     </div>
                     <div class="clearfix my-3 py-3"></div>
                     <ng-view ></ng-view>
-                    <ng-include src="'templates/text-card-template.html'" ></ng-include>
+                    <!--<ng-include src="'templates/text-card-template.html'" ></ng-include>-->
                 </div>
 
             </div>

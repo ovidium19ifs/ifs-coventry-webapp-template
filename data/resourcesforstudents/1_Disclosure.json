@@ -45,20 +45,74 @@
     {
       "blockname": "Disclosure",
       "name": "Definition",
-      "sections": []
-
+      "sections": [
+        {
+          "subtitle": "What is Disclosure?",
+          "components": [
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "Disclosure is making known a disability to the university.  It involves discussing difficulties you may encounter, any reasonable adjustments needed for attainment and individual examination arrangements.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
     },
     {
       "blockname": "Disclosure",
       "name": "Procedure",
       "sections": [
         {
-          "name": "Contact disability Office",
-          "type": "text/info"
+          "subtitle": "How do you disclose?",
+          "components":[
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can disclose at any time during the recruitment process, such as on your application or UCAS form or when you are on your course. ",
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can also disclose a disability through contacting the Disabilities Team using Connect2 or emailing: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "E-mail Contact Address",
+              "type": "link-email",
+              "text": "disabilityadvisor.ss@coventry.ac.uk",
+              "link": "mailto:disabilityadvisor.ss@coventry.ac.uk",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         },
         {
-          "name": "Documents",
-          "type": "text/links"
+          "subtitle": "Contact Disability Office",
+          "components":[
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "An appointment with a Disability Advisor can be made by following the link: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type":"link-website",
+              "text": "https://healthandwellbeingbookings.coventry.ac.uk/",
+              "link": "https://healthandwellbeingbookings.coventry.ac.uk/",
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can also make appointments or contact the Disabilities Team through the student portal and selecting ‘support at CU’.",
+              "space_after": "true"
+            }
+          ],
+          "space_after": "true"
         },
         {
           "name": "What is evidence?",
@@ -89,7 +143,7 @@
     {
       "blockname": "Disclosure",
       "name": "Other Menu",
-      "sections": [
+      "components": [
         {
           "name": "Contact disability Office",
           "type": "text/info"
@@ -127,7 +181,7 @@
     {
       "blockname": "Disclosure",
       "name": "Benefits",
-      "sections":[
+      "components":[
         {
           "name": "Support from DST",
           "type": "text/links"
@@ -145,7 +199,7 @@
     {
       "blockname": "Disclosure",
       "name": "Quiz",
-      "sections":[
+      "components":[
         {
           "name": "Quiz",
           "type": "modal/quiz"
@@ -155,22 +209,22 @@
     {
       "blockname": "Disclosure",
       "name": "Reflection",
-      "sections":[]
+      "components":[]
     },
     {
       "blockname": "Disclosure",
       "name": "Flowchart",
-      "sections":[]
+      "components":[]
     },
     {
       "blockname": "Disclosure",
       "name": "Summary",
-      "sections":[]
+      "components":[]
     },
     {
       "blockname": "Disclosure",
       "name": "References",
-      "sections":[]
+      "components":[]
     }
   ]
 

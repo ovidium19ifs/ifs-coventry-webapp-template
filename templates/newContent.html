@@ -1,3 +1,29 @@
-<div class='container'>
-    {{data.blockname}} + {{data.name}}
+<h1 class="text-center block-title">{{data.blockname}}</h1>
+<div class="card main-card">
+    <div class="card-header">
+        <h2 class="card-title d-inline">{{data.name}}</h2>
+        <div class="float-right part-descriptor">
+            <p>Chapter: {{data.blockname}}</p>
+            <p class="text-right pt-1">Part {{index+1}} of {{blockLength}}</p>
+        </div>
+    </div>
+
+    <div class="card-body">
+
+        <div class="section-block mb-5" ng-repeat="section in data.sections">
+
+            <h4 class="card-subtitle">{{section.subtitle}}</h4>
+            <div ng-repeat="component in section.components">
+                <ng-include src="'templates/components/text/paragraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
+                <ng-include src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
+                <ng-include src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
+                <ng-include src="'templates/components/link/website.html'" ng-if="component.type==='link-website'"></ng-include>
+
+                <hr class="mid-section-sep" ng-if="component['space_after']==='true'">
+            </div>
+
+
+            <hr class="mid-section-sep" ng-if="section['space_after']==='true'">
+        </div>
+    </div>
 </div>
