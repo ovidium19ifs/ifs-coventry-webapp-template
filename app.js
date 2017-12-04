@@ -13,7 +13,7 @@ application.config(function ($routeProvider,$locationProvider) {
 
         })
         .when("/",{
-            template: "<div>Index hello</div>"
+            redirectTo: "/blocks/Disclosure"
         })
         .otherwise({
             redirectTo: "/404"
