@@ -1,0 +1,64 @@
+
+<div class="progress-div align-self-center ml-2 mb-3 ">
+    <div class="row">
+        <div class="progress-text text-center" ng-show="current>=0">
+            {{current}} of {{questions.length}}
+        </div>
+        <div class="col progress-cell" ng-repeat="q in questions" >
+        </div>
+    </div>
+</div>
+<div id="quiz-carousel" class="carousel slide quiz " data-interval="false" data-keyboard="false">
+    <div class="carousel-inner">
+        <div class="carousel-item active  ">
+            <div class="first-page d-flex  justify-content-center align-items-center h-100">
+                <button class="btn btn-success quiz-start w-50 "  ng-click="nextSlide()">Start Quiz</button>
+            </div>
+        </div>
+        <div class="carousel-item" ng-repeat="q in questions">
+            <div class="question-format d-flex align-content-around justify-content-between flex-wrap flex-column h-100">
+                <p class="question-text">Q{{$index+1}}: {{q.text}}</p>
+                <div class="d-flex align-content-center justify-content-around ">
+                    <a href="" class="btn btn-primary" ng-repeat="a in q.answers" ng-click="isCorrect($index,$parent.$index)">{{a.text}}</a>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="last-page d-flex justify-content-between align-items-center h-100 flex-column">
+                <p>Congratulations! You scored <span class="score">{{score}}</span> % !!!</p>
+                <button class="btn btn-success" ng-click="reloadQuiz()">Restart Quiz</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="quiz-results" ng-show="quizFinished">
+    <ul class="list-group my-3">
+        <li class="list-group-item results">
+            <h2>Results</h2>
+        </li>
+        <li class="list-group-item result-item d-flex flex-column justify-content-between align-items-start" ng-repeat="r in results">
+            <p class="question-text">{{r.text}}</p>
+            <div class="question-answer">
+                <p ng-class="{'ans-correct':r.correct,'ans-incorrect': !r.correct}">
+                    You answered {{r.answer}}
+                    <i class="fa fa-check-circle text-success float-right ml-4 fa-2x" ng-show="r.correct"></i>
+                    <i class="fa fa-times-circle text-danger float-right ml-4 fa-2x" ng-show="!r.correct"></i>
+                </p>
+
+            </div>
+            <div class="card card-inner" ng-show="r.tip">
+                <div class="card-body py-2">
+                    <div class="card-subtitle">
+                        Tip:
+                    </div>
+                </div>
+                <div class="card-text">
+                    <p class="question-tip pl-2">{{r.tip}}</p>
+                </div>
+            </div>
+        </li>
+        <li class="list-group-item d-flex align-items-center justify-content-center">
+            <button class="btn btn-success" ng-click="reloadQuiz()">Restart Quiz</button>
+        </li>
+    </ul>
+</div>

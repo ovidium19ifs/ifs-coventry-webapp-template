@@ -1,0 +1,74 @@
+.carousel.quiz{
+
+    height: 17rem;
+    max-height:17rem;
+    padding:1rem;
+    box-shadow: 0px 0px 1px 1px #6F0101 inset;
+    background: white;
+
+}
+.carousel.quiz .carousel-inner{
+
+    height:100%;
+}
+.carousel.quiz .carousel-item{
+
+    height:100%;
+}
+.question-text{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.quiz-start{
+    border-radius:10px;
+}
+.last-page p{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.last-page span.score{
+    color: #6F0101;
+}
+.progress-div{
+    position:relative;
+}
+.progress-div  .progress-cell:nth-child(2){
+    border-left:1px solid lightgray;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.progress-div  .progress-cell:last-child{
+    border-right: 1px solid lightgray;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.progress-div .progress-cell{
+    height: 1.5rem;
+    border-top:1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.progress-div .progress-cell.correct{
+    background-color: rgba(76,166,76,0.5);
+}
+.progress-div .progress-cell.wrong{
+    background-color: rgba(154,77,77,0.5);
+}
+.progress-text{
+    z-index:1;
+    position: absolute;
+    left:45%;
+    color:black;
+    width:3rem;
+    height:inherit;
+    font-size: 1rem;
+    font-style: bold;
+    border:none;
+
+}
+.list-group-item.results{
+    background-color: #8b3333;
+    color: lightgray;
+}
+.list-group-item.result-item{
+    background-color: #f0ebf2;
+}
