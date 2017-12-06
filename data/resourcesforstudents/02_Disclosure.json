@@ -82,8 +82,12 @@
             {
               "subtitle": "E-mail Contact Address",
               "type": "link-email",
-              "text": "disabilityadvisor.ss@coventry.ac.uk",
-              "link": "mailto:disabilityadvisor.ss@coventry.ac.uk",
+              "links":[
+                {
+                  "text": "disabilityadvisor.ss@coventry.ac.uk",
+                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                }
+              ],
               "space_after": "false"
             }
           ],

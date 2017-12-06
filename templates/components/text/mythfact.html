@@ -1,0 +1,20 @@
+<h6 ng-show="component.subtitle">{{component.subtitle}}</h6>
+<div class="mythfact" ng-repeat="mf in component.myths">
+    <div class="card card-myth mb-2">
+        <div class="card-header py-1">
+            <h4>Myth</h4>
+        </div>
+        <div class="card-body d-flex justify-content-center align-items-center py-3 px-4">
+            <h5 class="mb-0">{{mf.myth}}</h5>
+        </div>
+    </div>
+    <div class="card card-fact">
+        <div class="card-header py-1">
+            <h4>Fact</h4>
+        </div>
+        <div class="card-body d-flex justify-content-center align-items-center py-3 px-4">
+            <h5 class="mb-0">{{mf.fact}}</h5>
+        </div>
+    </div>
+    <hr class="mid-comp-sep my-5" ng-show="!$last">
+</div>

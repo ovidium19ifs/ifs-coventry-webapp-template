@@ -4,8 +4,12 @@
             E-mail:
         </div>
         <div class="card-text">
-            <span class="fa fa-envelope"></span>
-            <a href="{{component.link}}" title="Mail to: {{component.text}}">{{component.text}}</a>
+            <div ng-repeat="mail in component.links">
+                <span class="email-tag mr-4" ng-show="mail.tag">{{mail.tag}}: </span>
+                <span class="fa fa-envelope"></span>
+                <a href="{{mail.link}}" title="Mail to: {{mail.text}}">{{mail.text}}</a>
+            </div>
+
         </div>
     </div>
 </div>

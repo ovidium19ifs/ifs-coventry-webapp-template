@@ -15,19 +15,22 @@
             <h4 class="card-subtitle">{{section.subtitle}}</h4>
             <div ng-repeat="component in section.components">
                 <ng-include src="'templates/components/text/paragraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
+                <ng-include src="'templates/components/text/quote.html'" ng-if="component.type==='text-quote'"></ng-include>
                 <list-text ng-if="component.type==='list-text'" element="component"></list-text>
                 <ng-include src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
                 <ng-include src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
                 <ng-include src="'templates/components/link/website.html'" ng-if="component.type==='link-website'"></ng-include>
                 <ng-include src="'templates/components/link/pdf.html'" ng-if="component.type==='link-pdf'"></ng-include>
                 <ng-include src="'templates/components/text/alert.html'" ng-if="component.type==='text-alert'"></ng-include>
+                <ng-include src="'templates/components/text/mythfact.html'" ng-if="component.type==='text-mythfact'"></ng-include>
+                <ng-include src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>
                 <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
                 <quiz-carousel ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
-                <hr class="mid-comp-sep" ng-if="component['space_after']==='true'">
+                <hr class="mid-comp-sep my-5" ng-if="component['space_after']==='true'">
             </div>
 
 
-            <hr class="mid-section-sep" ng-if="section['space_after']==='true'">
+            <hr class="mid-section-sep mt-5" ng-if="section['space_after']==='true'">
         </div>
     </div>
 </div>

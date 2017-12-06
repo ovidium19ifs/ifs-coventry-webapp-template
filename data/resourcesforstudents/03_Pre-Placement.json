@@ -1,46 +1,134 @@
 {
   "name": "Pre-Placement",
+  "introcontent": [
+    {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "This section will introduce the basic steps of pre-placement procedures, what to think about and how to proceed.",
+          "space_after": "false"
+        }
+
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "list-text",
+          "list_elements":[
+            {
+              "text": "To provide the main forms that the student will need in the pre-placement phase."
+            },
+            {
+              "text": "To raise awareness about the Equality Act."
+            },
+            {
+              "text": "Raise awareness about what issues have to be resolved in the pre-placement phase and guide the student through the process."
+            },
+            {
+              "text": "Break some myths related to pre-placement phase."
+            }
+          ],
+          "space_after": "false"
+        }
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning in Practice",
+      "components":[
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
+          "space_after": "true"
+        },
+        {
+          "subtitle": "",
+          "type": "text-quote",
+          "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
+          "author": "Manninen",
+          "year": "2016",
+          "space_after" : "false"
+        }
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Student Experiences",
+      "components":[
+        {
+          "subtitle":"",
+          "type":"text-paragraph",
+          "text": "The following link contains several videos where students share their placement experience. Watch them to get a better understanding about what your expectations should be.",
+          "space_after": "false"
+        },
+        {
+          "subtitle": "",
+          "type": "link-website",
+          "text": "Student on Placement Experiences",
+          "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
+          "space_after": "false"
+        }
+      ],
+      "space_after": "false"
+    }
+  ],
   "chapters" : [
     {
       "blockname": "Pre-Placement",
-      "name": "Definition",
+      "name": "Pre-Placement Form",
       "sections": []
     },
     {
       "blockname": "Pre-Placement",
-      "name": "Procedure",
+      "name": "What to worry about?",
       "sections": [
         {
-          "name": "Contact disability Office",
-          "type": "text/info"
-        },
-        {
-          "name": "Documents",
-          "type": "text/links"
-        },
-        {
-          "name": "What is evidence?",
-          "type": "text/info"
-        },
-        {
-          "name": "Medical evidence",
-          "type": "text/info"
-        },
-        {
-          "name": "What to do/verify",
-          "type": "text/info"
-        },
-        {
-          "name": "Sign data protection",
-          "type": "text/info"
-        },
-        {
-          "name": "Make your department aware",
-          "type": "text/info"
-        },
-        {
-          "name": "Speak to personal tutor",
-          "type": "text/info"
+          "subtitle": "Myths and Misconceptions",
+          "components": [
+            {
+              "subtitle": "The top ten myths about disability in the workplace -ACAS",
+              "type": "link-website",
+              "links": [
+                {
+                  "tag": "Find out more at",
+                  "text": "www.acas.org.uk/disability",
+                  "link": "www.acas.org.uk/disability"
+                }
+              ],
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths":[
+                {
+                  "myth": "Nobody thinks in stereotypes – we’re more sophisticated now.",
+                  "fact": "In 2015, it was reported that 42% of disabled people seeking work found the biggest barrier to getting hired were misconceptions around what they could do."
+                },
+                {
+                  "myth": "To be disabled, the person has to be in a wheelchair, or blind, or lost a limb, something like that.",
+                  "fact": "The definition of disability in the Equality Act 2010 is very broad and can cover a very wide range of conditions – what the law calls ‘impairments’. And some are not obvious – such as some mental health conditions."
+                },
+                {
+                  "myth": "A job applicant has to tell an employer if they are disabled.",
+                  "fact": "No. A disabled person can keep a disability confidential."
+                },
+                {
+                  "myth": "If a problem arises about an employee’s disability, it is likely to turn into a dispute which will go on for a long time. ",
+                  "fact": "Not necessarily. Often, the best option is for the employer to have a quiet word with those involved to reach a resolution early and to which they can all agree."
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after" : "true"
         }
       ]
     },
@@ -75,21 +163,6 @@
     {
       "blockname": "Pre-Placement",
       "name": "Reflection",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Flowchart",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Summary",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "References",
       "sections":[]
     }
   ]

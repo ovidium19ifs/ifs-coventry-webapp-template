@@ -24,6 +24,25 @@
     border:0.2rem solid lightgray;
     margin-bottom: 2rem;
 }
+.card.card-myth {
+
+    margin-top:1.5rem;
+    background-color: #873275;
+    color: white;
+    border:0.2rem solid lightgray;
+    border-bottom: none;
+
+}
+.card.card-fact{
+    background-color: rgba(45,99,45,0.75);
+    color: white;
+    border:0.2rem solid lightgray;
+    border-top:none;
+    margin-bottom: 1rem;
+}
+.card.card-myth .card-header,.card.card-fact .card-header{
+    background: transparent;
+}
 .learning-outcome{
     margin-top: 0.5rem;
     margin-bottom:0.5rem;
