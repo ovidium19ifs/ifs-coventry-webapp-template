@@ -6,6 +6,7 @@ module.exports.get = function(req,res){
     var fullPath = "data/"+partialPath;
     try{
         var files=fs.readdirSync(fullPath);
+        files.sort();
     }
     catch(e){
 

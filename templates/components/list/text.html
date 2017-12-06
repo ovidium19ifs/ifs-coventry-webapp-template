@@ -1,7 +1,8 @@
 <h6 ng-show="component.subtitle">{{component.subtitle}}</h6>
-<ul>
+<ul ng-cloak>
     <li class="learning-outcome" ng-repeat="elem in component['list_elements']">
+        <a href="{{elem.links}}"></a>
         {{elem.text}}
     </li>
 </ul>
-<hr class="mid-section-sep" ng-if="component['space_after']==='true'">
+

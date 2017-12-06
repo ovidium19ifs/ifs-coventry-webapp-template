@@ -1,0 +1,152 @@
+{
+  "name": "Disability",
+  "introcontent": [
+    {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
+          "space_after": "false"
+        }
+
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "list-text",
+          "list_elements":[
+            {
+              "text": "To provide a clear definition of the concept of disability."
+            },
+            {
+              "text": "To inform students on what kind of reasonable adjustments to expect from employers."
+            },
+            {
+              "text": "To provide students with a general overview of how to make contact with staff and disclose their disability."
+            },
+            {
+              "text": "To support students understand their rights and responsibilities with respect to disclosure."
+            }
+          ],
+          "space_after": "false"
+        }
+      ],
+      "space_after": "false"
+    }
+  ],
+  "chapters": [
+    {
+      "blockname": "Disability",
+      "name": "Definition",
+      "sections":[
+        {
+          "subtitle": "What is Disability?",
+          "components": [
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You are classed as disabled under the Equality Act 2010 if you have a physical or mental impairment which has a ‘substantial’ and ‘long-term’ negative effect on your ability to do normal daily activities.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "What does 'substantial' and 'long-term' mean?",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "'substantial’ means the effect is more than minor or trivial, eg it takes much longer than it usually would to complete a daily task like getting dressed"
+                },
+                {
+                  "text": "‘long-term’ means the effect persist for 12 months or more, eg a breathing condition that develops as a result of a lung infection"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Progressive Conditions",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text":"A progressive condition is one that gets worse over time and people with progressive conditions can be classed as disabled.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "However, you automatically meet the disability definition under the Equality Act 2010 from the day you’re diagnosed with HIV infection, cancer or multiple sclerosis.",
+              "space_after": "false"
+            }
+          ],
+          "space_after":"false"
+        }
+      ]
+    },
+    {
+      "blockname": "Disability",
+      "name": "Reasonable Adjustments",
+      "sections":[
+        {
+          "subtitle": "Reasonable Adjustments",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Employers must make reasonable adjustments to ensure workers with disabilities, or physical or mental health conditions, aren’t substantially disadvantaged in their jobs. These adjustments may include:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "changing the recruitment process so a candidate can be considered for a job",
+                  "links":[
+                    {
+                      "portion": "changing the recruitment process",
+                      "href": "https://www.gov.uk/recruitment-disabled-people/reasonable-adjustments"
+                    }
+                  ]
+                },
+                {
+                  "text": "doing things another way, such as allowing someone with social anxiety disorder to have their own desk instead of hot-desking"
+                },
+                {
+                  "text":"making physical changes to the workplace, such as installing a ramp for a wheelchair user or an audio-visual fire alarm for a deaf person"
+                },
+                {
+                  "text": "allowing  a disabled person to work somewhere else, such as on the ground floor for a wheelchair user"
+                },
+                {
+                  "text": "changing their equipment, for instance providing a special keyboard for a person with arthritis"
+                },
+                {
+                  "text": "allowing employees who become disabled to make a phased return to work, including flexible hours or part-time working"
+                },
+                {
+                  "text": "offering employees training opportunities, recreation and refreshment facilities"
+                }
+              ],
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Reasonable adjustments apply to all employers and this means reasonable adjustments should be considered  for students whilst on placements.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
+    }
+  ]
+}
