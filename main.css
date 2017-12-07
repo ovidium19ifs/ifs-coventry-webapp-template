@@ -2,22 +2,25 @@ html{
     font-size: 18px;
     overflow: hidden;
     max-height: 100vh;
+    height: 100vh;
 }
 body{
     box-sizing: border-box;
+    height: 95vh;
+    max-height: 95vh;
 }
 /* the sticky nav-bar at the top*/
 .top-bar{
     display:flex;
     flex-direction: column;
     /*background: radial-gradient(#9575CD 40%, #311B92 175% );*/
-    background-color:#d7a1c2;
+    background-color:#4c8696;
 
 }
 /* header in nav-bar*/
 .top-bar h1{
     color: #fff;
-    padding:0.3rem;
+    padding:0.1rem;
 }
 /* navigation links in nav-bar*/
 .top-bar nav{
@@ -42,12 +45,15 @@ body{
     flex-wrap: nowrap;
 }
 .content{
-    max-height: 90vh;
     overflow-y: auto;
-    background-color: #e4dce8;
+    background-color: #f0ebf2;
     /*#f0ebf2
-      #f6f6d4*/
+      #f6f6d4
+      #e4dce8*/
     color: #005369;
+}
+.content::-webkit-scrollbar{
+    display: none ;
 }
 .btn.content-nav{
     background-color: #690053;
@@ -63,6 +69,7 @@ body{
 }
 .aside{
     background-color: #f0ebf2;
+    border-left:1px solid #D7CCC8;;
 }
 iframe{
     min-width: 240px;
