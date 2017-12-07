@@ -1,0 +1,9 @@
+<div class="video-player d-flex align-items-center justify-content-around flex-column mt-4">
+    <h5 ng-show="element.subtitle">{{element.subtitle}}</h5>
+
+    <button class="btn play-video" ng-click="openVideo($event)"><span class="fa fa-play mr-2"></span> Play Video</button>
+    <iframe type="text/html" width="" height=""
+            src={{link}}
+            frameborder="0" allowfullscreen ng-if="element.video.type==='youtube' && videoPlaying">
+    </iframe>
+</div>

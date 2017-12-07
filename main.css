@@ -55,8 +55,18 @@ body{
     border-radius: 10px;
     width:7rem;
 }
+.btn.play-video{
+    background-color: #690053;
+    color: #f0ebf2;
+    border-radius: 10px;
+    cursor:pointer;
+}
 .aside{
     background-color: #f0ebf2;
+}
+iframe{
+    min-width: 240px;
+    min-height: 132px;
 }
 
 /* header changes at the "md" breakpoint*/

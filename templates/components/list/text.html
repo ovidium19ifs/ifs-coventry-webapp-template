@@ -1,7 +1,6 @@
 <h5 ng-show="component.subtitle">{{component.subtitle}}</h5>
 <ul ng-cloak>
     <li class="learning-outcome" ng-repeat="elem in component['list_elements']">
-        <a href="{{elem.links}}"></a>
         {{elem.text}}
     </li>
 </ul>

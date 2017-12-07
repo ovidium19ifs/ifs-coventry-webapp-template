@@ -106,7 +106,13 @@
               "subtitle":"",
               "type":"link-website",
               "text": "https://healthandwellbeingbookings.coventry.ac.uk/",
-              "link": "https://healthandwellbeingbookings.coventry.ac.uk/",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "Health and Wellbeing Bookings (CU)",
+                  "link": "https://healthandwellbeingbookings.coventry.ac.uk/"
+                }
+              ],
               "space_after": "false"
             },
             {
@@ -143,8 +149,13 @@
             {
               "subtitle": "Links to Forms",
               "type": "link-website",
-              "text": "Sheltered Conditions Form",
-              "link": "https://share.coventry.ac.uk/students/Disabilities/Lists/Sheltered%20Conditions%20Form/NewForm.aspx?&Source=https%3a//share.coventry.ac.uk/students/Disabilities/Pages/ThankYouSF.aspx",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "Sheltered Conditions Form",
+                  "link": "https://share.coventry.ac.uk/students/Disabilities/Lists/Sheltered%20Conditions%20Form/NewForm.aspx?&Source=https%3a//share.coventry.ac.uk/students/Disabilities/Pages/ThankYouSF.aspx"
+                }
+              ],
               "space_after": "false"
             },
             {

@@ -72,7 +72,13 @@
           "subtitle": "",
           "type": "link-website",
           "text": "Student on Placement Experiences",
-          "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
+          "links": [
+            {
+            "tag": "",
+            "text": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
+            "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience"
+            }
+          ],
           "space_after": "false"
         }
       ],
@@ -87,7 +93,7 @@
     },
     {
       "blockname": "Pre-Placement",
-      "name": "What to worry about?",
+      "name": "Guidance from where?",
       "sections": [
         {
           "subtitle": "Myths and Misconceptions",
@@ -123,30 +129,276 @@
                 {
                   "myth": "If a problem arises about an employee’s disability, it is likely to turn into a dispute which will go on for a long time. ",
                   "fact": "Not necessarily. Often, the best option is for the employer to have a quiet word with those involved to reach a resolution early and to which they can all agree."
+                },
+                {
+                  "myth": "It will be expensive for an employer to hire a disabled person.",
+                  "fact": "Most ‘ reasonable adjustments’ cost nothing or very little.  Only 4% of them do cost  (and even then the average is £184 per disabled employee) and the emphasis is on the word ‘reasonable and what is reasonable can depend on the size of the business."
+                },
+                {
+                  "myth": "A disabled employee is unlikely to contribute as much as a non-disabled employee.",
+                  "fact": "Employers often complain of a skills shortage yet at the same time overlook a pool of talent. There are currently over three million disabled people in work, but nearly five million disabled people of working age are not – a huge source of potential talent. "
+                },
+                {
+                  "myth": "In redundancy, an employer has to create a vacancy for a disabled employee.",
+                  "fact": "No. An employer doesn’t always have to redeploy disabled employees. They should be capable and qualified for any new job, with any ‘reasonable adjustments’ in place."
+                },
+                {
+                  "myth": "Once an employer has hired a disabled person, they can’t sack them.",
+                  "fact": "An employer can dismiss a disabled employee if the dismissal is justified and they have taken all the correct steps."
+                },
+                {
+                  "myth": "It’s still ok to refer to people who do not have a disability as ‘able-bodied’?",
+                  "fact": "No. This term suggests all disabilities are physical and that disabled employees or job applicants are not capable. Instead, if it is really necessary to make the distinction, use the term ‘non-disabled’ for people who do not have a disability."
                 }
               ],
               "space_after": "false"
             }
           ],
           "space_after" : "true"
+        },
+        {
+          "subtitle": "What are you worried about?",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Many students may not have practical experience so have questions and concerns; being on placement can be significantly different to academic assignments. You are not alone; frequently asked questions and concerns include:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements": [
+                {
+                  "text": "How do I complete my placement documentation?"
+                },
+                {
+                  "text": "Who will I talk to about any issues once on placement?"
+                },
+                {
+                  "text": "How will I meet all the competencies? "
+                },
+                {
+                  "text": "What if I don’t like my placement? "
+                },
+                {
+                  "text": "How do I manage assignments alongside placement commitments/ shifts?"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "You can direct questions to your personal tutor, learning support tutor or course leader well before the placement begins.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Disabilities Team",
+              "type": "text-paragraph",
+              "text": "You can also contact the Disabilities Team. They have lots of experience working with students who have disabilities and are happy to provide you with advice, tips and will support you with your concerns. ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Telephone:",
+              "type": "link-telephone",
+              "text": "+44 (0)24 7765 8029",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Email: ",
+              "type": "link-email",
+              "links": [
+                {
+                  "text": "disabilityadvisor.ss@coventry.ac.uk ",
+                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         }
       ]
     },
     {
       "blockname": "Pre-Placement",
-      "name": "Benefits",
+      "name": "The Equality Act",
       "sections":[
         {
-          "name": "Support from DST",
-          "type": "text/links"
+          "subtitle": "What is it?",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The Equality Act was introduced to simplify and strengthen discrimination laws across Britain. It harmonised 116 pieces of legislation. The aim of the legislation is to protect certain categories of people from unfair treatment.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "What is a disability under the Equality Act",
+              "type" : "video-single",
+              "video":{
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/NRtztkc35hg"
+              },
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Protected Characteristics",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "Age"
+                },
+                {
+                  "text": "Disability"
+                },
+                {
+                  "text": "Gender reassignment"
+                },
+                {
+                  "text": "Marriage and civil partnership"
+                },
+                {
+                  "text": "Race"
+                },
+                {
+                  "text": "Religion or belief"
+                },
+                {
+                  "text": "Sex"
+                },
+                {
+                  "text": "Sexual Orientation"
+                }
+              ],
+              "space_after" :"false"
+            }
+          ],
+          "space_after": "true"
         },
         {
-          "name": "Funding from DSA",
-          "type": "text/links"
+          "subtitle": "Key Issues",
+          "components":[
+            {
+              "subtitle": "Direct discrimination",
+              "type": "text-quote",
+              "text": "An individual or organisation that provides services to the public must not treat someone worse just because of one or more protected characteristics…",
+              "space_after":"true"
+            },
+            {
+              "subtitle": "Indirect discrimination",
+              "type": "text-quote",
+              "text": "An organisation must not do something to someone in a way that has a worse impact on them and other people who share a particular protected characteristic than it has on people who do not share that characteristic. Unless the organisation can show that what they have done is objectively justified…",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Discrimination arising from disability",
+              "type": "text-quote",
+              "text": "Service providers must not treat disabled people unfavourably because of something connected to their disability where they cannot show that what they are doing is objectively justified. This only applies if the individual or organisation knows, or could reasonably have been expected to know, that the person is disabled",
+              "space_after":"false"
+            }
+          ],
+          "space_after": "true"
         },
         {
-          "name": "Funding information",
-          "type": "video/youtube"
+          "subtitle": "Summary",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "A good summary of the Equality Act can be found at the link below: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "Summary of the Equality Act",
+                  "link": "https://www.equalityhumanrights.com/sites/default/files/equality_act_summary_guidance_on_services.pdf"
+                }
+              ],
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The Equality Act allows for discrimination against any of the protected characteristics.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-quote",
+              "text": "The Equality Act says discrimination can be justified if the person who's discriminating against you can show it’s a proportionate means of achieving a legitimate aim. If necessary, it's the courts which will decide if discrimination can be justified",
+              "author": "Citizen’s advice website",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-quote",
+              "text": "A legitimate aim is the reason behind the discrimination. This reason must not be discriminatory in itself and it must be a genuine or real reason.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Here are some examples of legitimate aims: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements": [
+                {
+                  "text": "the health, safety and welfare of individuals"
+                },
+                {
+                  "text": "running an efficient service"
+                },
+                {
+                  "text" : "requirements of a business"
+                },
+                {
+                  "text": "desire to make profit"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Health and social care training programmes need to ensure that potential registrants are capable of meeting the competencies set out in the regulatory guidelines and can support the delivery of an efficient service.",
+              "space_after": "false"
+            }
+
+
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Understanding the Act",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The following link points to a document that contains valuable information regarding the understanding of the Equality Act.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "links":[
+                {
+                  "text": "Understanding the Equality Act",
+                  "link": "https://www.disabilityrightsuk.org/understanding-equality-act-information-disabled-students?platform=hootsuite"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         }
       ]
     },

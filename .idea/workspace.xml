@@ -2,21 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/link/telephone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/text/mythfact.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/text/quote.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/directives/ifsVideo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/components/video/single.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/introduction.css" afterPath="$PROJECT_DIR$/css/introduction.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/blockIntroduction.html" afterPath="$PROJECT_DIR$/templates/blockIntroduction.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/link/email.html" afterPath="$PROJECT_DIR$/templates/components/link/email.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/link/website.html" afterPath="$PROJECT_DIR$/templates/components/link/website.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/main.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/list/text.html" afterPath="$PROJECT_DIR$/templates/components/list/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/text/paragraph.html" afterPath="$PROJECT_DIR$/templates/components/text/paragraph.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/text/mythfact.html" afterPath="$PROJECT_DIR$/templates/components/text/mythfact.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/text/quote.html" afterPath="$PROJECT_DIR$/templates/components/text/quote.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/newContent.html" afterPath="$PROJECT_DIR$/templates/newContent.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/data/resourcesforstudents/04_Tester.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/04_Preparing_For_Placement.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,37 +27,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="introduction.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/introduction.css">
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+            <state relative-caret-position="284">
+              <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mythfact.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/components/text/mythfact.html">
+      <file leaf-file-name="single.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/components/video/single.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+            <state relative-caret-position="96">
+              <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="03_Pre-Placement.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json">
+      <file leaf-file-name="ifsVideo.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/scripts/directives/ifsVideo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="448">
-              <caret line="123" column="27" lean-forward="false" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+            <state relative-caret-position="176">
+              <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
               <folding>
-                <element signature="e#47#3112#0" expanded="false" />
-                <element signature="e#53#401#0" expanded="false" />
-                <element signature="e#407#1168#0" expanded="false" />
-                <element signature="e#1174#2419#0" expanded="false" />
-                <element signature="e#3135#3235#0" expanded="false" />
+                <element signature="e#391#1452#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -73,8 +66,8 @@
       <list>
         <option value="package_json" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -91,6 +84,9 @@
       <find>sections</find>
       <find>introdu</find>
       <find>link</find>
+      <find>list-text</find>
+      <find>list</find>
+      <find>btn</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,7 +113,6 @@
         <option value="$PROJECT_DIR$/scripts/controllers/TestCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/services/navigate.js" />
         <option value="$PROJECT_DIR$/css/cards.css" />
-        <option value="$PROJECT_DIR$/main.css" />
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/templates/components/link/pdf.html" />
         <option value="$PROJECT_DIR$/templates/components/text/alert.html" />
@@ -127,23 +122,26 @@
         <option value="$PROJECT_DIR$/templates/quiz-carousel.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/0_Disability.json" />
         <option value="$PROJECT_DIR$/scripts/server/partsController.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/scripts/directives/listText.js" />
-        <option value="$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json" />
         <option value="$PROJECT_DIR$/templates/components/link/telephone.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/04_Preparing_For_Placement.json" />
-        <option value="$PROJECT_DIR$/templates/components/text/quote.html" />
         <option value="$PROJECT_DIR$/templates/blockIntroduction.html" />
         <option value="$PROJECT_DIR$/templates/components/text/paragraph.html" />
-        <option value="$PROJECT_DIR$/templates/components/list/text.html" />
         <option value="$PROJECT_DIR$/templates/components/link/email.html" />
         <option value="$PROJECT_DIR$/templates/components/link/website.html" />
-        <option value="$PROJECT_DIR$/templates/newContent.html" />
         <option value="$PROJECT_DIR$/css/quiz.css" />
-        <option value="$PROJECT_DIR$/css/introduction.css" />
+        <option value="$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json" />
         <option value="$PROJECT_DIR$/templates/components/text/mythfact.html" />
+        <option value="$PROJECT_DIR$/templates/components/text/quote.html" />
+        <option value="$PROJECT_DIR$/templates/components/list/text.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/templates/newContent.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json" />
+        <option value="$PROJECT_DIR$/css/introduction.css" />
+        <option value="$PROJECT_DIR$/main.css" />
+        <option value="$PROJECT_DIR$/templates/components/video/single.html" />
+        <option value="$PROJECT_DIR$/scripts/directives/ifsVideo.js" />
       </list>
     </option>
   </component>
@@ -206,6 +204,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,6 +232,12 @@
               <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
@@ -272,12 +277,18 @@
               <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="text" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="video" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -342,7 +353,8 @@
       <workItem from="1512120559867" duration="12929000" />
       <workItem from="1512380328785" duration="16079000" />
       <workItem from="1512466586110" duration="19225000" />
-      <workItem from="1512551950860" duration="22398000" />
+      <workItem from="1512551950860" duration="22463000" />
+      <workItem from="1512639221496" duration="14276000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -355,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="155359000" />
+    <option name="totallyTimeSpent" value="169700000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -373,12 +385,12 @@
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38844085" sideWeight="0.5209125" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.48732573" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.48732573" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20026882" sideWeight="0.47908744" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49746513" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -430,24 +442,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#2765#8362#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="768">
-          <caret line="48" column="26" lean-forward="true" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -620,15 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="103">
           <caret line="8" column="21" lean-forward="false" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224">
-          <caret line="52" column="29" lean-forward="false" selection-start-line="52" selection-start-column="22" selection-end-line="52" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -636,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -644,17 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="191" column="45" lean-forward="false" selection-start-line="191" selection-start-column="45" selection-end-line="191" selection-end-column="45" />
-          <folding>
-            <element signature="e#2765#8362#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -678,58 +651,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/listText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="17" column="153" lean-forward="false" selection-start-line="17" selection-start-column="153" selection-end-line="17" selection-end-column="153" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="89" column="16" lean-forward="false" selection-start-line="89" selection-start-column="16" selection-end-line="89" selection-end-column="16" />
-          <folding>
-            <element signature="e#44#1238#0" expanded="false" />
-            <element signature="e#50#401#0" expanded="false" />
-            <element signature="e#7072#7715#0" expanded="false" />
-            <element signature="e#7721#8753#0" expanded="false" />
-            <element signature="e#8759#9450#0" expanded="false" />
-            <element signature="e#9456#9561#0" expanded="false" />
-            <element signature="e#9567#9653#0" expanded="false" />
-            <element signature="e#9659#15353#0" expanded="false" />
-            <element signature="e#9915#15233#0" expanded="false" />
-            <element signature="e#15359#15447#0" expanded="false" />
-            <element signature="e#15453#15540#0" expanded="false" />
-            <element signature="e#15546#15631#0" expanded="false" />
-            <element signature="e#15637#15725#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/components/link/telephone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="48">
           <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="41" column="4" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="41" selection-end-column="4" />
-          <folding>
-            <element signature="e#44#1248#0" expanded="false" />
-            <element signature="e#1270#3251#0" expanded="false" />
-            <element signature="e#1360#2489#0" expanded="false" />
-            <element signature="e#3257#5799#0" expanded="false" />
-            <element signature="e#3906#5377#0" expanded="false" />
-            <element signature="e#4057#4293#0" expanded="false" />
-            <element signature="e#5805#7648#0" expanded="false" />
-            <element signature="e#7654#8912#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -737,9 +662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
-          <folding>
-            <element signature="e#54#1933#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -747,7 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -755,7 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="16">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -763,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="42" column="43" lean-forward="true" selection-start-line="42" selection-start-column="35" selection-end-line="42" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -771,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="16" column="112" lean-forward="false" selection-start-line="16" selection-start-column="112" selection-end-line="16" selection-end-column="112" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,31 +697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/list/text.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="59" lean-forward="false" selection-start-line="0" selection-start-column="59" selection-end-line="0" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="32" lean-forward="false" selection-start-line="0" selection-start-column="32" selection-end-line="0" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,14 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="112" lean-forward="false" selection-start-line="9" selection-start-column="112" selection-end-line="9" selection-end-column="112" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="24" column="114" lean-forward="false" selection-start-line="24" selection-start-column="114" selection-end-line="24" selection-end-column="114" />
           <folding />
         </state>
       </provider>
@@ -839,32 +724,154 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/introduction.css">
+    <entry file="file://$PROJECT_DIR$/templates/components/text/mythfact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="36" column="35" lean-forward="false" selection-start-line="36" selection-start-column="35" selection-end-line="36" selection-end-column="35" />
+        <state relative-caret-position="48">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/mythfact.html">
+    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="32" lean-forward="false" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="32" />
+        <state relative-caret-position="177">
+          <caret line="107" column="32" lean-forward="false" selection-start-line="107" selection-start-column="23" selection-end-line="107" selection-end-column="32" />
+          <folding>
+            <element signature="e#44#1248#0" expanded="false" />
+            <element signature="e#1270#3251#0" expanded="false" />
+            <element signature="e#1360#2489#0" expanded="false" />
+            <element signature="e#5805#7648#0" expanded="false" />
+            <element signature="e#7654#8912#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/link/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="137" column="27" lean-forward="false" selection-start-line="137" selection-start-column="23" selection-end-line="137" selection-end-column="27" />
+          <folding>
+            <element signature="e#44#1238#0" expanded="false" />
+            <element signature="e#50#401#0" expanded="false" />
+            <element signature="e#1954#3007#0" expanded="false" />
+            <element signature="e#3017#4125#0" expanded="false" />
+            <element signature="e#5633#6528#0" expanded="false" />
+            <element signature="e#6538#7340#0" expanded="false" />
+            <element signature="e#7360#8003#0" expanded="false" />
+            <element signature="e#8009#9041#0" expanded="false" />
+            <element signature="e#9047#9738#0" expanded="false" />
+            <element signature="e#9744#9849#0" expanded="false" />
+            <element signature="e#9855#9941#0" expanded="false" />
+            <element signature="e#9947#15641#0" expanded="false" />
+            <element signature="e#10203#15521#0" expanded="false" />
+            <element signature="e#15647#15735#0" expanded="false" />
+            <element signature="e#15741#15828#0" expanded="false" />
+            <element signature="e#15834#15919#0" expanded="false" />
+            <element signature="e#15925#16013#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/text/quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="18" lean-forward="true" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/list/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/directives/listText.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="17" column="153" lean-forward="false" selection-start-line="17" selection-start-column="153" selection-end-line="17" selection-end-column="153" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/newContent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="28" column="85" lean-forward="false" selection-start-line="28" selection-start-column="85" selection-end-line="28" selection-end-column="85" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="448">
-          <caret line="123" column="27" lean-forward="false" selection-start-line="123" selection-start-column="27" selection-end-line="123" selection-end-column="27" />
+        <state relative-caret-position="339">
+          <caret line="241" column="54" lean-forward="false" selection-start-line="241" selection-start-column="54" selection-end-line="241" selection-end-column="54" />
           <folding>
-            <element signature="e#47#3112#0" expanded="false" />
             <element signature="e#53#401#0" expanded="false" />
             <element signature="e#407#1168#0" expanded="false" />
-            <element signature="e#1174#2419#0" expanded="false" />
-            <element signature="e#3135#3235#0" expanded="false" />
+            <element signature="e#3537#7461#0" expanded="false" />
+            <element signature="e#4144#7353#0" expanded="false" />
+            <element signature="e#7471#9951#0" expanded="false" />
+            <element signature="e#7550#9908#0" expanded="false" />
+            <element signature="e#11744#13181#0" expanded="false" />
+            <element signature="e#13191#16124#0" expanded="false" />
+            <element signature="e#15237#15638#0" expanded="false" />
+            <element signature="e#16134#16957#0" expanded="false" />
+            <element signature="e#16207#16914#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="158" column="55" lean-forward="false" selection-start-line="158" selection-start-column="55" selection-end-line="158" selection-end-column="55" />
+          <folding>
+            <element signature="e#2765#8362#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/introduction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="128" column="17" lean-forward="false" selection-start-line="128" selection-start-column="17" selection-end-line="128" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="61" column="18" lean-forward="false" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/components/video/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="49" lean-forward="false" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/directives/ifsVideo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="40" column="14" lean-forward="true" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+          <folding>
+            <element signature="e#391#1452#0" expanded="false" />
           </folding>
         </state>
       </provider>
