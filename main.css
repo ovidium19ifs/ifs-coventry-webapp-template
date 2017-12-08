@@ -51,10 +51,13 @@ body{
       #f6f6d4
       #e4dce8*/
     color: #005369;
+    min-width: 600px;
 }
+/*
 .content::-webkit-scrollbar{
     display: none ;
 }
+*/
 .btn.content-nav{
     background-color: #690053;
     color: #f0ebf2;

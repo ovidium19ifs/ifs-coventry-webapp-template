@@ -24,12 +24,18 @@
     border:0.2rem solid lightgray;
     margin-bottom: 2rem;
 }
+div.mythfact{
+    min-height: 400px ;
+}
+div.mythfact-cards{
+    min-height: 270px;
+}
 .card.card-myth {
     box-shadow: 0px 0px 10px 1.5px dimgray;
-    margin-top:1.5rem;
     background-color: #af88a7;
     color: white;
     border-bottom: none;
+    max-width: 45%;
 
 }
 .card.card-fact{
@@ -37,7 +43,8 @@
     background-color: #6c916c;
     color: white;
     border-top:none;
-    margin-bottom: 1rem;
+    max-width: 45%;
+
 }
 .card.card-myth .card-header,.card.card-fact .card-header{
     background: transparent;
@@ -135,5 +142,8 @@ a.list-link:hover{
 
 }
 .video-player h5{
-    padding-bottom: 1.2rem;
+    padding-bottom: 1rem;
+}
+.video-player img{
+    padding: 1rem;
 }

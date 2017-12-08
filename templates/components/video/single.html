@@ -1,6 +1,6 @@
-<div class="video-player d-flex align-items-center justify-content-around flex-column mt-4">
+<div class="video-player d-flex align-items-center justify-content-between flex-column mt-4">
     <h5 ng-show="element.subtitle">{{element.subtitle}}</h5>
-
+    <img src="images/{{element.video.thumb}}" alt="{{element.subtitle}}" title="{{element.subtitle}}" class="img-fluid d-block" ng-show="!videoPlaying">
     <button class="btn play-video" ng-click="openVideo($event)">
         <span class="fa fa-play mr-2" ng-show="!videoPlaying"></span>
         {{videoPlaying ? "Hide Video" : "Play Video"}}

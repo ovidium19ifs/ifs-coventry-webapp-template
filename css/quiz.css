@@ -35,6 +35,7 @@
     border:1px solid #6F0101;
     background-color: #f0ebf2;
     color: #6F0101;
+    width:6rem;
 }
 .btn.answer-option:hover{
     background-color: #6F0101;

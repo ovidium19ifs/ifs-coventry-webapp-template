@@ -53,10 +53,21 @@
               "subtitle":"",
               "type": "text-paragraph",
               "text": "Disclosure is making known a disability to the university.  It involves discussing difficulties you may encounter, any reasonable adjustments needed for attainment and individual examination arrangements.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths":[
+                {
+                  "myth": "A job applicant has to tell an employer if they are disabled.",
+                  "fact": "No. A disabled person can keep a disability confidential."
+                }
+              ],
               "space_after": "false"
             }
           ],
-          "space_after": "true"
+          "space_after": "false"
         }
       ]
     },

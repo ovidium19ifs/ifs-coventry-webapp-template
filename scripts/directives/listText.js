@@ -15,7 +15,7 @@ application.directive("listText",function($timeout){
                             console.log(item.text);
                             console.log("This paragraph has links\n-------------------------------------------------------");
                             for (var j=0;j<item.links.length;j++){
-                                var applied = item.text.replace(item.links[j].portion,"<a href='"+item.links[j].href+"' class='list-link' target='_blank'>"+item.links[j].portion+"<\/a>");
+                                var applied = item.text.replace(item.links[j].portion,"<span class='fa fa-globe'></span><a href='"+item.links[j].href+"' class='list-link' target='_blank'>"+item.links[j].portion+"<\/a>");
                                 $(".learning-outcome:contains('"+item.links[j].portion+"')").html(applied);
                             }
                         }

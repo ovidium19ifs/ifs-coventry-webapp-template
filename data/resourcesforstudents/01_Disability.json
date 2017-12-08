@@ -86,7 +86,28 @@
               "space_after": "false"
             }
           ],
-          "space_after":"false"
+          "space_after":"true"
+        },
+        {
+          "subtitle": "",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths": [
+                {
+                  "myth": "It’s still ok to refer to people who do not have a disability as ‘able-bodied’?",
+                  "fact": "No. This term suggests all disabilities are physical and that disabled employees or job applicants are not capable. Instead, if it is really necessary to make the distinction, use the term ‘non-disabled’ for people who do not have a disability."
+                },
+                {
+                  "myth": "To be disabled, the person has to be in a wheelchair, or blind, or lost a limb, something like that.",
+                  "fact": "The definition of disability in the Equality Act 2010 is very broad and can cover a very wide range of conditions – what the law calls ‘impairments’. And some are not obvious – such as some mental health conditions."
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
         }
       ]
     },

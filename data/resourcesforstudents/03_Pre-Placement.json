@@ -96,67 +96,6 @@
       "name": "Guidance from where?",
       "sections": [
         {
-          "subtitle": "Myths and Misconceptions",
-          "components": [
-            {
-              "subtitle": "The top ten myths about disability in the workplace -ACAS",
-              "type": "link-website",
-              "links": [
-                {
-                  "tag": "Find out more at",
-                  "text": "www.acas.org.uk/disability",
-                  "link": "www.acas.org.uk/disability"
-                }
-              ],
-              "space_after": "true"
-            },
-            {
-              "subtitle": "",
-              "type": "text-mythfact",
-              "myths":[
-                {
-                  "myth": "Nobody thinks in stereotypes – we’re more sophisticated now.",
-                  "fact": "In 2015, it was reported that 42% of disabled people seeking work found the biggest barrier to getting hired were misconceptions around what they could do."
-                },
-                {
-                  "myth": "To be disabled, the person has to be in a wheelchair, or blind, or lost a limb, something like that.",
-                  "fact": "The definition of disability in the Equality Act 2010 is very broad and can cover a very wide range of conditions – what the law calls ‘impairments’. And some are not obvious – such as some mental health conditions."
-                },
-                {
-                  "myth": "A job applicant has to tell an employer if they are disabled.",
-                  "fact": "No. A disabled person can keep a disability confidential."
-                },
-                {
-                  "myth": "If a problem arises about an employee’s disability, it is likely to turn into a dispute which will go on for a long time. ",
-                  "fact": "Not necessarily. Often, the best option is for the employer to have a quiet word with those involved to reach a resolution early and to which they can all agree."
-                },
-                {
-                  "myth": "It will be expensive for an employer to hire a disabled person.",
-                  "fact": "Most ‘ reasonable adjustments’ cost nothing or very little.  Only 4% of them do cost  (and even then the average is £184 per disabled employee) and the emphasis is on the word ‘reasonable and what is reasonable can depend on the size of the business."
-                },
-                {
-                  "myth": "A disabled employee is unlikely to contribute as much as a non-disabled employee.",
-                  "fact": "Employers often complain of a skills shortage yet at the same time overlook a pool of talent. There are currently over three million disabled people in work, but nearly five million disabled people of working age are not – a huge source of potential talent. "
-                },
-                {
-                  "myth": "In redundancy, an employer has to create a vacancy for a disabled employee.",
-                  "fact": "No. An employer doesn’t always have to redeploy disabled employees. They should be capable and qualified for any new job, with any ‘reasonable adjustments’ in place."
-                },
-                {
-                  "myth": "Once an employer has hired a disabled person, they can’t sack them.",
-                  "fact": "An employer can dismiss a disabled employee if the dismissal is justified and they have taken all the correct steps."
-                },
-                {
-                  "myth": "It’s still ok to refer to people who do not have a disability as ‘able-bodied’?",
-                  "fact": "No. This term suggests all disabilities are physical and that disabled employees or job applicants are not capable. Instead, if it is really necessary to make the distinction, use the term ‘non-disabled’ for people who do not have a disability."
-                }
-              ],
-              "space_after": "false"
-            }
-          ],
-          "space_after" : "true"
-        },
-        {
           "subtitle": "What are you worried about?",
           "components": [
             {
@@ -218,6 +157,44 @@
             }
           ],
           "space_after": "true"
+        },
+        {
+          "subtitle": "Myths and Misconceptions",
+          "components": [
+            {
+              "subtitle": "The top ten myths about disability in the workplace -ACAS",
+              "type": "link-website",
+              "links": [
+                {
+                  "tag": "Find out more at",
+                  "text": "www.acas.org.uk/disability",
+                  "link": "www.acas.org.uk/disability"
+                }
+              ],
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths":[
+                {
+                  "myth": "If a problem arises about an employee’s disability, it is likely to turn into a dispute which will go on for a long time. ",
+                  "fact": "Not necessarily. Often, the best option is for the employer to have a quiet word with those involved to reach a resolution early and to which they can all agree."
+                },
+                {
+                  "myth": "A disabled employee is unlikely to contribute as much as a non-disabled employee.",
+                  "fact": "Employers often complain of a skills shortage yet at the same time overlook a pool of talent. There are currently over three million disabled people in work, but nearly five million disabled people of working age are not – a huge source of potential talent. "
+                },
+                {
+                  "myth": "In redundancy, an employer has to create a vacancy for a disabled employee.",
+                  "fact": "No. An employer doesn’t always have to redeploy disabled employees. They should be capable and qualified for any new job, with any ‘reasonable adjustments’ in place."
+                }
+
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after" : "true"
         }
       ]
     },
@@ -239,7 +216,8 @@
               "type" : "video-single",
               "video":{
                 "type": "youtube",
-                "src": "https://www.youtube.com/embed/NRtztkc35hg"
+                "src": "https://www.youtube.com/embed/NRtztkc35hg",
+                "thumb": "equality_act_disability.jpg"
               },
               "space_after": "true"
             },
@@ -399,6 +377,151 @@
             }
           ],
           "space_after": "true"
+        },
+        {
+          "subtitle": "",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths": [
+                {
+                  "myth": "Once an employer has hired a disabled person, they can’t sack them.",
+                  "fact": "An employer can dismiss a disabled employee if the dismissal is justified and they have taken all the correct steps."
+                },
+                {
+                  "myth": "Nobody thinks in stereotypes – we’re more sophisticated now.",
+                  "fact": "In 2015, it was reported that 42% of disabled people seeking work found the biggest barrier to getting hired were misconceptions around what they could do."
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    },
+    {
+      "blockname": "Pre-Placement",
+      "name": "Reasonable Adjustments",
+      "sections": [
+        {
+          "subtitle": "Why reasonable adjustments?",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Equality law identifies disabled people as one of eight protected categories in society. This means that the way society organises education, employment and access to recreation, etc. needs to be restructured to account for any barriers that may treat people with disabilities unfairly. In Higher Education, the law states it is the duty of institutions to provide students with disabilities reasonable adjustments.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "What is it?",
+              "type": "text-paragraph",
+              "text": "Reasonable adjustments are very simply any alterations that need to be made to ensure a disabled person is not disadvantaged. However, the changes have to be considered reasonable. There are certain considerations that could be made when deciding if something is “reasonable”: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "For example: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements": [
+                {
+                  "text": "How effective the change will be in avoiding the disadvantage the disabled worker would otherwise experience"
+                },
+                {
+                  "text": "Its practicality"
+                },
+                {
+                  "text": "Its cost"
+                },
+                {
+                  "text": "your organisation’s resources and size"
+                },
+                {
+                  "text": "the availability of financial support.(GOV.UK website)",
+                  "links": [
+                    {
+                      "portion": "GOV.UK",
+                      "href": "https://www.gov.uk/recruitment-disabled-people/reasonable-adjustments"
+                    }
+                  ]
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "What Reasonable Adjustments to expect?",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The link below will take you to the Disability Rights website which has a very detailed list of all the reasonable adjustments you should expect from employers.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Link: ",
+              "type": "link-website",
+              "links":[
+                {
+                  "text": "Disability Rights UK",
+                  "link": "https://www.disabilityrightsuk.org/adjustments-disabled-students"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Videos on Reasonable Adjustments",
+          "components":[
+            {
+              "subtitle": "Reasonable Adjustments under the Equality Act",
+              "type": "video-single",
+              "video":{
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/MFOOzzoRtDc",
+                "thumb": "reasonable_adjustments_eq_act.jpg"
+              },
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Reasonable Adjustments in practice",
+              "type": "video-single",
+              "video":{
+                "type": "youtube",
+                "src": "https://www.youtube.com/embed/B_QFO8BW0PI",
+                "thumb": "reasonable_adjustments_inpractice.jpg"
+              },
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "",
+          "components": [
+            {
+              "subtitle": "Myths and Misconceptions",
+              "type": "text-mythfact",
+              "myths": [
+                {
+                  "myth": "It will be expensive for an employer to hire a disabled person.",
+                  "fact": "Most ‘ reasonable adjustments’ cost nothing or very little.  Only 4% of them do cost  (and even then the average is £184 per disabled employee) and the emphasis is on the word ‘reasonable and what is reasonable can depend on the size of the business."
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
         }
       ]
     },
