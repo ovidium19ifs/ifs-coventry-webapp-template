@@ -24,6 +24,7 @@
                 <ng-include src="'templates/components/text/alert.html'" ng-if="component.type==='text-alert'"></ng-include>
                 <ng-include src="'templates/components/text/mythfact.html'" ng-if="component.type==='text-mythfact'"></ng-include>
                 <ng-include src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>
+                <ng-include src="'templates/components/link/reference.html'" ng-if="component.type==='link-reference'"></ng-include>
                 <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
                 <quiz-carousel ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
                 <ifs-video element="component" ng-if="component.type==='video-single'"></ifs-video>

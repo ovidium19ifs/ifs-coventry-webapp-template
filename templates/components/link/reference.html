@@ -1,0 +1,34 @@
+<div class="card card-inner">
+    <div class="card-body py-2">
+        <div class="card-subtitle">
+            {{component.subtitle}}
+        </div>
+        <div class="card-text" ng-show="component.authors">
+            <b>Authors: </b>
+            <span ng-repeat="a in component.authors">{{a.name}}</span>
+            <span ng-show="!$last">,</span>
+        </div>
+        <div class="card-text" ng-show=""component.year>
+            <b>Year: </b>
+            <span >{{component.year}}</span>
+        </div>
+
+        <div class="card-text">
+            <b>Title: </b>
+            <a class="website-link" href="{{component.link}}" title="Go to: {{component.link}}" target="_blank">{{component.title}}</a>
+        </div>
+
+        <div class="card-text" ng-show="component.publisher">
+            <b> Publisher: </b>
+            <span> {{component.publisher}}</span>
+        </div>
+        <div class="card-text" ng-show="component.volume">
+            <b> Volume: </b>
+            <span> {{component.volume}}</span>
+        </div>
+        <div class="card-text" ng-show="component.pages">
+            <b> Pages: </b>
+            <span> {{component.pages}}</span>
+        </div>
+    </div>
+</div>

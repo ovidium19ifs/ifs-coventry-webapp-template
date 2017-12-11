@@ -1,0 +1,330 @@
+{
+  "name": "Coping on Placement",
+  "introcontent":[
+    {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "Every student will benefit from considering the coping strategies they could use on placement as you may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
+          "space_after": "false"
+        }
+
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "This section will highlight some key tips for coping on placement and suggestions for planning towards a successful placement.",
+          "space_after": "false"
+        }
+      ],
+      "space_after": "true"
+    }
+  ],
+  "chapters":[
+    {
+      "blockname": "Coping on Placement",
+      "name": "Success on Placement",
+      "sections": [
+        {
+          "subtitle": "Introduction",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "As a student you are ultimately responsible for your learning. You will have a lot of support from your tutors at University who have prepared you theoretically for practicing skills, values and attitudes during the placement Educators and mentors will be supporting you during the placement by providing learning opportunities and giving you feedback. The educators and mentors will also be your assessors and therefore will be responsible for ensuring that you can demonstrate the competencies and practice safely.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "As a student it is important you understand the outcomes for each placement, ensure you understand what you need to demonstrate and take any opportunities for learning seriously. Do what you can to learn and show your educator or mentor that you are meeting the required competencies.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "You will be able to discuss any concerns with your educator or mentor. ",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Getting the most of your Clinical Placement",
+          "components": [
+            {
+              "subtitle": "Key Points to follow in order to get the most out of your placement"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "1.   They are usually a lot of students on placement at any given time. Students are on placement often during the training period.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "2.   Educators are trained, registered and supported. Mentors must be a registered nurse with at least 12 months’ experience and a mentoring qualification",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "3.   Although students are expected to participate in direct patient care, they remain supernumerary",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "4.   Students should be encouraged to reflect as this helps to link theory learnt in university to experiences gained in practice",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "5.   Students have a responsibility to report behaviour that puts others at risk",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Follow this link for more information",
+              "type": "link-website",
+              "links":[
+                {
+                  "tag": "",
+                  "text": "Getting the most out of your placement",
+                  "link": "https://www.nursingtimes.net/getting-the-most-out-of-your-clinical-placement/5063190.article"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    },
+    {
+      "name": "Proactive Support",
+      "sections":[
+        {
+          "subtitle": "The right mentality",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The best thing you could take on placement is a positive attitude. Educators and mentors are always happy to welcome students and support their learning. They find this easier when students come to the placement with an attitude that is positive. This simply means a stunt is willing to learn, will be confident to ask for help when they are confronted by activities that are outside their scope of practice. The clinical placement is not a natural pedagogical atmosphere, however, the educators and mentors have been in your shoes and are quite welcoming and inspiring. You are quite likely to find new graduates on your ward who were on placement just a few months ago too; they will be happy to support your learning and help you.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-quote",
+              "text": "Student nurses value a welcoming workplace where staff and educators are happy to help and have a positive attitude to student presence on the wards",
+              "author": "Doyle et al ",
+              "year": "2017"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    },
+    {
+      "name": "Wellbeing Promotion",
+      "sections":[
+        {
+          "subtitle": "What is Wellbeing?",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Your health is very important. Wellbeing involves taking care of emotional and mental wellbeing as well as physical wellbeing. ",
+              "space_after": "true"
+            }
+          ],
+          "space_after": "false"
+        },
+        {
+          "subtitle": "Physical Wellbeing",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Physical health is connected to mental and emotional health. Taking care of your body is an effective first step towards mental and emotional health. The mind and the body are linked and health benefits of becoming more physically active are significant. Physical activity involves anything we do that involves moving our bodies including exercise and sport.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "How can I increase my physical activity?",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "Set specific, realistic and attainable goals"
+                },
+                {
+                  "text": "Take the stairs instead of the lift/ elevator"
+                },
+                {
+                  "text": "Visit Coventry University’s sport centre and take a class or visit the gym"
+                },
+                {
+                  "text": "Add short walks in between lectures/ study sessions"
+                },
+                {
+                  "text": "Become involved in a sport "
+                },
+                {
+                  "text": "Start using a pedometer to track your walking"
+                }
+                ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "When you improve your physical health, you'll automatically experience greater mental and emotional well-being",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Emotional and mental well-being ",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Mental wellbeing is your mental state; how to feel about and cope with daily life. ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Mental wellbeing describes your mental state - how you are feeling and how well you can cope with day-to-day life. ",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "Five steps to mental wellbeing are:",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "Connect and communicate face to face with people – there is strong evidence that suggests that feeling close to and valued by other people is a fundamental human need. "
+                },
+                {
+                  "text": "Be active – regular physical activity is linked to lower rates of depression and anxiety"
+                },
+                {
+                  "text": "Take notice – reminding yourself to take notice can strengthen and broaden awareness. Take time to enjoy the environment around you. "
+                },
+                {
+                  "text": "Learn – continuing to learn throughout life builds good self-esteem and encourages social interaction. "
+                },
+                {
+                  "text": "Give – individuals who report a greater interest in helping others are more likely to rate themselves as feeling happy.  "
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "More information",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "links":[
+                {
+                  "tag": "",
+                  "text": "Five ways to wellbeing",
+                  "link":"https://www.mind.org.uk/workplace/mental-health-at-work/taking-care-of-yourself/five-ways-to-wellbeing/ "
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
+        }
+
+      ]
+    },
+    {
+      "name": "Strategies",
+      "sections":[]
+    },
+    {
+      "name": "Top Tips",
+      "sections": []
+    },
+    {
+      "name": "Summary",
+      "sections": []
+    },
+    {
+      "name": "References",
+      "sections": [
+        {
+          "subtitle": "References",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "link-reference",
+              "title": "Happy to help/happy to be here: Identifying components of successful clinical placements for undergraduate nursing students.",
+              "authors": [
+                {
+                  "name": "Doyle, K."
+                },
+                {
+                  "name": "Sainsbury, K."
+                },
+                {
+                  "name": "Cleary, S."
+                },
+                {
+                  "name": "Parkinson, L."
+                },
+                {
+                  "name": "Vindigni, D"
+                },
+                {
+                  "name": "McGrath, I and Cruickshank, M."
+                }
+              ],
+              "year": "2017",
+              "publisher": "Nurse Education Today",
+              "volume": "49",
+              "pages": "27-32",
+              "link": "http://www.nurseeducationtoday.com/article/S0260-6917(16)30255-6/pdf"
+            },
+            {
+              "subtitle": "",
+              "type": "link-reference",
+              "title": "Getting the most out of your clinical placement. ",
+              "authors": [
+                {
+                  "name": "Whitehead, B"
+                }
+              ],
+              "year": "2013",
+              "publisher": "Nursing Times",
+              "volume": "109:37",
+              "pages": "12-13",
+              "link": "https://www.nursingtimes.net/journals/2013/09/13/l/s/s/180913-getting-the-most-out-of-your-clinical-placement.pdf"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    }
+  ]
+}

@@ -1,97 +1,239 @@
 {
   "name": "Preparing for Placement",
+  "introcontent": [
+    {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "In this section, we will give you a checklist of steps you should follow before your placement. We will tell you when you should know about what your placement, what you will need, pre-placement visit procedures and present some examples and case studies.",
+          "space_after": "false"
+        }
+
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "list-text",
+          "list_elements":[
+            {
+              "text": "To raise the student's awareness about what procedures there are before the placement begins."
+            },
+            {
+              "text": "To help the student plan for his placemnt in a more prepared way."
+            },
+            {
+              "text": "To present the student with a checklist of steps he/she should undertake before the beginning of placement."
+            }
+          ],
+          "space_after": "false"
+        }
+      ],
+      "space_after": "true"
+    }
+  ],
   "chapters" : [
     {
       "blockname": "Pre-Placement",
-      "name": "Definition",
-      "sections": []
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Procedure",
+      "name": "Challenges",
       "sections": [
         {
-          "name": "Contact disability Office",
-          "type": "text/info"
+          "subtitle": "What you might struggle with?",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Many students may not have practical experience so have questions and concerns; being on placement can be significantly different to academic assignments. Frequently asked questions and concerns include:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements": [
+                {
+                  "text": "How do I complete my placement documentation?"
+                },
+                {
+                  "text": "Who will I talk to about any issues once on placement?"
+                },
+                {
+                  "text": "How will I meet all the competencies? "
+                },
+                {
+                  "text": "What if I don’t like my placement? "
+                },
+                {
+                  "text": "How do I managing assignments and placement commitments/ shifts?"
+                },
+                {
+                  "text": "Good time keeping"
+                },
+                {
+                  "text": "Feeling isolated - Having peers on the same placement"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "All of these concerns although reasonable are something that we will provide advice on support you with. This program will cover all of these issues and concerns.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         },
         {
-          "name": "Documents",
-          "type": "text/links"
+          "subtitle": "Placement Requirements",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Your placement will have various requirements for you to meet. It is useful to be aware of these requirements through reading your placement handbook and the competencies. Direct any questions about these requirements to your personal tutor, learning support tutor or course leader before the placement begins. Having understanding before starting will help you feel prepared and ready.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         },
         {
-          "name": "What is evidence?",
-          "type": "text/info"
-        },
-        {
-          "name": "Medical evidence",
-          "type": "text/info"
-        },
-        {
-          "name": "What to do/verify",
-          "type": "text/info"
-        },
-        {
-          "name": "Sign data protection",
-          "type": "text/info"
-        },
-        {
-          "name": "Make your department aware",
-          "type": "text/info"
-        },
-        {
-          "name": "Speak to personal tutor",
-          "type": "text/info"
+          "subtitle": "Disabilities Team",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "If you have any questions during placement you can contact the disabilities team by phone or email: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Telephone:",
+              "type": "link-telephone",
+              "text": "+44 (0)24 7765 8029",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Email: ",
+              "type": "link-email",
+              "links": [
+                {
+                  "text": "disabilityadvisor.ss@coventry.ac.uk ",
+                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The disabilities team has lots of experience working with students who have disabilities. They are happy to provide you with advice, tips and will support you with your concerns.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
         }
       ]
     },
     {
-      "blockname": "Pre-Placement",
-      "name": "Benefits",
-      "sections":[
+      "blockname": "Preparing for Placement",
+      "name": "Support from Our Team",
+      "sections": [
         {
-          "name": "Support from DST",
-          "type": "text/links"
-        },
-        {
-          "name": "Funding from DSA",
-          "type": "text/links"
-        },
-        {
-          "name": "Funding information",
-          "type": "video/youtube"
+          "subtitle": "Receiving Support from Disabilities Support Team",
+          "components": [
+            {
+              "subtitle": "The Disabilities Team",
+              "type": "text-paragraph",
+              "text": "The disabilities team can support you through offering advice, tips and through teaching study skills to contribute to success whilst on placement e.g. strategies to learn and remember new vocabulary.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "If you have any questions about preparing for your placement and would like some tips and advice from the disability advisors or specialist tutors, you can book an appointment with the disabilities Team. To book an appointment, follow the link below:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "links":[
+                {
+                  "tag": "",
+                  "text": "Disabilities Team Booking Engine",
+                  "link": "https://healthandwellbeingbookings.coventry.ac.uk/"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
         }
       ]
+
     },
     {
-      "blockname": "Pre-Placement",
-      "name": "Quiz",
-      "sections":[
+      "blockname": "Preparing for Placement",
+      "name": "Having afterthoughts",
+      "sections": [
         {
-          "name": "Quiz",
-          "type": "modal/quiz"
+          "subtitle": "What if I think of something after?",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "It is OK if you think of any questions after you’ve made pre-placement contact, after you’ve completed documentation or after you’ve met with support staff.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "If you have questions you can contact your LST by email."
+                },
+                {
+                  "text": "You could also make further contact with your practice educator by phone or make second pre-placement contact."
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "For further tips and advice, make an appointment or email the disabilities team:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "link-email",
+              "links": [
+                {
+                  "text": "disabilityadvisor.ss@coventry.ac.uk ",
+                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                }
+                ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "links":[
+                {
+                  "tag": "",
+                  "text": "Disabilities Team Booking Engine",
+                  "link": "https://healthandwellbeingbookings.coventry.ac.uk/"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
         }
       ]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Reflection",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Flowchart",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "Summary",
-      "sections":[]
-    },
-    {
-      "blockname": "Pre-Placement",
-      "name": "References",
-      "sections":[]
+
     }
   ]
-
 }
