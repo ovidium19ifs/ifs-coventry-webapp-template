@@ -1,4 +1,4 @@
-application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routeParams,$timeout){
+application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routeParams,$location){
     "use strict";
     /*
     $scope.$watch(function(){
@@ -19,7 +19,16 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
             }
         });
     */
-
+    $scope.home=true;
+    $scope.$on("$locationChangeSuccess", function(e,newUrl){
+       if ($location.path()=="/"){
+           console.log("We are home");
+           $scope.home=true;
+       }
+       else{
+           $scope.home=false;
+       }
+    });
     $scope.$watch(
         function(){
             return $routeParams.hasOwnProperty("group");
@@ -44,8 +53,6 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
                     });
             }
             else $scope.inContentState = false;
-
-
         }
     );
     $scope.lowEnd = true;

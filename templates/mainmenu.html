@@ -1,5 +1,20 @@
-<div class="d-flex align-items-center justify-content-around">
-    <button  class="btn btn-success" ng-click="selectGroup('educators')">Educators</button>
-    <button class="btn btn-info" ng-click="selectGroup('staff')">Staff</button>
-    <button class="btn btn-warning" ng-click="selectGroup('students')">Students</button>
+<div class="d-flex align-items-center justify-content-around h-75 mb-5 text-center py-4" ng-class="{'main-page': home}">
+    <h1>Interventions for Success</h1>
 </div>
+<div class="card main-card">
+    <div class="card-body text-center">
+        <h3 class="mb-5">Resources for: </h3>
+        <div class="d-flex align-items-center justify-content-around" style="position:relative;z-index:3">
+            <button  class="btn btn-resource" ng-click="selectGroup('educators')">Educators</button>
+            <button class="btn btn-resource" ng-click="selectGroup('staff')">Staff</button>
+            <button class="btn btn-resource" ng-click="selectGroup('students')">Students</button>
+        </div>
+
+    </div>
+</div>
+<div class="footer mt-5 text-center py-5">
+    <div class="d-flex align-items-center justify-content-around">
+        <h2>Footer Content</h2>
+    </div>
+</div>
+

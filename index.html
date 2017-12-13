@@ -26,8 +26,8 @@
     <top-bar></top-bar>
 <!-- ---------------------------------------------------------------- -->
 
-    <div class="container-fluid h-100">
-        <div class="row main-content h-100">
+    <div class="container-fluid h-100" >
+        <div class="row main-content h-100" >
             <!-- Left-side sticky panel - Search function and navigation menu -->
             <div class="d-flex flex-column col-md-3  col-lg-2 order-0 side-menu px-0" ng-if="inContentState" style="min-width:230px">
                 <form class="d-flex align-items-center search-box mx-0 ">
@@ -135,9 +135,9 @@
                 -->
             </div>
             <!-- this is where data will be loaded -->
-            <div class="col col-md col-lg order-1 content py-5 h-100">
+            <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home}" >
                 <div ng-class="{'container': inContentState, 'container-fluid': !inContentState}">
-                    <div class="nav-buttons w-100" ng-show="inContentState">
+                    <div class="nav-buttons w-100 " ng-show="inContentState">
                         <button class="btn  float-left content-nav d-inline" ng-hide="lowEnd" ng-click="goToPrevious()">
                             <span class="fa fa-chevron-left mr-2" ></span>
                             Previous
@@ -147,7 +147,7 @@
                             <span class="fa fa-chevron-right ml-2 "></span>
                         </button>
                     </div >
-                    <div class="clearfix my-3 py-3"></div>
+
                     <ng-view ></ng-view>
                     <!--<ng-include src="'templates/text-card-template.html'" ></ng-include>-->
                 </div>

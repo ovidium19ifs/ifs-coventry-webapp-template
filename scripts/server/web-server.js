@@ -9,7 +9,6 @@ app.use(bodyParser.json());
 app.use(express.static(rootPath));
 app.get("/data/:source",parts.get);
 app.get("*",function(req,res){
-    console.log("Requested index");
     res.sendFile(rootPath+"/index.html");
 });
 app.listen(process.env.PORT || 8000);

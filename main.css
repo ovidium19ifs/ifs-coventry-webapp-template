@@ -9,6 +9,61 @@ body{
     height: 95vh;
     max-height: 95vh;
 }
+div.main-page{
+    min-height: 75vh;
+    margin-left: -2rem ;
+    margin-right: -2rem;
+    background: url(images/mainpagebackground.jpg) no-repeat center center fixed;
+    box-shadow: 0px 8px 5px -6px darkgray inset, 0px -8px 5px -6px darkgray inset;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.btn.btn-resource{
+    background-color: #006600;
+    color:white;
+    position: relative;
+    width:8rem;
+    border-radius: 0px;
+    cursor: pointer;
+
+}
+.btn.btn-resource:hover{
+    background-color: white;
+    border-color: #006600;
+    color: #006600;
+}
+.btn.btn-resource:hover:after,.btn.btn-resource:hover:before{
+    border-color: transparent;
+}
+.btn.btn-resource:after,.btn.btn-resource:before{
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    border-top:1rem solid #006600;
+    border-bottom: 1.3em solid #006600;
+    z-index: -1;
+    top:-0.01em;
+}
+.btn.btn-resource:after{
+    border-right: 1.5em solid transparent;
+    border-left: 2em solid #006600;
+    right:-30%;
+}
+.btn.btn-resource:before{
+    border-right: 2em solid #006600;
+    border-left: 1.5em solid transparent;
+    left:-30%;
+}
+.footer{
+    border-top: 1px solid silver;
+    margin-left: -2rem;
+    margin-right: -2rem;
+
+    height:15em;
+}
 /* the sticky nav-bar at the top*/
 .top-bar{
     display:flex;
