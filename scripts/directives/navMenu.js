@@ -4,24 +4,36 @@ application.directive("navMenu",function() {
         restrict: 'E',
         templateUrl: '/templates/nav-menu.html',
         scope: {
-            data: "=",
 
-        },
+        }
+        ,
         link: function (scope, element, attrs, controller) {
 
         },
         controller: function ($scope, navigate, $location, $routeParams) {
 
+            var group = $routeParams.group;
+            $scope.$watch(
+                function(){
+                    return navigate.getGroup();
+                },
+                function(newV,oldV){
+                    if (newV && newV!="undefined"){
 
+                        $scope.data = navigate.getData();
+
+                        console.log($scope.data);
+                    }
+                }
+            );
             $scope.select = function (bl_index, evt, dataBlock) {
 
                 evt.preventDefault();
                 evt.stopPropagation();
-                console.log("clicked");
                 var bl_name = $(evt.target).text();
                 //$scope.selected = $scope.selected === bl_name ? "" : bl_name;
                 //$scope.chSelected = bl_name+"-";
-                if ($location.path() !== ("/blocks/" + bl_name))
+                if ($location.path() !== ("/content/"+group+"/blocks/" + bl_name))
                     navigate.goTo(bl_name);
                 /*
                 console.log(bl_index);
@@ -43,7 +55,10 @@ application.directive("navMenu",function() {
                 var hyphen=$scope.chSelected.lastIndexOf("-");
                 if (hyphen===$scope.chSelected.length-1){
                     //$scope.chSelected = $scope.chSelected+ch_name;
-                    $location.path("/blocks/"+$scope.selected+"/chapter/"+ch_name);
+                    var base = $location.path();
+                    console.log("NAVIGATION MENU: "+ base);
+                    $location.path(base+ "/chapter/"+ch_name);
+                    //$location.path("/content/"+group+"/blocks/"+$scope.selected+"/chapter/"+ch_name);
                 }
 
                 else if ($scope.chSelected.indexOf(ch_name) <= 0) {
@@ -74,10 +89,10 @@ application.directive("navMenu",function() {
                         $scope.selected = "";
                         $scope.chSelected = "";
                     }
+
                 });
 
-                console.log("selected: "+$scope.selected);
-                console.log("chapter selected: "+$scope.chSelected);
+
 
         }
     }

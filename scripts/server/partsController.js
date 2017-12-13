@@ -4,6 +4,7 @@ module.exports.get = function(req,res){
     var path = req.params.source;
     var partialPath="resourcesfor"+path+"/";
     var fullPath = "data/"+partialPath;
+    console.log(fullPath);
     try{
         var files=fs.readdirSync(fullPath);
         files.sort();

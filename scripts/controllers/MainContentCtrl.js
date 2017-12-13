@@ -1,4 +1,4 @@
-application.controller("MainContentCtrl",function($scope,$routeParams,navigate){
+application.controller("MainContentCtrl",function($scope,$routeParams,navigate,dataBlock){
     "use strict";
     $scope.data={};
     if (!navigate.urlIsValid($routeParams)){

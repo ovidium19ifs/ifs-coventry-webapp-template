@@ -3,10 +3,10 @@ application.factory("dataFetcher",function($resource){
     var resource = $resource("/data/:source",{source:"@source"},{});
 
     return{
-        get: function(){
+        get: function(group){
 
 
-            return resource.query({source:"students"});
+            return resource.query({source:group});
 
         }
 

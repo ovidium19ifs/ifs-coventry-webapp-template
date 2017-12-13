@@ -2,9 +2,11 @@ application.factory("navigate",function($location){
     "use strict";
     var data;
     var path="/";
+    var group;
     var current_bl_index,current_ch_index;
     return{
         urlIsValid:function(routeParams){
+            group=routeParams.group;
             if (routeParams.hasOwnProperty("chaptername")) {
 
 
@@ -34,31 +36,27 @@ application.factory("navigate",function($location){
             current_ch_index=-1;
             $location.path("/404");
         },
-        setData: function(fullData){
+        setData: function(fullData,gr){
             data = fullData;
+            group = gr;
             current_bl_index=0;
             current_ch_index=-1;
 
 
         },
-        getBlockByIndex: function(index,ch_index){
-            if (ch_index){
-                current_ch_index = ch_index;
-
-            }
-            current_bl_index = index;
-            return data[index];
+        getData: function(){
+            return data;
+        },
+        getGroup: function(){
+            return group;
         },
         goTo : function(bl_name,ch_name){
             if (ch_name){
-                $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
-                path="/blocks/"+bl_name+"/chapter/"+ch_name;
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
+
             }
-
-
             else{
-                $location.path("/blocks/"+bl_name);
-                path= "/blocks/"+bl_name;
+                $location.path("/content/"+group+"/blocks/"+bl_name);
             }
 
         },
@@ -74,19 +72,19 @@ application.factory("navigate",function($location){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
-                $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
                 path="/blocks/"+bl_name+"/chapter/"+ch_name;
             }
             else if (current_ch_index<data[current_bl_index].chapters.length-1){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
-                $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
                 path="/blocks/"+bl_name+"/chapter/"+ch_name;
             }
             else if (current_ch_index === data[current_bl_index].chapters.length-1){
                 bl_name = data[current_bl_index+1].name;
-                $location.path("/blocks/"+bl_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name);
                 path="/blocks/"+bl_name;
             }
         },
@@ -96,39 +94,21 @@ application.factory("navigate",function($location){
                 current_ch_index--;
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index].name;
-                $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
             }
             else if(current_ch_index===0){
                 bl_name = data[current_bl_index].name;
-                $location.path("/blocks/"+bl_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name);
             }
             else{
                 current_bl_index--;
                 bl_name = data[current_bl_index].name;
                 current_ch_index = data[current_bl_index].chapters.length-1;
                 ch_name = data[current_bl_index].chapters[current_ch_index].name;
-                $location.path("/blocks/"+bl_name+"/chapter/"+ch_name);
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
             }
         },
         getDataBlock: function(name,chapter){
-            /*
-            if (!chapter)
-                for (var i=0;i<data.length;i++){
-                    if (data[i].name===name){
-                        return [data[i],i]
-                    }
-                }
-            else{
-                    for (var i=0;i<data.length;i++){
-                        if (data[i].name === name){
-                            for (var j=0;j<data.chapters.length;j++){
-                                if (data[i].chapters[j].name===chapter)
-                                    return [data[i].chapters[j]]
-                            }
-                        }
-                    }
-            }*/
-
             if (current_ch_index>-1){
                 return [data[current_bl_index].chapters[current_ch_index],current_ch_index];
             }
@@ -141,14 +121,6 @@ application.factory("navigate",function($location){
         },
         getBlockLength: function(){
             return data[current_bl_index].chapters.length;
-        },
-        getIndex: function(name){
-            return data.findIndex(function(elem){
-                return elem.name===name;
-            });
-        },
-        getPath: function(){
-            return path;
         }
     }
 });
