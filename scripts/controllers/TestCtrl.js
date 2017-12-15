@@ -56,7 +56,6 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         }
     );
     $scope.$on("$dataWasLoaded",function(e,args){
-        console.log("received");
         $scope.$broadcast("dataWasLoaded");
     });
     $scope.$on("ifsPrepareScroll",function(e,args){

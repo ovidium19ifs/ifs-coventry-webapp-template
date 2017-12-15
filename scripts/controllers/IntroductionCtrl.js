@@ -8,6 +8,13 @@ application.controller("IntroductionCtrl",function($scope,navigate,$routeParams,
     $scope.data = data[0];
     $scope.index = data[1]+1;
     $scope.dataLength = navigate.getDataLength();
+    $scope.$on("ifsScrollTo",function(e,args){
+        var title = args[0];
+        var elem = angular.element(document.getElementById(title));
+        var container = angular.element(document.getElementById("mainContent"));
+
+        container.scrollToElement(elem,50,120);
+    });
 
 
 

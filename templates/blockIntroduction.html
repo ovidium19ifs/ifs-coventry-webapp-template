@@ -7,7 +7,7 @@
 
     <div class="card-body">
 
-        <div ng-repeat="section in data.introcontent">
+        <div ng-repeat="section in data.introcontent" id="{{section.title | lowercase |nospaces }}">
 
             <h4 class="card-subtitle">{{section.title}}</h4>
             <div ng-repeat = "component in section.components">

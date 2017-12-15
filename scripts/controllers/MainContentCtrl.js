@@ -13,7 +13,6 @@ application.controller("MainContentCtrl",function($scope,$routeParams,navigate,d
     $scope.blockLength = navigate.getBlockLength();
     $scope.$on("ifsScrollTo",function(e,args){
         var title = args[0];
-        console.log("Scrolling to " + args[0]);
         var elem = angular.element(document.getElementById(title));
         var container = angular.element(document.getElementById("mainContent"));
 
