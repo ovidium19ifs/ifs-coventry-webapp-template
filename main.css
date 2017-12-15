@@ -125,6 +125,15 @@ div.main-page{
     border-radius: 10px;
     cursor:pointer;
 }
+.summary-list{
+    list-style-type: none;
+    font-size: 0.8em;
+    margin-left: -1.75rem;
+}
+.summary-list li{
+    cursor: pointer;
+    color: #2b669a;
+}
 .aside{
     background-color: #f0ebf2;
     border-left:1px solid #D7CCC8;;

@@ -1,4 +1,8 @@
-var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate"]);
+var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate","duScroll"])
+    .run(function($anchorScroll){
+        "use strict";
+        $anchorScroll.yOffset = 90;
+    });
 application.config(function ($routeProvider,$locationProvider) {
     $routeProvider.when("/content/:group/blocks/:blockname/chapter/:chaptername",{
         templateUrl: "templates/newContent.html",

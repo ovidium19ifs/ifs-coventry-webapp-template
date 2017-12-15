@@ -1,0 +1,461 @@
+{
+  "name": "Disclosure",
+  "introcontent": [
+    {
+      "title": "Introduction",
+      "components" : [
+        {
+          "subtitle": "",
+          "type": "text-paragraph",
+          "text": "This section will introduce the concept of disclosure and guidelines for disclosing a disability at the University.",
+          "space_after": "false"
+        }
+
+      ],
+      "space_after": "true"
+    },
+    {
+      "title": "Learning Outcomes",
+      "components": [
+        {
+          "subtitle": "",
+          "type": "list-text",
+          "list_elements":[
+            {
+              "text": "To provide a clear definition of the concept of disclosure."
+            },
+            {
+              "text": "To provide students with adequate guidelines and practical tips about how to disclose a disability."
+            },
+            {
+              "text": "To provide students with a step-by-step guide of how disclosure is evidenced and recorded at the University."
+            },
+            {
+              "text": "To support students understand their rights and responsibilities with respect to disclosure."
+            }
+          ],
+          "space_after": "false"
+        }
+      ],
+      "space_after": "false"
+    }
+  ],
+
+  "chapters" : [
+    {
+      "blockname": "Disclosure",
+      "name": "Definition",
+      "sections": [
+        {
+          "subtitle": "What is Disclosure?",
+          "components": [
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "Disclosure is making known a disability to the university.  It involves discussing difficulties you may encounter, any reasonable adjustments needed for attainment and individual examination arrangements.",
+              "space_after": "true"
+            },
+            {
+              "subtitle": "",
+              "type": "text-mythfact",
+              "myths":[
+                {
+                  "myth": "A job applicant has to tell an employer if they are disabled.",
+                  "fact": "No. A disabled person can keep a disability confidential."
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Procedure",
+      "sections": [
+        {
+          "subtitle": "How do you disclose?",
+          "components":[
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can disclose at any time during the recruitment process, such as on your application or UCAS form or when you are on your course. ",
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can also disclose a disability through contacting the Disabilities Team using Connect2 or emailing: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "E-mail Contact Address",
+              "type": "link-email",
+              "links":[
+                {
+                  "text": "disabilityadvisor.ss@coventry.ac.uk",
+                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                }
+              ],
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Contact Disability Office",
+          "components":[
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "An appointment with a Disability Advisor can be made by following the link: ",
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type":"link-website",
+              "text": "https://healthandwellbeingbookings.coventry.ac.uk/",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "Health and Wellbeing Bookings (CU)",
+                  "link": "https://healthandwellbeingbookings.coventry.ac.uk/"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle":"",
+              "type": "text-paragraph",
+              "text": "You can also make appointments or contact the Disabilities Team through the student portal and selecting ‘support at CU’.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Documentation",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Documents that will need to be provided and completed are:",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements": [
+                {
+                  "text": "Evidence of your disability"
+                },
+                {
+                  "text": "Completion of Individual Examination Arrangement (IEA) form for courses with exams"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Links to Forms",
+              "type": "link-website",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "Sheltered Conditions Form",
+                  "link": "https://share.coventry.ac.uk/students/Disabilities/Lists/Sheltered%20Conditions%20Form/NewForm.aspx?&Source=https%3a//share.coventry.ac.uk/students/Disabilities/Pages/ThankYouSF.aspx"
+                }
+              ],
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Link to Document",
+              "type": "link-pdf",
+              "text": "Document",
+              "link": "",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "What is evidence",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Evidence of a disability is either medical evidence or a diagnostic report. If you have a specific learning difficulty (SpLD), such as dyslexia, you will need to provide a copy of your diagnostic report.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "If you have a medical condition, you will need to provide evidence of your condition. This may be a doctor’s letter, copy of medical records or a medical report. The evidence should outline how your disability impacts upon your daily activities.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        },
+        {
+          "subtitle": "Medical Evidence",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "If you have a medical condition, you will need to provide evidence including doctor’s letter, copy of medical records or a medical report. If you have an autistic spectrum condition, you will need to provide a copy of an educational psychologist report or doctors letter. ",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "All evidence should outline how your disability impacts upon your daily activities.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Verifying",
+      "sections": [
+        {
+          "subtitle": "How to Verify Evidence",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Provide your evidence to the Disabilities Team, either by email or by visiting the Disabilities Team on the 2nd floor of the Hub. Once you have provided your diagnostic evidence, the disabilities department will verify your disability on Universe. ",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Sign Data Protection",
+      "sections":[
+        {
+          "subtitle": "How to sign the Data Protection Act",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "The data protection form should be signed as soon as possible once you have made contact with the Disabilities Team. It can be completed electronically (email and scanning your copy), during an appointment or you can visit the department.",
+              "space_after": "false"
+            },
+            {
+              "subtitle": "Without your signature we cannot take action!",
+              "type": "text-alert",
+              "text": "These forms allow staff to communicate with other members of staff to organise adjustments, exam arrangements, funding (where applicable) and care for other needs if needed.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "false"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Department Awareness",
+      "sections":[
+        {
+          "subtitle": "Make your department aware of your disability",
+          "components":[
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "You should tell your department directly about your disability, which can be done through email or face to face conversations. Your department can also look on Solar which contains information about disability details, exam arrangements and reasonable adjustments.",
+              "space_after": "false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Your Personal Tutor",
+      "sections":[
+
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Benefits",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Quiz",
+      "sections":[
+        {
+          "subtitle": "Quiz on Disclosure",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "quiz",
+              "questions":[
+                {
+                  "index":0,
+                  "text": "Disclosure involves taking responsibility to make known your disability to the university through completing the admissions form or through discussing your disability with the Disabilities Team.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 0,
+                  "tip": ""
+                },
+                {
+                  "index": 1,
+                  "text": "The university can verify your disability when you talk to them about your needs.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 1,
+                  "tip": "the university can verify your disability after you have supplied diagnostic evidence."
+                },
+                {
+                  "index": 2,
+                  "text": "Evidence is only required for a medical condition. ",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 1,
+                  "tip": "evidence is required for all disabilities including Specific Learning Disabilities (e.g. dyslexia, dyspraxia etc.) "
+                },
+                {
+                  "index": 3,
+                  "text": "It is your responsibility to verify your disability.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 1,
+                  "tip": "The Disability Team will verify your disability once they have received diagnostic evidence.  It is your responsibility to disclose and provide evidence in the first instance."
+                },
+                {
+                  "index": 4,
+                  "text": "The data protection form should be signed at the earliest point.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 0,
+                  "tip": ""
+                },
+                {
+                  "index": 5,
+                  "text": "Once your disability is verified by the disabilities Team, all adjustments etc. will be put in place.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 1,
+                  "tip": "It is useful and important for you to speak directly to your faculty and ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA)."
+                },
+                {
+                  "index": 6,
+                  "text": "If details of your disability are added and saved on the University’s database all arrangements/ adjustments will be organised. ",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 1,
+                  "tip": "Whilst having the details added to the database is necessary it is not a guarantee that everything will run smoothly. It is useful for you to regularly communicate with your faculty to ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA and placement requests)."
+                },
+                {
+                  "index": 7,
+                  "text": "The disabilities Team will support you with disclosing a disability and completing required documents.",
+                  "answers":[
+                    {
+                      "id": 0,
+                      "text": "True"
+                    },
+                    {
+                      "id": 1,
+                      "text": "False"
+                    }
+                  ],
+                  "correct_answer": 0,
+                  "tip": "you can make an appointment with a disability advisor using connect2 following the link: https://healthandwellbeingbookings.coventry.ac.uk/"
+                }
+              ],
+              "space_after":"false"
+            }
+          ],
+          "space_after": "true"
+        }
+      ]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Reflection",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Flowchart",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "Summary",
+      "sections":[]
+    },
+    {
+      "blockname": "Disclosure",
+      "name": "References",
+      "sections":[]
+    }
+  ]
+
+}

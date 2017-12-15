@@ -55,6 +55,13 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
             else $scope.inContentState = false;
         }
     );
+    $scope.$on("$dataWasLoaded",function(e,args){
+        console.log("received");
+        $scope.$broadcast("dataWasLoaded");
+    });
+    $scope.$on("ifsPrepareScroll",function(e,args){
+       $scope.$broadcast("ifsScrollTo", args);
+    });
     $scope.lowEnd = true;
     $scope.highEnd = false;
 
