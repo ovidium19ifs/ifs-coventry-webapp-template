@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" afterPath="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" afterPath="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives/ifsVideo.js" afterPath="$PROJECT_DIR$/scripts/directives/ifsVideo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/directives/quizCarousel.js" afterPath="$PROJECT_DIR$/scripts/directives/quizCarousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/server/web-server.js" afterPath="$PROJECT_DIR$/scripts/server/web-server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/components/video/single.html" afterPath="$PROJECT_DIR$/templates/components/video/single.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -53,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app.js">
+      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/server/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-112">
-              <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
+            <state relative-caret-position="304">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/server/web-server.js">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            <state relative-caret-position="32">
+              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -111,7 +105,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/404.html" />
         <option value="$PROJECT_DIR$/templates/nav-menu.html" />
         <option value="$PROJECT_DIR$/css/menu.css" />
         <option value="$PROJECT_DIR$/templates/components/link/pdf.html" />
@@ -162,6 +155,7 @@
         <option value="$PROJECT_DIR$/templates/components/video/single.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/scripts/server/web-server.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -310,7 +304,7 @@
       <workItem from="1513159044305" duration="11121000" />
       <workItem from="1513179331182" duration="738000" />
       <workItem from="1513329526546" duration="10896000" />
-      <workItem from="1513590105496" duration="4192000" />
+      <workItem from="1513590105496" duration="4431000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -323,7 +317,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230058000" />
+    <option name="totallyTimeSpent" value="230297000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -398,13 +392,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/components/quiz/questions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/quiz-carousel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -787,8 +774,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/server/web-server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        <state relative-caret-position="304">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
           <folding />
         </state>
       </provider>
