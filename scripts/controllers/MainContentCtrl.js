@@ -1,6 +1,7 @@
 application.controller("MainContentCtrl",function($scope,$routeParams,navigate,dataBlock,$location, $document){
     "use strict";
     $scope.data={};
+    console.log("Reloaded the Controller");
     var elem = angular.element(document.getElementById("mainContent"));
     elem.scrollTop(0,0);
     if (!navigate.urlIsValid($routeParams)){

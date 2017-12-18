@@ -45,7 +45,6 @@ application.directive("ifsVideo",function($window,$timeout){
             $scope.link = $sce.trustAsResourceUrl($scope.element.video.src);
             $scope.videoPlaying=false;
             $scope.openVideo = function(evt){
-                console.log(evt);
                 $scope.videoPlaying= !$scope.videoPlaying;
                 if ($scope.videoPlaying){
                     $scope.setFrameParams();

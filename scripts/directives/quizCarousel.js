@@ -18,7 +18,6 @@ application.directive("quizCarousel",function(){
                 scope.current = e.to-1;
             });
             $(scope.carousel).on("slid.bs.carousel",function(e){
-                console.log(e);
                 $(".carousel-item").eq(e.to).slideDown(300,function(){
                     $(this).css("visibility","visible");
                 });
@@ -44,8 +43,6 @@ application.directive("quizCarousel",function(){
             $scope.correctAnswers = 0;
             $scope.score = 0;
             $scope.results = [];
-            console.log($scope);
-            console.log("Hello from quiz-carousel");
             $scope.nextSlide = function(){
                 $($scope.carousel).carousel('next');
             };
