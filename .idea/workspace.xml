@@ -2,89 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js.map" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/cards.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/introduction.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/menu.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/quiz.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/less/firstTry.less" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/server/partsController.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-server.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SupportForPeopleWithDisabilities.iml" afterPath="$PROJECT_DIR$/.idea/SupportForPeopleWithDisabilities.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/angular_1_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/angular_1_6_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/cards.css" afterPath="$PROJECT_DIR$/public/css/cards.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/introduction.css" afterPath="$PROJECT_DIR$/public/css/introduction.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/menu.css" afterPath="$PROJECT_DIR$/public/css/menu.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/css/quiz.css" afterPath="$PROJECT_DIR$/public/css/quiz.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/public/images/Thumbs.db" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/equality_act_disability.jpg" afterPath="$PROJECT_DIR$/public/images/equality_act_disability.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mainpagebackground.jpg" afterPath="$PROJECT_DIR$/public/images/mainpagebackground.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pdf_icon.jpg" afterPath="$PROJECT_DIR$/public/images/pdf_icon.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/reasonable_adjustments_eq_act.jpg" afterPath="$PROJECT_DIR$/public/images/reasonable_adjustments_eq_act.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/images/reasonable_adjustments_inpractice.jpg" afterPath="$PROJECT_DIR$/public/images/reasonable_adjustments_inpractice.jpg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/public/css/main.less" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/ContentRedirecter.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/IntroductionCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/IntroductionCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/MainContentCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/MainMenuController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/TestCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/TestCtrl.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/chapterSummary.js" afterPath="$PROJECT_DIR$/public/scripts/directives/chapterSummary.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/ifsVideo.js" afterPath="$PROJECT_DIR$/public/scripts/directives/ifsVideo.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/listText.js" afterPath="$PROJECT_DIR$/public/scripts/directives/listText.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/navMenu.js" afterPath="$PROJECT_DIR$/public/scripts/directives/navMenu.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/quizCarousel.js" afterPath="$PROJECT_DIR$/public/scripts/directives/quizCarousel.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/topBar.js" afterPath="$PROJECT_DIR$/public/scripts/directives/topBar.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/filters/noSpaces.js" afterPath="$PROJECT_DIR$/public/scripts/filters/noSpaces.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/services/dataFetcher.js" afterPath="$PROJECT_DIR$/public/scripts/services/dataFetcher.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/services/navigate.js" afterPath="$PROJECT_DIR$/public/scripts/services/navigate.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="$PROJECT_DIR$/public/templates/404.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/blockIntroduction.html" afterPath="$PROJECT_DIR$/public/templates/blockIntroduction.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/chapterSummary.html" afterPath="$PROJECT_DIR$/public/templates/chapterSummary.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/email.html" afterPath="$PROJECT_DIR$/public/templates/components/link/email.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/pdf.html" afterPath="$PROJECT_DIR$/public/templates/components/link/pdf.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/reference.html" afterPath="$PROJECT_DIR$/public/templates/components/link/reference.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/telephone.html" afterPath="$PROJECT_DIR$/public/templates/components/link/telephone.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/website.html" afterPath="$PROJECT_DIR$/public/templates/components/link/website.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/list/text.html" afterPath="$PROJECT_DIR$/public/templates/components/list/text.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/quiz/questions.html" afterPath="$PROJECT_DIR$/public/templates/components/quiz/questions.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/alert.html" afterPath="$PROJECT_DIR$/public/templates/components/text/alert.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/mythfact.html" afterPath="$PROJECT_DIR$/public/templates/components/text/mythfact.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/paragraph.html" afterPath="$PROJECT_DIR$/public/templates/components/text/paragraph.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/quote.html" afterPath="$PROJECT_DIR$/public/templates/components/text/quote.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/video/single.html" afterPath="$PROJECT_DIR$/public/templates/components/video/single.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/mainmenu.html" afterPath="$PROJECT_DIR$/public/templates/mainmenu.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/nav-menu.html" afterPath="$PROJECT_DIR$/public/templates/nav-menu.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/newContent.html" afterPath="$PROJECT_DIR$/public/templates/newContent.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/quiz-carousel.html" afterPath="$PROJECT_DIR$/public/templates/quiz-carousel.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/text-card-template.html" afterPath="$PROJECT_DIR$/public/templates/text-card-template.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/topBar.html" afterPath="$PROJECT_DIR$/public/templates/topBar.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -98,7 +17,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="16">
@@ -110,8 +29,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cards.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/cards.css">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="partsController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/partsController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -120,11 +49,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cards.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/cards.less">
+      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="176">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -135,16 +64,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web-server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server/web-server.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -226,7 +145,6 @@
         <option value="$PROJECT_DIR$/scripts/directives/quizCarousel.js" />
         <option value="$PROJECT_DIR$/scripts/directives/topBar.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/scripts/server/web-server.js" />
         <option value="$PROJECT_DIR$/web-server.js" />
         <option value="$PROJECT_DIR$/scripts/server/web-server.js" />
@@ -240,6 +158,7 @@
         <option value="$PROJECT_DIR$/public/css/quiz.css" />
         <option value="$PROJECT_DIR$/server/web-server.js" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -309,6 +228,11 @@
             <path>
               <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
               <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -396,7 +320,7 @@
       <workItem from="1513590105496" duration="7441000" />
       <workItem from="1513607404929" duration="1073000" />
       <workItem from="1513609348290" duration="3529000" />
-      <workItem from="1513676348811" duration="85000" />
+      <workItem from="1513676348811" duration="699000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -409,7 +333,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="237994000" />
+    <option name="totallyTimeSpent" value="238608000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -422,6 +346,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -429,7 +354,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.47972116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.4537389" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.4537389" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -483,7 +408,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/scripts/directives/quizCarousel.js" />
     <entry file="file://$PROJECT_DIR$/public/scripts/directives/topBar.js" />
     <entry file="file://$PROJECT_DIR$/public/scripts/filters/noSpaces.js" />
     <entry file="file://$PROJECT_DIR$/public/scripts/services/dataFetcher.js" />
@@ -611,13 +535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -661,14 +578,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/web-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/cards.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -707,6 +616,30 @@
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="14" lean-forward="true" selection-start-line="0" selection-start-column="14" selection-end-line="0" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/partsController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/web-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>
