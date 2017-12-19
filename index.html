@@ -4,20 +4,23 @@
     <base href="/">
     <meta charset="UTF-8">
     <title>Title</title>
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/cards.css">
     <link rel="stylesheet" href="css/introduction.css">
     <link rel="stylesheet" href="css/quiz.css">
-    <script src="angular-1.6.3/docs/components/jquery-3.1.1/jquery.js"></script>
+    <script
+            src="https://code.jquery.com/jquery-3.1.1.js"
+            integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+            crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.js"></script>
-    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="angular-1.6.3/angular.js"></script>
-    <script src="angular-1.6.3/angular-resource.js"></script>
-    <script src="angular-1.6.3/angular-route.js"></script>
-    <script src="angular-1.6.3/angular-animate.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-resource.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-route.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.2/angular-scroll.js"></script>
 
 
@@ -187,17 +190,4 @@
            var text = $(e.target).text();
            var html = $("html");
            var val = html.css("font-size").substring(0,2);
-           console.log(val);
-
-           if (text==="-"){
-               html.css({"font-size": val-1 + "px" });
-           }
-           else if (text==="+"){
-               html.css({"font-size": (Number(val)+1) + "px" });
-           }
-
-        });
-
-    });
-</script>
-</html>
+       

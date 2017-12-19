@@ -2,8 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/cards.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/introduction.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/menu.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/quiz.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/less/firstTry.less" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/public/scripts/server/partsController.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/web-server.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SupportForPeopleWithDisabilities.iml" afterPath="$PROJECT_DIR$/.idea/SupportForPeopleWithDisabilities.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/angular_1_6_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/angular_1_6_3.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Procfile" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/cards.css" afterPath="$PROJECT_DIR$/public/css/cards.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/introduction.css" afterPath="$PROJECT_DIR$/public/css/introduction.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/menu.css" afterPath="$PROJECT_DIR$/public/css/menu.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/css/quiz.css" afterPath="$PROJECT_DIR$/public/css/quiz.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/Thumbs.db" afterPath="$PROJECT_DIR$/public/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/equality_act_disability.jpg" afterPath="$PROJECT_DIR$/public/images/equality_act_disability.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/mainpagebackground.jpg" afterPath="$PROJECT_DIR$/public/images/mainpagebackground.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/pdf_icon.jpg" afterPath="$PROJECT_DIR$/public/images/pdf_icon.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/reasonable_adjustments_eq_act.jpg" afterPath="$PROJECT_DIR$/public/images/reasonable_adjustments_eq_act.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/images/reasonable_adjustments_inpractice.jpg" afterPath="$PROJECT_DIR$/public/images/reasonable_adjustments_inpractice.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/main.css" afterPath="$PROJECT_DIR$/public/css/main.less" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/ContentRedirecter.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/IntroductionCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/IntroductionCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/MainContentCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/MainMenuController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/controllers/TestCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/TestCtrl.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/chapterSummary.js" afterPath="$PROJECT_DIR$/public/scripts/directives/chapterSummary.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/ifsVideo.js" afterPath="$PROJECT_DIR$/public/scripts/directives/ifsVideo.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/listText.js" afterPath="$PROJECT_DIR$/public/scripts/directives/listText.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/navMenu.js" afterPath="$PROJECT_DIR$/public/scripts/directives/navMenu.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/quizCarousel.js" afterPath="$PROJECT_DIR$/public/scripts/directives/quizCarousel.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/directives/topBar.js" afterPath="$PROJECT_DIR$/public/scripts/directives/topBar.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/filters/noSpaces.js" afterPath="$PROJECT_DIR$/public/scripts/filters/noSpaces.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/services/dataFetcher.js" afterPath="$PROJECT_DIR$/public/scripts/services/dataFetcher.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/scripts/services/navigate.js" afterPath="$PROJECT_DIR$/public/scripts/services/navigate.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/404.html" afterPath="$PROJECT_DIR$/public/templates/404.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/blockIntroduction.html" afterPath="$PROJECT_DIR$/public/templates/blockIntroduction.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/chapterSummary.html" afterPath="$PROJECT_DIR$/public/templates/chapterSummary.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/email.html" afterPath="$PROJECT_DIR$/public/templates/components/link/email.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/pdf.html" afterPath="$PROJECT_DIR$/public/templates/components/link/pdf.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/reference.html" afterPath="$PROJECT_DIR$/public/templates/components/link/reference.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/telephone.html" afterPath="$PROJECT_DIR$/public/templates/components/link/telephone.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/link/website.html" afterPath="$PROJECT_DIR$/public/templates/components/link/website.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/list/text.html" afterPath="$PROJECT_DIR$/public/templates/components/list/text.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/quiz/questions.html" afterPath="$PROJECT_DIR$/public/templates/components/quiz/questions.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/alert.html" afterPath="$PROJECT_DIR$/public/templates/components/text/alert.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/mythfact.html" afterPath="$PROJECT_DIR$/public/templates/components/text/mythfact.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/paragraph.html" afterPath="$PROJECT_DIR$/public/templates/components/text/paragraph.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/text/quote.html" afterPath="$PROJECT_DIR$/public/templates/components/text/quote.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/components/video/single.html" afterPath="$PROJECT_DIR$/public/templates/components/video/single.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/mainmenu.html" afterPath="$PROJECT_DIR$/public/templates/mainmenu.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/nav-menu.html" afterPath="$PROJECT_DIR$/public/templates/nav-menu.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/newContent.html" afterPath="$PROJECT_DIR$/public/templates/newContent.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/quiz-carousel.html" afterPath="$PROJECT_DIR$/public/templates/quiz-carousel.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/text-card-template.html" afterPath="$PROJECT_DIR$/public/templates/text-card-template.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/topBar.html" afterPath="$PROJECT_DIR$/public/templates/topBar.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,51 +98,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="quiz.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/quiz.css">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
+            <state relative-caret-position="16">
+              <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cards.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/cards.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.css">
+      <file leaf-file-name="cards.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/cards.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2144">
-              <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="introduction.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/introduction.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="web-server.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/server/web-server.js">
+        <entry file="file://$PROJECT_DIR$/server/web-server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            <state relative-caret-position="176">
+              <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -73,9 +156,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
-        <option value="CSS File" />
         <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="Less File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -105,24 +189,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/templates/nav-menu.html" />
-        <option value="$PROJECT_DIR$/css/menu.css" />
-        <option value="$PROJECT_DIR$/templates/components/link/pdf.html" />
-        <option value="$PROJECT_DIR$/templates/components/text/alert.html" />
-        <option value="$PROJECT_DIR$/templates/components/quiz/questions.html" />
-        <option value="$PROJECT_DIR$/data/resourcesforstudents/1_Disclosure.json" />
-        <option value="$PROJECT_DIR$/data/resourcesforstudents/0_Disability.json" />
-        <option value="$PROJECT_DIR$/templates/components/link/telephone.html" />
-        <option value="$PROJECT_DIR$/templates/components/text/paragraph.html" />
-        <option value="$PROJECT_DIR$/templates/components/link/email.html" />
-        <option value="$PROJECT_DIR$/templates/components/text/quote.html" />
-        <option value="$PROJECT_DIR$/templates/components/list/text.html" />
-        <option value="$PROJECT_DIR$/css/cards.css" />
-        <option value="$PROJECT_DIR$/templates/quiz-carousel.html" />
         <option value="$PROJECT_DIR$/css/quiz.css" />
         <option value="$PROJECT_DIR$/css/introduction.css" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json" />
-        <option value="$PROJECT_DIR$/scripts/directives/listText.js" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json" />
         <option value="$PROJECT_DIR$/templates/components/text/mythfact.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/04_Preparing_For_Placement.json" />
@@ -131,10 +200,8 @@
         <option value="$PROJECT_DIR$/scripts/services/dataFetcher.js" />
         <option value="$PROJECT_DIR$/scripts/server/partsController.js" />
         <option value="$PROJECT_DIR$/scripts/services/navigate.js" />
-        <option value="$PROJECT_DIR$/scripts/directives/navMenu.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/MainMenuController.js" />
         <option value="$PROJECT_DIR$/templates/topBar.html" />
-        <option value="$PROJECT_DIR$/scripts/directives/topBar.js" />
         <option value="$PROJECT_DIR$/templates/mainmenu.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/05_During_Placement.json" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json" />
@@ -143,19 +210,36 @@
         <option value="$PROJECT_DIR$/scripts/filters/noSpaces.js" />
         <option value="$PROJECT_DIR$/templates/newContent.html" />
         <option value="$PROJECT_DIR$/app.js" />
-        <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/scripts/directives/chapterSummary.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/TestCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/IntroductionCtrl.js" />
         <option value="$PROJECT_DIR$/templates/blockIntroduction.html" />
         <option value="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" />
-        <option value="$PROJECT_DIR$/scripts/directives/quizCarousel.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" />
-        <option value="$PROJECT_DIR$/scripts/directives/ifsVideo.js" />
-        <option value="$PROJECT_DIR$/templates/components/video/single.html" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/scripts/server/web-server.js" />
+        <option value="$PROJECT_DIR$/public/templates/components/video/single.html" />
+        <option value="$PROJECT_DIR$/public/templates/blockIntroduction.html" />
+        <option value="$PROJECT_DIR$/public/templates/newContent.html" />
+        <option value="$PROJECT_DIR$/scripts/directives/ifsVideo.js" />
+        <option value="$PROJECT_DIR$/scripts/directives/chapterSummary.js" />
+        <option value="$PROJECT_DIR$/scripts/directives/listText.js" />
+        <option value="$PROJECT_DIR$/scripts/directives/navMenu.js" />
+        <option value="$PROJECT_DIR$/scripts/directives/quizCarousel.js" />
+        <option value="$PROJECT_DIR$/scripts/directives/topBar.js" />
+        <option value="$PROJECT_DIR$/public/index.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/public/scripts/server/web-server.js" />
+        <option value="$PROJECT_DIR$/web-server.js" />
+        <option value="$PROJECT_DIR$/scripts/server/web-server.js" />
+        <option value="$PROJECT_DIR$/templates/components/video/single.html" />
+        <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/public/firstTry.less" />
+        <option value="$PROJECT_DIR$/public/css/main.css" />
+        <option value="$PROJECT_DIR$/public/css/menu.css" />
+        <option value="$PROJECT_DIR$/public/css/cards.css" />
+        <option value="$PROJECT_DIR$/public/css/introduction.css" />
+        <option value="$PROJECT_DIR$/public/css/quiz.css" />
+        <option value="$PROJECT_DIR$/server/web-server.js" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -218,7 +302,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -231,13 +314,14 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
     <property name="JavaScriptPreferStrict" value="true" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -246,12 +330,17 @@
     <property name="settings.editor.splitter.proportion" value="0.21930647" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities\public\css" />
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities\public\less" />
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities\public" />
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities" />
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities\public\scripts" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="H:\work\angular\SupportForPeopleWithDisabilities" />
       <recent name="H:\work\angular\SupportForPeopleWithDisabilities\data\resourcesforstaff" />
       <recent name="H:\work\angular\SupportForPeopleWithDisabilities\data\resourcesforstudents" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\work\angular\SupportForPeopleWithDisabilities\scripts\server" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -304,7 +393,10 @@
       <workItem from="1513159044305" duration="11121000" />
       <workItem from="1513179331182" duration="738000" />
       <workItem from="1513329526546" duration="10896000" />
-      <workItem from="1513590105496" duration="4431000" />
+      <workItem from="1513590105496" duration="7441000" />
+      <workItem from="1513607404929" duration="1073000" />
+      <workItem from="1513609348290" duration="3529000" />
+      <workItem from="1513676348811" duration="85000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -317,7 +409,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230297000" />
+    <option name="totallyTimeSpent" value="237994000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,19 +422,18 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.53612167" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.5462611" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.47972116" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.48732573" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.46387833" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.4537389" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49746513" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49239543" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -392,289 +483,216 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/quiz-carousel.html">
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/quizCarousel.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/topBar.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/filters/noSpaces.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/services/dataFetcher.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/services/navigate.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/ContentRedirecter.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/IntroductionCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/MainContentCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/TestCtrl.js" />
+    <entry file="file://$PROJECT_DIR$/public/angular-1.6.3/angular.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/app.js" />
+    <entry file="file://$PROJECT_DIR$/public/scripts/server/partsController.js" />
+    <entry file="file://$PROJECT_DIR$/web-server.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/docs/js/docs.js" />
+    <entry file="file://$PROJECT_DIR$/public/templates/components/link/email.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="21" column="55" lean-forward="false" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/03_Pre-Placement.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="154" column="16" lean-forward="true" selection-start-line="149" selection-start-column="14" selection-end-line="154" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/04_Preparing_For_Placement.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="38" column="3" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="38" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/nav-menu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="94" lean-forward="false" selection-start-line="7" selection-start-column="94" selection-end-line="7" selection-end-column="94" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/topBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="44" lean-forward="false" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/topBar.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="24" column="17" lean-forward="true" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/navMenu.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/listText.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="17" column="120" lean-forward="false" selection-start-line="17" selection-start-column="120" selection-end-line="17" selection-end-column="120" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstaff/01_Disability.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1152">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mainmenu.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/01_Disability.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1453">
-          <caret line="222" column="9" lean-forward="true" selection-start-line="222" selection-start-column="9" selection-end-line="222" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/02_Disclosure.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-416">
-          <caret line="181" column="9" lean-forward="true" selection-start-line="181" selection-start-column="9" selection-end-line="181" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/chapterSummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="73" lean-forward="false" selection-start-line="8" selection-start-column="73" selection-end-line="8" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/MainMenuController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="3" lean-forward="true" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/filters/noSpaces.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="29" lean-forward="true" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/newContent.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/blockIntroduction.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="60" lean-forward="true" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/IntroductionCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="15" column="47" lean-forward="true" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/quizCarousel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/TestCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="61" column="35" lean-forward="false" selection-start-line="61" selection-start-column="35" selection-end-line="61" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="43" lean-forward="false" selection-start-line="3" selection-start-column="43" selection-end-line="3" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/chapterSummary.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="30" column="33" lean-forward="false" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/05_During_Placement.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4264">
-          <caret line="275" column="9" lean-forward="false" selection-start-line="275" selection-start-column="9" selection-end-line="275" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/directives/ifsVideo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="46" column="45" lean-forward="false" selection-start-line="46" selection-start-column="45" selection-end-line="46" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/video/single.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="156" lean-forward="false" selection-start-line="3" selection-start-column="156" selection-end-line="3" selection-end-column="156" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/alert.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="45" lean-forward="false" selection-start-line="8" selection-start-column="45" selection-end-line="8" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/mythfact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="14" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/paragraph.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/link/pdf.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/text/quote.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/list/text.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/link/reference.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="60" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/email.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="10" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/pdf.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/link/telephone.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="10" selection-end-column="6" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/reference.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/link/website.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/telephone.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/list/text.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="14" lean-forward="true" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/components/link/website.html">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/quiz/questions.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="6" lean-forward="true" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-          <folding />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
+    <entry file="file://$PROJECT_DIR$/public/templates/components/text/alert.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-448">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/components/text/mythfact.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/components/text/paragraph.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/components/text/quote.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/chapterSummary.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/docs/components/jquery-3.1.1/jquery.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/angular.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/docs/components/jquery-3.1.1/core.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/docs/components/jquery-3.1.1/jquery.slim.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/angular-animate.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/angular-animate.min.js" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/version.json" />
+    <entry file="file://$PROJECT_DIR$/angular-1.6.3/docs/Error404.html" />
+    <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_jquery-3.1.1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-163171">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/components/video/single.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/less/firstTry.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/menu.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/introduction.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/web-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="49" lean-forward="false" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cards.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/cards.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/quiz.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/introduction.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -684,107 +702,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="138" column="108" lean-forward="false" selection-start-line="138" selection-start-column="108" selection-end-line="138" selection-end-column="108" />
+        <state relative-caret-position="16">
+          <caret line="6" column="33" lean-forward="false" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
           <folding>
-            <element signature="n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/dataFetcher.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/services/navigate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="34" lean-forward="false" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server/partsController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/cards.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="6" column="30" lean-forward="false" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/introduction.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="7" lean-forward="false" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/menu.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-848">
-          <caret line="1" column="29" lean-forward="false" selection-start-line="1" selection-start-column="22" selection-end-line="1" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-112">
-          <caret line="5" column="64" lean-forward="false" selection-start-line="5" selection-start-column="64" selection-end-line="5" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2144">
-          <caret line="134" column="19" lean-forward="false" selection-start-line="134" selection-start-column="19" selection-end-line="134" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/quiz.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="108" column="44" lean-forward="false" selection-start-line="108" selection-start-column="44" selection-end-line="108" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/server/web-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="30" lean-forward="false" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>

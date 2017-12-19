@@ -5,7 +5,7 @@ application.directive("chapterSummary",function(){
         scope:{
 
         },
-        templateUrl: "../../templates/chapterSummary.html",
+        templateUrl: "../../../templates/chapterSummary.html",
         link: function(scope,elem,attrs,ctrl){
 
         },

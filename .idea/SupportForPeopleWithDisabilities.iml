@@ -10,5 +10,12 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="angular-1.6.3" level="project" />
     <orderEntry type="library" name="jQuery" level="project" />
+    <orderEntry type="library" name="angular" level="application" />
+    <orderEntry type="library" name="angular-resource" level="application" />
+    <orderEntry type="library" name="angular-route" level="application" />
+    <orderEntry type="library" name="angular-animate" level="application" />
+    <orderEntry type="library" name="angular-scroll" level="application" />
+    <orderEntry type="library" name="popper" level="application" />
+    <orderEntry type="library" name="jquery-3.1.1" level="application" />
   </component>
 </module>

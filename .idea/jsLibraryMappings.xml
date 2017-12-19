@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="PROJECT" libraries="{angular-1.6.3, jQuery}" />
+    <file url="PROJECT" libraries="{angular, angular-1.6.3, angular-animate, angular-resource, angular-route, angular-scroll, jQuery, jquery-3.1.1, popper}" />
   </component>
 </project>
