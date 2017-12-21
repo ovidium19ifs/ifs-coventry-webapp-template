@@ -1,0 +1,52 @@
+/* CARD - ALERT
+
+ */
+.card-alert-style() when (@theme=default) {
+  color: #f0ebf2;
+  background-color: #873275;
+  &:hover{
+    background-color:#690053 ;
+  }
+  .card-header{
+    background-color: #873275;
+    border-bottom: 1px solid #f0ebf2;
+  }
+}
+.card-alert-style() when (@theme=lighten) {
+  color: #f0ebf2;
+  background-color: #873275;
+  &:hover{
+    background-color:#690053 ;
+  }
+  .card-header{
+    background-color: #873275;
+    border-bottom: 1px solid #f0ebf2;
+  }
+}
+.card-alert-style() when (@theme=robust) {
+  color: #f0ebf2;
+  background-color: #873275;
+  &:hover{
+    background-color:#690053 ;
+  }
+  .card-header{
+    background-color: #873275;
+    border-bottom: 1px solid #f0ebf2;
+  }
+}
+
+.card.card-alert{
+  .card-alert-style;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+
+  .card-header{
+    height: 2rem;
+
+    padding-top:0.5rem;
+  }
+  .card-body{
+    padding-top: 1rem;
+  }
+}
+

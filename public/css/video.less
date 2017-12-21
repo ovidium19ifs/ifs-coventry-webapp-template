@@ -1,0 +1,38 @@
+.video-style() when (@theme=default){
+  background-color: #690053;
+  color: #f0ebf2;
+}
+.video-style() when (@theme=lighten){
+  background-color: lighten(#690053,30%);
+  color: lighten(#f0ebf2,30%);
+}
+.video-style() when (@theme=robust){
+  background-color: #353a47;
+  color: lightgray;
+}
+iframe{
+  min-width: 240px;
+  min-height: 132px;
+}
+.btn.play-video{
+  .video-style;
+  border-radius: 10px;
+  cursor:pointer;
+}
+.video-player{
+  /*
+  border: 1px solid darkgray;
+  box-shadow: 0px 0px 3px 1px slategray inset;
+  */
+  padding:1rem;
+}
+.video-player iframe{
+  padding:1rem;
+
+}
+.video-player h5{
+  padding-bottom: 1rem;
+}
+.video-player img{
+  padding: 1rem;
+}

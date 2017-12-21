@@ -1,28 +1,106 @@
-.carousel.quiz{
+.quiz-button-style() when (@theme=default){
+    background-color: #f0ebf2;
+    border: 2px solid #4CA64C;
+    color: #4CA64C;
+    &:hover{
+        background-color: #4CA64C;
+        color: #f0ebf2;
+    }
+}
+.quiz-button-style() when (@theme=lighten){
+  background-color: lighten(#f0ebf2,30%);
+  border: 2px solid lighten(#4CA64C,30%);
+  color: lighten(#4CA64C,30%);
+  &:hover{
+    background-color: lighten(#4CA64C,30%);
+    color: lighten(#f0ebf2,30%);
+  }
+}
+.quiz-button-style() when (@theme=robust){
+  background-color: #f0ebf2;
+  border: 2px solid #4CA64C;
+  color: #4CA64C;
+  &:hover{
+    background-color: #4CA64C;
+    color: #f0ebf2;
+  }
+}
+//--------------------------------------------------------------
+.answer-button-style() when (@theme=default){
+  border:1px solid #6F0101;
+  background-color: #f0ebf2;
+  color: #6F0101;
+  &:hover{
+    background-color: #6F0101;
+    color: #f0ebf2;
+  }
+}
+.answer-button-style() when (@theme=lighten){
+  border:1px solid #6F0101;
+  background-color: #f0ebf2;
+  color: #6F0101;
+  &:hover{
+    background-color: #6F0101;
+    color: #f0ebf2;
+  }
+}
+.answer-button-style() when (@theme=robust){
+  border:1px solid #6F0101;
+  background-color: #f0ebf2;
+  color: #6F0101;
+  &:hover{
+    background-color: #6F0101;
+    color: #f0ebf2;
+  }
+}
+//---------------------------------------------------------------
+.result-style() when (@theme=default){
+  &.results{
+    background-color: #8b3333;
+    color: lightgray;
+  }
+  &.result-item{
+    background-color: #f0ebf2;
+  }
+}
+.result-style() when (@theme=lighten){
+  .results{
+    background-color: #8b3333;
+    color: lightgray;
+  }
+  .result-item{
+    background-color: #f0ebf2;
+  }
+}
+.result-style() when (@theme=robust){
+  &.results{
+    background-color: #8b3333;
+    color: lightgray;
+  }
+  &.result-item{
+    background-color: #f0ebf2;
+  }
+}
 
+
+.carousel.quiz{
     height: 17rem;
     max-height:17rem;
     padding:1rem;
     box-shadow: 0px 0px 2px 2px gray inset;
     background: #f0ebf2;
 
+    .carousel-inner{
+        height:100%;
+    }
+    .carousel-item{
+        height:100%;
+    }
+
 }
 .btn.quiz-control{
-    background-color: #f0ebf2;
-    border: 2px solid #4CA64C;
-    color: #4CA64C;
-}
-.btn.quiz-control:hover{
-    background-color: #4CA64C;
-    color: #f0ebf2;
-}
-.carousel.quiz .carousel-inner{
+    .quiz-button-style;
 
-    height:100%;
-}
-.carousel.quiz .carousel-item{
-
-    height:100%;
 }
 .question-text{
     font-size:1.2rem;
@@ -32,45 +110,37 @@
     border-radius:10px;
 }
 .btn.answer-option{
-    border:1px solid #6F0101;
-    background-color: #f0ebf2;
-    color: #6F0101;
+    .answer-button-style;
     width:6rem;
 }
-.btn.answer-option:hover{
-    background-color: #6F0101;
-    color: #f0ebf2;
-}
-.last-page p{
+.last-page{
+  p{
     font-size: 1.5rem;
     font-weight: bold;
-}
-.last-page span.score{
+  }
+  span.score{
     color: #6F0101;
+  }
 }
+
 .progress-div{
     position:relative;
-}
-.progress-div  .progress-cell:nth-child(2){
-    border-left:1px solid lightgray;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-.progress-div  .progress-cell:last-child{
-    border-right: 1px solid lightgray;
-    border-bottom-right-radius: 10px;
-    border-top-right-radius: 10px;
-}
-.progress-div .progress-cell{
-    height: 1.5rem;
-    border-top:1px solid lightgray;
-    border-bottom: 1px solid lightgray;
-}
-.progress-div .progress-cell.correct{
-    background-color: rgba(76,166,76,0.5);
-}
-.progress-div .progress-cell.wrong{
-    background-color: rgba(154,77,77,0.5);
+    .progress-cell:nth-child(2){
+      border-left:1px solid lightgray;
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+    }
+    .progress-cell{
+      height: 1.5rem;
+      border-top:1px solid lightgray;
+      border-bottom: 1px solid lightgray;
+    }
+    .progress-cell.correct{
+      background-color: rgba(76,166,76,0.5);
+    }
+    .progress-cell.wrong{
+      background-color: rgba(154,77,77,0.5);
+    }
 }
 .progress-text{
     z-index:1;
@@ -82,15 +152,12 @@
     font-size: 1rem;
     font-style: bold;
     border:none;
+}
 
+.list-group-item{
+  .result-style;
 }
-.list-group-item.results{
-    background-color: #8b3333;
-    color: lightgray;
-}
-.list-group-item.result-item{
-    background-color: #f0ebf2;
-}
+
 /* animation */
 .list-group-item.ng-hide-add,
 .list-group-item.ng-hide-remove {

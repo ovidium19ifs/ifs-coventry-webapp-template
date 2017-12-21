@@ -1,15 +1,62 @@
-
-
-.card-link[href$="pdf"]{
-    padding: 0.5rem;
-    min-width: 100px;
-    text-decoration: none;
-    border: 1px solid #673AB7;
-    color:white;
-    background-color: #673AB7;
+.main-card-style() when (@theme=default) {
+  background-color: #fbfbed;
+  box-shadow: 0px 0px 2px 1px #7e7e7e;
+  .card-header{
+    background-color: #f6e5d4;
+  }
+  .card-subtitle{
+    color: #690053;
+  }
 }
-.card-link[href$="pdf"]:hover{
-    color: #673AB7;
-    background-color: white;
+.main-card-style() when (@theme=lighten) {
+  background-color: lighten(#fbfbed,30%);
+  box-shadow: 0px 0px 2px 1px lighten(#7e7e7e,30%);
+  .card-header{
+    background-color: lighten(#f6e5d4,30%);
+  }
+  .card-subtitle{
+    color: lighten(#690053,30%);
+  }
+}
+.main-card-style() when (@theme=robust) {
+  background-color: lighten(#f7c1bb,8%) ;
+  box-shadow: 0px 0px 2px 1px #353a47;
+  .card-header{
+    background-color: lighten(#885a5a,20%);
+  }
+  .card-subtitle{
+    color: lighten(#475841,10%) ;
+  }
+}
 
+.card-inner-style() when (@theme=default){
+  border:0.2rem solid lightgray;
+}
+.card-inner-style() when (@theme=lighten){
+  border:0.2rem solid lightgray;
+}
+.card-inner-style() when (@theme=robust){
+  border:0.2rem solid lighten(#353a47,50%);
+}
+
+.card.main-card{
+    .main-card-style;
+    .card-header{
+      .part-descriptor{
+        line-height: 0.5;
+      }
+    }
+    .card-subtitle{
+      margin-bottom:1rem;
+    }
+  .card-body{
+    padding-top:3rem;
+  }
+}
+
+.card.card-inner{
+    margin-top:1.5rem;
+    background: transparent;
+    .card-inner-style;
+    margin-bottom: 2rem;
 }

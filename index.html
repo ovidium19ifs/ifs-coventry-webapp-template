@@ -4,17 +4,23 @@
     <base href="/">
     <meta charset="UTF-8">
     <title>Title</title>
+    <!--
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/cards.css">
-    <link rel="stylesheet" href="css/introduction.css">
+    <link rel="stylesheet" href="css/content.css">
     <link rel="stylesheet" href="css/quiz.css">
+    <link rel="stylesheet" href="css/video.css">
+    <link rel="stylesheet" href="css/alert.css">
+    <link rel="stylesheet" href="css/myths.css">
+    -->
+    <link rel="stylesheet" href="css/all-default.css">
     <script
             src="https://code.jquery.com/jquery-3.1.1.js"
             integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
             crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/esm/popper.js"></script>
-    <script src="public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
+    <script src="bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js"></script>
     <link rel="stylesheet" href="bootstrap-4.0.0-beta.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular.js"></script>
@@ -38,6 +44,7 @@
                     <input type="search" placeholder="Search..." class="form-control">
                 </form>
                 <nav-menu  class="px-2" id="navigation"></nav-menu>
+
 
 
                 <!--
@@ -151,7 +158,6 @@
                             <span class="fa fa-chevron-right ml-2 "></span>
                         </button>
                     </div >
-
                     <ng-view></ng-view>
                     <!--<ng-include src="'templates/text-card-template.html'" ></ng-include>-->
                 </div>
@@ -174,6 +180,7 @@
 <script src="scripts/directives/topBar.js"></script>
 <script src="scripts/directives/listText.js"></script>
 <script src="scripts/directives/ifsVideo.js"></script>
+<script src="scripts/directives/themeSelector.js"></script>
 <script src="scripts/services/navigate.js"></script>
 <script src="scripts/controllers/TestCtrl.js"></script>
 <script src="scripts/controllers/MainMenuController.js"></script>
@@ -183,11 +190,14 @@
 <script src="scripts/directives/chapterSummary.js"></script>
 <script src="scripts/filters/noSpaces.js"></script>
 <script type="text/javascript">
-    $(document).ready(function () {
+    $(document).ready(function() {
 
 
-       $(".font-size-modifier").on("click",function(e){
-           var text = $(e.target).text();
-           var html = $("html");
-           var val = html.css("font-size").substring(0,2);
-       
+        $(".font-size-modifier").on("click", function (e) {
+            var text = $(e.target).text();
+            var html = $("html");
+            var val = html.css("font-size").substring(0, 2);
+        });
+    });
+
+</script>
