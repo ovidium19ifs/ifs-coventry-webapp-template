@@ -8,14 +8,14 @@
     color: #690053;
   }
 }
-.main-card-style() when (@theme=lighten) {
-  background-color: lighten(#fbfbed,30%);
-  box-shadow: 0px 0px 2px 1px lighten(#7e7e7e,30%);
+.main-card-style() when (@theme=ocean) {
+  background-color: lighten(#f4ad46,20%);
+  box-shadow: 0px 0px 2px 1px #633617;
   .card-header{
-    background-color: lighten(#f6e5d4,30%);
+    background-color: darken(#f4ad46,5%);
   }
   .card-subtitle{
-    color: lighten(#690053,30%);
+    color: darken(#666a86,20%);
   }
 }
 .main-card-style() when (@theme=robust) {
@@ -32,8 +32,8 @@
 .card-inner-style() when (@theme=default){
   border:0.2rem solid lightgray;
 }
-.card-inner-style() when (@theme=lighten){
-  border:0.2rem solid lightgray;
+.card-inner-style() when (@theme=ocean){
+  border:0.05rem solid lighten(#633617,20%);
 }
 .card-inner-style() when (@theme=robust){
   border:0.2rem solid lighten(#353a47,50%);

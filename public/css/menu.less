@@ -2,8 +2,8 @@
   background-color: #f0ebf2;
   border-right: 1px solid #D7CCC8;
 }
-.side-menu-style() when (@theme=lighten){
-  background-color: #f0ebf2;
+.side-menu-style() when (@theme=ocean){
+  background-color: lighten(#B0A4A1,20%);
   border-right: 1px solid #D7CCC8;
 }
 .side-menu-style() when (@theme=robust){
@@ -57,47 +57,47 @@
     }
   }
 }
-.rs-sidebar-style() when (@theme=lighten){
+.rs-sidebar-style() when (@theme=ocean){
   &>ul {
-    border-left: 1px solid lighten(#311B92,30%);
-    background-color: lighten(#efe1f4,30%);
+    border-left: 1px solid #336699;
+    background-color: #86bbd8;
     & > li {
       border-bottom: 1px solid lightgray;
       & > a {
-        color: lighten(#64459B,30%);
+        color: darken(#336699,20%);
       }
       &:hover {
-        background-color: lighten(#D1C4E9,30%);
+        background-color: darken(#86bbd8,10%);
       }
       &.sub-active {
-        background-color: lighten(#B5A0DC,30%);
+        background-color: darken(#86bbd8,10%);
         color: white;
       }
     }
   }
   &>a{
-    color:lighten(#3949AB,30%);
-    border-bottom: 0.5px solid lighten(#311B92,30%);
+    color:darken(#336699,10%);
+    border-bottom: 0.5px solid #336699;
 
-    box-shadow: 0 2px 3px -0.5px lighten(#311B92,30%);
+    box-shadow: 0 2px 3px -0.5px #336699;
 
-    background-color:lighten(#e3cbec,30%);
+    background-color:#86bbd8;
   }
   &.active{
     &>a{
       border-bottom:none;
       box-shadow:none;
-      background-color: lighten(#8561C5,30%);
+      background-color: #336699;
       color: white;
     }
     &>ul{
       &>li{
         &:first-child{
-          border-top:1px solid lighten(#311B92,30%);
-          box-shadow:0px 3px 6px -2px lighten(#311B92,30%) inset;
+          border-top:1px solid #336699;
+          box-shadow:0px 3px 6px -2px #336699 inset;
         }
         &:last-child{
-          border-bottom:1px solid lighten(#311B92,30%);
+          border-bottom:1px solid #336699;
         }
       }
     }
@@ -157,8 +157,8 @@
     color: white;
   }
 }
-.sub-active-style() when (@theme=lighten) {
-  background-color:lighten(#B5A0DC,30%);
+.sub-active-style() when (@theme=ocean) {
+  background-color:#86bbd8;
   a.chapter-link{
     color: white;
   }

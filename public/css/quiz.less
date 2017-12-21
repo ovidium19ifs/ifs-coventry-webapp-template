@@ -7,13 +7,13 @@
         color: #f0ebf2;
     }
 }
-.quiz-button-style() when (@theme=lighten){
-  background-color: lighten(#f0ebf2,30%);
-  border: 2px solid lighten(#4CA64C,30%);
-  color: lighten(#4CA64C,30%);
+.quiz-button-style() when (@theme=ocean){
+  background-color: #f0ebf2;
+  border: 2px solid #4CA64C;
+  color: #4CA64C;
   &:hover{
-    background-color: lighten(#4CA64C,30%);
-    color: lighten(#f0ebf2,30%);
+    background-color: #4CA64C;
+    color: #f0ebf2;
   }
 }
 .quiz-button-style() when (@theme=robust){
@@ -35,7 +35,7 @@
     color: #f0ebf2;
   }
 }
-.answer-button-style() when (@theme=lighten){
+.answer-button-style() when (@theme=ocean){
   border:1px solid #6F0101;
   background-color: #f0ebf2;
   color: #6F0101;
@@ -63,13 +63,13 @@
     background-color: #f0ebf2;
   }
 }
-.result-style() when (@theme=lighten){
-  .results{
+.result-style() when (@theme=ocean){
+  &.results{
     background-color: #8b3333;
     color: lightgray;
   }
-  .result-item{
-    background-color: #f0ebf2;
+  &.result-item{
+    background-color: transparent;
   }
 }
 .result-style() when (@theme=robust){
@@ -88,7 +88,7 @@
     max-height:17rem;
     padding:1rem;
     box-shadow: 0px 0px 2px 2px gray inset;
-    background: #f0ebf2;
+    background: darken(#f0ebf2,4%);
 
     .carousel-inner{
         height:100%;

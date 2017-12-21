@@ -16,13 +16,13 @@ DEFAULT:
     color: #006600;
   }
 }
-.btn-resource-color() when (@theme=lighten){
+.btn-resource-color() when (@theme=ocean){
   color: white;
-  background-color: lighten(#006600,30%);
+  background-color: #336699;
   &:hover{
     background-color: white;
-    border-color: lighten(#006600,30%);
-    color: lighten(#006600,30%);
+    border-color: #336699;
+    color: #336699;
   }
 }
 .btn-resource-color() when (@theme=robust){
@@ -47,9 +47,9 @@ DEFAULT:
     }
   }
 }
-.top-bar() when (@theme=lighten){
-  color: lighten(#fff,20%);
-  background-color:lighten(#4c8696,20%);
+.top-bar() when (@theme=ocean){
+  color: white;
+  background-color:#2f4858;
   &>.nav-themed{
     .nav-link {
       color: #fff;
@@ -76,9 +76,9 @@ DEFAULT:
   background-color: #f0ebf2;
   color: #005369;
 }
-.content-background() when (@theme=lighten){
-  background-color: lighten(#f0ebf2,30%);
-  color: lighten(#005369,30%);
+.content-background() when (@theme=ocean){
+  background-color: #a7cde2;
+  color: #2f4858;
 }
 .content-background() when (@theme=robust){
   background-color: darken(#f0ebf2,5%);
@@ -89,9 +89,9 @@ DEFAULT:
   background-color: #690053;
   color: #f0ebf2;
 }
-.content-nav-style() when (@theme=lighten){
-  background-color: lighten(#690053,30%);
-  color: lighten(#f0ebf2,30%);
+.content-nav-style() when (@theme=ocean){
+  background-color: #690053;
+  color: #f0ebf2;
 }
 .content-nav-style() when (@theme=robust){
   background-color: #690053;
@@ -101,8 +101,8 @@ DEFAULT:
 .summary-list-style() when (@theme=default){
   color: #2b669a;
 }
-.summary-list-style() when (@theme=lighten){
-  color: lighten(#2b669a,30%);
+.summary-list-style() when (@theme=ocean){
+  color: #2f4858;
 }
 .summary-list-style() when (@theme=robust){
   color: #353a47;
@@ -112,8 +112,8 @@ DEFAULT:
   background-color: #f0ebf2;
   border-left:1px solid #D7CCC8;
 }
-.aside-style() when (@theme=lighten){
-  background-color: lighten(#f0ebf2,30%);
+.aside-style() when (@theme=ocean){
+  background-color: lighten(#B0A4A1,20%);
   border-left:1px solid #D7CCC8;
 }
 .aside-style() when (@theme=robust){
