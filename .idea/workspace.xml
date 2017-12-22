@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/fontSizeSelector.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/fontSelector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all-default.css" afterPath="$PROJECT_DIR$/public/css/all-default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all-ocean.css" afterPath="$PROJECT_DIR$/public/css/all-ocean.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/all-robust.css" afterPath="$PROJECT_DIR$/public/css/all-robust.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.less" afterPath="$PROJECT_DIR$/public/css/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/chapterSummary.html" afterPath="$PROJECT_DIR$/public/templates/chapterSummary.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/themeSelector.html" afterPath="$PROJECT_DIR$/public/templates/themeSelector.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/topBar.html" afterPath="$PROJECT_DIR$/public/templates/topBar.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,113 +26,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="cards.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/cards.less">
+      <file leaf-file-name="fontSizeSelector.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/directives/fontSizeSelector.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="29" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="29" />
-              <folding>
-                <element signature="e#486#690#0" expanded="false" />
-                <element signature="e#733#769#0" expanded="false" />
-                <element signature="e#898#945#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/content.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14">
-              <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
-              <folding>
-                <element signature="e#41#147#0" expanded="false" />
-                <element signature="e#187#259#0" expanded="false" />
-                <element signature="e#300#396#0" expanded="false" />
-                <element signature="e#496#588#0" expanded="false" />
-                <element signature="e#625#726#0" expanded="false" />
-                <element signature="e#764#865#0" expanded="false" />
-                <element signature="e#972#1174#0" expanded="false" />
-                <element signature="e#1218#1403#0" expanded="false" />
-                <element signature="e#1448#1630#0" expanded="false" />
-                <element signature="e#1730#1786#0" expanded="false" />
-                <element signature="e#2031#2061#0" expanded="false" />
-                <element signature="e#2079#2132#0" expanded="false" />
-                <element signature="e#2147#2174#0" expanded="false" />
-                <element signature="e#2195#2559#0" expanded="false" />
-                <element signature="e#2577#2632#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/main.less">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="202" column="25" lean-forward="false" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
-              <folding>
-                <element signature="e#110#249#0" expanded="false" />
-                <element signature="e#291#430#0" expanded="false" />
-                <element signature="e#473#612#0" expanded="false" />
-                <element signature="e#705#869#0" expanded="false" />
-                <element signature="e#900#1065#0" expanded="false" />
-                <element signature="e#1097#1250#0" expanded="false" />
-                <element signature="e#1354#1404#0" expanded="false" />
-                <element signature="e#1704#1754#0" expanded="false" />
-                <element signature="e#2041#2062#0" expanded="false" />
-                <element signature="e#2104#2125#0" expanded="false" />
-                <element signature="e#2168#2189#0" expanded="false" />
-                <element signature="e#2227#2292#0" expanded="false" />
-                <element signature="e#2441#2518#0" expanded="false" />
-                <element signature="e#2660#2731#0" expanded="false" />
-                <element signature="e#2746#3117#0" expanded="false" />
-                <element signature="e#3136#3739#0" expanded="false" />
-                <element signature="e#3748#3852#0" expanded="false" />
-                <element signature="e#4504#4620#0" expanded="false" />
-                <element signature="e#4630#4804#0" expanded="false" />
-                <element signature="e#4939#5009#0" expanded="false" />
-                <element signature="e#5097#5241#0" expanded="false" />
-                <element signature="e#5248#5361#0" expanded="false" />
-                <marker date="1513870067000" expanded="false" signature="3265:3449" ph="{...}" />
-                <marker date="1513870067000" expanded="false" signature="3459:3559" ph="{...}" />
-                <marker date="1513870067000" expanded="false" signature="3570:3669" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="12" lean-forward="false" selection-start-line="0" selection-start-column="12" selection-end-line="0" selection-end-column="12" />
+            <state relative-caret-position="11">
+              <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menu.less" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/css/menu.less">
+      <file leaf-file-name="chapterSummary.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/templates/chapterSummary.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="160">
-              <caret line="61" column="34" lean-forward="false" selection-start-line="61" selection-start-column="27" selection-end-line="61" selection-end-column="34" />
-              <folding>
-                <element signature="e#40#107#0" expanded="false" />
-                <element signature="e#266#345#0" expanded="false" />
-                <element signature="e#437#1286#0" expanded="false" />
-                <element signature="e#2264#3124#0" expanded="false" />
-                <element signature="e#3218#3289#0" expanded="false" />
-                <element signature="e#3330#3401#0" expanded="false" />
-                <element signature="e#3443#3514#0" expanded="false" />
-                <element signature="e#3525#3760#0" expanded="false" />
-                <element signature="e#3773#3845#0" expanded="false" />
-                <element signature="e#3858#3996#0" expanded="false" />
-                <element signature="e#4005#4192#0" expanded="false" />
-                <element signature="e#4205#4231#0" expanded="false" />
-                <element signature="e#4253#4278#0" expanded="false" />
-                <element signature="e#4291#4740#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -136,10 +52,10 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package_json" />
-        <option value="HTML File" />
-        <option value="JavaScript File" />
         <option value="Less File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -175,9 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/scripts/controllers/IntroductionCtrl.js" />
-        <option value="$PROJECT_DIR$/templates/blockIntroduction.html" />
-        <option value="$PROJECT_DIR$/scripts/controllers/MainContentCtrl.js" />
         <option value="$PROJECT_DIR$/scripts/controllers/ContentRedirecter.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/templates/components/video/single.html" />
@@ -212,11 +125,8 @@
         <option value="$PROJECT_DIR$/public/css/all-default.less" />
         <option value="$PROJECT_DIR$/public/scripts/directives/fontSelector.js" />
         <option value="$PROJECT_DIR$/public/scripts/directives/themeSelector.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/css/all-robust.less" />
         <option value="$PROJECT_DIR$/public/css/all-robust.css" />
-        <option value="$PROJECT_DIR$/public/templates/topBar.html" />
-        <option value="$PROJECT_DIR$/public/templates/themeSelector.html" />
         <option value="$PROJECT_DIR$/public/css/all-ocean.less" />
         <option value="$PROJECT_DIR$/public/css/alert.less" />
         <option value="$PROJECT_DIR$/public/css/myths.less" />
@@ -225,7 +135,13 @@
         <option value="$PROJECT_DIR$/public/css/content.less" />
         <option value="$PROJECT_DIR$/public/css/menu.less" />
         <option value="$PROJECT_DIR$/public/css/quiz.less" />
+        <option value="$PROJECT_DIR$/public/templates/topBar.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/templates/fontSelector.html" />
+        <option value="$PROJECT_DIR$/public/templates/themeSelector.html" />
         <option value="$PROJECT_DIR$/public/css/main.less" />
+        <option value="$PROJECT_DIR$/public/scripts/directives/fontSizeSelector.js" />
+        <option value="$PROJECT_DIR$/public/templates/chapterSummary.html" />
       </list>
     </option>
   </component>
@@ -288,8 +204,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -308,10 +222,18 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SupportForPeopleWithDisabilities" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForPeopleWithDisabilities" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,7 +316,8 @@
       <workItem from="1513607404929" duration="1073000" />
       <workItem from="1513609348290" duration="3529000" />
       <workItem from="1513676348811" duration="16203000" />
-      <workItem from="1513851175324" duration="11912000" />
+      <workItem from="1513851175324" duration="12474000" />
+      <workItem from="1513936410044" duration="4126000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -407,7 +330,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="266024000" />
+    <option name="totallyTimeSpent" value="270712000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -424,11 +347,11 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19264892" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.5538657" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.5564005" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.47718632" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49746513" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.44613436" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31451613" sideWeight="0.4435995" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -483,20 +406,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/templates/components/text/mythfact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/components/text/paragraph.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/templates/components/text/quote.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -522,13 +431,6 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/javascript/extLibs/http_code.jquery.com_jquery-3.1.1.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-163171">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-288">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
@@ -620,7 +522,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -629,13 +530,6 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/chapterSummary.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -664,7 +558,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -672,7 +565,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,18 +572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="384">
           <caret line="27" column="45" lean-forward="false" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="199" column="11" lean-forward="false" selection-start-line="199" selection-start-column="11" selection-end-line="199" selection-end-column="11" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="e#2458#8055#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -707,7 +587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -715,7 +594,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="14" lean-forward="false" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -769,23 +647,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/topBar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="34" lean-forward="false" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/themeSelector.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -851,7 +712,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/content.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14">
+        <state relative-caret-position="16">
           <caret line="6" column="39" lean-forward="false" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
           <folding>
             <element signature="e#41#147#0" expanded="false" />
@@ -885,10 +746,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/topBar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="20" column="41" lean-forward="true" selection-start-line="20" selection-start-column="41" selection-end-line="20" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/themeSelector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="183" column="40" lean-forward="false" selection-start-line="183" selection-start-column="40" selection-end-line="183" selection-end-column="40" />
+          <folding>
+            <element signature="e#2458#8055#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/fontSelector.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="31" lean-forward="true" selection-start-line="1" selection-start-column="31" selection-end-line="1" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/main.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="202" column="25" lean-forward="false" selection-start-line="202" selection-start-column="25" selection-end-line="202" selection-end-column="25" />
+        <state relative-caret-position="347">
+          <caret line="218" column="21" lean-forward="false" selection-start-line="218" selection-start-column="21" selection-end-line="218" selection-end-column="21" />
           <folding>
             <element signature="e#110#249#0" expanded="false" />
             <element signature="e#291#430#0" expanded="false" />
@@ -907,15 +810,31 @@
             <element signature="e#2746#3117#0" expanded="false" />
             <element signature="e#3136#3739#0" expanded="false" />
             <element signature="e#3748#3852#0" expanded="false" />
-            <element signature="e#4504#4620#0" expanded="false" />
-            <element signature="e#4630#4804#0" expanded="false" />
-            <element signature="e#4939#5009#0" expanded="false" />
-            <element signature="e#5097#5241#0" expanded="false" />
-            <element signature="e#5248#5361#0" expanded="false" />
-            <marker date="1513870067000" expanded="false" signature="3265:3449" ph="{...}" />
-            <marker date="1513870067000" expanded="false" signature="3459:3559" ph="{...}" />
-            <marker date="1513870067000" expanded="false" signature="3570:3669" ph="{...}" />
+            <element signature="e#4873#4989#0" expanded="false" />
+            <element signature="e#4999#5173#0" expanded="false" />
+            <element signature="e#5308#5378#0" expanded="false" />
+            <element signature="e#5466#5610#0" expanded="false" />
+            <element signature="e#5617#5730#0" expanded="false" />
+            <marker date="1513940876000" expanded="false" signature="3265:3449" ph="{...}" />
+            <marker date="1513940876000" expanded="false" signature="3459:3559" ph="{...}" />
+            <marker date="1513940876000" expanded="false" signature="3570:3669" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/fontSizeSelector.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/chapterSummary.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
