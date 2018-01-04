@@ -1,0 +1,47 @@
+.admin-editor-home-style() when (@theme=default){
+  .admin-block-choice{
+    user-select: none;
+    span[title]{
+      &:hover{
+        position:relative;
+        &:after{
+          position:absolute;
+          top:-40px;
+          z-index:1;
+          content:"";
+          width:50px;
+          height:50px;
+          border:2px solid black;
+        }
+      }
+    }
+    &.active{
+      background: #336699;
+      span[title]{
+        font-size: 2rem;
+      }
+      &:hover{
+        background: #336699;
+      }
+    }
+
+  }
+  .admin-block-choice:hover{
+    background: lighten(#336699,50%);
+  }
+  .admin-chapter-headline{
+    background: #99b2cc;
+    border:none;
+  }
+  .admin-chapter-choice{
+    &:hover{
+      background: lighten(#336699,40%);
+    }
+  }
+}
+.admin-editor-home{
+  .admin-editor-home-style;
+  .admin-block-headline{
+    font-size:1.4rem;
+  }
+}

@@ -18,6 +18,10 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
                     });
             }
         });
+
+    $scope.$watchCollection("path",function(newV,oldV){
+        console.log("Collection changed");
+    });
     */
     $scope.home=true;
     $scope.$on("$locationChangeSuccess", function(e,newUrl){
@@ -31,7 +35,7 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
     });
     $scope.$watch(
         function(){
-            return $routeParams.hasOwnProperty("group");
+            return $routeParams.hasOwnProperty("group") && $location.path().indexOf("content")>-1;
         },
         function(newV){
             if (newV && newV!=="undefined"){

@@ -146,6 +146,13 @@
                 -->
             </div>
             <!-- this is where data will be loaded -->
+            <!--
+            <div class="mx-5" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item" ng-class="{'active': $last}" ng-repeat="step in $parent.path">{{step}}</li>
+                </ol>
+            </div>
+            -->
             <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home}" id="mainContent" >
                 <div ng-class="{'container': inContentState, 'container-fluid': !inContentState}">
                     <div class="nav-buttons w-100 " ng-show="inContentState">
@@ -189,6 +196,7 @@
 <script src="scripts/controllers/MainContentCtrl.js"></script>
 <script src="scripts/controllers/IntroductionCtrl.js"></script>
 <script src="scripts/directives/chapterSummary.js"></script>
+<script src="scripts/controllers/AdminController.js"></script>
 <script src="scripts/filters/noSpaces.js"></script>
 <script type="text/javascript">
     $(document).ready(function() {

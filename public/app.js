@@ -55,6 +55,34 @@ application.config(function ($routeProvider,$locationProvider) {
                 }
             }
         })
+        .when("/admin",{
+            templateUrl: "templates/adminHome.html",
+            controller: "AdminController",
+            resolve:{
+                dataBlock: function(){
+                    "use strict";
+                    return undefined;
+                }
+            }
+        })
+        .when("/admin/:group",{
+            templateUrl: "templates/adminEditor.html",
+            controller:"AdminController",
+            resolve: {
+                dataBlock: function(navigate,dataFetcher,$route){
+                    "use strict";
+                    if (!navigate.getData() || navigate.getGroup()!==$route.current.params.group){
+                        return dataFetcher.get($route.current.params.group).$promise.then(
+                            function(res){
+                                navigate.setData(res,$route.current.params.group);
+                                return res;
+                            }
+                        )
+                    }
+                    else return navigate.getData();
+                }
+            }
+        })
         .when("/404",{
             templateUrl: "templates/404.html",
 

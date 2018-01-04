@@ -1,0 +1,38 @@
+
+
+<div class="card mx-5 bg-transparent admin-editor-home" ng-show="step===0">
+    <div class="card-header">
+        <h3>{{group}}</h3>
+    </div>
+    <div class="card-body">
+        <ul class="list-group">
+            <li class="list-group-item admin-block-headline list-group-item-dark"><em>Blocks: </em></li>
+            <li class="list-group-item admin-block-choice d-flex align-items-center justify-content-between flex-wrap" ng-class="{'active': selected===block.name}" ng-repeat="block in data">
+                <span title="Tooltip on top" style="flex: 1 0 50%">{{block.name}}</span>
+                <div class="" style="flex:1 0 50%">
+                    <div class="btn-group float-right my-1" role="group">
+                        <button type="button" class="btn btn-primary float-right" ng-click="editBlock(block.name)"><span class="fa fa-edit"></span></button>
+                        <button type="button" class="btn btn-danger float-right"><span class="fa fa-close"></span> </button>
+                    </div>
+                </div>
+
+                <div class="card my-3 admin-chapter-headline bg-transparent " ng-show="selected===block.name" style="flex-basis:100%">
+                    <div class="card-body">
+                        <ul class="list-group">
+                            <a href="" class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-click="editChapter(0,$index)">Intro</a>
+                            <a href="" class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-repeat="chapter in block.chapters" ng-click="editChapter($index+1,$parent.$index)">{{chapter.name}}</a>
+                        </ul>
+                        <button class="btn btn-success float-right mt-3">Save</button>
+                    </div>
+
+                </div>
+            </li>
+        </ul>
+        <button type="button" class="btn btn-success my-2 float-right"><span class="fa fa-plus px-2"></span>Add New Chapter</button>
+    </div>
+
+</div>
+<div  ng-show="step===1">
+    <p>{{chapter.blockname + " " + chapter.name}}</p>
+    <button class="btn btn-primary" ng-click="goBack()">Back</button>
+</div>
