@@ -39,9 +39,39 @@
     }
   }
 }
+.span-buttons() {
+  font-size: 1.3rem;
+  cursor:pointer;
+}
 .admin-editor-home{
   .admin-editor-home-style;
   .admin-block-headline{
     font-size:1.4rem;
   }
 }
+hr.title-separator{
+  height: 4px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border: 0 none;
+  &.tier-two{
+    color:#633617;
+    background-color:#633617;
+  }
+  &.tier-three{
+    color: #336699;
+    background-color:#336699;
+  }
+}
+span{
+  &.fa-minus-circle{
+    .span-buttons;
+    color:red;
+  }
+  &.fa-plus-circle{
+    .span-buttons;
+    color:darkgreen;
+  }
+}
+

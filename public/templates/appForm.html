@@ -1,0 +1,77 @@
+
+<form ng-submit="submit()" class="mx-4" novalidate>
+    <div class="form-group row">
+        <label for="chaptername" class="col-lg-1 col-2 pl-3"><h4>Title: </h4></label>
+        <input class="form-control col-5" type="text" name="title" id="chaptername" ng-model="chapter.name">
+    </div>
+
+    <hr>
+
+    <h4 class="mt-4">Sections: </h4>
+    <hr class="title-underliner">
+
+    <div ng-repeat="section in chapter.sections">
+        <!--
+        <pre>{{section | json}}</pre>
+        -->
+
+        <h5 class="float-left">{{$index+1}}</h5>
+        <div class="clearfix mb-2"></div>
+        <div class="form-group row">
+            <label for="{{'sectionname'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Subtitle: </label>
+            <div class="space col-1"></div>
+            <input class="form-control col-5" type="text" name="title" id="{{'sectionname'+$index}}" ng-model="section.subtitle">
+        </div>
+        <div class="form-group row">
+            <div class="space col-lg-3 col-4"></div>
+            <div class="form-check pl-3">
+
+                <input class="form-check-input" type="checkbox" ng-model="section['space_after']" id="{{'sectionspace'+$index}}">
+                <label class="form-check-label" for="{{'sectionspace'+$index}}">
+                    Draw spacer after section
+                </label>
+            </div>
+
+        </div>
+        <h4 class="mt-4">Section Components:  </h4>
+
+        <div ng-repeat="component in section.components">
+            <h5 class="float-left">Component {{$index+1}}</h5>
+            <div class="clearfix mb-2"></div>
+            <pre>{{component | json}}</pre>
+            <div class="form-group row">
+                <label for="{{'componentname'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Component Title: </label>
+                <div class="space col-1"></div>
+                <input class="form-control col-5" type="text" name="title" id="{{'componentname'+$index}}" ng-model="component.subtitle">
+            </div>
+            <div class="form-group row">
+                <div class="space col-lg-3 col-4"></div>
+                <div class="form-check pl-3">
+
+                    <input class="form-check-input" type="checkbox" ng-model="component['space_after']" id="{{'componentspace'+$index}}">
+                    <label class="form-check-label" for="{{'componentspace'+$index}}">
+                        Draw spacer after component
+                    </label>
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="{{'componenttype'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Type: </label>
+                <div class="space col-1"></div>
+                <select class="form-control col-5" disabled name="{{'comptype_'+$index}}" id="{{'componenttype'+$index}}" ng-model="component.type" ng-options="choice for choice in typeOptions"></select>
+                <div class="space col-1"></div>
+                <button class="btn btn-primary col-2 w-25 toggles">Lock/Unlock</button>
+            </div>
+            <ng-include src="'templates/forms/textparagraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
+            <ng-include src="'templates/forms/textalert.html'" ng-if="component.type==='text-alert'"></ng-include>
+
+            <text-mythfact-form ng-if="component.type==='text-mythfact'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></text-mythfact-form>
+            <text-quote ng-if="component.type==='text-quote'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></text-quote>
+            <list-text-form ng-if="component.type==='list-text'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></list-text-form>
+
+            <hr>
+        </div>
+
+        <hr class="mb-4">
+    </div>
+
+</form>

@@ -33,6 +33,7 @@
 
 </div>
 <div  ng-show="step===1">
-    <p>{{chapter.blockname + " " + chapter.name}}</p>
+    <h4 class="mb-5">{{group +" > " + chapter.blockname + " > " + chapter.name}}</h4>
+    <app-form chapter="chapter"></app-form>
     <button class="btn btn-primary" ng-click="goBack()">Back</button>
 </div>

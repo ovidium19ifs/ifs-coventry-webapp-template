@@ -28,11 +28,11 @@
                 <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
                 <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
                 <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
-                <hr class="mid-comp-sep my-5" ng-if="component['space_after']==='true'">
+                <hr class="mid-comp-sep my-5" ng-if="component['space_after']">
             </div>
 
 
-            <hr class="mid-section-sep mt-5" ng-if="section['space_after']==='true'">
+            <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
         </div>
     </div>
 </div>

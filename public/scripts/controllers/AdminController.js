@@ -3,6 +3,7 @@ application.controller("AdminController",function($scope,dataBlock,$location,nav
     $scope.selected = "";
     $scope.step=0;
     $scope.chapter = null;
+
     function capitalize(str){
         return str.slice(0,1).toUpperCase() + str.slice(1);
     }
@@ -28,6 +29,7 @@ application.controller("AdminController",function($scope,dataBlock,$location,nav
             $scope.chapter = $scope.data[bl_index].chapters[ch_index-1];
         }
         $scope.step=1;
+        $scope.$broadcast("prepareFields");
 
     };
     $scope.goBack = function(){

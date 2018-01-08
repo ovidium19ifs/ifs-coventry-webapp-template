@@ -1,0 +1,26 @@
+<div class="form-group row">
+    <span for="{{'componenttext'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Myths: </span>
+    <div class="space col-1"></div>
+    <div class="col-5">
+        <div ng-if="component.myths.length<=0 || !component.myths">
+            <span class="fa fa-plus-circle float-left px-2" ng-click="addMyth(0)"></span>
+            <span>Add a Myth</span>
+        </div>
+        <div class="mb-4" ng-repeat="mythField in component.myths">
+            <pre>{{compindex+'mythField'+$index}}</pre>
+            <label for="{{compindex+'mythField'+$index}}" class=" w-100 d-flex">
+                <h6 class="mr-auto">Myth {{$index+1}}:</h6>
+                <span class="fa fa-plus-circle float-right px-2" title="Add a myth right after this one" ng-click="addMyth($index)"></span>
+                <span class="fa fa-minus-circle float-right px-2" title="Delete this myth" ng-click="removeMyth($index)"></span>
+            </label>
+            <hr class="title-separator tier-two">
+            <fieldset id="{{compindex+'mythField'+$index}}">
+                <label for="{{'myth'+$index}}">Myth: </label>
+                <textarea name="" id="{{'myth'+$index}}" cols="30" rows="5" class="form-control" ng-model="mythField.myth"></textarea>
+                <label for="{{'fact'+$index}}">Fact: </label>
+                <textarea name="" id="{{'fact'+$index}}" cols="30" rows="5" class="form-control" ng-model="mythField.fact"></textarea>
+            </fieldset>
+        </div>
+    </div>
+
+</div>

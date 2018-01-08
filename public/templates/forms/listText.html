@@ -1,0 +1,44 @@
+<div class="form-group row">
+    <span for="{{'componenttext'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >List: </span>
+    <div class="space col-1"></div>
+    <div class="col-5">
+        <div ng-if="component['list_elements'].length<=0 || !component['list_elements']">
+            <span class="fa fa-plus-circle float-left px-2" ng-click="addListElement(0)"></span>
+            <span>Add an element</span>
+        </div>
+        <div class="mb-4" ng-repeat="listElement in component['list_elements']">
+
+            <label for="{{compindex+'listElem'+$index}}" class=" w-100 d-flex">
+                <h6 class="mr-auto">Element {{$index+1}}:</h6>
+                <span class="fa fa-plus-circle float-right px-2" title="Add an element right after this one" ng-click="addListElement($index)"></span>
+                <span class="fa fa-minus-circle float-right px-2" title="Delete this element" ng-click="removeListElement($index)"></span>
+            </label>
+            <hr class="title-separator tier-two">
+            <fieldset id="{{compindex+'listElement'+$index}}">
+                <label for="{{compindex+'text'+$index}}">Text: </label>
+                <textarea name="" id="{{compindex+'text'+$index}}" cols="30" rows="5" class="form-control" ng-model="listElement.text"></textarea>
+                <div ng-if="listElement.links.length<=0 || !listElement.links">
+                    <span class="fa fa-plus-circle float-left px-2" ng-click="addLinkElement(0)"></span>
+                    <span>Add a link</span>
+                </div>
+                <!-- Links -->
+                <div class="mb-4" ng-repeat="linkElement in listElement.links">
+                    <label for="{{compindex+''+$parent.$index+'linkElem'+$index}}" class=" w-100 d-flex">
+                        <h6 class="mr-auto">Link {{$index+1}}:</h6>
+                        <span class="fa fa-plus-circle float-right px-2" title="Add a link right after this one" ng-click="addLinkElement($index,$parent.$index)"></span>
+                        <span class="fa fa-minus-circle float-right px-2" title="Delete this link" ng-click="removeLinkElement($index,$parent.$index)"></span>
+                    </label>
+                    <hr class="title-separator tier-three">
+                    <fieldset id="{{compindex+''+$parent.$index+'linkElem'+$index}}">
+                        <label for="{{compindex+'linktext'+$index}}">Portion: </label>
+                        <textarea name="" id="{{compindex+'linktext'+$index}}" cols="30" rows="2" class="form-control" ng-model="linkElement.portion"></textarea>
+                        <label for="{{compindex+'linkhref'+$index}}">Href: </label>
+                        <input type="text" class="form-control" id="{{compindex+'linkhref'+$index}}" ng-model="linkElement.href">
+                    </fieldset>
+                </div>
+                <!-- ------------- -->
+            </fieldset>
+        </div>
+    </div>
+
+</div>
