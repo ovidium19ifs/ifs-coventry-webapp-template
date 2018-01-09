@@ -1,9 +1,9 @@
 <div class="form-group row">
-    <span for="{{'componenttext'+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Myths: </span>
+    <span  class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Myths: </span>
     <div class="space col-1"></div>
     <div class="col-5">
         <div ng-if="component.myths.length<=0 || !component.myths">
-            <span class="fa fa-plus-circle float-left px-2" ng-click="addMyth(0)"></span>
+            <span class="fa fa-plus-circle float-left px-2" ng-click="addMyth(-1)"></span>
             <span>Add a Myth</span>
         </div>
         <div class="mb-4" ng-repeat="mythField in component.myths">

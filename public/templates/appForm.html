@@ -67,6 +67,9 @@
             <text-mythfact-form ng-if="component.type==='text-mythfact'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></text-mythfact-form>
             <text-quote ng-if="component.type==='text-quote'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></text-quote>
             <list-text-form ng-if="component.type==='list-text'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></list-text-form>
+            <link-telephone ng-if="component.type==='link-telephone'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></link-telephone>
+            <link-website ng-if="component.type==='link-website' || component.type==='link-email'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></link-website>
+            <link-reference ng-if="component.type==='link-reference'" component="component" compindex="$parent.$parent.$index.toString() + $parent.$index.toString()"></link-reference>
 
             <hr>
         </div>

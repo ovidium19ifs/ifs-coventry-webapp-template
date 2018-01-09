@@ -1,0 +1,29 @@
+<div class="form-group row">
+    <span  class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >Links: </span>
+    <div class="space col-1"></div>
+    <div class="col-5">
+        <div ng-if="component.links.length<=0 || !component.links">
+            <span class="fa fa-plus-circle float-left px-2" ng-click="addLink(-1)"></span>
+            <span>Add a Link</span>
+        </div>
+        <div class="mb-4" ng-repeat="linkField in component.links">
+            <pre>{{compindex+'linkField'+$index}}</pre>
+            <label for="{{compindex+'linkField'+$index}}" class=" w-100 d-flex">
+                <h6 class="mr-auto">Link {{$index+1}}:</h6>
+                <span class="fa fa-plus-circle float-right px-2" title="Add a link right after this one" ng-click="addLink($index)"></span>
+                <span class="fa fa-minus-circle float-right px-2" title="Delete this link" ng-click="removeLink($index)"></span>
+            </label>
+            <hr class="title-separator tier-two">
+            <fieldset id="{{compindex+'linkField'+$index}}">
+                <label for="{{'linkhref'+$index}}">Link: </label>
+                <input name="" id="{{'linkhref'+$index}}"  class="form-control" ng-model="linkField.link">
+
+                <label for="{{'linktext'+$index}}">Text: </label>
+                <input name="" id="{{'linktext'+$index}}"  class="form-control" ng-model="linkField.text">
+
+                <label for="{{'linktag'+$index}}">Tag: </label>
+                <input name="" id="{{'linktag'+$index}}" class="form-control" ng-model="linkField.tag">
+            </fieldset>
+        </div>
+    </div>
+</div>

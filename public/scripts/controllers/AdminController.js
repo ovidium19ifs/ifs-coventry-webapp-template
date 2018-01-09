@@ -1,4 +1,4 @@
-application.controller("AdminController",function($scope,dataBlock,$location,navigate){
+application.controller("AdminController",function($scope,dataBlock,$location,navigate,$timeout){
     "use strict";
     $scope.selected = "";
     $scope.step=0;
@@ -34,6 +34,21 @@ application.controller("AdminController",function($scope,dataBlock,$location,nav
     };
     $scope.goBack = function(){
         $scope.chapter=null;
+        $scope.data = angular.copy(data);
         $scope.step=0;
+        $timeout(function(){
+            scrollTo("adminEditor");
+        },50);
+
+    };
+    $scope.submit = function(){
+        data = $scope.data ;
+        $scope.data = angular.copy(data);
+        $scope.goBack();
+    }
+    var scrollTo = function(idi){
+        var elem = angular.element(document.getElementById(idi));
+        var container = angular.element(document.getElementById("mainContent"));
+        container.scrollToElement(elem,80,50);
     }
 });

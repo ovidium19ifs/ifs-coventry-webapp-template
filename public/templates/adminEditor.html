@@ -1,6 +1,6 @@
 
 
-<div class="card mx-5 bg-transparent admin-editor-home" ng-show="step===0">
+<div class="card mx-5 bg-transparent admin-editor-home" ng-show="step===0" id="adminEditor">
     <div class="card-header">
         <h3>{{group}}</h3>
     </div>
@@ -36,4 +36,5 @@
     <h4 class="mb-5">{{group +" > " + chapter.blockname + " > " + chapter.name}}</h4>
     <app-form chapter="chapter"></app-form>
     <button class="btn btn-primary" ng-click="goBack()">Back</button>
+    <button type="submit" class="btn btn-success" ng-click="submit()">Submit</button>
 </div>

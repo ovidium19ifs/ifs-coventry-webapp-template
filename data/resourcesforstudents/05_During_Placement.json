@@ -281,10 +281,11 @@
       "sections": [
         {
           "subtitle": "References",
-          "components":[
+          "components": [
             {
               "subtitle": "",
               "type": "link-reference",
+              "space_after": false,
               "title": "Happy to help/happy to be here: Identifying components of successful clinical placements for undergraduate nursing students.",
               "authors": [
                 {
@@ -315,6 +316,7 @@
             {
               "subtitle": "",
               "type": "link-reference",
+              "space_after": false,
               "title": "Getting the most out of your clinical placement. ",
               "authors": [
                 {
@@ -327,8 +329,7 @@
               "pages": "12-13",
               "link": "https://www.nursingtimes.net/journals/2013/09/13/l/s/s/180913-getting-the-most-out-of-your-clinical-placement.pdf"
             }
-          ],
-          "space_after": false
+          ]
         }
       ]
     }

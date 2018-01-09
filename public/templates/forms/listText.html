@@ -3,7 +3,7 @@
     <div class="space col-1"></div>
     <div class="col-5">
         <div ng-if="component['list_elements'].length<=0 || !component['list_elements']">
-            <span class="fa fa-plus-circle float-left px-2" ng-click="addListElement(0)"></span>
+            <span class="fa fa-plus-circle float-left px-2" ng-click="addListElement(-1)"></span>
             <span>Add an element</span>
         </div>
         <div class="mb-4" ng-repeat="listElement in component['list_elements']">
@@ -14,11 +14,11 @@
                 <span class="fa fa-minus-circle float-right px-2" title="Delete this element" ng-click="removeListElement($index)"></span>
             </label>
             <hr class="title-separator tier-two">
-            <fieldset id="{{compindex+'listElement'+$index}}">
+            <fieldset id="{{compindex+'listElem'+$index}}">
                 <label for="{{compindex+'text'+$index}}">Text: </label>
                 <textarea name="" id="{{compindex+'text'+$index}}" cols="30" rows="5" class="form-control" ng-model="listElement.text"></textarea>
                 <div ng-if="listElement.links.length<=0 || !listElement.links">
-                    <span class="fa fa-plus-circle float-left px-2" ng-click="addLinkElement(0)"></span>
+                    <span class="fa fa-plus-circle float-left px-2" ng-click="addLinkElement(-1,$parent.$index)"></span>
                     <span>Add a link</span>
                 </div>
                 <!-- Links -->
@@ -40,5 +40,4 @@
             </fieldset>
         </div>
     </div>
-
 </div>

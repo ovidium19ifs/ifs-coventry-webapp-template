@@ -1,0 +1,37 @@
+<div ng-repeat="compkey in keys">
+    <div class="form-group row" ng-if="compkey.type==='string'">
+        <label for="{{compindex+'component'}}+{{compkey.key+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >{{compkey.key | capitalize}}: </label>
+        <div class="space col-1"></div>
+        <input class="form-control col-5" type="text" id="{{compindex+'component'}}+{{compkey.key+$index}}" ng-model="component[compkey.key]">
+    </div>
+    <div class="form-group row" ng-if="compkey.type==='object'">
+        <pre>{{templates[compkey.key] | json}}</pre>
+        <span  class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >{{compkey.key | capitalize}}: </span>
+        <div class="space col-1"></div>
+        <div class="col-5">
+            <div ng-if="component[compkey.key].length<=0 || !component[compkey.key]">
+                <span class="fa fa-plus-circle float-left px-2" ng-click="addElem(-1,compkey.key)"></span>
+                <span>Add New</span>
+            </div>
+            <div class="mb-4" ng-repeat="field in component[compkey.key]">
+                <pre>{{compindex+'field'}}{{compkey.key + $index}}</pre>
+                <label for="{{compindex+'field'}}+{{compkey.key + $index}}" class=" w-100 d-flex">
+                    <h6 class="mr-auto" ng-bind="fix(compkey.key)+' '+($index+1)+':'"></h6>
+                    <span class="fa fa-plus-circle float-right px-2" title="Add a {{compkey.key | singular}} right after this one" ng-click="addElem($index,compkey.key)"></span>
+                    <span class="fa fa-minus-circle float-right px-2" title="Delete this link" ng-click="removeElem($index,compkey.key)"></span>
+                </label>
+                <hr class="title-separator tier-two">
+                <fieldset id="{{compindex+'field'}}{{compkey.key + $index}}">
+                    <div ng-repeat="subField in templates[compkey.key]">
+                        <div class="form-group row" ng-if="subField.type==='string'">
+                            <label for="{{compindex+'component'}}+{{compkey.key+$index}}" class="col-lg-2 col-3 text-right align-text-bottom" style="line-height: 2.8" >{{subField.key | capitalize}}: </label>
+                            <div class="space col-1"></div>
+                            <input class="form-control col-5" type="text" id="{{compindex+'component'}}+{{compkey.key+$index}}" ng-model="field[subField.key]">
+                        </div>
+                    </div>
+
+                </fieldset>
+            </div>
+        </div>
+    </div>
+</div>
