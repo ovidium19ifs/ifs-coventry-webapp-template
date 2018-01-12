@@ -7,28 +7,34 @@
     <div class="card-body">
         <ul class="list-group">
             <li class="list-group-item admin-block-headline list-group-item-dark"><em>Blocks: </em></li>
-            <li class="list-group-item admin-block-choice d-flex align-items-center justify-content-between flex-wrap" ng-class="{'active': selected===block.name}" ng-repeat="block in data">
+            <li class="list-group-item admin-block-choice d-flex align-items-center justify-content-between flex-wrap" ng-class="{'active': selected===$index}" ng-repeat="block in data">
                 <span title="Tooltip on top" style="flex: 1 0 50%">{{block.name}}</span>
                 <div class="" style="flex:1 0 50%">
                     <div class="btn-group float-right my-1" role="group">
-                        <button type="button" class="btn btn-primary float-right" ng-click="editBlock(block.name)"><span class="fa fa-edit"></span></button>
+                        <button type="button" class="btn btn-primary float-right" ng-click="editBlock($index)"><span class="fa fa-edit"></span></button>
                         <button type="button" class="btn btn-danger float-right"><span class="fa fa-close"></span> </button>
                     </div>
                 </div>
 
-                <div class="card my-3 admin-chapter-headline bg-transparent " ng-show="selected===block.name" style="flex-basis:100%">
+                <div class="card my-3 admin-chapter-headline bg-transparent " ng-show="selected===$index" style="flex-basis:100%">
                     <div class="card-body">
                         <ul class="list-group">
-                            <a href="" class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-click="editChapter(0,$index)">Intro</a>
-                            <a href="" class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-repeat="chapter in block.chapters" ng-click="editChapter($index+1,$parent.$index)">{{chapter.name}}</a>
+                            <li  class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-click="editChapter(-1,$index)">
+                                Introduction
+                            </li>
+                            <li  class="list-group-item list-group-item-action admin-chapter-choice text-center" ng-repeat="chapter in block.chapters" ng-click="editChapter($index,$parent.$index)">
+                                {{chapter.name}}
+                                <button type="button" class="btn btn-danger float-right" ng-click="deleteChapter($index,$parent.$index,$event)"><span class="fa fa-trash"></span> </button>
+                            </li>
                         </ul>
-                        <button class="btn btn-success float-right mt-3">Save</button>
+                        <button class="btn btn-success float-right mt-3" ng-click="addChapter($index)"><span class="fa fa-plus mr-3 pl-1">Add New Chapter</span></button>
                     </div>
 
                 </div>
             </li>
         </ul>
-        <button type="button" class="btn btn-success my-2 float-right"><span class="fa fa-plus px-2"></span>Add New Chapter</button>
+        <button type="submit" class="btn btn-success my-2 float-right" ng-click="saveChanges()">Save Changes</button>
+        <button type="button" class="btn btn-info my-2 mx-2 float-right" ng-click="addBlock()"><span class="fa fa-plus px-2"></span>Add New Block</button>
     </div>
 
 </div>

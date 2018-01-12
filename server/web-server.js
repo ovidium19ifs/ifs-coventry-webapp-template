@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 app.use(lessMiddleware(path.join(rootPath,"public"),{force:true}));
 app.use(express.static(path.join(rootPath+"public")));
 app.get("/data/:source",parts.get);
+app.post("/data/:source",parts.put);
 app.get("*",function(req,res){
     res.sendFile(rootPath+"/index.html");
 });

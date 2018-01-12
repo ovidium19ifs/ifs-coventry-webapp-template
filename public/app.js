@@ -43,6 +43,13 @@ application.config(function ($routeProvider,$locationProvider) {
             resolve:{
                 dataBlock: function(navigate,dataFetcher,$route){
                     "use strict";
+                    // Delete this in production.
+                    return dataFetcher.get($route.current.params.group).$promise.then(
+                        function(res){
+                            navigate.setData(res,$route.current.params.group);
+                            return res;
+                        }
+                    );
                     if (!navigate.getData() || navigate.getGroup()!==$route.current.params.group){
                         return dataFetcher.get($route.current.params.group).$promise.then(
                             function(res){
@@ -71,6 +78,13 @@ application.config(function ($routeProvider,$locationProvider) {
             resolve: {
                 dataBlock: function(navigate,dataFetcher,$route){
                     "use strict";
+                    // Delete this in production.
+                    return dataFetcher.get($route.current.params.group).$promise.then(
+                        function(res){
+                            navigate.setData(res,$route.current.params.group);
+                            return res;
+                        }
+                    );
                     if (!navigate.getData() || navigate.getGroup()!==$route.current.params.group){
                         return dataFetcher.get($route.current.params.group).$promise.then(
                             function(res){
