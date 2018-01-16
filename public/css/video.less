@@ -10,6 +10,38 @@
   background-color: #353a47;
   color: lightgray;
 }
+.button-carousel() when (@theme=default){
+  border:1px solid #690053;
+  background-color: #f0ebf2;
+  color: #690053;
+}
+.button-carousel() when (@theme=ocean){
+  background-color: white;
+  color: #336699;
+  border:1px solid #336699;
+}
+.button-carousel() when (@theme=robust){
+  border:1px solid #353a47;
+  background-color: lightgray;
+  color: #353a47;
+}
+
+.button-active() when (@theme=default){
+  background-color: #690053;
+  color: #f0ebf2;
+  border:1px solid #f0ebf2;
+}
+.button-active() when (@theme=ocean){
+  background-color: #336699;
+  color: #f0ebf2;
+  border:1px solid #f0ebf2;
+}
+.button-active() when (@theme=robust){
+  background-color: #353a47;
+  color: lightgray;
+  border:1px solid lightgray;
+}
+
 iframe{
   min-width: 240px;
   min-height: 132px;
@@ -18,6 +50,26 @@ iframe{
   .video-style;
   border-radius: 10px;
   cursor:pointer;
+}
+.btn.btn-video-carousel{
+  border-radius: 15px;
+  cursor:pointer;
+  .button-carousel;
+
+}
+.btn.btn-video-carousel.active{
+  .button-active;
+}
+a.my-carousel-control{
+  position: relative;
+  top:3rem;
+  z-index:10;
+
+}
+a.my-carousel-control .fa{
+  color: black;
+  font-size: 1.8rem;
+  cursor: pointer;
 }
 .video-player{
   /*

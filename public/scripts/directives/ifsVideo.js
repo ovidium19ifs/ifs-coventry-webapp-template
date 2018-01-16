@@ -8,32 +8,41 @@ application.directive("ifsVideo",function($window,$timeout){
             element: "="
         },
         link: function(scope,elem,attr,ctrl){
+
+            scope.$on("stopVideo",function(e,v){
+                e.preventDefault();
+                if (scope.videoPlaying){
+                    var src = $(scope.iframe).attr("src");
+                    $(scope.iframe).attr("src",src);
+                    scope.$apply(function(){
+                        scope.videoPlaying = false;
+                    });
+                }
+            });
             scope.setFrameParams = function(){
                 $timeout(function(){
                     scope.iframe=$(elem).find("iframe");
                     console.log(scope.iframe);
                     var width = $(window).width();
                     if (width > 930){
-
                         scope.iframe.css("width","600px");
-                        scope.iframe.css("height","320px");
+                        scope.iframe.css("height","335px");
                     }
                     else if (width<=930){
-                        scope.iframe.css("width","350px");
-                        scope.iframe.css("height","180px");
+                        scope.iframe.css("width","390px");
+                        scope.iframe.css("height","218px");
                     }
-
 
                     $(window).resize(function(e){
                         var width = $(this).width();
                         if (width > 930){
 
                             scope.iframe.css("width","600px");
-                            scope.iframe.css("height","320px");
+                            scope.iframe.css("height","335px");
                         }
                         else if (width<=930){
-                            scope.iframe.css("width","350px");
-                            scope.iframe.css("height","180px");
+                            scope.iframe.css("width","390px");
+                            scope.iframe.css("height","218px");
                         }
                     });
                 });
@@ -49,7 +58,6 @@ application.directive("ifsVideo",function($window,$timeout){
                 if ($scope.videoPlaying){
                     $scope.setFrameParams();
                 }
-
             }
 
         }

@@ -29,6 +29,7 @@
                 <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
                 <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
                 <hr class="mid-comp-sep my-5" ng-if="component['space_after']">
+                <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="$parent.$index.toString()+$index.toString()"></video-carousel>
             </div>
 
 

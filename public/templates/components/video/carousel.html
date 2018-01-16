@@ -1,0 +1,23 @@
+<h4 class="text-center mb-5">{{component.subtitle}}</h4>
+<div id="{{compkey+'videocarousel'}}" class="carousel slide" data-ride="carousel">
+    <div class="d-flex align-items-center justify-content-around w-100 ">
+        <a  class="my-carousel-control" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="prev">
+            <span class="fa fa-arrow-left mr-2 "></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <div class="d-flex w-100 align-items-center flex-wrap align-content-start justify-content-around btn-video-carousel-group " role="group">
+            <button type="button" class="btn btn-video-carousel" ng-repeat="video in component.videos" ng-class="{active: vSelected===$index}"
+                    data-slide-to="{{$index}}" data-target="#{{compkey+'videocarousel'}}">{{video.subtitle}}</button>
+        </div>
+        <a  class="my-carousel-control" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="next">
+            <span class="fa fa-arrow-right ml-2"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="carousel-inner">
+        <div class="carousel-item" ng-class="{active: selected===$index}" ng-repeat="video in component.videos">
+            <ifs-video element="video"></ifs-video>
+        </div>
+    </div>
+</div>

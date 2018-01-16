@@ -41,11 +41,16 @@ module.exports.put = function(req,res){
     var fileName;
     for (var i=0;i<=req.body.length-1;i++){
         prefix = i<9 ? "0"+(i+1) : i+1;
-        fileName = path+prefix+"_"+req.body[i].name+".json";
-        console.log("Writing to " + fileName);
-        fs.writeFileSync(fileName,JSON.stringify(req.body[i],null,4),function(err) {
-            if (err) console.log(err);
-        });
+        fileName = path+prefix+"_"+req.body[i].name.replace(/\s/g,"_")+".json";
+
+        try{
+            console.log("Writing to " + fileName);
+            fs.writeFileSync(fileName,JSON.stringify(req.body[i],null,4));
+        }
+        catch(e){
+
+            res.end();
+        }
     }
     res.setHeader("Content-Type","application/json");
     res.send({'response':"200"});

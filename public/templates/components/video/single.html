@@ -7,8 +7,17 @@
         {{videoPlaying ? "Hide Video" : "Play Video"}}
     </button>
 
-    <iframe type="text/html" width="" height=""
+    <iframe type="text/html"
             ng-src={{link}}
             frameborder="0" allowfullscreen ng-if="element.video.type==='youtube' && videoPlaying">
     </iframe>
+
+    <iframe type="text/html"
+            ng-src="{{link}}"
+            frameborder="0"
+            scrolling="no"
+            ng-if="element.video.type==='helix' && videoPlaying"
+            allowfullscreen>
+    </iframe>
+
 </div>

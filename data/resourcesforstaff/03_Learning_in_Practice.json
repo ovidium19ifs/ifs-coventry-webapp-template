@@ -1,0 +1,378 @@
+{
+    "name": "Learning in Practice",
+    "introcontent": [
+        {
+            "title": "Introduction",
+            "components": [
+                {
+                    "subtitle": "",
+                    "type": "text-paragraph",
+                    "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
+                    "space_after": "false"
+                },
+                {
+                    "subtitle": "",
+                    "type": "text-quote",
+                    "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
+                    "author": "Manninen",
+                    "year": "2016",
+                    "space_after": "false"
+                }
+            ],
+            "space_after": "true"
+        },
+        {
+            "title": "Learning Outcomes",
+            "components": [
+                {
+                    "subtitle": "",
+                    "type": "list-text",
+                    "list_elements": [
+                        {
+                            "text": "Discuss the challenges of teaching and learning in practice setting."
+                        },
+                        {
+                            "text": "Understand the equality Act and what it means for the disabled student"
+                        },
+                        {
+                            "text": "Appreciate the need for reasonable adjustments and how they support students with a disability"
+                        },
+                        {
+                            "text": "Understand the support systems and mechanisms students with disabilities can access"
+                        }
+                    ],
+                    "space_after": "false"
+                }
+            ],
+            "space_after": "false"
+        }
+    ],
+    "chapters": [
+        {
+            "blockname": "Learning in Practice",
+            "name": "Student Experiences",
+            "sections": [
+                {
+                    "subtitle": "Student Experiences",
+                    "components": [
+                        {
+                            "subtitle": "Great Expectations",
+                            "type": "video-single",
+                            "video": {
+                                "type": "helix",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=204&quality=hi&captions=n&chapterId=0",
+                                "thumb": "thumb_great_expectations.jpg"
+                            },
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Learning Experience",
+                            "type": "video-single",
+                            "video": {
+                                "type": "helix",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=213&quality=hi&captions=n&chapterId=0",
+                                "thumb": "thumb_learning_experience.jpg"
+                            },
+                            "space_after": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Challenges",
+            "sections": [
+                {
+                    "subtitle": "The Practice Setting",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The practice environment is primarily about meeting the needs of patients and ensuring clinical practice is safe and professional. Students are in the practice setting to learn, however, their education is a secondary feature of the learning environment. The educator/mentor will be doing their job and at the same time maximising opportunities to ensure students learn.",
+                            "space_after": false
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Educators and mentors typically expect students to be prepared for the practice environment (Clouder and Adefila 2017). At the University students will be exposed to a lot of a theoretical information, providing the background they need for learning on practice; educators and mentors provide the teaching in practice. In practice, students have the opportunity to acquire the skills of the profession and assess their learning."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Students with Disabilities",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "space_after": false,
+                            "text": "Students with disabilities are often anxious about placements, this apprehension may result in mistakes or poor communication. Educators and mentors may not understand how students learn and do not often have the time to support students who need extra help. It is important that the educators and mentors are approachable and are able to encourage students to articulate their challenges clearly and honestly. A good educator/mentor-student relationship is essential for a successful placement."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The students and educator/mentors will need to negotiate all the challenges associated with teaching in the clinical/teaching environment. This means communicating, being responsive, approachable and professionally to work with your students."
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Tips",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Set appropriate goals with your student at the beginning of the placement",
+                                    "links": []
+                                },
+                                {
+                                    "text": "Discuss how you will support the student to achieve the goals with respect to time pressure, patient safety and any needs you may have."
+                                },
+                                {
+                                    "text": "Discuss what you expect from student and provide clear feedback."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Requirements",
+            "sections": [
+                {
+                    "subtitle": "HCPC - Becoming a Healthcare Professional",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "A guide for disabled people about becoming a health and care professional regulated by the HCPC – includes information for education providers."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10004D79Healthdisabilityandbecomingahealthandcareprofessional.pdf",
+                                    "text": "Health, disability and becoming a health and care professional"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The following video summarizes the document.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "Summary",
+                            "type": "video-single",
+                            "space_after": true,
+                            "video": {
+                                "type": "youtube",
+                                "src": "http://www.youtube.com/embed/qmXYquQkG5o",
+                                "thumb": "qmXYquQkG5o.jpg"
+                            }
+                        },
+                        {
+                            "subtitle": "HCPC - Standards of Proficiency",
+                            "type": "video-single",
+                            "space_after": true,
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/QWhjJWavsKk",
+                                "thumb": "QWhjJWavsKk.jpg"
+                            }
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "subtitle": "More information from HCPC Portal",
+                            "text": "For a lot more information on the topic, and useful links, you can visit the HCPC information portal at the following link:"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/audiences/studentsandapplicants/",
+                                    "text": "HCPC Information Portal"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Professional Behaviour",
+                    "components": [
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10004EDFStandardsofconduct,performanceandethics.pdf",
+                                    "text": "HCPC - Performance and Ethics"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/nmc-publications/nmc-code.pdf",
+                                    "text": "NMC - Standards of conduct"
+                                },
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10002C16Guidanceonconductandethicsforstudents.pdf",
+                                    "text": "HCPC - Guidance on Conduct and Ethics for Students"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/standards/nmc-standards-for-pre-registration-nursing-education.pdf",
+                                    "text": "NMC - Standards for pre-registration nursing education"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Case Studies",
+            "sections": [
+                {
+                    "subtitle": "Case Studies from NMC",
+                    "space_after": false,
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "video-carousel",
+                            "videos": [
+                                {
+                                    "subtitle": "Being Open",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/KFisdBqa19M",
+                                        "thumb": "KFisdBqa19M.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Having Consent",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/R74ioeRCvgg",
+                                        "thumb": "R74ioeRCvgg.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Using Social Media",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/sDCzycN_Xu0",
+                                        "thumb": "sDCzycN_Xu0.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Reporting Concerns",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/29m1vdeMIyI",
+                                        "thumb": "29m1vdeMIyI.jpg"
+                                    }
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "What we have reviewed",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Learning in practice is structural different to learning in the classroom. Students are entitled to support from their educators and could have reasonable adjustments provided they can meet the competencies set out in the standards of proficiency."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.disabilityrightsuk.org/adjustments-disabled-students",
+                                    "text": "Adjustments for disabled students",
+                                    "tag": "Disability Rights Website"
+                                },
+                                {
+                                    "link": "https://www.citizensadvice.org.uk/law-and-courts/discrimination/what-are-the-different-types-of-discrimination/justifying-discrimination/",
+                                    "text": "Citizens Advice Website Justifying Discrimination",
+                                    "tag": ""
+                                },
+                                {
+                                    "text": "Health and Care Professions Council",
+                                    "link": "https://www.hcpc-uk.org/"
+                                },
+                                {
+                                    "text": "GOV.UK website Reasonable adjustments for workers with disabilities or health conditions",
+                                    "link": "https://www.gov.uk/reasonable-adjustments-for-disabled-workers"
+                                },
+                                {
+                                    "text": "Nursing and Midwifery Council",
+                                    "link": "https://www.nmc.org.uk/"
+                                },
+                                {
+                                    "link": "https://www.disabilityrightsuk.org/understanding-equality-act-information-disabled-students?platform=hootsuite",
+                                    "text": "Understanding the Equality Act Disability UK Fact Sheet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. Equality Act 2010: Summary Guidance on Services, Public Functions and Associations",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/equality_act_summary_guidance_on_services.pdf"
+                                },
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. What equality law means for you as an education provider – further and higher education",
+                                    "tag": "",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/what_equality_law_means_for_you_as_an_education_provide_further_and_higher_education.pdf"
+                                },
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. What equality law means for you as a student in further or higher education",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/what_equality_law_means_for_you_as_a_student_in_further_or_higher_education.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-reference",
+                            "title": "Experiencing authenticity – the core of student learning in clinical practice.",
+                            "volume": "5, Issue 5",
+                            "pages": "308–311",
+                            "authors": [
+                                {
+                                    "name": "Manninen, K"
+                                }
+                            ],
+                            "year": "2016",
+                            "link": "https://link.springer.com/article/10.1007%2Fs40037-016-0294-0",
+                            "publisher": "Perspectives on Medical Education"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
