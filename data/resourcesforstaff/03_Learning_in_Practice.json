@@ -1,53 +1,57 @@
 {
     "name": "Learning in Practice",
-    "introcontent": [
+    "chapters": [
         {
-            "title": "Introduction",
-            "components": [
+            "blockname": "Pre-Placement",
+            "name": "Introduction",
+            "sections": [
                 {
-                    "subtitle": "",
-                    "type": "text-paragraph",
-                    "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
-                    "space_after": "false"
-                },
-                {
-                    "subtitle": "",
-                    "type": "text-quote",
-                    "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
-                    "author": "Manninen",
-                    "year": "2016",
-                    "space_after": "false"
-                }
-            ],
-            "space_after": "true"
-        },
-        {
-            "title": "Learning Outcomes",
-            "components": [
-                {
-                    "subtitle": "",
-                    "type": "list-text",
-                    "list_elements": [
+                    "subtitle": "Introduction",
+                    "components": [
                         {
-                            "text": "Discuss the challenges of teaching and learning in practice setting."
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
+                            "space_after":false
                         },
                         {
-                            "text": "Understand the equality Act and what it means for the disabled student"
-                        },
-                        {
-                            "text": "Appreciate the need for reasonable adjustments and how they support students with a disability"
-                        },
-                        {
-                            "text": "Understand the support systems and mechanisms students with disabilities can access"
+                            "subtitle": "",
+                            "type": "text-quote",
+                            "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
+                            "author": "Manninen",
+                            "year": "2016",
+                            "space_after": false
                         }
                     ],
-                    "space_after": "false"
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Discuss the challenges of teaching and learning in practice setting."
+                                },
+                                {
+                                    "text": "Understand the equality Act and what it means for the disabled student"
+                                },
+                                {
+                                    "text": "Appreciate the need for reasonable adjustments and how they support students with a disability"
+                                },
+                                {
+                                    "text": "Understand the support systems and mechanisms students with disabilities can access"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
-            ],
-            "space_after": "false"
-        }
-    ],
-    "chapters": [
+            ]
+        },
         {
             "blockname": "Learning in Practice",
             "name": "Student Experiences",

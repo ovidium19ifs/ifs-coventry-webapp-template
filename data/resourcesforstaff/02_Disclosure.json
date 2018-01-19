@@ -1,42 +1,46 @@
 {
     "name": "Disclosure",
-    "introcontent": [
+    "chapters": [
         {
-            "title": "Introduction",
-            "components": [
+            "blockname": "Disclosure",
+            "name": "Introduction",
+            "sections":[
                 {
-                    "subtitle": "",
-                    "type": "text-paragraph",
-                    "text": "This section will introduce the concept of disclosure and guidelines for supporting a student who chooses to disclose a disability at the University. It will also make clear your responsibilities as a member of Staff/Placement team.",
-                    "space_after": "false"
-                }
-            ],
-            "space_after": "true"
-        },
-        {
-            "title": "Learning Outcomes",
-            "components": [
-                {
-                    "subtitle": "",
-                    "type": "list-text",
-                    "list_elements": [
+                    "subtitle": "Introduction",
+                    "components": [
                         {
-                            "text": "To provide a clear definition of the concept of disclosure."
-                        },
-                        {
-                            "text": "To provide staff with adequate guidelines about how to support students who choose to disclose a disability."
-                        },
-                        {
-                            "text": "To ensure staff are able to provide students with adequate information and support when the make a disclosure."
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "This section will introduce the concept of disclosure and guidelines for supporting a student who chooses to disclose a disability at the University. It will also make clear your responsibilities as a member of Staff/Placement team.",
+                            "space_after": false
                         }
                     ],
-                    "space_after": "false"
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "To provide a clear definition of the concept of disclosure."
+                                },
+                                {
+                                    "text": "To provide staff with adequate guidelines about how to support students who choose to disclose a disability."
+                                },
+                                {
+                                    "text": "To ensure staff are able to provide students with adequate information and support when the make a disclosure."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
-            ],
-            "space_after": "false"
-        }
-    ],
-    "chapters": [
+            ]
+        },
         {
             "blockname": "Disclosure",
             "name": "Definition",

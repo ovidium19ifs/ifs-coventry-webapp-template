@@ -61,7 +61,7 @@ application.factory("navigate",function($location){
 
         },
         lowEnd: function(){
-            return (current_bl_index===0 && current_ch_index<=-1) || ( current_bl_index===-1 && current_ch_index===-1)
+            return (current_bl_index===0 && current_ch_index<=0) || ( current_bl_index===-1 && current_ch_index===-1)
         },
         highEnd: function(){
             return (current_bl_index===data.length-1 && current_ch_index===data[data.length-1].chapters.length-1) || (current_bl_index===-1)
@@ -84,8 +84,9 @@ application.factory("navigate",function($location){
             }
             else if (current_ch_index === data[current_bl_index].chapters.length-1){
                 bl_name = data[current_bl_index+1].name;
-                $location.path("/content/"+group+"/blocks/"+bl_name);
-                path="/blocks/"+bl_name;
+                ch_name = data[current_bl_index+1].chapters[0].name;
+                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
+                path="/blocks/"+bl_name+"/chapter/"+ch_name;
             }
         },
         goToPrevious: function(){
@@ -95,10 +96,6 @@ application.factory("navigate",function($location){
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index].name;
                 $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
-            }
-            else if(current_ch_index===0){
-                bl_name = data[current_bl_index].name;
-                $location.path("/content/"+group+"/blocks/"+bl_name);
             }
             else{
                 current_bl_index--;

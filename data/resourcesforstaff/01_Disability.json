@@ -1,45 +1,49 @@
 {
     "name": "Disability",
-    "introcontent": [
+    "chapters": [
         {
-            "title": "Introduction",
-            "components": [
+            "blockname": "Disability",
+            "name": "Introduction",
+            "sections": [
                 {
-                    "subtitle": "",
-                    "type": "text-paragraph",
-                    "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
-                    "space_after": false
-                }
-            ],
-            "space_after": true
-        },
-        {
-            "title": "Learning Outcomes",
-            "components": [
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
                 {
-                    "subtitle": "",
-                    "type": "list-text",
-                    "list_elements": [
+                    "subtitle": "Learning Outcomes",
+                    "components": [
                         {
-                            "text": "Will provide material about what a disability is ."
-                        },
-                        {
-                            "text": "Will help you understand the terminology associated disability ."
-                        },
-                        {
-                            "text": "Clarifies what support mechanisms the University should provide for disabled students."
-                        },
-                        {
-                            "text": "Will support your capacity to carry out duties and responsibilities with respect to reporting a disability and supporting students with a disability."
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Will provide material about what a disability is ."
+                                },
+                                {
+                                    "text": "Will help you understand the terminology associated disability ."
+                                },
+                                {
+                                    "text": "Clarifies what support mechanisms the University should provide for disabled students."
+                                },
+                                {
+                                    "text": "Will support your capacity to carry out duties and responsibilities with respect to reporting a disability and supporting students with a disability."
+                                }
+                            ],
+                            "space_after": false
                         }
                     ],
                     "space_after": false
                 }
-            ],
-            "space_after": false
-        }
-    ],
-    "chapters": [
+            ]
+        },
         {
             "blockname": "Disability",
             "name": "Definition",

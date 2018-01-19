@@ -1,91 +1,96 @@
 {
   "name": "Pre-Placement",
-  "introcontent": [
-    {
-      "title": "Introduction",
-      "components" : [
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "This section will introduce the basic steps of pre-placement procedures, what to think about and how to proceed.",
-          "space_after": false
-        }
 
-      ],
-      "space_after": true
-    },
+  "chapters" : [
     {
-      "title": "Learning Outcomes",
-      "components": [
+      "blockname": "Pre-Placement",
+      "name": "Introduction",
+      "sections":[
         {
-          "subtitle": "",
-          "type": "list-text",
-          "list_elements":[
+          "subtitle": "Introduction",
+          "components" : [
             {
-              "text": "To provide the main forms that the student will need in the pre-placement phase."
-            },
-            {
-              "text": "To raise awareness about the Equality Act."
-            },
-            {
-              "text": "Raise awareness about what issues have to be resolved in the pre-placement phase and guide the student through the process."
-            },
-            {
-              "text": "Break some myths related to pre-placement phase."
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "This section will introduce the basic steps of pre-placement procedures, what to think about and how to proceed.",
+              "space_after": false
             }
+
           ],
-          "space_after": false
-        }
-      ],
-      "space_after": true
-    },
-    {
-      "title": "Learning in Practice",
-      "components":[
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
           "space_after": true
         },
         {
-          "subtitle": "",
-          "type": "text-quote",
-          "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
-          "author": "Manninen",
-          "year": "2016",
-          "space_after" : false
-        }
-      ],
-      "space_after": true
-    },
-    {
-      "title": "Student Experiences",
-      "components":[
-        {
-          "subtitle":"",
-          "type":"text-paragraph",
-          "text": "The following link contains several videos where students share their placement experience. Watch them to get a better understanding about what your expectations should be.",
-          "space_after": false
+          "subtitle": "Learning Outcomes",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "To provide the main forms that the student will need in the pre-placement phase."
+                },
+                {
+                  "text": "To raise awareness about the Equality Act."
+                },
+                {
+                  "text": "Raise awareness about what issues have to be resolved in the pre-placement phase and guide the student through the process."
+                },
+                {
+                  "text": "Break some myths related to pre-placement phase."
+                }
+              ],
+              "space_after": false
+            }
+          ],
+          "space_after": true
         },
         {
-          "subtitle": "",
-          "type": "link-website",
-          "text": "Student on Placement Experiences",
-          "links": [
+          "subtitle": "Learning in Practice",
+          "components":[
             {
-            "tag": "",
-            "text": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
-            "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience"
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
+              "space_after": true
+            },
+            {
+              "subtitle": "",
+              "type": "text-quote",
+              "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
+              "author": "Manninen",
+              "year": "2016",
+              "space_after" : false
+            }
+          ],
+          "space_after": true
+        },
+        {
+          "subtitle": "Student Experiences",
+          "components":[
+            {
+              "subtitle":"",
+              "type":"text-paragraph",
+              "text": "The following link contains several videos where students share their placement experience. Watch them to get a better understanding about what your expectations should be.",
+              "space_after": false
+            },
+            {
+              "subtitle": "",
+              "type": "link-website",
+              "text": "Student on Placement Experiences",
+              "links": [
+                {
+                  "tag": "",
+                  "text": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
+                  "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience"
+                }
+              ],
+              "space_after": false
             }
           ],
           "space_after": false
         }
-      ],
-      "space_after": false
-    }
-  ],
-  "chapters" : [
+      ]
+    },
     {
       "blockname": "Pre-Placement",
       "name": "Pre-Placement Form",

@@ -13,5 +13,11 @@
             ]
         }
     ],
-    "chapters": []
+    "chapters": [
+        {
+            "blockname": "Organization of Support",
+            "name": "Introduction",
+            "sections": []
+        }
+    ]
 }

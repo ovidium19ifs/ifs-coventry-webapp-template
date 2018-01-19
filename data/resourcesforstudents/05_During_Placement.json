@@ -1,33 +1,37 @@
 {
   "name": "Coping on Placement",
-  "introcontent":[
-    {
-      "title": "Introduction",
-      "components" : [
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "Every student will benefit from considering the coping strategies they could use on placement as you may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
-          "space_after": false
-        }
-
-      ],
-      "space_after": true
-    },
-    {
-      "title": "Learning Outcomes",
-      "components": [
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "This section will highlight some key tips for coping on placement and suggestions for planning towards a successful placement.",
-          "space_after": false
-        }
-      ],
-      "space_after": true
-    }
-  ],
   "chapters":[
+    {
+      "blockname": "Coping on Placement",
+      "name": "Introduction",
+      "sections":[
+        {
+          "subtitle": "Introduction",
+          "components" : [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "Every student will benefit from considering the coping strategies they could use on placement as you may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
+              "space_after": false
+            }
+
+          ],
+          "space_after": true
+        },
+        {
+          "subtitle": "Learning Outcomes",
+          "components": [
+            {
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "This section will highlight some key tips for coping on placement and suggestions for planning towards a successful placement.",
+              "space_after": false
+            }
+          ],
+          "space_after": true
+        }
+      ]
+    },
     {
       "blockname": "Coping on Placement",
       "name": "Success on Placement",

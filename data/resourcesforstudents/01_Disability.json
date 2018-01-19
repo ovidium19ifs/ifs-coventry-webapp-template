@@ -1,46 +1,51 @@
 {
   "name": "Disability",
-  "introcontent": [
-    {
-      "title": "Introduction",
-      "components" : [
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
-          "space_after": false
-        }
 
-      ],
-      "space_after": true
-    },
+  "chapters": [
     {
-      "title": "Learning Outcomes",
-      "components": [
+      "blockname": "Disability",
+      "name": "Introduction",
+      "sections": [
         {
-          "subtitle": "",
-          "type": "list-text",
-          "list_elements":[
+          "subtitle": "Introduction",
+          "components" : [
             {
-              "text": "To provide a clear definition of the concept of disability."
-            },
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
+              "space_after": false
+            }
+
+          ],
+          "space_after": true
+        },
+        {
+          "subtitle": "Learning Outcomes",
+          "components": [
             {
-              "text": "To inform students on what kind of reasonable adjustments to expect from employers."
-            },
-            {
-              "text": "To provide students with a general overview of how to make contact with staff and disclose their disability."
-            },
-            {
-              "text": "To support students understand their rights and responsibilities with respect to disclosure."
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "To provide a clear definition of the concept of disability."
+                },
+                {
+                  "text": "To inform students on what kind of reasonable adjustments to expect from employers."
+                },
+                {
+                  "text": "To provide students with a general overview of how to make contact with staff and disclose their disability."
+                },
+                {
+                  "text": "To support students understand their rights and responsibilities with respect to disclosure."
+                }
+              ],
+              "space_after": false
             }
           ],
           "space_after": false
         }
-      ],
-      "space_after": false
-    }
-  ],
-  "chapters": [
+      ]
+    },
     {
       "blockname": "Disability",
       "name": "Definition",

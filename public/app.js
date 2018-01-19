@@ -21,12 +21,19 @@ application.config(function ($routeProvider,$locationProvider) {
         }
     })
         .when("/content/:group/blocks/:blockname",{
-            templateUrl: "templates/blockIntroduction.html",
-            controller: "IntroductionCtrl",
-            resolve: {
+            template: "",
+            controller: "ContentRedirecter",
+            resolve:{
                 dataBlock: function(navigate,dataFetcher,$route){
                     "use strict";
-                    if (!navigate.getData() || navigate.getGroup()!=$route.current.params.group){
+                    // Delete this in production.
+                    return dataFetcher.get($route.current.params.group).$promise.then(
+                        function(res){
+                            navigate.setData(res,$route.current.params.group);
+                            return res;
+                        }
+                    );
+                    if (!navigate.getData() || navigate.getGroup()!==$route.current.params.group){
                         return dataFetcher.get($route.current.params.group).$promise.then(
                             function(res){
                                 navigate.setData(res,$route.current.params.group);
@@ -34,6 +41,7 @@ application.config(function ($routeProvider,$locationProvider) {
                             }
                         )
                     }
+                    else return navigate.getData();
                 }
             }
         })

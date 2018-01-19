@@ -1,43 +1,48 @@
 {
   "name": "Preparing for Placement",
-  "introcontent": [
-    {
-      "title": "Introduction",
-      "components" : [
-        {
-          "subtitle": "",
-          "type": "text-paragraph",
-          "text": "In this section, we will give you a checklist of steps you should follow before your placement. We will tell you when you should know about what your placement, what you will need, pre-placement visit procedures and present some examples and case studies.",
-          "space_after": false
-        }
 
-      ],
-      "space_after": true
-    },
+  "chapters" : [
     {
-      "title": "Learning Outcomes",
-      "components": [
+      "blockname": "Preparing for Placement",
+      "name": "Introduction",
+      "sections":[
         {
-          "subtitle": "",
-          "type": "list-text",
-          "list_elements":[
+          "subtitle": "Introduction",
+          "components" : [
             {
-              "text": "To raise the student's awareness about what procedures there are before the placement begins."
-            },
+              "subtitle": "",
+              "type": "text-paragraph",
+              "text": "In this section, we will give you a checklist of steps you should follow before your placement. We will tell you when you should know about what your placement, what you will need, pre-placement visit procedures and present some examples and case studies.",
+              "space_after": false
+            }
+
+          ],
+          "space_after": true
+        },
+        {
+          "subtitle": "Learning Outcomes",
+          "components": [
             {
-              "text": "To help the student plan for his placemnt in a more prepared way."
-            },
-            {
-              "text": "To present the student with a checklist of steps he/she should undertake before the beginning of placement."
+              "subtitle": "",
+              "type": "list-text",
+              "list_elements":[
+                {
+                  "text": "To raise the student's awareness about what procedures there are before the placement begins."
+                },
+                {
+                  "text": "To help the student plan for his placemnt in a more prepared way."
+                },
+                {
+                  "text": "To present the student with a checklist of steps he/she should undertake before the beginning of placement."
+                }
+              ],
+              "space_after": false
             }
           ],
-          "space_after": false
+          "space_after": true
         }
-      ],
-      "space_after": true
-    }
-  ],
-  "chapters" : [
+      ]
+    },
     {
       "blockname": "Pre-Placement",
       "name": "Challenges",
