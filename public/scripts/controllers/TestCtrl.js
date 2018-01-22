@@ -23,6 +23,7 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         console.log("Collection changed");
     });
     */
+
     $scope.home=true;
     $scope.$on("$locationChangeSuccess", function(e,newUrl){
        if ($location.path()=="/"){
@@ -40,7 +41,7 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         function(newV){
             if (newV && newV!=="undefined"){
                 $scope.inContentState = true;
-
+                $scope.data=navigate.getData();
                 $scope.$watch(
                     function(){
                         return navigate.lowEnd();
@@ -77,6 +78,22 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         navigate.goToNext();
 
     };
+
+
+    ////////////////////////////////
+    $scope.dataCopy = angular.copy($scope.data);
+
+    $scope.addElem = function(){
+        console.log("Called addElem in TestCtrl");
+        $scope.data.push({
+            "name": "Edit this block",
+            "chapters": [{
+                "name": "Introduction",
+                "sections": []
+            }]
+        });
+        console.log($scope);
+    }
 
 
 

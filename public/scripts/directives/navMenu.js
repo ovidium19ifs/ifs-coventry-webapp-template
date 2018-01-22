@@ -3,10 +3,6 @@ application.directive("navMenu",function() {
     return {
         restrict: 'E',
         templateUrl: '/templates/nav-menu.html',
-        scope: {
-
-        }
-        ,
         link: function (scope, element, attrs, controller) {
 
         },
@@ -21,8 +17,8 @@ application.directive("navMenu",function() {
                     if (newV && newV!="undefined"){
 
                         $scope.data = navigate.getData();
+                        $scope.realData = angular.copy($scope.data);
 
-                        console.log($scope.data);
                     }
                 }
             );
