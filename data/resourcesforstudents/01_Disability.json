@@ -1,260 +1,256 @@
 {
-  "name": "Disability",
-
-  "chapters": [
-    {
-      "blockname": "Disability",
-      "name": "Introduction",
-      "sections": [
+    "name": "Disability",
+    "chapters": [
         {
-          "subtitle": "Introduction",
-          "components" : [
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
-              "space_after": false
-            }
-
-          ],
-          "space_after": true
+            "blockname": "Disability",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "To provide a clear definition of the concept of disability."
+                                },
+                                {
+                                    "text": "To inform students on what kind of reasonable adjustments to expect from employers."
+                                },
+                                {
+                                    "text": "To provide students with a general overview of how to make contact with staff and disclose their disability."
+                                },
+                                {
+                                    "text": "To support students understand their rights and responsibilities with respect to disclosure."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
+                }
+            ]
         },
         {
-          "subtitle": "Learning Outcomes",
-          "components": [
-            {
-              "subtitle": "",
-              "type": "list-text",
-              "list_elements":[
+            "blockname": "Disability",
+            "name": "Definition",
+            "sections": [
                 {
-                  "text": "To provide a clear definition of the concept of disability."
+                    "subtitle": "What is Disability?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "You are classed as disabled under the Equality Act 2010 if you have a physical or mental impairment which has a ‘substantial’ and ‘long-term’ negative effect on your ability to do normal daily activities.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "What does 'substantial' and 'long-term' mean?",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "'substantial’ means the effect is more than minor or trivial, eg it takes much longer than it usually would to complete a daily task like getting dressed"
+                                },
+                                {
+                                    "text": "‘long-term’ means the effect persist for 12 months or more, eg a breathing condition that develops as a result of a lung infection"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
                 },
                 {
-                  "text": "To inform students on what kind of reasonable adjustments to expect from employers."
+                    "subtitle": "Progressive Conditions",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "A progressive condition is one that gets worse over time and people with progressive conditions can be classed as disabled.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "However, you automatically meet the disability definition under the Equality Act 2010 from the day you’re diagnosed with HIV infection, cancer or multiple sclerosis.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
                 },
                 {
-                  "text": "To provide students with a general overview of how to make contact with staff and disclose their disability."
-                },
-                {
-                  "text": "To support students understand their rights and responsibilities with respect to disclosure."
+                    "subtitle": "Myths and Misconceptions",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-mythfact",
+                            "myths": [
+                                {
+                                    "myth": "It’s still ok to refer to people who do not have a disability as ‘able-bodied’?",
+                                    "fact": "No. This term suggests all disabilities are physical and that disabled employees or job applicants are not capable. Instead, if it is really necessary to make the distinction, use the term ‘non-disabled’ for people who do not have a disability."
+                                },
+                                {
+                                    "myth": "To be disabled, the person has to be in a wheelchair, or blind, or lost a limb, something like that.",
+                                    "fact": "The definition of disability in the Equality Act 2010 is very broad and can cover a very wide range of conditions – what the law calls ‘impairments’. And some are not obvious – such as some mental health conditions."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
-              ],
-              "space_after": false
-            }
-          ],
-          "space_after": false
-        }
-      ]
-    },
-    {
-      "blockname": "Disability",
-      "name": "Definition",
-      "sections":[
-        {
-          "subtitle": "What is Disability?",
-          "components": [
-            {
-              "subtitle":"",
-              "type": "text-paragraph",
-              "text": "You are classed as disabled under the Equality Act 2010 if you have a physical or mental impairment which has a ‘substantial’ and ‘long-term’ negative effect on your ability to do normal daily activities.",
-              "space_after": true
-            },
-            {
-              "subtitle": "What does 'substantial' and 'long-term' mean?",
-              "type": "list-text",
-              "list_elements":[
-                {
-                  "text": "'substantial’ means the effect is more than minor or trivial, eg it takes much longer than it usually would to complete a daily task like getting dressed"
-                },
-                {
-                  "text": "‘long-term’ means the effect persist for 12 months or more, eg a breathing condition that develops as a result of a lung infection"
-                }
-              ],
-              "space_after": false
-            }
-          ],
-          "space_after": true
+            ]
         },
         {
-          "subtitle": "Progressive Conditions",
-          "components":[
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text":"A progressive condition is one that gets worse over time and people with progressive conditions can be classed as disabled.",
-              "space_after": true
-            },
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "However, you automatically meet the disability definition under the Equality Act 2010 from the day you’re diagnosed with HIV infection, cancer or multiple sclerosis.",
-              "space_after": false
-            }
-          ],
-          "space_after":true
+            "blockname": "Disability",
+            "name": "Reasonable Adjustments",
+            "sections": [
+                {
+                    "subtitle": "Reasonable Adjustments",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Employers must make reasonable adjustments to ensure workers with disabilities, or physical or mental health conditions, aren’t substantially disadvantaged in their jobs. These adjustments may include:",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "changing the recruitment process so a candidate can be considered for a job",
+                                    "links": [
+                                        {
+                                            "portion": "changing the recruitment process",
+                                            "href": "https://www.gov.uk/recruitment-disabled-people/reasonable-adjustments"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "doing things another way, such as allowing someone with social anxiety disorder to have their own desk instead of hot-desking",
+                                    "links": [
+                                        {}
+                                    ]
+                                },
+                                {
+                                    "text": "making physical changes to the workplace, such as installing a ramp for a wheelchair user or an audio-visual fire alarm for a deaf person"
+                                },
+                                {
+                                    "text": "allowing  a disabled person to work somewhere else, such as on the ground floor for a wheelchair user"
+                                },
+                                {
+                                    "text": "changing their equipment, for instance providing a special keyboard for a person with arthritis"
+                                },
+                                {
+                                    "text": "allowing employees who become disabled to make a phased return to work, including flexible hours or part-time working"
+                                },
+                                {
+                                    "text": "offering employees training opportunities, recreation and refreshment facilities"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Reasonable adjustments apply to all employers and this means reasonable adjustments should be considered  for students whilst on placements.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                }
+            ]
         },
         {
-          "subtitle": "Myths and Misconceptions",
-          "components": [
-            {
-              "subtitle": "",
-              "type": "text-mythfact",
-              "myths": [
+            "blockname": "Disability",
+            "name": "Support from Uni",
+            "sections": [
                 {
-                  "myth": "It’s still ok to refer to people who do not have a disability as ‘able-bodied’?",
-                  "fact": "No. This term suggests all disabilities are physical and that disabled employees or job applicants are not capable. Instead, if it is really necessary to make the distinction, use the term ‘non-disabled’ for people who do not have a disability."
+                    "subtitle": "Who to approach?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The Disabilities team and the Mental Health team at the university have lots of experience working with students who have disabilities. Please feel free to contact them for advice with any concerns you may have relating to workplace and the reasonable adjustments you may be able to make for students with a disability, SpLD or Mental Health needs. Please note we can only give specific student related advice if a student has disclosed their learning needs to us (see point 1.4) and completed a data protection form.",
+                            "space_after": true
+                        }
+                    ],
+                    "space_after": false
                 },
                 {
-                  "myth": "To be disabled, the person has to be in a wheelchair, or blind, or lost a limb, something like that.",
-                  "fact": "The definition of disability in the Equality Act 2010 is very broad and can cover a very wide range of conditions – what the law calls ‘impairments’. And some are not obvious – such as some mental health conditions."
+                    "subtitle": "Contact Details",
+                    "components": [
+                        {
+                            "subtitle": "Telephone",
+                            "type": "link-telephone",
+                            "text": "+44 (0)24 7765 8029",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "E-mails",
+                            "type": "link-email",
+                            "links": [
+                                {
+                                    "tag": "Disability Team",
+                                    "text": "disabilityadvisor.ss@coventry.ac.uk",
+                                    "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                                },
+                                {
+                                    "tag": "Mental health and counselling",
+                                    "text": "counsell.ss@coventry.ac.uk",
+                                    "link": "mailto:counsell.ss@coventry.ac.uk"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
-              ],
-              "space_after": false
-            }
-          ],
-          "space_after": false
-        }
-      ]
-    },
-    {
-      "blockname": "Disability",
-      "name": "Reasonable Adjustments",
-      "sections":[
-        {
-          "subtitle": "Reasonable Adjustments",
-          "components":[
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "Employers must make reasonable adjustments to ensure workers with disabilities, or physical or mental health conditions, aren’t substantially disadvantaged in their jobs. These adjustments may include:",
-              "space_after": false
-            },
-            {
-              "subtitle": "",
-              "type": "list-text",
-              "list_elements":[
-                {
-                  "text": "changing the recruitment process so a candidate can be considered for a job",
-                  "links":[
-                    {
-                      "portion": "changing the recruitment process",
-                      "href": "https://www.gov.uk/recruitment-disabled-people/reasonable-adjustments"
-                    }
-                  ]
-                },
-                {
-                  "text": "doing things another way, such as allowing someone with social anxiety disorder to have their own desk instead of hot-desking",
-                  "links":[
-                    {
-
-                    }
-                  ]
-                },
-                {
-                  "text":"making physical changes to the workplace, such as installing a ramp for a wheelchair user or an audio-visual fire alarm for a deaf person"
-                },
-                {
-                  "text": "allowing  a disabled person to work somewhere else, such as on the ground floor for a wheelchair user"
-                },
-                {
-                  "text": "changing their equipment, for instance providing a special keyboard for a person with arthritis"
-                },
-                {
-                  "text": "allowing employees who become disabled to make a phased return to work, including flexible hours or part-time working"
-                },
-                {
-                  "text": "offering employees training opportunities, recreation and refreshment facilities"
-                }
-              ],
-              "space_after": true
-            },
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "Reasonable adjustments apply to all employers and this means reasonable adjustments should be considered  for students whilst on placements.",
-              "space_after": false
-            }
-          ],
-          "space_after": true
-        }
-      ]
-    },
-    {
-      "blockname": "Disability",
-      "name": "Support from Uni",
-      "sections":[
-        {
-          "subtitle": "Who to approach?",
-          "components":[
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "The Disabilities team and the Mental Health team at the university have lots of experience working with students who have disabilities. Please feel free to contact them for advice with any concerns you may have relating to workplace and the reasonable adjustments you may be able to make for students with a disability, SpLD or Mental Health needs. Please note we can only give specific student related advice if a student has disclosed their learning needs to us (see point 1.4) and completed a data protection form.",
-              "space_after": true
-            }
-          ],
-          "space_after": false
+            ]
         },
         {
-          "subtitle": "Contact Details",
-          "components": [
-            {
-              "subtitle": "Telephone",
-              "type": "link-telephone",
-              "text": "+44 (0)24 7765 8029",
-              "space_after": false
-            },
-            {
-              "subtitle": "E-mails",
-              "type": "link-email",
-              "links":[
+            "blockname": "Disability",
+            "name": "Disclosure Rights",
+            "sections": [
                 {
-                  "tag": "Disability Team",
-                  "text": "disabilityadvisor.ss@coventry.ac.uk",
-                  "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                    "subtitle": "Disclosure",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "It is the student’s choice to disclose their learning needs. For students who want to disclose, we recommend they do so at the earliest point: on their application form or contact the disabilities team. Disclosure means we can offer them support and advice and can discuss their needs and opportunities for adjustments with all those involved in their education.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
                 },
                 {
-                  "tag": "Mental health and counselling",
-                  "text": "counsell.ss@coventry.ac.uk",
-                  "link": "mailto:counsell.ss@coventry.ac.uk"
+                    "subtitle": "Non-Disclosure",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "It is an individual’s right not to disclose their learning need. If a student chooses not to disclose, we are unaware of their condition and any related difficulties, therefore we are unable offer support or advice.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
-              ],
-              "space_after": false
-            }
-          ],
-          "space_after": false
+            ]
         }
-      ]
-    },
-    {
-      "blockname": "Disability",
-      "name": "Disclosure Rights",
-      "sections":[
-        {
-          "subtitle": "Disclosure",
-          "components":[
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text":"It is the student’s choice to disclose their learning needs. For students who want to disclose, we recommend they do so at the earliest point: on their application form or contact the disabilities team. Disclosure means we can offer them support and advice and can discuss their needs and opportunities for adjustments with all those involved in their education.",
-              "space_after": false
-            }
-          ],
-          "space_after": true
-        },
-        {
-          "subtitle": "Non-Disclosure",
-          "components":[
-            {
-              "subtitle": "",
-              "type": "text-paragraph",
-              "text": "It is an individual’s right not to disclose their learning need. If a student chooses not to disclose, we are unaware of their condition and any related difficulties, therefore we are unable offer support or advice.",
-              "space_after": false
-            }
-          ],
-          "space_after": false
-        }
-      ]
-    }
-  ]
+    ]
 }

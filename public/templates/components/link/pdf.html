@@ -1,13 +1,20 @@
 <div class="card card-inner">
     <div class="card-body py-2">
-        <div class="card-subtitle">
+        <div class="card-subtitle email-subtitle w-50 text-center">
             {{component.subtitle}}
         </div>
-        <div class="card-text">
+        <div class="card-text" ng-class="{'ifs-media-large': component.straightlink}">
             <div ng-repeat="mail in component.links">
-                <span class="email-tag mr-4" ng-show="mail.tag">{{mail.tag}}: </span>
+                <p class="email-tag mr-4 w-50 text-center" ng-show="mail.tag">{{mail.tag}}: </p>
                 <span class="fa fa-file-pdf-o"></span>
                 <a class="website-link" href="{{mail.link}}" title="Go to: {{mail.link}}" target="_blank">{{mail.text}}</a>
+            </div>
+        </div>
+        <div class="card-text" ng-class="{'ifs-media-small': component.straightlink}" ng-show="component.straightlink">
+            <div>
+                <span class="email-tag mr-4 w-50 text-center" ng-show="component.straightlink.tag">{{component.straightlink.tag}}: </span>
+                <span class="fa fa-globe"></span>
+                <a class="website-link" href="{{component.straightlink.link}}" title="Go to: {{component.straightlink.link}}" target="_blank">{{component.straightlink.text}}</a>
             </div>
         </div>
     </div>

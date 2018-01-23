@@ -12,7 +12,7 @@
                             "subtitle": "",
                             "type": "text-paragraph",
                             "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
-                            "space_after":false
+                            "space_after": false
                         },
                         {
                             "subtitle": "",
@@ -233,10 +233,10 @@
         {
             "blockname": "Pre-Placement",
             "name": "The Equality Act",
-            "sections":[
+            "sections": [
                 {
                     "subtitle": "What is it?",
-                    "components":[
+                    "components": [
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
@@ -245,8 +245,8 @@
                         },
                         {
                             "subtitle": "What is a disability under the Equality Act",
-                            "type" : "video-single",
-                            "video":{
+                            "type": "video-single",
+                            "video": {
                                 "type": "youtube",
                                 "src": "https://www.youtube.com/embed/NRtztkc35hg",
                                 "thumb": "equality_act_disability.jpg"
@@ -256,7 +256,7 @@
                         {
                             "subtitle": "Protected Characteristics",
                             "type": "list-text",
-                            "list_elements":[
+                            "list_elements": [
                                 {
                                     "text": "Age"
                                 },
@@ -282,19 +282,19 @@
                                     "text": "Sexual Orientation"
                                 }
                             ],
-                            "space_after" :false
+                            "space_after": false
                         }
                     ],
                     "space_after": true
                 },
                 {
                     "subtitle": "Key Issues",
-                    "components":[
+                    "components": [
                         {
                             "subtitle": "Direct discrimination",
                             "type": "text-quote",
                             "text": "An individual or organisation that provides services to the public must not treat someone worse just because of one or more protected characteristics…",
-                            "space_after":true
+                            "space_after": true
                         },
                         {
                             "subtitle": "Indirect discrimination",
@@ -306,14 +306,14 @@
                             "subtitle": "Discrimination arising from disability",
                             "type": "text-quote",
                             "text": "Service providers must not treat disabled people unfavourably because of something connected to their disability where they cannot show that what they are doing is objectively justified. This only applies if the individual or organisation knows, or could reasonably have been expected to know, that the person is disabled",
-                            "space_after":false
+                            "space_after": false
                         }
                     ],
                     "space_after": true
                 },
                 {
                     "subtitle": "Summary",
-                    "components":[
+                    "components": [
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
@@ -368,7 +368,7 @@
                                     "text": "running an efficient service"
                                 },
                                 {
-                                    "text" : "requirements of a business"
+                                    "text": "requirements of a business"
                                 },
                                 {
                                     "text": "desire to make profit"
@@ -382,8 +382,6 @@
                             "text": "Health and social care training programmes need to ensure that potential registrants are capable of meeting the competencies set out in the regulatory guidelines and can support the delivery of an efficient service.",
                             "space_after": false
                         }
-
-
                     ],
                     "space_after": true
                 },
@@ -399,7 +397,7 @@
                         {
                             "subtitle": "",
                             "type": "link-website",
-                            "links":[
+                            "links": [
                                 {
                                     "text": "Understanding the Equality Act",
                                     "link": "https://www.disabilityrightsuk.org/understanding-equality-act-information-disabled-students?platform=hootsuite"
@@ -439,7 +437,7 @@
             "sections": [
                 {
                     "subtitle": "Why reasonable adjustments?",
-                    "components":[
+                    "components": [
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
@@ -501,7 +499,7 @@
                         {
                             "subtitle": "Link: ",
                             "type": "link-website",
-                            "links":[
+                            "links": [
                                 {
                                     "text": "Disability Rights UK",
                                     "link": "https://www.disabilityrightsuk.org/adjustments-disabled-students"
@@ -514,11 +512,11 @@
                 },
                 {
                     "subtitle": "Videos on Reasonable Adjustments",
-                    "components":[
+                    "components": [
                         {
                             "subtitle": "Reasonable Adjustments under the Equality Act",
                             "type": "video-single",
-                            "video":{
+                            "video": {
                                 "type": "youtube",
                                 "src": "https://www.youtube.com/embed/MFOOzzoRtDc?start=97",
                                 "thumb": "reasonable_adjustments_eq_act.jpg"
@@ -528,7 +526,7 @@
                         {
                             "subtitle": "Reasonable Adjustments in practice",
                             "type": "video-single",
-                            "video":{
+                            "video": {
                                 "type": "youtube",
                                 "src": "https://www.youtube.com/embed/B_QFO8BW0PI",
                                 "thumb": "reasonable_adjustments_inpractice.jpg"
