@@ -1,0 +1,1096 @@
+{
+    "name": "Learning in Practice",
+    "chapters": [
+        {
+            "blockname": "Learning in Practice",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "This section will introduce the basic steps of pre-placement procedures, what to think about and how to proceed.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Discuss the challenges of teaching and learning in practice setting"
+                                },
+                                {
+                                    "text": "Understand the equality Act and what it means for the disabled student"
+                                },
+                                {
+                                    "text": "Appreciate the need for reasonable adjustments and how they support students with a disability"
+                                },
+                                {
+                                    "text": "Understand the support systems and mechanisms students with disabilities can access"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Learning in Practice",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Learning in practice is usually unpredictable because it involves structuring a learning environment in a work place that is dynamic, challenging and sometimes, stressful. Students and educators/mentors share responsibility for learning. The educator/mentor is tasked with creating learning opportunities for the students as part of their primary role of delivering effective healthcare. The student is expected to have developed the theoretical knowledge necessary to engage with the learning and take responsibility for speaking to the educator about what is within their scope of practice. The complexity of challenging the student appropriately and supporting different learning styles is compounded by the workload.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-quote",
+                            "text": "Learning in clinical practice is challenging regarding organizational and pedagogical issues",
+                            "author": "Manninen",
+                            "year": "2016",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Student Experiences",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The following link contains several videos where students share their placement experience. Watch them to get a better understanding about what your expectations should be.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "link-website",
+                            "text": "Student on Placement Experiences",
+                            "links": [
+                                {
+                                    "tag": "",
+                                    "text": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience",
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/student-nurses-experience"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Form",
+            "sections": []
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Challenges",
+            "sections": [
+                {
+                    "subtitle": "What are you worried about?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Many students may not have practical experience so have questions and concerns; being on placement can be significantly different to academic assignments. You are not alone; frequently asked questions and concerns include:",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "How do I complete my placement documentation?"
+                                },
+                                {
+                                    "text": "Who will I talk to about any issues once on placement?"
+                                },
+                                {
+                                    "text": "How will I meet all the competencies? "
+                                },
+                                {
+                                    "text": "What if I don’t like my placement? "
+                                },
+                                {
+                                    "text": "How do I manage assignments alongside placement commitments/ shifts?"
+                                }
+                            ],
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "You can direct questions to your personal tutor, learning support tutor or course leader well before the placement begins.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Disabilities Team",
+                            "type": "text-paragraph",
+                            "text": "You can also contact the Disabilities Team. They have lots of experience working with students who have disabilities and are happy to provide you with advice, tips and will support you with your concerns. ",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "Telephone:",
+                            "type": "link-telephone",
+                            "text": "+44 (0)24 7765 8029",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "Email: ",
+                            "type": "link-email",
+                            "links": [
+                                {
+                                    "text": "disabilityadvisor.ss@coventry.ac.uk ",
+                                    "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Challenges of learning in practice settings",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "The practice environment is primarily about meeting the needs of patients and ensuring clinical practice is safe, professional and professional. Students are in the practice setting to learn, however, their education is a secondary feature of the learning environment. The educator/mentor will be doing their job and at the same time maximising opportunities to ensure students learn."
+                                }
+                            ],
+                            "subtitle": "Work comes first"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Students have the advantage of engaging with educators/mentors who are modelling professional thinking, behaviour, and attitudes. Students also have the opportunity to practice in real time, clinical skills of history taking, physical examination, clinical reasoning, decision making, empathy, and professionalism."
+                                }
+                            ],
+                            "subtitle": "Opportunities"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "The students and educator/mentors will need to negotiate all the challenges associated with teaching in such an unfriendly teaching environment. This means communicating, being responsive, prepared theoretically and professionally to work with your educator/mentor."
+                                }
+                            ],
+                            "subtitle": "Communication"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Set appropriate goals with your educator at the beginning of the placement.\nDiscuss how you will work together to achieve the goals with respect to time pressure, patient safety and any needs you may have."
+                                }
+                            ],
+                            "subtitle": "Tips"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Myths and Misconceptions",
+                    "components": [
+                        {
+                            "subtitle": "The top ten myths about disability in the workplace -ACAS",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "tag": "Find out more at",
+                                    "text": "www.acas.org.uk/disability",
+                                    "link": "www.acas.org.uk/disability"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-mythfact",
+                            "myths": [
+                                {
+                                    "myth": "If a problem arises about an employee’s disability, it is likely to turn into a dispute which will go on for a long time. ",
+                                    "fact": "Not necessarily. Often, the best option is for the employer to have a quiet word with those involved to reach a resolution early and to which they can all agree."
+                                },
+                                {
+                                    "myth": "A disabled employee is unlikely to contribute as much as a non-disabled employee.",
+                                    "fact": "Employers often complain of a skills shortage yet at the same time overlook a pool of talent. There are currently over three million disabled people in work, but nearly five million disabled people of working age are not – a huge source of potential talent. "
+                                },
+                                {
+                                    "myth": "In redundancy, an employer has to create a vacancy for a disabled employee.",
+                                    "fact": "No. An employer doesn’t always have to redeploy disabled employees. They should be capable and qualified for any new job, with any ‘reasonable adjustments’ in place."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Requirements",
+            "sections": [
+                {
+                    "subtitle": "The Heath Care Professions Council and Nursing and Midwifery Council Competencies and guidance",
+                    "components": [
+                        {
+                            "subtitle": "HCPC Guidance on conduct and ethics for students",
+                            "space_after": true
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "1. Promote and protect the interests of service users and carers",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should treat service users and carers as individuals, respecting their privacy and dignity."
+                                },
+                                {
+                                    "text": "You should make sure that you have consent from service users or other appropriate authority before you provide any care, treatment or other services."
+                                },
+                                {
+                                    "text": "You should follow your education provider's or practice placement provider's policy on consent."
+                                },
+                                {
+                                    "text": "You should make sure that before you provide any care, treatment or other services, the service user is aware that you are a student."
+                                },
+                                {
+                                    "text": "You should respect a person's right to have their care, treatment or other services carried out by a professional and not a student."
+                                },
+                                {
+                                    "text": "You should treat everyone equally and not discriminate against anyone because of your personal views."
+                                },
+                                {
+                                    "text": "You should keep relationships with service users and carers professional."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "2. Communicate appropriately and effectively",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should be polite and considerate to service users, other students and staff at your education provider and practice placement provider."
+                                },
+                                {
+                                    "text": "You should listen to service users and carers and take account of their needs and wishes when carrying out any care, treatment or other services."
+                                },
+                                {
+                                    "text": "You should take all reasonable steps to make sure that you can communicate appropriately and effectively with service users and carers."
+                                },
+                                {
+                                    "text": "You should communicate effectively and co-operate with members of staff at your education provider and practice placement provider to benefit service users and carers."
+                                },
+                                {
+                                    "text": "If you are experiencing any difficulties or other issues which may affect your learning or ability to successfully participate in your programme, you should tell your education provider and practice placement provider."
+                                },
+                                {
+                                    "text": "You should use all forms of communication appropriately and responsibly, including social media and networking websites."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "3. Work within the limits of your knowledge and skills",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should make sure that you are appropriately supervised for any task that you are asked to carry out."
+                                },
+                                {
+                                    "text": "You should ask for help when you need it."
+                                },
+                                {
+                                    "text": "You should be aware of any restrictions which apply to you in carrying out certain tasks and follow any relevant policies of your education provider or practice placement provider."
+                                },
+                                {
+                                    "text": "You should recognise that opportunities for carrying out any unsupervised tasks will vary during your programme and may depend on your knowledge, understanding, skills and experience."
+                                },
+                                {
+                                    "text": "You should only carry out an unsupervised task if you feel that you have the appropriate knowledge and skills to do so safely and effectively."
+                                },
+                                {
+                                    "text": "You should take responsibility for your own learning."
+                                },
+                                {
+                                    "text": "You should be aware of and follow any guidance issued by your education provider or practice placement provider for working with service users and carers."
+                                },
+                                {
+                                    "text": "You should ask for, listen to, think about and respond proactively to feedback you are given."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "4.  Delegate appropriately",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should recognise that the opportunities for delegation will vary during your programme depending on your knowledge, understanding, skills and experience."
+                                },
+                                {
+                                    "text": "You should discuss the delegation of tasks with an appropriate member of staff at your education provider or practice placement provider before you take any action."
+                                },
+                                {
+                                    "text": "You should follow local policies or guidelines on delegation and working with others produced by your education provider or practice placement provider."
+                                },
+                                {
+                                    "text": "If you give tasks to another person to carry out on your behalf, you should make sure that they have the knowledge, skills and experience to carry out the tasks safely and effectively. The education provider or practice placement provider should support your decision to delegate."
+                                },
+                                {
+                                    "text": "If you give tasks to another person to carry out on your behalf, you should make sure that they have the appropriate information to carry out the tasks safely and effectively."
+                                },
+                                {
+                                    "text": "You should explain to service users and carers when you have asked another person to provide any care, treatment or other services"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "5.  Respect confidentiality",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should keep information about service users and carers confidential, and only use it for the purpose for which it was given."
+                                },
+                                {
+                                    "text": "You should follow local policies or guidelines on confidentiality produced by your education provider or practice placement provider."
+                                },
+                                {
+                                    "text": "You should remove anything that could be used to identify a service user or carer from information which you use in your assessments or other academic work related to your programme."
+                                },
+                                {
+                                    "text": "If any confidential information raises concerns about the safety or wellbeing of someone, you should discuss this promptly with an appropriate member of staff at your education provider or practice placement provider."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "6.  Manage risk",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should make sure that you take all appropriate steps to limit the risk of harm to service users, carers and others."
+                                },
+                                {
+                                    "text": "You should not do anything that you think will put someone in danger or at unacceptable risk."
+                                },
+                                {
+                                    "text": "You should follow your education provider's or practice placement provider's policy on managing risk."
+                                },
+                                {
+                                    "text": "You should be aware that you may put your service users or yourself at risk if your performance or judgement is affected by your physical or mental health."
+                                },
+                                {
+                                    "text": "You should ask for appropriate support and adapt your study or stop studying if your performance or judgement is affected by your physical or mental health and could put service users, yourself or others at risk."
+                                },
+                                {
+                                    "text": "You should get advice from a doctor or other appropriate professional if you are worried about your physical or mental health."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "7.  Report concerns about safety",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "If you are worried about the safety or wellbeing of service users, carers or others, you should speak to an appropriate member of staff at your education provider or practice placement provider promptly."
+                                },
+                                {
+                                    "text": "You should put the safety and wellbeing of service users before any personal concerns, for example, about assessments, marks, other work related to your programme, employment prospects or other personal gain."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "8.  Be open when things go wrong",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should tell an appropriate member of staff at your education provider or practice placement provider if something has gone wrong in any care, treatment or other services you have carried out involving a service user."
+                                },
+                                {
+                                    "text": "You should co-operate with members of staff at your education provider and practice placement provider if something has gone wrong in any care, treatment or other services you have carried out involving a service user. You should learn from this experience."
+                                },
+                                {
+                                    "text": "You should tell an appropriate member of staff at your education provider or practice placement provider if a service user or carer wants to raise concerns about any care, treatment or other services they have received."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "9.  Be honest and trustworthy",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should make sure that your conduct and behaviour does not damage public trust and confidence in your profession."
+                                },
+                                {
+                                    "text": "You should be aware that your conduct and behaviour outside of your programme may affect whether or not you are allowed to complete your programme or register with us."
+                                },
+                                {
+                                    "text": "You should not claim that you have knowledge, skills, qualifications and experience which you do not."
+                                },
+                                {
+                                    "text": "You should be honest about your role with service users, carers and others."
+                                },
+                                {
+                                    "text": "You should make sure that your personal appearance is appropriate for your practice placement environment."
+                                },
+                                {
+                                    "text": "You should follow your education provider's or practice placement provider's policy on attendance."
+                                },
+                                {
+                                    "text": "You should follow your education provider's policies on ethics when carrying out research."
+                                },
+                                {
+                                    "text": "You should make sure that all attendance, achievement and assessment records are completed accurately and truthfully."
+                                },
+                                {
+                                    "text": "You should reference other people's work appropriately and not pass it off as your own."
+                                },
+                                {
+                                    "text": "You should provide constructive feedback on the quality of your teaching and learning experience in both the education and practice placement setting."
+                                },
+                                {
+                                    "text": "You should provide, as soon as possible, any important information about your conduct, competence or health to your education provider and practice placement provider."
+                                },
+                                {
+                                    "text": "You should tell your education provider, as soon as possible, if you are charged with, convicted of, or accept a caution for, any offence."
+                                },
+                                {
+                                    "text": "You should co-operate with any investigation into your conduct or competence."
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "10.  Keep records of your work with service users and carers",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You should make sure that the records you keep are clear and accurate."
+                                },
+                                {
+                                    "text": "You should help to protect records from being damaged, lost or accessed by someone without permission."
+                                },
+                                {
+                                    "text": "You should follow your education provider's or practice placement provider's policy on record keeping."
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Guide about becoming a professional regulated by the HCPC",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "A guide for disabled people about becoming a health and care professional regulated by the HCPC – includes information for education providers"
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10004D79Healthdisabilityandbecomingahealthandcareprofessional.pdf",
+                                    "text": "Guide"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Becoming a Health and Care Professional",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "subtitle": "Becoming a H&C Professional",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/qmXYquQkG5o",
+                                "thumb": "qmXYquQkG5o.jpg"
+                            }
+                        },
+                        {
+                            "subtitle": "Standards of Conduct",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/QWhjJWavsKk",
+                                "thumb": "QWhjJWavsKk.jpg"
+                            }
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/audiences/studentsandapplicants/",
+                                    "text": "HCPC Students and Applicants Information"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10004EDFStandardsofconduct,performanceandethics.pdf",
+                                    "text": "HCPC - Standards of conduct"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/nmc-publications/nmc-code.pdf",
+                                    "text": "NMC - Code of conduct"
+                                },
+                                {
+                                    "link": "https://www.hcpc-uk.org/assets/documents/10002C16Guidanceonconductandethicsforstudents.pdf",
+                                    "text": "HCPC - Code of ethics"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/standards/nmc-standards-for-pre-registration-nursing-education.pdf",
+                                    "text": "NMC - Standards for pre-registration - Nurses"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "The Equality Act",
+            "sections": [
+                {
+                    "subtitle": "What is it?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The Equality Act was introduced to simplify and strengthen discrimination laws across Britain. It harmonised 116 pieces of legislation. The aim of the legislation is to protect certain categories of people from unfair treatment.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "What is a disability under the Equality Act",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/NRtztkc35hg",
+                                "thumb": "equality_act_disability.jpg"
+                            },
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Protected Characteristics",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Age"
+                                },
+                                {
+                                    "text": "Disability"
+                                },
+                                {
+                                    "text": "Gender reassignment"
+                                },
+                                {
+                                    "text": "Marriage and civil partnership"
+                                },
+                                {
+                                    "text": "Race"
+                                },
+                                {
+                                    "text": "Religion or belief"
+                                },
+                                {
+                                    "text": "Sex"
+                                },
+                                {
+                                    "text": "Sexual Orientation"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Key Issues",
+                    "components": [
+                        {
+                            "subtitle": "Direct discrimination",
+                            "type": "text-quote",
+                            "text": "An individual or organisation that provides services to the public must not treat someone worse just because of one or more protected characteristics…",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Indirect discrimination",
+                            "type": "text-quote",
+                            "text": "An organisation must not do something to someone in a way that has a worse impact on them and other people who share a particular protected characteristic than it has on people who do not share that characteristic. Unless the organisation can show that what they have done is objectively justified…",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Discrimination arising from disability",
+                            "type": "text-quote",
+                            "text": "Service providers must not treat disabled people unfavourably because of something connected to their disability where they cannot show that what they are doing is objectively justified. This only applies if the individual or organisation knows, or could reasonably have been expected to know, that the person is disabled",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "A good summary of the Equality Act can be found at the link below: ",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "tag": "",
+                                    "text": "Summary of the Equality Act",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/equality_act_summary_guidance_on_services.pdf"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The Equality Act allows for discrimination against any of the protected characteristics.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-quote",
+                            "text": "The Equality Act says discrimination can be justified if the person who's discriminating against you can show it’s a proportionate means of achieving a legitimate aim. If necessary, it's the courts which will decide if discrimination can be justified",
+                            "author": "Citizen’s advice website",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-quote",
+                            "text": "A legitimate aim is the reason behind the discrimination. This reason must not be discriminatory in itself and it must be a genuine or real reason.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Here are some examples of legitimate aims: ",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "the health, safety and welfare of individuals"
+                                },
+                                {
+                                    "text": "running an efficient service"
+                                },
+                                {
+                                    "text": "requirements of a business"
+                                },
+                                {
+                                    "text": "desire to make profit"
+                                }
+                            ],
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Health and social care training programmes need to ensure that potential registrants are capable of meeting the competencies set out in the regulatory guidelines and can support the delivery of an efficient service.",
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Understanding the Act",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The following link points to a document that contains valuable information regarding the understanding of the Equality Act.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Understanding the Equality Act",
+                                    "link": "https://www.disabilityrightsuk.org/understanding-equality-act-information-disabled-students?platform=hootsuite"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-mythfact",
+                            "myths": [
+                                {
+                                    "myth": "Once an employer has hired a disabled person, they can’t sack them.",
+                                    "fact": "An employer can dismiss a disabled employee if the dismissal is justified and they have taken all the correct steps."
+                                },
+                                {
+                                    "myth": "Nobody thinks in stereotypes – we’re more sophisticated now.",
+                                    "fact": "In 2015, it was reported that 42% of disabled people seeking work found the biggest barrier to getting hired were misconceptions around what they could do."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Reasonable Adjustments",
+            "sections": [
+                {
+                    "subtitle": "Why reasonable adjustments?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "Equality law identifies disabled people as one of eight protected categories in society. This means that the way society organises education, employment and access to recreation, etc. needs to be restructured to account for any barriers that may treat people with disabilities unfairly. In Higher Education, the law states it is the duty of institutions to provide students with disabilities reasonable adjustments.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "What is it?",
+                            "type": "text-paragraph",
+                            "text": "Reasonable adjustments are very simply any alterations that need to be made to ensure a disabled person is not disadvantaged. However, the changes have to be considered reasonable. There are certain considerations that could be made when deciding if something is “reasonable”: ",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "For example: ",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "How effective the change will be in avoiding the disadvantage the disabled worker would otherwise experience"
+                                },
+                                {
+                                    "text": "Its practicality"
+                                },
+                                {
+                                    "text": "Its cost"
+                                },
+                                {
+                                    "text": "your organisation’s resources and size"
+                                },
+                                {
+                                    "text": "the availability of financial support.(GOV.UK website)",
+                                    "links": [
+                                        {
+                                            "portion": "GOV.UK",
+                                            "href": "https://www.gov.uk/recruitment-disabled-people/reasonable-adjustments"
+                                        }
+                                    ]
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "What Reasonable Adjustments to expect?",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The link below will take you to the Disability Rights website which has a very detailed list of all the reasonable adjustments you should expect from employers.",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "Link: ",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Disability Rights UK",
+                                    "link": "https://www.disabilityrightsuk.org/adjustments-disabled-students"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Videos on Reasonable Adjustments",
+                    "components": [
+                        {
+                            "subtitle": "Reasonable Adjustments under the Equality Act",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/MFOOzzoRtDc",
+                                "thumb": "reasonable_adjustments_eq_act.jpg"
+                            },
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Reasonable Adjustments in practice",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/B_QFO8BW0PI",
+                                "thumb": "reasonable_adjustments_inpractice.jpg"
+                            },
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "",
+                    "components": [
+                        {
+                            "subtitle": "Myths and Misconceptions",
+                            "type": "text-mythfact",
+                            "myths": [
+                                {
+                                    "myth": "It will be expensive for an employer to hire a disabled person.",
+                                    "fact": "Most ‘ reasonable adjustments’ cost nothing or very little.  Only 4% of them do cost  (and even then the average is £184 per disabled employee) and the emphasis is on the word ‘reasonable and what is reasonable can depend on the size of the business."
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Case Studies",
+            "sections": [
+                {
+                    "subtitle": "Case Studies from NMC",
+                    "space_after": false,
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "video-carousel",
+                            "videos": [
+                                {
+                                    "subtitle": "Being Open",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/KFisdBqa19M",
+                                        "thumb": "KFisdBqa19M.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Having Consent",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/R74ioeRCvgg",
+                                        "thumb": "R74ioeRCvgg.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Using Social Media",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/sDCzycN_Xu0",
+                                        "thumb": "sDCzycN_Xu0.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Reporting Concerns",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/29m1vdeMIyI",
+                                        "thumb": "29m1vdeMIyI.jpg"
+                                    }
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "What we have reviewed",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Learning in practice is structural different to learning in the classroom. Students are entitled to support from their educators and could have reasonable adjustments provided they can meet the competencies set out in the standards of proficiency."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Quiz",
+            "sections": [
+                {
+                    "name": "Quiz",
+                    "type": "modal/quiz"
+                }
+            ]
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "Reflection",
+            "sections": []
+        },
+        {
+            "blockname": "Learning in Practice",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.disabilityrightsuk.org/adjustments-disabled-students",
+                                    "text": "Adjustments for disabled students",
+                                    "tag": "Disability Rights Website"
+                                },
+                                {
+                                    "link": "https://www.citizensadvice.org.uk/law-and-courts/discrimination/what-are-the-different-types-of-discrimination/justifying-discrimination/",
+                                    "text": "Citizens Advice Website Justifying Discrimination",
+                                    "tag": ""
+                                },
+                                {
+                                    "text": "Health and Care Professions Council",
+                                    "link": "https://www.hcpc-uk.org/"
+                                },
+                                {
+                                    "text": "GOV.UK website Reasonable adjustments for workers with disabilities or health conditions",
+                                    "link": "https://www.gov.uk/reasonable-adjustments-for-disabled-workers"
+                                },
+                                {
+                                    "text": "Nursing and Midwifery Council",
+                                    "link": "https://www.nmc.org.uk/"
+                                },
+                                {
+                                    "link": "https://www.disabilityrightsuk.org/understanding-equality-act-information-disabled-students?platform=hootsuite",
+                                    "text": "Understanding the Equality Act Disability UK Fact Sheet"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. Equality Act 2010: Summary Guidance on Services, Public Functions and Associations",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/equality_act_summary_guidance_on_services.pdf"
+                                },
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. What equality law means for you as an education provider – further and higher education",
+                                    "tag": "",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/what_equality_law_means_for_you_as_an_education_provide_further_and_higher_education.pdf"
+                                },
+                                {
+                                    "text": "Equality and Human Rights Commission 2014. What equality law means for you as a student in further or higher education",
+                                    "link": "https://www.equalityhumanrights.com/sites/default/files/what_equality_law_means_for_you_as_a_student_in_further_or_higher_education.pdf"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-reference",
+                            "title": "Experiencing authenticity – the core of student learning in clinical practice.",
+                            "volume": "5, Issue 5",
+                            "pages": "308–311",
+                            "authors": [
+                                {
+                                    "name": "Manninen, K"
+                                }
+                            ],
+                            "year": "2016",
+                            "link": "https://link.springer.com/article/10.1007%2Fs40037-016-0294-0",
+                            "publisher": "Perspectives on Medical Education"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
