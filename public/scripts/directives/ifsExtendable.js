@@ -1,23 +1,30 @@
-application.directive("ifsExtendable",function($timeout,$parse){
+application.directive("ifsExtendable",function($compile,$timeout,$parse){
     "use strict";
-    return{
+    return {
         restrict: "A",
 
-        link: function (scope,elem,attrs,ctrl,transcludeFn) {
+        link: function(scope,elem,attrs,ctrl){
+            var fn = $parse(attrs['ifsExtendableCallback']);
+            var classes = attrs['classes'] || "";
+            var content = angular.element(`<li class="${classes}">
+                        <button class="btn btn-success w-100 btn-sm" ng-click="sendMessage()">
+                            <span class="fa fa-plus-circle fa-fw text-white float-left"></span>
+                            <span> Add New</span>
+                        </button>
+                    </li>`);
+            var content = $compile(content)(scope);
             $timeout(function(){
-                console.log(attrs);
-                elem.append("" +
-                    "<li class='"+attrs.ifsClass+"'>" +
-                    "<button class='btn btn-success'><span class='fa fa-plus mr-3' ng-click='addElem()'></span>Press Me</button></li>");
-                console.log(scope.data[0]);
-                $(elem).find("button").on("click",function(e){
-                   var fn = $parse(attrs["ifsPush"]);
-                   scope.$apply(function(){
-                       fn(scope);
-                   });
-
+                elem.append(content);
+                $(content).on("click",function(){
+                    console.log("clicked");
+                    scope.$apply(function(){
+                        fn(scope);
+                    }) ;
                 });
             },0);
+        },
+        controller: function($scope){
+
         }
     }
 });

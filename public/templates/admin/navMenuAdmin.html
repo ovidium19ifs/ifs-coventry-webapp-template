@@ -1,0 +1,18 @@
+<nav class="navbar-nav navbar-light navbar-expand-md main-navigation border border-danger" >
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rsSidebar" aria-controls="rsSidebar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-collapse collapse" id="rsSidebar">
+        <ul class="nav rs-sidebar flex-column flex-nowrap" ifs-extendable ifs-extendable-callback="addSection()" data-classes="nav-item">
+            <li class="nav-item blah blah-again" ng-repeat="block in data" ng-class="{active: selected===block.name}" ifs-editable="section">
+                <a href="" class="nav-link block-link small " ng-click="select($index,$event)">{{block.name}}</a>
+                <ul class=" nav rs-sub flex-column flex-nowrap" ng-show="selected===block.name" ifs-extendable ifs-extendable-callback="addChapter($index)" data-classes="nav-item">
+                    <li class="nav-item border border-success" ifs-editable="chapter"  ng-repeat="chapter in block.chapters" ng-class="{'sub-active':chSelected === (block.name+'-'+chapter.name)}" >
+                        <a href="" class="nav-link chapter-link h-100 small border border-primary"  ng-click="selectChapter($parent.$index,$index,$event)">{{chapter.name}}</a>
+                    </li>
+
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>

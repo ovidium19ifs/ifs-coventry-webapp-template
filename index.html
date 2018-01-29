@@ -28,6 +28,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-route.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.6.3/angular-animate.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-scroll/1.0.2/angular-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js" integrity="sha256-tyfWW2LtJQNI+l3F0h6xDV/ij6Mfn8lwSKHWOsmEgXM=" crossorigin="anonymous"></script>
 
 
 </head>
@@ -44,9 +45,6 @@
                     <input type="search" placeholder="Search..." class="form-control">
                 </form>
                 <nav-menu  class="px-2" id="navigation"></nav-menu>
-
-
-
                 <!--
                 <nav class="navbar-nav navbar-light navbar-expand-md" >
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rsSidebar" aria-controls="rsSidebar" aria-expanded="false" aria-label="Toggle navigation">
@@ -153,9 +151,9 @@
                 </ol>
             </div>
             -->
-            <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home}" id="mainContent" >
+            <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home, 'no-scroll': adminState}" id="mainContent" >
                 <div ng-class="{'container': inContentState, 'container-fluid': !inContentState}">
-                    <div class="nav-buttons w-100 " ng-show="inContentState">
+                    <div class="nav-buttons w-100 " ng-if="inContentState">
                         <button class="btn  float-left content-nav d-inline" ng-hide="lowEnd" ng-click="goToPrevious()">
                             <span class="fa fa-chevron-left mr-2" ></span>
                             Previous
@@ -168,15 +166,11 @@
                     <ng-view></ng-view>
                     <!--<ng-include src="'templates/text-card-template.html'" ></ng-include>-->
                 </div>
-
             </div>
-
             <!-- this right panel will show all sections in a chapter for quick scanning of the document -->
             <div class="col col-md-2 col-lg-2 order-2 aside" ng-show="inContentState">
                 <chapter-summary></chapter-summary>
             </div>
-
-
         </div>
     </div>
 </body>
@@ -198,6 +192,9 @@
 <script src="scripts/directives/FormDirectives/linkPdf.js"></script>
 <script src="scripts/directives/videoCarousel.js"></script>
 <script src="scripts/directives/FormDirectives/linkReference.js"></script>
+<script src="scripts/directives/AdminDirectives/navMenuAdmin.js"></script>
+<script src="scripts/directives/AdminDirectives/chapterSummaryAdmin.js"></script>
+<script src="scripts/directives/ifsEditable.js"></script>
 <script src="scripts/directives/ifsExtendable.js"></script>
 <script src="scripts/services/navigate.js"></script>
 <script src="scripts/controllers/TestCtrl.js"></script>
@@ -205,6 +202,8 @@
 <script src="scripts/controllers/ContentRedirecter.js"></script>
 <script src="scripts/controllers/MainContentCtrl.js"></script>
 <script src="scripts/controllers/IntroductionCtrl.js"></script>
+<script src="scripts/controllers/ArrayDeleteModalCtrl.js"></script>
+<script src="scripts/controllers/admin/AdminInterfaceController.js"></script>
 <script src="scripts/directives/chapterSummary.js"></script>
 <script src="scripts/controllers/AdminController.js"></script>
 <script src="scripts/filters/noSpaces.js"></script>

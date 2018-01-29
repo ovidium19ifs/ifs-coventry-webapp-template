@@ -1,0 +1,323 @@
+{
+    "block": "Students",
+    "name": "Ready For Placement",
+    "chapters": [
+        {
+            "blockname": "Readt For Placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "A health or social care placement is a learning environment for skills practice and assessment, but it also provides an opportunity for students to experience work in real time. A lot of students will be excited about this prospect, probably also nervous; many will not know what to expect. The work environment is filled with lots of complexity and uncertainty, particularly in health service delivery. It is however a good chance for you to begin contributing to health care delivery and there will be lots learning opportunities."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Your feelings about the placement aside, do your best to be prepared for the placement and look forward to a successful placement."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will provide some suggestions on what you could do to prepare for placement. Placements can be physically and emotionally exhausting. You need to be prepared for working and the physical and emotional toil working with other people and probably vulnerable people."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready For Placement",
+            "name": "Final Preparations (2-4 Weeks)",
+            "sections": [
+                {
+                    "subtitle": "Guidelines",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Check that you are physically, mentally and emotionally ready for the duration of the placement."
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Checklist",
+                            "list_elements": [
+                                {
+                                    "text": "Have I collected the uniforms and Personal Protective Equipment?",
+                                    "links": []
+                                },
+                                {
+                                    "text": "Have I collected by Identity cards?"
+                                },
+                                {
+                                    "text": "Have I got my vaccinations? Where to Get?"
+                                },
+                                {
+                                    "text": "Have I read the policies and procedures?"
+                                },
+                                {
+                                    "text": "Do I understand my legal and statutory duties?"
+                                },
+                                {
+                                    "text": "Have I read the Health and Safety policies?"
+                                },
+                                {
+                                    "text": "Do I understand the absence policies?"
+                                },
+                                {
+                                    "text": "I have collated my placement logbook/ documents"
+                                },
+                                {
+                                    "text": "I understand how to complete the logbook/etc."
+                                },
+                                {
+                                    "text": "Have I done a trial journey? – it is good practice to ensure you can get to the placement in good time. You could do a trial run at the time (s) of day you will need to be on duty to ensure you will not be surprised by traffic, parking problems, unexpected child care concerns or other issues."
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Present yourself",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "On time"
+                                },
+                                {
+                                    "text": "In a professional manner – be courteous and kind to everyone you meet"
+                                },
+                                {
+                                    "text": "Ensure you have a good grasp of the theoretical knowledge you have learned at University"
+                                },
+                                {
+                                    "text": "Feel free to ask questions when you are not sure"
+                                },
+                                {
+                                    "text": "Get involved in the task and activities, be prepared to learn as much as you can"
+                                },
+                                {
+                                    "text": "show willing interest with a can-do attitude"
+                                },
+                                {
+                                    "text": "do not have your phone on and refrain from checking it constantly"
+                                },
+                                {
+                                    "text": "take responsibility for yourself and your actions, and recognise you are one part of a busy business rather than the focus of it"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Be ready for working in health care",
+                            "space_after": true,
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Plan to care for yourself – eat proper meals, take good rest breaks, sleep, enjoy a regular social life"
+                                },
+                                {
+                                    "text": "Take your days off to refresh yourself"
+                                },
+                                {
+                                    "text": "Keep fit – physically, emotionally and mentally"
+                                },
+                                {
+                                    "text": "Have a contingency plan for isolation – can you meet up regularly with peers, friends and family?"
+                                }
+                            ]
+                        },
+                        {
+                            "space_after": false,
+                            "subtitle": "Your educators will want you to show that",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "You are a team player can work with others"
+                                },
+                                {
+                                    "text": "Can manage yourself, take care of your needs, manage emotions"
+                                },
+                                {
+                                    "text": "Problem solving"
+                                },
+                                {
+                                    "text": "Have the ability to communicate"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Tips from Students and Staff",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "",
+                            "videos": [
+                                {
+                                    "subtitle": "Tips for your first Clinical Placement",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/dkku8fe5O_g",
+                                        "thumb": "dkku8fe5O_g.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "My first Nursing day",
+                                    "type": "video-single",
+                                    "space_after": false,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/US7txWaTDPE",
+                                        "thumb": "US7txWaTDPE.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Professional Behaviour",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Professional behaviour is usefully summarised as a series of actions deemed acceptable in the workplace. Judgements about professional behaviour can be arrived at dependent on an individual’s: communicative abilities, critical thinking and problem-solving; initiative and accountability and ethical approaches and reflections. Furthermore, nonverbal gestures and demeanour will also influence how other’s perceive an individual’s professional behaviour."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The following guide is intended to help students, who are preparing for placement, of their responsibilities once they commence placement."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "N.b. the Faculty of Health and Life Sciences provides many up-to-date student policies and procedures relating to placement, available at:"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://share.coventry.ac.uk/students/HLS/Pages/Polices-and-Procedures.aspx",
+                                    "text": "Coventry University - Student Portal - Policies and Procedures"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Policies and Procedures - Extracts",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Students should make every effort to sustain the University's good name and reputation whilst completing their placement. In particular, you should have consideration for your colleagues and your employer’s clients, service users or customers. As you may also come into contact with your employer’s suppliers and other professionals, it is very important your conduct remains consistently professional - at all times."
+                                },
+                                {
+                                    "text": "A student who fails to maintain a reasonable standard of behaviour (deemed by the placement provider according to their disciplinary policy and process), or who compromises their own safety, or the safety of others, may be dismissed from their placement and may face disciplinary procedures through the University’s General Regulations http://www.coventry.ac.uk/cu/registry/regulations",
+                                    "links": [
+                                        {
+                                            "portion": "http://www.coventry.ac.uk/cu/registry/regulations",
+                                            "href": "http://www.coventry.ac.uk/cu/registry/regulations"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "text": "All placements are subject to the processes of student risk assessment and provider health and safety checks, conducted by Faculty Employability Support. You must however, ensure you have read and understood the documentation in the Student Placement Pack, issued to you by Employability Support at the time of your meeting with the advisor"
+                                },
+                                {
+                                    "text": "During the student risk assessment with the Employability Support advisor, you will have an opportunity to discuss any disabilities or long-term health conditions you are managing. This information will be treated in confidence. If however, the student choses to make a disclosure to the placement provider, the advisor can help you to present this information in a professional way. Doing so, enables the placement provider to make reasonable adjustments, if required. It is the best policy for students to discuss any disabilities or long-term health conditions with the advisor first."
+                                },
+                                {
+                                    "text": "Students must take reasonable care to ensure their actions do not endanger themselves or others around them, and follow any instructions or advice given by staff."
+                                },
+                                {
+                                    "text": "Students must take reasonable care to ensure their actions do not endanger themselves or others around them, and follow any instructions or advice given by staff."
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Behavioural Responsibilities",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "It goes without saying that your behaviour will have an impact on colleagues and other stakeholders, such as clients and service users. Sometimes students, perhaps through lack of experience, do not recognise that their actions and behaviour may have unintended and long-lasting consequences. As part of your professional development you should take responsibility to regularly reflect upon and modify your actions and behaviour. This is quite normal and part of your development. It something you can talk to your placement supervisor about. You can also discuss this with the Academic Placement Supervisor allocated to you."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The following guidelines, are consistent with professional standards and behaviours; we would reasonably expect Coventry University students to adhere to these whilst on placement:",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Guidelines",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Attend employer briefings/inductions sessions."
+                                },
+                                {
+                                    "text": "Follow employer’s procedures and comply with employer’s statutory and legal requirements relating. to,  for example, data protection, children’s  and vulnerable adults safeguarding, food hygiene, health and safety, manual handling, COSH and  the correct use and management of substances hazardous to health (e.g. cleaning products) etc."
+                                },
+                                {
+                                    "text": "Maintain highest standards of professional behaviour and conduct yourself in a mature, responsible, courteous and respectful manner with colleagues, customers, clients and suppliers."
+                                },
+                                {
+                                    "text": "Treat company or organisational information and/or trade secrets, as CONFIDENTIAL INFORMATION. During placement you may learn about information relating to the company, a Group of companies, or one of their clients. You must not at any time during or after the placement disclose or make use of your knowledge about this confidential information."
+                                },
+                                {
+                                    "text": "Adhere to employers policies, in particular those pertaining to ITS and the use of social networking sites, such as Facebook, Twitter and the internet. If in doubt, do NOT use ICT/ social media for personal purposes, on placement."
+                                },
+                                {
+                                    "text": "Maintain a high standard of customer service and ensure the highest standards of quality are achieved in all duties carried out."
+                                },
+                                {
+                                    "text": "Maintain a high standard of personal hygiene & personal appearance"
+                                },
+                                {
+                                    "text": "Attend staff meetings, as well as internal and external training as required, and participate fully in staff development activities."
+                                },
+                                {
+                                    "text": "Work closely with colleagues/supervisors with regard to ensuring that appropriate levels of service are maintained."
+                                },
+                                {
+                                    "text": "In line with employer procedures, during sickness/other absences, ensure your employer placement supervisor and your Academic Placement Supervisor is notified immediately and kept updated."
+                                },
+                                {
+                                    "text": "Seek clarification if you do not understand something or are unsure about what to do, and are worried about the consequences"
+                                },
+                                {
+                                    "text": "Under no circumstances should you attend placement under the influence of alcohol or drugs, as this will impair your judgement and expose you and others to risk. This is a serious matter referred to as gross misconduct, so can lead to summary dismissal or termination of placement."
+                                }
+                            ],
+                            "space_after": false
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "Guidelines for Academics Supervising Sandwich Placement Students’ Sept 2017.docx",
+                                    "text": "Guidelines for Academics Supervising Sandwich Placement Students’ Sept 2017.docx"
+                                }
+                            ],
+                            "subtitle": "From The University’s Employability Support Team"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready For Placement",
+            "name": "Final Preparations (2 Days)",
+            "sections": []
+        }
+    ]
+}

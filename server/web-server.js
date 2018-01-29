@@ -6,8 +6,9 @@ var app = express();
 var bodyParser = require('body-parser');
 var rootPath = path.normalize(__dirname+"/../");
 
-app.use(bodyParser.urlencoded({extended:true}));
-app.use(bodyParser.json());
+
+app.use(bodyParser.json({limit: '50mb'}));
+app.use(bodyParser.urlencoded({limit: '50mb',extended:true}));
 app.use(lessMiddleware(path.join(rootPath,"public"),{force:true}));
 app.use(express.static(path.join(rootPath+"public")));
 app.use("/pdf",express.static(path.join(rootPath,"public","pdfs")));

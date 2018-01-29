@@ -1,4 +1,4 @@
-var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate","duScroll"])
+var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate","duScroll","ui.bootstrap"])
     .run(function($anchorScroll){
         "use strict";
         $anchorScroll.yOffset = 90;
@@ -104,6 +104,21 @@ application.config(function ($routeProvider,$locationProvider) {
                     else return navigate.getData();
                 }
             }
+        })
+        .when("/admini/:group",{
+            templateUrl: "templates/admin/adminHome.html",
+            controller: "AdminInterfaceController",
+            resolve: {
+                dataBlock: function(navigate,dataFetcher,$route){
+                    "use strict";
+                        return dataFetcher.get($route.current.params.group).$promise.then(
+                            function(res){
+                                return res;
+                            }
+                        )
+                }
+            }
+
         })
         .when("/404",{
             templateUrl: "templates/404.html",

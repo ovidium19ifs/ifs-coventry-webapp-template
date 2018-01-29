@@ -60,6 +60,14 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
             else $scope.inContentState = false;
         }
     );
+    $scope.$watch(
+        function () {
+            return $location.path().indexOf("admini")>-1;
+        },
+        function(newV){
+            $scope.adminState = newV ? true : false;
+        }
+    );
     $scope.$on("$dataWasLoaded",function(e,args){
         $scope.$broadcast("dataWasLoaded");
     });

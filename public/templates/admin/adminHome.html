@@ -1,0 +1,157 @@
+<div class="container-fluid row admin-container ">
+    <!-- navigation menu left side -->
+    <div class="col-md-3  col-lg-2 order-0 side-menu px-0"  style="min-width:230px; overflow: scroll">
+        <nav-menu-admin  class="px-2" id="navigation" repo="data"></nav-menu-admin>
+        <!--
+        <nav class="navbar-nav navbar-light navbar-expand-md" >
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#rsSidebar" aria-controls="rsSidebar" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse collapse" id="rsSidebar">
+                <ul class="nav rs-sidebar flex-column flex-nowrap">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Link 1</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">Link 2</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">Link 3</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">Link 4</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">Link 5</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item ">
+                        <a href="" class="nav-link">Link 6</a>
+                        <ul class="d-none nav rs-sub flex-column flex-nowrap">
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 1</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 2</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="" class="nav-link">Sub-Link 3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+
+        </nav>
+        -->
+    </div>
+    <!-- Center Content -->
+    <div class="col col-md col-lg order-1 content  h-100" id="mainContent2" >
+        <div class="container" ng-show="selChapter">
+            <!-- Content -->
+            <h1 class="text-center block-title">{{selChapter.blockname}}</h1>
+            <div class="card main-card">
+                <div class="card-header">
+                    <h2 class="card-title d-inline">{{selChapter.name}}</h2>
+                    <div class="float-right part-descriptor">
+                        <p>Chapter: {{selChapter.blockname}}</p>
+                        <p class="text-right pt-1">Part {{index+1}} of {{selBlock.chapters.length}}</p>
+                    </div>
+                </div>
+
+                <div class="card-body">
+
+                    <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section" ng-repeat="section in selChapter.sections">
+
+                        <h4 class="card-subtitle">{{section.subtitle}}</h4>
+                        <div  ng-repeat="component in section.components" class="editable-component my-3">
+                            <ng-include  src="'templates/components/text/paragraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
+                            <ng-include  src="'templates/components/text/quote.html'" ng-if="component.type==='text-quote'"></ng-include>
+                            <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
+                            <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
+                            <ng-include  src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
+                            <ng-include  src="'templates/components/link/website.html'" ng-if="component.type==='link-website'"></ng-include>
+                            <ng-include src="'templates/components/link/pdf.html'" ng-if="component.type==='link-pdf'"></ng-include>
+                            <ng-include  src="'templates/components/text/alert.html'" ng-if="component.type==='text-alert'"></ng-include>
+                            <ng-include  src="'templates/components/text/mythfact.html'" ng-if="component.type==='text-mythfact'"></ng-include>
+                            <ng-include  src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>
+                            <ng-include  src="'templates/components/link/reference.html'" ng-if="component.type==='link-reference'"></ng-include>
+                            <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
+                            <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
+                            <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
+                            <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="$parent.$index.toString()+$index.toString()"></video-carousel>
+
+                            <hr class="mid-comp-sep my-5" ng-if="component['space_after']">
+                        </div>
+
+
+                        <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container" ng-hide="selChapter">
+            <h3>Select a chapter from the menu</h3>
+        </div>
+    </div>
+    <!-- Right side page navigation -->
+    <div class="col col-md-2 col-lg-2 order-2 aside">
+        <chapter-summary-admin></chapter-summary-admin>
+    </div>
+</div>

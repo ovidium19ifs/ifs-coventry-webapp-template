@@ -257,12 +257,16 @@ div.main-page{
 .content{
     .content-background();
     overflow-y: auto;
+    height:90vh;
     min-width: 600px;
     @media screen {
       @media (max-width: 768px){
         border: 1px solid black;
       }
     }
+}
+.content.no-scroll{
+  overflow-y: hidden;
 }
 /*
 .content::-webkit-scrollbar{
