@@ -1,0 +1,450 @@
+{
+    "block": "Students",
+    "name": "During Placement",
+    "chapters": [
+        {
+            "blockname": "During Placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section presents guidance and suggestions aimed at supporting your learning on placement."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will provide you with information and materials about teaching and learning."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "Learning Effectively",
+            "sections": [
+                {
+                    "subtitle": "Learning Effectively",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Learning happens every day. All the skills and knowledge we use we have learned, however we often take it for granted. There are different earning styles, most people use a combination of learning styles to facilitate their learning."
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Find out which learning styles best facilitate your learning. You can reflect on the things you learn and how your learning was enhanced – it may be the reading material or the way the educator or mentor explained something in particular or even the way you chose to link the theory with the practical skill. Learning how you learn will support your capacity to learn."
+                                },
+                                {
+                                    "text": "Practice, practice, practice! The best way to know if you can do something is to practice is – be hands on and develop the confidence to try."
+                                },
+                                {
+                                    "text": "Stay focused and motivated. A healthy diet influences your mood and motivation. Eating plenty of fruits and vegetables, exercising regularly and sleeping well will be particularly useful to ensure you have a good mood and motivation to learn."
+                                },
+                                {
+                                    "text": "Ask for help if you need it. Feel free to say when you do not understand and discuss your scope of practice with your educator and mentor. The educator or mentor will seek to challenge you. This is good for your learning but only you will know if the challenge is inspiring or burdensome."
+                                },
+                                {
+                                    "text": "Self-learn. It is your responsibility to direct your own learning. Focus on learning and it is likely you learn the more."
+                                },
+                                {
+                                    "text": "Develop good relationships with your mentors and educators. You cannot make anyone like you but being polite and respectful shows you are putting in the effort and most people mimic behaviour when relationships are being developed."
+                                },
+                                {
+                                    "text": "Reflection is good practice. You may want to keep a learning diary where you summarise your experiences and summarise the things you have learned every day."
+                                },
+                                {
+                                    "text": "Be SMART. Set small, measurable, achievable, realistic goals every week. Have a good discussion with your educator or mentor about you want to achieve your goals and enjoy your journey."
+                                },
+                                {
+                                    "text": "You never really fail, you just learn differently. Be determined to get better if your performance is below par."
+                                }
+                            ],
+                            "subtitle": "Tips for learning effectively in practice"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Building Confidence",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "tag": "Tips for developing confidence at work",
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/assertiveness-and-self-confidence/",
+                                    "text": "Crowe Associates - Tip for developing confidence"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "tag": "Developing great work relationships",
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/building-great-work-relationships/",
+                                    "text": "Building work relationships"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Communication Skills",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Communication is essential when you are placement\n\nBe honest and transparent with your educator. Provide them with feedback about your learning and how they can best support you maximising your strengths and developing your weak ares\n\nBe honest with your self – reflect on your progress and be honest about how you can make the most of the placement. See challenges as opportunities to develop and grow\n\nDevelop a polite, professional manner when speaking with patients and colleagues."
+                        },
+                        {
+                            "type": "link-website",
+                            "subtitle": "How to communicate effectively",
+                            "links": [
+                                {
+                                    "link": "https://www.thebalance.com/communication-skills-list-2063779",
+                                    "text": "thebalance.com - Communication skills"
+                                },
+                                {
+                                    "link": "https://www.extension.harvard.edu/professional-development/blog/mastering-basics-communication",
+                                    "text": "Mastering basics communication"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/how-to-communicate/",
+                                    "text": "Crowe Associates -  How to communicate"
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Communicating with a educators/mentors",
+                            "type": "link-website",
+                            "list_elements": [],
+                            "links": [
+                                {
+                                    "text": "Seven reasons to say what is on your mind – be polite and listen actively",
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/2403-2/"
+                                },
+                                {
+                                    "text": "Active listening",
+                                    "link": "https://sway.com/yDYLJtMJbMUT0MsL?ref=Link"
+                                },
+                                {
+                                    "text": "SBI feedback Model",
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/the-sbi-feedback-model/"
+                                },
+                                {
+                                    "text": "Using e mail",
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/email-guidelines/"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Communicating with a patient (Verbal, written)",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Mehrabian Formula for Communications",
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/the-mehrabian-formula-for-communications/"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "Videos on Communication",
+                            "space_after": false,
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Communication Skills",
+                                    "space_after": false,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/ESFNaZiiew4",
+                                        "thumb": "ESFNaZiiew4.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Effective Interaction with a patient",
+                                    "space_after": false,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/I6TqSwlDtoY",
+                                        "thumb": "I6TqSwlDtoY.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Ineffective interactions with patients",
+                                    "space_after": false,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/E4mtNrOLKgo",
+                                        "thumb": "E4mtNrOLKgo.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Managing Conflicts",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/conflict-resolution-models/",
+                                    "text": "Tips on conflict resolving"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/styles-of-conflict-management/",
+                                    "text": "Styles of conflict management"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "Meeting the requirements",
+            "sections": [
+                {
+                    "subtitle": "Responsibilities",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Make sure you:"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Regularly complete placement log"
+                                },
+                                {
+                                    "text": "Compile evidence of learning"
+                                },
+                                {
+                                    "text": "Get ready for your half-way meeting"
+                                },
+                                {
+                                    "text": "Be self-aware – Take self-assessment"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Using Initiative",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Be proactive, and demonstrate that you can be autonomous and hands-on colleague. Always check to ensure your practice is safe and give your educator regular feedback. Show leadership and courage."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.mindtools.com/pages/article/newLDR_50.htm",
+                                    "text": "How Good Are Your Leadership Skills?"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Making mistakes on placement",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/uoS4y6LKUDw",
+                                "thumb": "uoS4y6LKUDw.jpg"
+                            }
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Time Management",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://sway.com/PmxH3yiPqlEtJ1tb?ref=Link",
+                                    "text": "Effective time management - University of Lincoln (Sway)"
+                                },
+                                {
+                                    "link": "https://www.mindtools.com/pages/article/newHTE_76.htm",
+                                    "text": "How to be Organized"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "Time management and staying healthy",
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Time Management Tips",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/8vjrlriT-SE",
+                                        "thumb": "8vjrlriT-SE.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Healthy night shifts",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/xR-rMtdeEpc",
+                                        "thumb": "xR-rMtdeEpc.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Looking after yourself",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Your health is important. If you are not healthy, you will be unable to learn effectively and you may not be able to perform at optimum levels."
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Eat regular meals."
+                                },
+                                {
+                                    "text": "Exercise"
+                                },
+                                {
+                                    "text": "Take regular breaks ant the appropriate times"
+                                },
+                                {
+                                    "text": "Watch that your sleep patterns are healthy, even though you may have to adjust to night shifts or odd shift patterns"
+                                },
+                                {
+                                    "text": "Socialise, do your best to stay socially active and do not lose links with friends or family because you are on placement"
+                                },
+                                {
+                                    "text": "Take a break if you need it"
+                                },
+                                {
+                                    "text": "Contact your tutor or the disability team if you need support"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Manging your finances",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Placements can be a great opportunity to reorganise your finances. You could improve your own financial intelligence. \nConsider what your income may be – what will you earn? Have you saved for placement?\nConsider your outgoings – you may need money for accommodation, transportation, utility."
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Healthy night shifts",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/QJJzDluz4ac",
+                                "thumb": "QJJzDluz4ac.jpg"
+                            }
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Student Reflection",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "We always try to encourage students to reflect on their feelings and their overall situation. It is an important skill which bring to light issues that then the student ca take further steps to solve. In order to do that, we motivate you to read the articles and watch the videos that we consider are very relevant to opening your eyes when it comes to reflection."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.nursingtimes.net/students/why-are-some-of-us-so-bad-at-caring-for-ourselves/7022596.article?blocktitle=SNT-Editors:&contentID=26823",
+                                    "text": "Why are we so bad at caring for ourselves"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "Time management and staying healthy",
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Reflection Nursing Placement",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/97L0kHKAXCc",
+                                        "thumb": "97L0kHKAXCc.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Reflection night shifts",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/ubt98g3njX4",
+                                        "thumb": "ubt98g3njX4.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Be proactive – take responsibility for learning",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The placement is for you. Go for it!"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "The Conscious Competence Ladder",
+                                    "link": "https://www.mindtools.com/pages/article/newISS_96.htm"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Reflection night shifts",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/Mcf8FaXnrPA",
+                                "thumb": "Mcf8FaXnrPA.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

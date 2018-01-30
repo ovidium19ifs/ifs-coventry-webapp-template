@@ -317,7 +317,328 @@
         {
             "blockname": "Ready For Placement",
             "name": "Final Preparations (2 Days)",
-            "sections": []
+            "sections": [
+                {
+                    "subtitle": "Checklist",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "I have sufficient support strategies in place -"
+                                },
+                                {
+                                    "text": "I have the contact number of my visiting tutor/Uni contact"
+                                },
+                                {
+                                    "text": "I know my shift patterns and times"
+                                },
+                                {
+                                    "text": "I know when the placement will start and finish"
+                                },
+                                {
+                                    "text": "I have organised care for my children or dependents"
+                                },
+                                {
+                                    "text": "I know when my study days are?"
+                                },
+                                {
+                                    "text": "I have organised travel – tickets, parking, permits, note (Limited parking in many hospitals) Tried and tested route"
+                                },
+                                {
+                                    "text": "I am ready to set my goals with my educator/mentor"
+                                },
+                                {
+                                    "text": "I have my placement log"
+                                },
+                                {
+                                    "text": "Is it possible to contact students on the same placement?"
+                                },
+                                {
+                                    "text": "I am confident I can have a successful placement"
+                                },
+                                {
+                                    "text": "I have a Placement Learning Plan"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Successful Placement",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "subtitle": "Successful Placement",
+                            "space_after": false,
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/C5lKVHaYxvs",
+                                "thumb": "C5lKVHaYxvs.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Practical things you might need",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Simple practical things you may need – notebook, lunch, glossary, pen, scissors, no nail vanish, etc."
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Practical things you might need",
+                            "space_after": false,
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/QKs41bX8K1Y",
+                                "thumb": "QKs41bX8K1Y.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready For Placement",
+            "name": "Feel ready and confident?",
+            "sections": [
+                {
+                    "subtitle": "Confidence",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you do not feel ready talk to someone, ask peers about their experiences."
+                        },
+                        {
+                            "subtitle": "Reflection",
+                            "type": "text-paragraph",
+                            "text": "Download the document below and complete it as part of your reflection process. This will help you gain confidence and maybe remember things you may have omitted in your preparation."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/1583_SELF-CONFIDENCE-REVIEW.pdf",
+                                    "text": "Self Confidence Review"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Dealing with panic attacks",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students who have frequent severe panic attacks and extreme anxieties may not be keeping track of when these occurrences happen, and may not be aware of why they are more frequently occurring. The following tool can be attached within the online ‘self-guide’ to be downloaded and printed off to be completed. \nIt aims to identify the areas in which the student feel comfortable in within their placement:"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "‘the comfort zone’"
+                                },
+                                {
+                                    "text": "areas they are willing to stretch themselves to be comfortable in e.g. to ask questions more frequently to colleagues aka ‘the stretch zone’"
+                                },
+                                {
+                                    "text": "Areas upon which they do not, in this moment in time, feel comfortable engaging in, ‘the fear/panic zone’ e.g. independently dealing with a patient during placement scenario."
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Among students who have a disability and who are embarking on a placement for their course may have increased anxiety levels and these at times can be overwhelming. This tool aims to provide the student a visual aid in which areas they should stretch themselves in, in order to be successful without stressing themselves out too much, and in which areas to avoid to prolong their enjoyment of their placement by not engaging in situations that would be upsetting or potentially damaging to their mental wellbeing/academic achievement. This tool, once completed, may be beneficial for the student to show to their supervisor whilst on placement, so the advisor ensured the student was not forced into doing something that would be detrimental to their mental health, or to provide more support whilst the student is partaking in the task."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/The-Comfort-Stretch-Panic-Coaching-Tool.pdf",
+                                    "text": "The Comfort-Stretch-Panic Coaching tool"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready For Placement",
+            "name": "Resources and Videos",
+            "sections": [
+                {
+                    "subtitle": "Relaxation Exercises",
+                    "space_after": false,
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.ed.ac.uk/student-counselling/self-help/podcasts-video/relaxation-exercises",
+                                    "text": "Relaxation Exercises recommended by the University of Edinburgh"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Meditation Apps",
+                    "components": [
+                        {
+                            "subtitle": "University of Edinburgh recommendations",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.ed.ac.uk/student-counselling/self-help/podcasts-video/meditation-apps",
+                                    "text": "Meditation Apps"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Apps for dealing with Stress",
+                    "components": [
+                        {
+                            "subtitle": "SAM",
+                            "type": "text-paragraph",
+                            "text": "There is an app called ‘SAM’ (Self-Help for Anxiety Management) – it is developed specifically for students."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://sam-app.org.uk/",
+                                    "text": "SAM Website"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Pacifica",
+                            "type": "text-paragraph",
+                            "text": "Another app called ‘Pacifica’ – anxiety, stress and depression relief. It advertises ‘A free app that helps to break negative thought, feeling and behaviour cycles. Day-by-day, learn to manage your feelings at your own pace.’ – it is based on Cognitive Behavioural Therapy and Meditation"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.thinkpacifica.com/",
+                                    "text": "Pacifica Website"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Student Counselling",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Helpful Ted talk on student Counselling",
+                                    "link": "https://www.ed.ac.uk/student-counselling/self-help/podcasts-video/ted-talks"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "An example of a chatroom is ‘Big White Wall’ -",
+                            "subtitle": "Counselling support online"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.bigwhitewall.com/v2/landingUK.aspx?ReturnUrl=%2f",
+                                    "text": "Big White Wall Website"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Confidence building",
+                    "components": [
+                        {
+                            "subtitle": "TED Talk - Confidence Boosting",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/l_NYrWqUR40",
+                                "thumb": "l_NYrWqUR40.jpg"
+                            }
+                        },
+                        {
+                            "subtitle": "Ted Talk on confidence boosting techniques",
+                            "type": "link-website",
+                            "space_after": true,
+                            "links": [
+                                {
+                                    "link": "https://ed.ted.com/lessons/3-tips-to-boost-your-confidence-ted-ed#discussion",
+                                    "text": "Ted Talk Website"
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "More Videos on confidence and overcoming anxiety",
+                            "type": "video-carousel",
+                            "space_after": false,
+                            "videos": [
+                                {
+                                    "subtitle": "Time Management",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/iDbdXTMnOmE",
+                                        "thumb": "iDbdXTMnOmE.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Mind over Mood",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/SMwQ_SPr1Mk",
+                                        "thumb": "SMwQ_SPr1Mk.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Overcoming social anxiety",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/_NQGQImrpx4",
+                                        "thumb": "_NQGQImrpx4.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Self-esteem and assertiveness ",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/68ciKK1afDQ",
+                                        "thumb": "68ciKK1afDQ.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

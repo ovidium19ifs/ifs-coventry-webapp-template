@@ -282,16 +282,6 @@
         },
         {
             "blockname": "Disclosure",
-            "name": "Your Personal Tutor",
-            "sections": []
-        },
-        {
-            "blockname": "Disclosure",
-            "name": "Benefits",
-            "sections": []
-        },
-        {
-            "blockname": "Disclosure",
             "name": "Quiz",
             "sections": [
                 {
@@ -436,26 +426,6 @@
                     "space_after": true
                 }
             ]
-        },
-        {
-            "blockname": "Disclosure",
-            "name": "Reflection",
-            "sections": []
-        },
-        {
-            "blockname": "Disclosure",
-            "name": "Flowchart",
-            "sections": []
-        },
-        {
-            "blockname": "Disclosure",
-            "name": "Summary",
-            "sections": []
-        },
-        {
-            "blockname": "Disclosure",
-            "name": "References",
-            "sections": []
         }
     ]
 }

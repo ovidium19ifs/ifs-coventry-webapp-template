@@ -92,11 +92,6 @@
         },
         {
             "blockname": "Learning in Practice",
-            "name": "Form",
-            "sections": []
-        },
-        {
-            "blockname": "Learning in Practice",
             "name": "Challenges",
             "sections": [
                 {
@@ -1003,21 +998,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "blockname": "Learning in Practice",
-            "name": "Quiz",
-            "sections": [
-                {
-                    "name": "Quiz",
-                    "type": "modal/quiz"
-                }
-            ]
-        },
-        {
-            "blockname": "Learning in Practice",
-            "name": "Reflection",
-            "sections": []
         },
         {
             "blockname": "Learning in Practice",

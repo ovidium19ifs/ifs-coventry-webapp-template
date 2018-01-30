@@ -1157,7 +1157,19 @@
                                 }
                             ],
                             "link": "https://advice.milkround.com/the-dos-donts-of-a-placement-social-life",
-                            "subtitle": "A useful blog"
+                            "subtitle": "A useful blog",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "What to Expect from Placement",
+                            "space_after": false,
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/Student_Placement_what_to_expect.pdf",
+                                    "text": "What to expect from a Student placement"
+                                }
+                            ]
                         }
                     ],
                     "space_after": true
@@ -1384,11 +1396,6 @@
                     ]
                 }
             ]
-        },
-        {
-            "blockname": "Preparing for Placement",
-            "name": "Checklist",
-            "sections": []
         },
         {
             "blockname": "Preparing for Placement",
