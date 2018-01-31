@@ -1,0 +1,107 @@
+{
+    "block": "Staff",
+    "name": "Evaluating the Placement",
+    "chapters": [
+        {
+            "blockname": "Evaluating the Placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Intro",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Hooray this round of placement is over. Fabulous work all round."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Highlight information that could be useful as students."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Evaluating the Placement",
+            "name": "Complete placement evaluation",
+            "sections": [
+                {
+                    "subtitle": "Complete the placement evaluation",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The Faculty has an evaluation form which informs helps us collate students feedback. Encourage students to complete the relevant forms"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Was Placement Successful?",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students will usually have a debriefing session and be encouraged to reflect on their placement. It is also good practice for staff to reflect on their practice and articulate things that went really well on this cycle and how the learning can be used by the team when preparing for other placements."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "It may also be helpful to collate feedback from placement sites and educators or mentors."
+                        },
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "Reflecting on the placement",
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Introduction to Reflective Practice",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/M9hyWVEG2x0",
+                                        "thumb": "M9hyWVEG2x0.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Reflection Models",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/Vt0-2nucCMI",
+                                        "thumb": "Vt0-2nucCMI.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Evaluating a placement is useful for many reasons. We can celebrate the success of students and collate their feedback. \n\nReflecting on the placement cycle helps us learn and improve actions and processes on future placements"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "subtitle": "Coventry University’s Employability Support Team",
+                            "links": [
+                                {
+                                    "link": "pdfs/Guidelines for Academics Supervising Sandwich Placement Students_Sept 2017.docx",
+                                    "text": "Guidelines for Academics Supervising Sandwich Placement Students_Sept"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

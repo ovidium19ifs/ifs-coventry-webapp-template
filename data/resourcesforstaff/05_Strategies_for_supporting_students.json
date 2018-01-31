@@ -1,0 +1,230 @@
+{
+    "block": "Staff",
+    "name": "Strategies for supporting students",
+    "chapters": [
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students may actually feel a little drained, physically or emotionally worn down during a placement, some students may find working full time exhausting. Especially, those students who need extra time to study because they have a Specific Learning Difficulty, or those students who work and have caring responsibilities."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The work place is challenging and it is the students’ responsibility to ensure they are adequately prepared. However, some students may approach staff if they have challenging times."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students and staff could provide reassurance and support to students who are struggling."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Success on Placement",
+            "sections": [
+                {
+                    "subtitle": "Success on Placement",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "At this point, the ball is the student’s court. The University has prepared the students and hopefully most of them will have successful placements. Though it’s the students’ responsibility to learn and demonstrate the skills and competencies they have learned on placement, it is the duty of education providers to ensure students are treated fairly and that the education we provide is inclusive."
+                        },
+                        {
+                            "type": "text-quote",
+                            "text": "Inclusion is a process that helps overcome barriers limiting the presence, participation and achievement of learners.",
+                            "author": "UNESCO",
+                            "year": "2017"
+                        },
+                        {
+                            "type": "text-quote",
+                            "text": "Equity is about ensuring that there is a concern with fairness, such that the education of all learners is seen as having equal importance.",
+                            "author": "UNESCO",
+                            "year": "2017"
+                        },
+                        {
+                            "type": "link-reference",
+                            "title": "A guide for ensuring inclusion and equity in education",
+                            "authors": [
+                                {
+                                    "name": "UNESCO"
+                                }
+                            ],
+                            "year": "2017",
+                            "pages": "13-17",
+                            "link": "http://unesdoc.unesco.org/images/0024/002482/248254e.pdf"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Promoting inclusive education",
+            "sections": [
+                {
+                    "subtitle": "Promoting inclusive education",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Inclusive Education practices are steadily becoming mainstream, since the Equality Act was introduced in 2010. However, implementing some inclusive practices may be challenging. Some placement providers may not know how to make learning inclusive, University staff can provide guidance and training. Staff at the University can liaise with the placement providers to build capacity and raise awareness, providing guidance and support to enable educators and mentors support students.",
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The following two documents refer to supporting students with Asperger's Syndrome, however the advice given applies for students with other disabilities as well."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/AdviceforlecturersSupportingstudentswithAspergersSyndromeMMU.pdf",
+                                    "text": "Advice for lecturers supporting students with Asperger's Syndrome ( MMU)"
+                                },
+                                {
+                                    "link": "pdfs/Teachingstudentswithaspergers.pdf",
+                                    "text": "Teaching students with aspergers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Training for staff",
+            "sections": [
+                {
+                    "subtitle": "Training",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Staff can access training to support their understanding of the various policies and processes that affect students with disabilities on placement."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Organisation Development regularly has short training programmes (2- 4 hours) which focus on support for students with disabilities. For example, Supporting disabled learners – Autism awareness – 2 Hour training or Supporting disabled learners – Introduction to supporting students who are blind or have a visual impairment – 2 Hour training.\nThe Academic Development team can also provide bespoke training on any particular topic."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.coventry.ac.uk/life-on-campus/organisation-development/",
+                                    "text": "Coventry University - Organisational development"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Disability support for staff",
+            "sections": [
+                {
+                    "subtitle": "Disability support for staff",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Staff can access the Disability Team if they need support engaging with a student. The disabilities team can support staff by offering advice, tips and skills to about challenges students with disabilities may have."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you have any questions contact the team"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://healthandwellbeingbookings.coventry.ac.uk/",
+                                    "text": "https://healthandwellbeingbookings.coventry.ac.uk/"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The section highlighted issues around supporting students on placement, particularly how staff can enable educators and mentors provide inclusive education and how staff can access support from the disability team.",
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "A last note, the following document gives advice on how to conduct inclusive communication with students."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/Inclusive_communication_guide.pdf",
+                                    "text": "Inclusive communication guide"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-reference",
+                            "title": "A guide for ensuring inclusion and equity in education",
+                            "authors": [
+                                {
+                                    "name": "UNESCO"
+                                }
+                            ],
+                            "year": "2017",
+                            "pages": "13-17",
+                            "link": "http://unesdoc.unesco.org/images/0024/002482/248254e.pdf"
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "link-reference",
+                            "space_after": false,
+                            "title": "Getting the most out of your clinical placement. ",
+                            "authors": [
+                                {
+                                    "name": "Whitehead, B"
+                                }
+                            ],
+                            "year": "2013",
+                            "publisher": "Nursing Times",
+                            "volume": "109:37",
+                            "pages": "12-13",
+                            "link": "https://www.nursingtimes.net/journals/2013/09/13/l/s/s/180913-getting-the-most-out-of-your-clinical-placement.pdf"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

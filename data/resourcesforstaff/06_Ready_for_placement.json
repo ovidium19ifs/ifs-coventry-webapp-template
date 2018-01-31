@@ -1,0 +1,117 @@
+{
+    "block": "Staff",
+    "name": "Ready for placement",
+    "chapters": [
+        {
+            "blockname": "Ready for placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is the Universities’ responsibility to prepare students for placement, by ensuring they have the adequate uniforms and have the information they require.\n\nThe weeks prior to placement may be very busy as students are bombarded with lots of information and advice. Staff can provide students with checklist to ensure they have provided all the students need"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will looks at some brief checklists that staff could use to prepare students for placement in the final weeks before placement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready for placement",
+            "name": "Final Preparations",
+            "sections": [
+                {
+                    "subtitle": "Guidelines",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Check that you are physically, mentally and emotionally ready for the duration of the placement."
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Have Students collected the uniforms and Personal Protective Equipment?"
+                                },
+                                {
+                                    "text": "Do students know how to contact the placement?"
+                                },
+                                {
+                                    "text": "Do student know how what identification they will need?"
+                                },
+                                {
+                                    "text": "Have students received the appropriate vaccinations?"
+                                },
+                                {
+                                    "text": "Are policies and procedures accessible?"
+                                },
+                                {
+                                    "text": "Do students understand legal and statutory duties?"
+                                },
+                                {
+                                    "text": "Do students have access to absence policies?"
+                                },
+                                {
+                                    "text": "Have students collected placement logbook/ documents"
+                                }
+                            ],
+                            "subtitle": "Checklist"
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Staff can prompt students to complete their own checklist."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Students are prepared",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students should be able to contact a named person when they are on placement if they have an emergency or feel they need to discuss any concerns."
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Rules for nursing school clinicals",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/QKs41bX8K1Y",
+                                "thumb": "QKs41bX8K1Y.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Ready for placement",
+            "name": "References",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/",
+                                    "text": "Crowe Associates - People development"
+                                }
+                            ]
+                        }
+                    ],
+                    "subtitle": "References"
+                }
+            ]
+        }
+    ]
+}
