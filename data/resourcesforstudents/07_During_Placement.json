@@ -199,6 +199,71 @@
                     "space_after": true
                 },
                 {
+                    "subtitle": "Student Reflection",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "We always try to encourage students to reflect on their feelings and their overall situation. It is an important skill which bring to light issues that then the student ca take further steps to solve. In order to do that, we motivate you to read the articles and watch the videos that we consider are very relevant to opening your eyes when it comes to reflection."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.nursingtimes.net/students/why-are-some-of-us-so-bad-at-caring-for-ourselves/7022596.article?blocktitle=SNT-Editors:&contentID=26823",
+                                    "text": "Why are we so bad at caring for ourselves"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/writing-as-a-reflective-force/",
+                                    "text": "Writing as a reflective force"
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Communicate with yourself – reflect",
+                            "type": "text-paragraph",
+                            "text": "Various models of reflection are available, there is no “right model”. Students are encouraged to use a model that is right for them, one that they feel can comfortable with. So many of the models use similar language and activities. Reflective models are used to deconstruct events and consolidate learning."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://skillsforlearning.leedsbeckett.ac.uk/preview/content/models/01.shtml",
+                                    "text": "Using models for reflection"
+                                },
+                                {
+                                    "link": "https://www.bradford.ac.uk/wimba-files/skill-space/Reflective_Writing_HTML/page_04.htm",
+                                    "text": "Reflective writing as a skill"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-carousel",
+                            "subtitle": "Time management and staying healthy",
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Reflection Nursing Placement",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/97L0kHKAXCc",
+                                        "thumb": "97L0kHKAXCc.jpg"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Reflection night shifts",
+                                    "video": {
+                                        "type": "youtube",
+                                        "src": "https://www.youtube.com/embed/ubt98g3njX4",
+                                        "thumb": "ubt98g3njX4.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
                     "subtitle": "Managing Conflicts",
                     "components": [
                         {
@@ -375,49 +440,6 @@
                     "space_after": true
                 },
                 {
-                    "subtitle": "Student Reflection",
-                    "components": [
-                        {
-                            "type": "text-paragraph",
-                            "text": "We always try to encourage students to reflect on their feelings and their overall situation. It is an important skill which bring to light issues that then the student ca take further steps to solve. In order to do that, we motivate you to read the articles and watch the videos that we consider are very relevant to opening your eyes when it comes to reflection."
-                        },
-                        {
-                            "type": "link-website",
-                            "links": [
-                                {
-                                    "link": "https://www.nursingtimes.net/students/why-are-some-of-us-so-bad-at-caring-for-ourselves/7022596.article?blocktitle=SNT-Editors:&contentID=26823",
-                                    "text": "Why are we so bad at caring for ourselves"
-                                }
-                            ]
-                        },
-                        {
-                            "type": "video-carousel",
-                            "subtitle": "Time management and staying healthy",
-                            "videos": [
-                                {
-                                    "type": "video-single",
-                                    "subtitle": "Reflection Nursing Placement",
-                                    "video": {
-                                        "type": "youtube",
-                                        "src": "https://www.youtube.com/embed/97L0kHKAXCc",
-                                        "thumb": "97L0kHKAXCc.jpg"
-                                    }
-                                },
-                                {
-                                    "type": "video-single",
-                                    "subtitle": "Reflection night shifts",
-                                    "video": {
-                                        "type": "youtube",
-                                        "src": "https://www.youtube.com/embed/ubt98g3njX4",
-                                        "thumb": "ubt98g3njX4.jpg"
-                                    }
-                                }
-                            ]
-                        }
-                    ],
-                    "space_after": true
-                },
-                {
                     "subtitle": "Be proactive – take responsibility for learning",
                     "components": [
                         {
@@ -441,6 +463,211 @@
                                 "src": "https://www.youtube.com/embed/Mcf8FaXnrPA",
                                 "thumb": "Mcf8FaXnrPA.jpg"
                             }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "Reasonable Adjustments",
+            "sections": [
+                {
+                    "subtitle": "Are your RA successful?",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "You can review your RA and have a discussion with your educator/mentor about how well they are helping you."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Do you need additional support?",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you think your RA are not adequate, have a conversation with the Learning Support Tutor about why you will want to changes some things. Then talk you’re your mentor or educator about that changes. Consider how the RA can be introduced. Some RA may not be accessible in particular environments.",
+                            "space_after": true
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "You know you best!",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Everyone is an individual with unique characteristics, strengths and needs. People may not fully understand your individual needs however you know you best. You can explain your feelings and difficulties experienced to your practice educator as many times as you need.  If you need more support, re-explain your issues with your practice educator. You can also contact the disabilities team and placement team at university for support and ideas."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "Preparing for Assessment",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Ensure you collate evidence to competencies"
+                                },
+                                {
+                                    "text": "Be aware of what you have achieved"
+                                },
+                                {
+                                    "text": "Be aware of learning opportunities you need"
+                                },
+                                {
+                                    "text": "If relevant – are you ready for end of placement exam?"
+                                },
+                                {
+                                    "text": "Find opportunities to practice?"
+                                },
+                                {
+                                    "text": "All the RA you need"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Placement Connect contains all the information you need to know about assessment in each department. There are various videos and documents and various case studies in a video format that will help you understand how the process works and what to expect. Search for your department in the list below, then follow the link to visualise the information."
+                        }
+                    ],
+                    "space_after": false,
+                    "subtitle": "Be ready"
+                },
+                {
+                    "subtitle": "Nurses - Assessment Information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/assessing-student-nurses",
+                                    "text": "Placement Connect - Nurses Assessment"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Dietetics - Assessment information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/dietetics/student-supervision-assessment-and-documents",
+                                    "text": "Placement Connect - Dietetics Assessment"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Midwives - Assessment information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/midwifery/assessing-student-midwives",
+                                    "text": "Placement Connect - Midwives Assessment"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Occupational Therapists - Assessment information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/occupational-therapy/case-based-oral-assessment",
+                                    "text": "Placement connect - Occupational Therapists assessment"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Physiotherapy - Assessment information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/physiotherapy/placement-documents",
+                                    "text": "Placement connect - Physio assessment info"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Social work - Assessment information",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/images/category/social_work/pd_professional_capabilities_framework.pdf",
+                                    "text": "Placement connect - Social work assessment docs"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section provides information that could help you while you are on placement. You could benefit from using the resources to organise your time, ensure you are staying healthy and taking care of your physical and mental health. Some resources that could help you with practical placement practice are also presented, including communication tips and leadership."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During Placement",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/resources/",
+                                    "text": "Crowe associates resources"
+                                },
+                                {
+                                    "link": "http://edeu.lincoln.ac.uk/portfolio/personal-tutoring-resources/",
+                                    "text": "Lincoln University personal tutor resources"
+                                },
+                                {
+                                    "link": "https://www.mindtools.com/",
+                                    "text": "Mind Tools website"
+                                },
+                                {
+                                    "link": "https://www.nursingtimes.net/home/courses/using-reflective-practice-in-frontline-nursing/5045779.article",
+                                    "text": "Nursing times - reflective writing"
+                                }
+                            ]
                         }
                     ]
                 }
