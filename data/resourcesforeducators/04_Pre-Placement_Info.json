@@ -1,0 +1,384 @@
+{
+    "block": "Educators",
+    "name": "Pre-Placement Info",
+    "chapters": [
+        {
+            "blockname": "Pre-Placement Info",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will provide information about:"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "What students may expect before placement",
+                                    "links": []
+                                },
+                                {
+                                    "text": "Supporting students who may be anxious about placement"
+                                },
+                                {
+                                    "text": "Enable you to reflect on student placement"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Pre-Placement Info",
+            "name": "Concerns or Challenges",
+            "sections": [
+                {
+                    "subtitle": "Student's Concerns",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Many students may not have practical experience so have questions and concerns; being on placement can be significantly different to academic assignments. Frequently asked questions and concerns include:"
+                        },
+                        {
+                            "subtitle": "Best practice for clinical learning environment",
+                            "type": "video-single",
+                            "space_after": false,
+                            "video": {
+                                "type": "youtube",
+                                "src": "http://www.youtube.com/embed/kEQeX8Gv4Ic",
+                                "thumb": "kEQeX8Gv4Ic.jpg"
+                            }
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Requirements",
+                    "space_after": true,
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is useful for students to be aware of their placement requirements before starting the placement. They can find details about the requirements through reading their placement handbook and the competencies. They can also direct any questions about these requirements to their personal tutor, learning support tutor or course leader well before the placement begins"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Myths and misconceptions about disabled students on placements",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Disabled people work in many capacities as health care professionals. It is important they can meet the competencies and have the support and reasonable adjustments they need. If you are not sure about a student’s ability to meet competencies you can discuss any concerns with the disability team and regulatory bodies.",
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Supporting Students",
+                            "space_after": false,
+                            "type": "text-paragraph",
+                            "text": "There are many ways you can support students during this difficult period. Watch the following videos for a brief look at some of the likely situations a student will find themselves in and how you can support him/her."
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "video-carousel",
+                            "videos": [
+                                {
+                                    "subtitle": "Defining",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2680&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_defining.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Diversity",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2681&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_diversity.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Supporting",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2683&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_supporting.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Practical Examples",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2684&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_practical_examples.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Reasonable Adjustments",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2686&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_reasonable_adjustment.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Managing",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2687&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_managing.jpg"
+                                    }
+                                },
+                                {
+                                    "subtitle": "Preconceptions",
+                                    "type": "video-single",
+                                    "space_after": true,
+                                    "video": {
+                                        "type": "helix",
+                                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2688&quality=hi&captions=n&chapterId=0",
+                                        "thumb": "thumb_swan_preconceptions.jpg"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Invisible disabilities",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Consider support for students with invisible disabilities like ME, Dyslexia, Mental Health Difficulties, etc.",
+                            "space_after": false
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Invisible Disabilities",
+                            "space_after": false,
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/mOf8xBDcsyo",
+                                "thumb": "mOf8xBDcsyo.jpg"
+                            }
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Thinking Point",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "You suspect a student is not aware of the requirements and competencies noted in the handbook. What should you do?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Requirements",
+            "blockname": "Pre-Placement Info",
+            "sections": [
+                {
+                    "subtitle": "Requirements",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The placement will have various requirements. It is useful for students to be aware of these requirements before starting the placement. They can find details about the requirements through reading their placement handbook and the competencies. They can also direct any questions about these requirements to their personal tutor, learning support tutor or course leader well before the placement begins.",
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Placement providers are expected to give the student an induction to the organisation, typically this will happen on the first day of placement. At induction, it is appropriate to provide students with"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "an overview of the organisational structure"
+                                },
+                                {
+                                    "text": "relevant health and safety policies"
+                                },
+                                {
+                                    "text": "training in the use of equipment and systems the student will use"
+                                },
+                                {
+                                    "text": "provide information on risks in the environment, particularly discuss potential risks and mitigations with students who have disabilities"
+                                },
+                                {
+                                    "text": "a set of clear aims and objectives for the student"
+                                },
+                                {
+                                    "text": "Guidance on how the student can provide feedback to their educator or mentor"
+                                },
+                                {
+                                    "text": "Structured meetings to monitor the progress of a students and opportunity to raise any concerns"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is the responsibility of the placement provider to integrate students into the organisation, plans and relevant partners. Placement teams at the University will explain your role in the assessment of students."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Student preparation",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students have been adequately briefed prior to starting their placement, each student will have a handbook and appropriate information about the placement. The student should be aware of"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "General health and safety issues"
+                                },
+                                {
+                                    "text": "their responsibilities and expected behaviour during placement"
+                                },
+                                {
+                                    "text": "what will be expected of them by the University and regulatory bodies when undertaking a placement"
+                                },
+                                {
+                                    "text": "assessment processes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Health and safety",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The University has a duty of care to students on placements, making sure that they are working in suitable learning environments which meet health and safety standards. Placement providers re expected to inform students of any potential risks in the workplace and make sure they receive adequate training, induction and supervision. Students are expected to be honest and transparent about their skills and scope of practice, demonstrating a willingness to learn the required skills and be assessed when appropriate."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "University – Placement Liaison",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Placement teams will be in contact with placement providers to ensure the student is getting on well.. Students may have visits from a tutor to monitor their progress and discuss any concerns."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Pre-Placement Info",
+            "name": "Pre-Placement Visit",
+            "sections": [
+                {
+                    "subtitle": "Students may need a pre-placement visit.",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Some students may need a pre-placement visit this could be facilitated by the Learning Support Tutor in collaboration with the placement team."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is the student’s responsibility to prepare for a pre placement visit. Learning Support Tutors and the disability team have support mechanisms in place to support students who are organising a pre placement visit and empower them to articulate their need and think about reasonable adjustments.",
+                            "space_after": true
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Organising a Pre-Placement Visit",
+                            "space_after": false,
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/cdUx3teXih8",
+                                "thumb": "cdUx3teXih8.jpg"
+                            }
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Thinking Point",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Why are students so anxious about placements?"
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Most placements are successful. If students have all the necessary resources why do some struggle?"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Pre-Placement Info",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is important that students with disabilities are notified of their placement in good time so they can make adequate preparations. Some students with disabilities may need time to agree reasonable adjustments or discuss their learning needs prior to the placement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Pre-Placement Info",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/standards/nmc-standards-for-pre-registration-nursing-education.pdf",
+                                    "text": "Standards for pre-registration nursing education"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/nmc-publications/nmc-code.pdf",
+                                    "text": "The Code: Standards of Conduct, Performance and Ethics for Nurses"
+                                },
+                                {
+                                    "link": "https://www.nmc.org.uk/globalassets/sitedocuments/standards/nmc-standards-to-support-learning-assessment.pdf",
+                                    "text": "Standards to support learning assessment in practice"
+                                },
+                                {
+                                    "link": "pdfs/supportingstudentswithdyslexiainpractice2ndedition.pdf",
+                                    "text": "University of Southampton - Supporting students with dyslexia"
+                                },
+                                {
+                                    "link": "pdfs/makingreasonableadjustments.pdf",
+                                    "text": "Making reasonable adjustments with disabled students in higer education"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

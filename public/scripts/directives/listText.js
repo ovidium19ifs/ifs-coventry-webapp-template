@@ -23,7 +23,8 @@ application.directive("listText",function($timeout){
 
                 });
             };
-            scope.applyLinks();
+            if (scope.element.hasOwnProperty("list-elements"))
+                scope.applyLinks();
 
         },
         controller: function($scope,$timeout){

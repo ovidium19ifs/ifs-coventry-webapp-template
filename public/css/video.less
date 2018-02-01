@@ -50,15 +50,47 @@ iframe{
   .video-style;
   border-radius: 10px;
   cursor:pointer;
+
 }
 .btn.btn-video-carousel{
+
+  position: relative;
   border-radius: 15px;
   cursor:pointer;
   .button-carousel;
-
+  & .ifs-tooltip{
+    display: none;
+    position: absolute;
+    top:-30px;
+    left:50%;
+    z-index:1000;
+    background-color: #2f4858;
+    color: #e2e6ea;
+  }
+  &:hover .ifs-tooltip{
+    display:inline;
+  }
+}
+.ifs-tooltip:after{
+  content:"";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom:-7px;
+  left:10%;
+  border-top:10px solid #2f4858;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  z-index:999;
 }
 .btn.btn-video-carousel.active{
   .button-active;
+  &:hover .ifs-tooltip{
+    display:inline;
+  }
+}
+.btn-group.btn-video-carousel-group{
+  margin: 0 -20px;
 }
 a.my-carousel-control{
   position: relative;

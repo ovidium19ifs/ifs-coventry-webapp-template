@@ -5,10 +5,13 @@
         </div>
         <div class="card-text" ng-show="component.authors">
             <b>Authors: </b>
-            <span ng-repeat="a in component.authors">{{a.name}}</span>
-            <span ng-show="!$last">,</span>
+            <span ng-repeat="a in component.authors">
+                {{a.name}}
+                <span ng-show="!$last">,&nbsp;</span>
+            </span>
+
         </div>
-        <div class="card-text" ng-show=""component.year>
+        <div class="card-text" ng-show="component.year">
             <b>Year: </b>
             <span >{{component.year}}</span>
         </div>

@@ -1,0 +1,256 @@
+{
+    "block": "Educators",
+    "name": "Strategies for supporting students",
+    "chapters": [
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Students may actually feel a little drained, physically or emotionally worn down during a placement, some students may find working full time exhausting. Especially, those students who need extra time to study because they have a Specific Learning Difficulty, or those students who work and have caring responsibilities."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The work place is challenging and it is the students’ responsibility to ensure they are adequately prepared. However, some students may approach staff if they have challenging times."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students and staff could provide reassurance and support to students who are struggling."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Success on Placement",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "subtitle": "Supporting a student generally involves",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Provide the student with a professional role model."
+                                },
+                                {
+                                    "text": "Manage and facilitate the educational programme for their student.  Some students may have personal learning agreements which they could share with an educator/mentor stating their goals, strength and any required Reasonable Adjustments"
+                                },
+                                {
+                                    "text": "Communicate with a student and provide relevant and timely feedback"
+                                },
+                                {
+                                    "text": "Liaise with associate mentors and other team members to meet the educational needs of the student."
+                                },
+                                {
+                                    "text": "Ensure that each student is given an appropriate level of supervision throughout their mentorship period."
+                                },
+                                {
+                                    "text": "Identify learning opportunities for students within their own and associated practice placement area."
+                                },
+                                {
+                                    "text": "Provide the student with ongoing formative assessment of their performance in line with the outcomes/competencies they are expected to achieve."
+                                },
+                                {
+                                    "text": "Provide the student with formative assessment at the midpoint of their placement and a written summative assessment at the end of their placement."
+                                },
+                                {
+                                    "text": "Engage in lifelong learning/CPD"
+                                },
+                                {
+                                    "text": "Evaluate their own mentorship activities."
+                                },
+                                {
+                                    "text": "Participate in the evaluation of their practice placement"
+                                },
+                                {
+                                    "text": "(Burns and Paterson 2004)",
+                                    "links": [
+                                        {
+                                            "portion": "Burns and Paterson",
+                                            "href": "https://doi.org/10.1016/j.nepr.2004.02.001"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ],
+                    "subtitle": "Success on Placement"
+                },
+                {
+                    "subtitle": "As a positive role model, educators and mentors can be effective",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Encouraging students to reach their goals"
+                                },
+                                {
+                                    "text": "Be approachable and listen actively to students’ challenges"
+                                },
+                                {
+                                    "text": "Value student’ contribution and opinions."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Though educators and mentors are encouraged to open and approachable, it is advisable to sue a common sense approach. Ensure students are professional and use appropriate language and do not be obliged to share personal or sensitive information with students that are not relevant or suitable."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is important that educators and mentors are also supported in their role. Teaching and providing pastoral support can be emotionally challenging. It is important educators and mentors have the appropriate resources to undertake their role and feel supported when they are dealing with changing students or students who require a lot of their time."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Regulatory bodies require that educators and mentors are properly supported and have the necessary infrastructure and resources to perform their roles."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Giving students appropriate and relevant feedback",
+                    "components": [
+                        {
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/IuufStMa21Y",
+                                "thumb": "IuufStMa21Y.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Inclusion",
+            "sections": [
+                {
+                    "subtitle": "Inclusion",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "At this point, the ball is the student’s court. The University has prepared the students and hopefully most of them will have successful placements. Though it’s the students’ responsibility to learn and demonstrate the skills and competencies they have learned on placement, it is the duty of education providers to ensure students are treated fairly and that the education we provide is inclusive."
+                        },
+                        {
+                            "type": "text-quote",
+                            "text": "Inclusion is a process that helps overcome barriers limiting the presence, participation and achievement of learners.",
+                            "author": "UNESCO",
+                            "year": "2017"
+                        },
+                        {
+                            "type": "text-quote",
+                            "text": "Equity is about ensuring that there is a concern with fairness, such that the education of all learners is seen as having equal importance.",
+                            "author": "UNESCO",
+                            "year": "2017"
+                        },
+                        {
+                            "type": "link-reference",
+                            "title": "A guide for ensuring inclusion and equity in education",
+                            "authors": [
+                                {
+                                    "name": "UNESCO"
+                                }
+                            ],
+                            "year": "2017",
+                            "pages": "13-17",
+                            "link": "http://unesdoc.unesco.org/images/0024/002482/248254e.pdf"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Supporting students",
+                    "components": [
+                        {
+                            "subtitle": "Supporting students with aspergers or dyslexia documents",
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/supportingstudentswithdyslexiainpractice2ndedition.pdf",
+                                    "text": "Supporting students with dyslexia"
+                                },
+                                {
+                                    "link": "pdfs\\Teachingstudentswithaspergers.pdf",
+                                    "text": "Teaching students with aspergers"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Raising awareness",
+            "sections": [
+                {
+                    "subtitle": "Raising awareness",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Educators have a unique opportunity to learn from students. Working with a student may be a great occasion to learn about new theories or ideas being taught in educational institutions or even learn about a disability the student may have."
+                        },
+                        {
+                            "subtitle": "If a student discloses a disability for the first time on placment",
+                            "type": "text-paragraph",
+                            "text": "If a student discloses a disability while on placement, please contact the University placement team to discuss the disclosure and next steps"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The section highlights ways in which educators/mentors could effectively support students.",
+                            "space_after": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Strategies for supporting students",
+            "name": "References",
+            "sections": [
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-reference",
+                            "link": "https://doi.org/10.1016/j.nepr.2004.02.00",
+                            "title": "Clinical practice and placement support: supporting learning in practice.",
+                            "authors": [
+                                {
+                                    "name": "Burns I"
+                                },
+                                {
+                                    "name": "Paterson I.M"
+                                }
+                            ],
+                            "year": "2004"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

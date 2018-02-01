@@ -1,15 +1,19 @@
 <h4 class="text-center mb-5">{{component.subtitle}}</h4>
 <div id="{{compkey+'videocarousel'}}" class="carousel slide" data-ride="carousel">
     <div class="d-flex align-items-center justify-content-around w-100 ">
-        <a  class="my-carousel-control" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="prev">
+        <a  class="my-carousel-control  d-md-inline d-none" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="prev">
             <span class="fa fa-arrow-left mr-2 "></span>
             <span class="sr-only">Previous</span>
         </a>
-        <div class="d-flex w-100 align-items-center flex-wrap align-content-start justify-content-around btn-video-carousel-group " role="group">
-            <button type="button" class="btn btn-video-carousel btn-sm" ng-repeat="video in component.videos" ng-class="{active: vSelected===$index}"
-                    data-slide-to="{{$index}}" data-target="#{{compkey+'videocarousel'}}"><span class="small">{{video.subtitle}}</span></button>
+        <div class=" w-100 btn-group flex-md-nowrap flex-wrap d-flex align-content-stretch justify-content-start btn-video-carousel-group" role="group">
+            <button type="button" class="btn btn-video-carousel px-1" ng-repeat="video in component.videos" ng-class="{active: vSelected===$index}"
+                    data-slide-to="{{$index}}" data-target="#{{compkey+'videocarousel'}}" ng-style="{'flex-grow': 1}">
+                <span class="small">{{video.subtitle}}</span>
+                <span class="ifs-tooltip px-2" ng-if="component.videos.length>3">{{video.subtitle}}</span>
+            </button>
+        <!-- TODO: Fix the buttons when window width < 940. They should somehow wrap the text to have more space -->
         </div>
-        <a  class="my-carousel-control" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="next">
+        <a  class="my-carousel-control d-md-inline d-none" data-target="#{{compkey+'videocarousel'}}" role="button" data-slide="next">
             <span class="fa fa-arrow-right ml-2"></span>
             <span class="sr-only">Next</span>
         </a>

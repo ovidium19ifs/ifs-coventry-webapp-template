@@ -1,0 +1,388 @@
+{
+    "block": "Educators",
+    "name": "During the placement",
+    "chapters": [
+        {
+            "blockname": "During the placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section presents guidance and suggestions for educators and mentors around supporting students on placement."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section will provide you with information and materials about teaching and learning."
+                        }
+                    ]
+                },
+                {}
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Supporting student learning",
+            "sections": [
+                {
+                    "subtitle": "Supporting student learning",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Practice learning is an important component of the training programme. Educators and mentors can make a significant contribution to a student’s training regime and even their practice."
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "It is important to have",
+                            "list_elements": [
+                                {
+                                    "text": "Regular communication with student - this may be a quick debrief after each day’s work, or a catch up every week. This gives the students a forum to give you feedback and helps you assess the student’s preparedness for any final assessment. Provide Quality time"
+                                },
+                                {
+                                    "text": "Providing Learning Opportunities – this simply means giving the student opportunities to practice tasks, gain more responsivity so they can increase their confidence and skills while working safely."
+                                },
+                                {
+                                    "text": "Pastoral Support – students may need to discuss personal challenges, like pressures of getting to work by public transport. Most students just need educators or mentors to be active listeners and provide useful suggestions. If this becomes to burdensome signpost student to counselling services at the University"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Meeting requirements",
+            "sections": [
+                {
+                    "subtitle": "Meeting requirements",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "subtitle": "It is the responsibility of the educator or mentor to",
+                            "list_elements": [
+                                {
+                                    "text": "Complete documents/ placement log: the university will provide the documents and provide training relating to how to complete the documents"
+                                },
+                                {
+                                    "text": "Provide quality time to the student(s)"
+                                },
+                                {
+                                    "text": "Provide a space and opportunity for students to discuss concerns: students will benefit from one-to-one conversation in private settings that enable them to have frank discussions."
+                                },
+                                {
+                                    "text": "Check Reasonable adjustments are suitable? Some students with disabilities may have agreed reasonable adjustments. It is good practice to check these are appropriate for the student and meet the regulatory requirements."
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Providing effective feedback",
+                            "type": "video-single",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/cwOlaoi6esI",
+                                "thumb": "cwOlaoi6esI.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Preparing for Assessment",
+            "sections": [
+                {
+                    "subtitle": "Preparing for Assessment",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Most students focus on this component of the placement a lot if there is an assessment. It is good to help students see the importance of leaning throughout the placement and view the assessment as an opportunity to demonstrate their learning."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "If relevant check student has reasonable adjustments in place during the assessment.\n\t\nRegardless of the outcome of the assessment provide relevant feedback to student."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Placement Connect Resources",
+                    "components": []
+                },
+                {
+                    "subtitle": "Nurses Assessment",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/assessing-student-nurses",
+                                    "text": "Nurse assessment resources"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Midwives Assessment",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/midwifery/assessing-student-midwives",
+                                    "text": "Midwives assessment resources"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/midwifery/triad-assessments",
+                                    "text": "Triad assessments"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Occupational Therapist Assessment",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/occupational-therapy/case-based-oral-assessment",
+                                    "text": "Case based oral assessments"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/occupational-therapy/non-traditional-placements",
+                                    "text": "Non-traditional placements"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Physiotherapy Assessment documents",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/physiotherapy/placement-documents",
+                                    "text": "Placement documents"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/physiotherapy/quality-monitoring",
+                                    "text": "Quality Monitoring"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Social work Practice education panels",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/social-work/practice-education-panel",
+                                    "text": "Practice education panel"
+                                }
+                            ],
+                            "space_after": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Supporting the student",
+            "sections": [
+                {
+                    "subtitle": "Resources",
+                    "components": [
+                        {
+                            "type": "list-text",
+                            "subtitle": "Nursing"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/concerns-about-a-student",
+                                    "text": "Concerns about the student"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Social work – what to do when student is at risk of failing"
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/images/category/social_work/pap_difficulties_in_placement.pdf",
+                                    "text": "Difficulties in placements"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Dietetics on supporting students with additional needs"
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/dietetics/supporting-students-with-additional-needs",
+                                    "text": "Supporting students with additional needs"
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Midwives on supporting students with additional needs"
+                        },
+                        {
+                            "space_after": true,
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/images/category/midwifery/process_for_supporting_students_experiencing_difficulties.pdf",
+                                    "text": "Support for students"
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "Occupational Therapist on supporting students",
+                            "type": "list-text"
+                        },
+                        {
+                            "subtitle": "",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/occupational-therapy/supporting-students",
+                                    "text": "Occupational Therapy - Supporting students"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Resources for mentors-educators",
+            "sections": [
+                {
+                    "subtitle": "Supporting students with dyslexia",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/managing-change/7-steps-to-facilitating-change/",
+                                    "text": "Crowe Associates - 7 steps to facilitating change"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Manging conflict",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/styles-of-conflict-management/",
+                                    "text": "Crowe Associates - Styles of conflict management"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/courageous-conversations/conflict-resolution-models/",
+                                    "text": "Conflict resolution models"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Mentoring Students",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/coaching-and-mentoring-skills/mentoring-skills/",
+                                    "text": "Crowe Associates - Mentoring skills"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/coaching-and-mentoring-skills/the-big-5-personality-traits/",
+                                    "text": "Crowe Associates - the big 5 personality traits"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/communication-skills/emotional-intelligence/",
+                                    "text": "Crowe Associates - Emotional Intelligence"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "Summary",
+            "sections": [
+                {
+                    "subtitle": "Summary",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "This section provides information that could help you while you are on placement. You could benefit from using the resources to organise your time, ensure you are staying healthy and taking care of your physical and mental health. Some resources that could help you with practical placement practice are also presented, including communication tips and leadership."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "During the placement",
+            "name": "References",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.bdadyslexia.org.uk/educator/additional-resources-for-educators",
+                                    "text": "British Dyslexia Association"
+                                },
+                                {
+                                    "link": "http://www.crowe-associates.co.uk/",
+                                    "text": "Crowe Associates"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/",
+                                    "text": "Placement Connect"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

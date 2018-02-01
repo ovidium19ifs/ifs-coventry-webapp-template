@@ -1,0 +1,167 @@
+{
+    "block": "Educators",
+    "name": "Evaluating the placement",
+    "chapters": [
+        {
+            "blockname": "Evaluating the placement",
+            "name": "Introduction",
+            "sections": [
+                {
+                    "subtitle": "Introduction",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The placement is over and you have contributed significantly to the education and training of the future workforce. Well done."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Learning Outcomes",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Tips on reflecting on the placement"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Evaluating the placement",
+            "name": "Complete Placement Evaluation",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Universities have process and forms for reviewing placement, quality of the learning environment and collating feedback.\n\nPlease complete these forms."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Evaluating the placement",
+            "name": "Was Placement Successful?",
+            "sections": [
+                {
+                    "subtitle": "Was Placement Successful?",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is good practice to reflect on the placement and document ideas and thoughts around things that went really well and things that could be improved\n\nIt may also be helpful to collate feedback from placement sites and educators or mentors."
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Introduction to Reflective Practice",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/M9hyWVEG2x0",
+                                "thumb": "M9hyWVEG2x0.jpg"
+                            }
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Reflection Models",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/Vt0-2nucCMI",
+                                "thumb": "Vt0-2nucCMI.jpg"
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Evaluating the placement",
+            "name": "Quality monitoring",
+            "sections": [
+                {
+                    "subtitle": "Quality monitoring",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "You may be asked to complete quality monitoring forms"
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Examples",
+                            "list_elements": []
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Nurses - Educational-audit-tools",
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/educational-audit-tools"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/sign-off-mentors",
+                                    "text": "Nursing - Sign Off Mentors"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/nursing/local-mentor-register-updating-requirements",
+                                    "text": "Nursing - local-mentor-register-updating-requirements"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/dietetics/quality-monitoring",
+                                    "text": "Dietetics- Quality monitoring"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/midwifery/quality-monitoring",
+                                    "text": "Midwifery - Quality Monitoring"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/occupational-therapy/quality-monitoring",
+                                    "text": "Occupational Therapy - Quality monitoring"
+                                },
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/images/category/social_work/qm_blank_practice_placements_audit_tool_form.pdf",
+                                    "text": "Social Work - audit tools"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Evaluating the placement",
+            "name": "Summary",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Evaluating a placement is useful for many reasons. We can celebrate the success of students and consider how to support future students.\n\nReflecting on the placement cycle helps us learn and improve actions and processes on future placements"
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "References",
+                    "components": [
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/Guidelines for Academics Supervising Sandwich Placement Students_Sept 2017.docx",
+                                    "text": "Guidelines for Academics Supervising Sandwich Placement Students"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/",
+                                    "text": "Placement Connect"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
