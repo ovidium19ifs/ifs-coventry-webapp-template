@@ -5,7 +5,8 @@ application.directive("ifsVideo",function($window,$timeout){
         restrict: "E",
         templateUrl: "templates/components/video/single.html",
         scope: {
-            element: "="
+            element: "=",
+            start: "="
         },
         link: function(scope,elem,attr,ctrl){
 
@@ -58,8 +59,12 @@ application.directive("ifsVideo",function($window,$timeout){
                 if ($scope.videoPlaying){
                     $scope.setFrameParams();
                 }
+            };
+            if ($scope.start){
+                $timeout(function(){
+                    $scope.openVideo();
+                },0);
             }
-
         }
     }
 });

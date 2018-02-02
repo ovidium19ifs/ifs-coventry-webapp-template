@@ -1,3 +1,4 @@
+/* eslint-disable no-trailing-spaces,no-console */
 application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routeParams,$location){
     "use strict";
     /*
@@ -23,15 +24,20 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         console.log("Collection changed");
     });
     */
-
+    var body = angular.element(document.getElementById("mainContent"));
     $scope.home=true;
     $scope.$on("$locationChangeSuccess", function(e,newUrl){
+        console.log(newUrl);
        if ($location.path()=="/"){
            console.log("We are home");
            $scope.home=true;
+           body.css({
+               background: "radial-gradient(circle, #e8ecf2 40%,#669999 200%)"
+           });
        }
        else{
            $scope.home=false;
+           body.css("background","white");
        }
     });
     $scope.$watch(

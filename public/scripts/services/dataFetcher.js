@@ -1,7 +1,7 @@
 application.factory("dataFetcher",function($resource,$cacheFactory){
     "use strict";
     var resource = $resource("/data/:source",{source:"@source"},{
-        'query': {method: 'GET',cache:false,isArray: true},
+        'query': {method: 'GET',cache:true,isArray: true},
     });
 
     return{

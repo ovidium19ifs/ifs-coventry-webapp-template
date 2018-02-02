@@ -802,7 +802,7 @@
                                     "type": "video-single",
                                     "space_after": true,
                                     "video": {
-                                        "type": "youtube",
+                                        "type": "helix",
                                         "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=4863&quality=hi&captions=n&chapterId=0",
                                         "thumb": "thumb_sp_how_students_feel.jpg"
                                     }
@@ -812,7 +812,7 @@
                                     "type": "video-single",
                                     "space_after": true,
                                     "video": {
-                                        "type": "youtube",
+                                        "type": "helix",
                                         "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=4871&quality=hi&captions=n&chapterId=0",
                                         "thumb": "thumb_sp_help_with_nerves.jpg"
                                     }

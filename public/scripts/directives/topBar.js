@@ -10,6 +10,7 @@ application.directive("topBar",function(){
 
         },
         controller: function($scope,$location,$routeParams){
+            
             var re = /content\/([a-zA-Z]+)/g;
             var arr = $location.path().split("/");
             var index = arr.indexOf("content");
