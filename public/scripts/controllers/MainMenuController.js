@@ -3,6 +3,7 @@ application.controller("MainMenuController",function($scope,$location){
     $scope.selectGroup = function(group){
         $location.path("/content/"+group+"/");
     };
+    $("#mainContent").scrollTop(0);
     $scope.videoComp = {
         "type": "video-single",
         "subtitle": "The Successful Placement App Introduction",
@@ -12,6 +13,14 @@ application.controller("MainMenuController",function($scope,$location){
           "thumb": "successful_placement.jpg"
         }
     };
+    $scope.quoteComp = {
+        "subtitle": "",
+        "type": "text-quote",
+        "text": "Student nurses value a welcoming workplace where staff and educators are happy to help and have a positive attitude to student presence on the wards",
+        "author": "Doyle et al ",
+        "year": "2017"
+    };
+   
     var animation = bodymovin.loadAnimation({
         container: document.getElementById("bm"),
         loop: true,
@@ -19,8 +28,13 @@ application.controller("MainMenuController",function($scope,$location){
         autoplay: true,
         path: 'logo.json'
     });
+    var carousel  = $(".carousel");
+    carousel.carousel({
+        autoplay: true,
+        interval: 4500
+    });
     var body = angular.element(document.getElementById("mainContent"));
     var portion_one = angular.element(document.getElementsByClassName("home-container"));
     var bm = angular.element(document.getElementById("bm"));
-   
+
 });

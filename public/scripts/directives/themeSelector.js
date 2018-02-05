@@ -18,6 +18,7 @@ application.directive("themeSelector",function(){
                 style.remove();
             });
             $(elem).find("button[data-theme]").on("click",function(e){
+                scope.$emit("changeFont",$(e.currentTarget).attr("data-theme"));
                 e.stopPropagation();
                 e.preventDefault();
                 var href = "css/all-"+$(e.currentTarget).attr("data-theme")+".css";

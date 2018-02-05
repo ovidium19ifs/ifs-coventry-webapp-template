@@ -24,20 +24,13 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         console.log("Collection changed");
     });
     */
-    var body = angular.element(document.getElementById("mainContent"));
     $scope.home=true;
     $scope.$on("$locationChangeSuccess", function(e,newUrl){
-        console.log(newUrl);
-       if ($location.path()=="/"){
-           console.log("We are home");
-           $scope.home=true;
-           body.css({
-               background: "radial-gradient(circle, #e8ecf2 40%,#669999 200%)"
-           });
+       if ($location.path()!=="/"){
+           $scope.home=false;
        }
        else{
-           $scope.home=false;
-           body.css("background","white");
+           $scope.home=true;
        }
     });
     $scope.$watch(

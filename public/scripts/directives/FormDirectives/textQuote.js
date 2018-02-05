@@ -1,4 +1,4 @@
-application.directive("textQuote",function($timeout) {
+application.directive("textQuoteForm",function($timeout) {
     "use strict";
     return {
         restrict: "E",
