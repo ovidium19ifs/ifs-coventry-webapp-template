@@ -1,9 +1,9 @@
 {
     "block": "Educators",
-    "name": "Pre-Placement Info",
+    "name": "PrePlacement Info",
     "chapters": [
         {
-            "blockname": "Pre-Placement Info",
+            "blockname": "PrePlacement Info",
             "name": "Introduction",
             "sections": [
                 {
@@ -33,7 +33,7 @@
             ]
         },
         {
-            "blockname": "Pre-Placement Info",
+            "blockname": "PrePlacement Info",
             "name": "Concerns or Challenges",
             "sections": [
                 {
@@ -193,7 +193,7 @@
         },
         {
             "name": "Requirements",
-            "blockname": "Pre-Placement Info",
+            "blockname": "PrePlacement Info",
             "sections": [
                 {
                     "subtitle": "Requirements",
@@ -286,8 +286,8 @@
             ]
         },
         {
-            "blockname": "Pre-Placement Info",
-            "name": "Pre-Placement Visit",
+            "blockname": "PrePlacement Info",
+            "name": "PrePlacement Visit",
             "sections": [
                 {
                     "subtitle": "Students may need a pre-placement visit.",
@@ -303,7 +303,7 @@
                         },
                         {
                             "type": "video-single",
-                            "subtitle": "Organising a Pre-Placement Visit",
+                            "subtitle": "Organising a PrePlacement Visit",
                             "space_after": false,
                             "video": {
                                 "type": "youtube",
@@ -330,7 +330,7 @@
             ]
         },
         {
-            "blockname": "Pre-Placement Info",
+            "blockname": "PrePlacement Info",
             "name": "Summary",
             "sections": [
                 {
@@ -345,7 +345,7 @@
             ]
         },
         {
-            "blockname": "Pre-Placement Info",
+            "blockname": "PrePlacement Info",
             "name": "References",
             "sections": [
                 {

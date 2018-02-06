@@ -68,7 +68,7 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         }
     );
     $scope.$on("$dataWasLoaded",function(e,args){
-        $scope.$broadcast("dataWasLoaded");
+        $scope.$broadcast("dataWasLoaded",args);
     });
     $scope.$on("ifsPrepareScroll",function(e,args){
        $scope.$broadcast("ifsScrollTo", args);

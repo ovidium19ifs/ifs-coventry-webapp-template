@@ -12,9 +12,9 @@ application.directive("chapterSummary",function(){
         controller: function($scope,navigate,$location,$timeout) {
             $scope.titles=[];
             $scope.$on("dataWasLoaded",function(e,args){
-                var data = navigate.getDataBlock()[0];
+                var data = args;
                 $scope.titles=[];
-                if (data.hasOwnProperty("introcontent")){
+                if (data && data.hasOwnProperty("introcontent")){
                     for (let obj of data.introcontent){
                         $scope.titles.push(obj.title);
                     }
