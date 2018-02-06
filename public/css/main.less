@@ -200,15 +200,15 @@ div.main-page{
     margin-left: -2rem ;
     margin-right: -2rem;
     background: url(../images/mainpagebackground.jpg) no-repeat top center fixed;
-
     box-shadow: 0px 8px 5px -6px darkgray inset, 0px -8px 5px -6px darkgray inset;
     background-size: cover;
+    position:relative;
 }
 
-div.home-container{
-  position:relative;
+div.home-container.hide{
+
   transition: background-position 0.3s;
-  @media (max-width: 890px ){
+  @media (max-width: 1020px ){
     display: none;
   }
 }
