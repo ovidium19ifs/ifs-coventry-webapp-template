@@ -6,7 +6,7 @@
 </div>
 
 <div>
-    <div class=" h-75 pb-4 home-container" ng-class="{'main-page': home}" style="zoom:1">
+    <div class=" h-75 pb-4 home-container" ng-class="{'main-page': home}" style="zoom:1;">
         <span class="overlay"></span>
         <div class="overlay-content">
             <div id="carouselQuotes" class="carousel slide" data-ride="carousel">
@@ -71,9 +71,46 @@
 
     </div>
 </div>
-<div class="footer mt-5 text-center py-5">
-    <div class="d-flex align-items-center justify-content-around">
-        <h2>Footer Content</h2>
+<div class="footer py-5 mb-5" style="">
+    <div class="d-flex align-items-stretch justify-content-around footer-content ">
+        <div class="footer-links ">
+            <h4 class="footer-column-title text-center mb-5 pb-3">Contacts</h4>
+            <div class="footer-contacts">
+                <h5 class="w-100 pb-1 pl-2" style="border-bottom:2px solid #669999">Disability Team</h5>
+                <link-telephone component="contactDetails.components[0]"></link-telephone>
+                <link-email component="contactDetails.components[1]"></link-email>
+            </div>
+        </div>
+        <div class="footer-affiliations pb-5">
+            <h4 class="footer-column-title text-center mb-5 pb-3">Affiliations</h4>
+            <div class="affiliations d-flex align-items-start justify-content-center">
+                <div class="px-3">
+                    <a href="https://cele.coventry.ac.uk" target="_blank">
+                        <img src="images/logo_cele.png" width="160" height="160" alt="CELE Coventry" >
+                    </a>
+                </div>
+                <div class="px-3">
+                    <a href="http://www.coventry.ac.uk/" target="_blank">
+                        <img src="images/cov_logo.jpg" alt="Coventry University" width="160" height="160" >
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-sites">
+            <h4 class="footer-column-title text-center mb-5 pb-3">Useful Sites</h4>
+            <div class="affiliations d-flex align-items-start justify-content-center">
+                <div class="px-3">
+                    <a href="http://www.hpc-uk.org/" target="_blank">
+                        <img src="images/hcpc-logo.jpg" width="160" height="160" alt="HCPC" >
+                    </a>
+                </div>
+                <div class="px-3">
+                    <a href="https://www.nmc.org.uk/" target="_blank">
+                        <img src="images/nmc_logo.jpg" alt="NMC" width="160" height="160" >
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 

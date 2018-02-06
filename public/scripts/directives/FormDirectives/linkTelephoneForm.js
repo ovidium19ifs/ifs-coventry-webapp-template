@@ -1,4 +1,4 @@
-application.directive("linkTelephone",function($timeout) {
+application.directive("linkTelephoneForm",function($timeout) {
     "use strict";
     return {
         restrict: "E",

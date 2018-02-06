@@ -20,6 +20,35 @@ application.controller("MainMenuController",function($scope,$location){
         "author": "Doyle et al ",
         "year": "2017"
     };
+    $scope.contactDetails = {
+        "subtitle": "Contact Details",
+        "components": [
+            {
+                "subtitle": "Telephone",
+                "type": "link-telephone",
+                "text": "+44 (0)24 7765 8029",
+                "space_after": false
+            },
+            {
+                "subtitle": "E-mails",
+                "type": "link-email",
+                "links": [
+                    {
+                        "tag": "Disability Team",
+                        "text": "disabilityadvisor.ss@coventry.ac.uk",
+                        "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                    },
+                    {
+                        "tag": "Mental health Team",
+                        "text": "counsell.ss@coventry.ac.uk",
+                        "link": "mailto:counsell.ss@coventry.ac.uk"
+                    }
+                ],
+                "space_after": false
+            }
+        ],
+        "space_after": false
+    };
    
     var animation = bodymovin.loadAnimation({
         container: document.getElementById("bm"),

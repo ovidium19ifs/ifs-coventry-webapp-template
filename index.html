@@ -152,7 +152,7 @@
                 </ol>
             </div>
             -->
-            <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home, 'no-scroll': adminState}" id="mainContent" >
+            <div class="col col-md col-lg order-1 content  h-100" ng-class="{'py-5': !home, 'no-scroll': adminState,'hide-overflow': home}" id="mainContent" >
                 <div ng-class="{'container': inContentState, 'container-fluid': !inContentState}">
                     <div class="nav-buttons w-100 " ng-if="inContentState">
                         <button class="btn  float-left content-nav d-inline" ng-hide="lowEnd" ng-click="goToPrevious()">
@@ -188,7 +188,7 @@
 <script src="scripts/directives/FormDirectives/textMythFactForm.js"></script>
 <script src="scripts/directives/FormDirectives/textQuoteForm.js"></script>
 <script src="scripts/directives/FormDirectives/listTextForm.js"></script>
-<script src="scripts/directives/FormDirectives/linkTelephone.js"></script>
+<script src="scripts/directives/FormDirectives/linkTelephoneForm.js"></script>
 <script src="scripts/directives/FormDirectives/linkWebsite.js"></script>
 <script src="scripts/directives/FormDirectives/linkPdf.js"></script>
 <script src="scripts/directives/videoCarousel.js"></script>
@@ -199,6 +199,8 @@
 <script src="scripts/directives/ifsEditable.js"></script>
 <script src="scripts/directives/ifsExtendable.js"></script>
 <script src="scripts/directives/textQuote.js"></script>
+<script src="scripts/directives/linkEmail.js"></script>
+<script src="scripts/directives/linkTelephone.js"></script>
 <script src="scripts/services/navigate.js"></script>
 <script src="scripts/controllers/TestCtrl.js"></script>
 <script src="scripts/controllers/MainMenuController.js"></script>
