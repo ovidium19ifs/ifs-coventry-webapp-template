@@ -234,7 +234,36 @@
                             "space_after": false
                         }
                     ],
-                    "space_after": true
+                    "space_after": false
+                },
+                {
+                    "subtitle": "Contact Details",
+                    "components": [
+                        {
+                            "subtitle": "Telephone",
+                            "type": "link-telephone",
+                            "text": "+44 (0)24 7765 8029",
+                            "space_after": false
+                        },
+                        {
+                            "subtitle": "E-mails",
+                            "type": "link-email",
+                            "links": [
+                                {
+                                    "tag": "Disability Team",
+                                    "text": "disabilityadvisor.ss@coventry.ac.uk",
+                                    "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
+                                },
+                                {
+                                    "tag": "Mental health and counselling",
+                                    "text": "counsell.ss@coventry.ac.uk",
+                                    "link": "mailto:counsell.ss@coventry.ac.uk"
+                                }
+                            ],
+                            "space_after": false
+                        }
+                    ],
+                    "space_after": false
                 }
             ]
         },
@@ -276,7 +305,7 @@
                             "space_after": false
                         }
                     ],
-                    "space_after": true
+                    "space_after": false
                 }
             ]
         },
@@ -293,7 +322,7 @@
                             "questions": [
                                 {
                                     "index": 0,
-                                    "text": "Disclosure involves taking responsibility to make known your disability to the university through completing the admissions form or through discussing your disability with the Disabilities Team.",
+                                    "text": "Disclosure involves taking responsibility to make your disability known to the university through completing the admissions form or by discussing your disability with the Disabilities Team.",
                                     "answers": [
                                         {
                                             "id": 0,

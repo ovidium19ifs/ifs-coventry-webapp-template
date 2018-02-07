@@ -26,7 +26,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "Discuss the challenges of teaching and learning in practice setting"
+                                    "text": "Discuss the challenges of teaching and learning in a practice setting"
                                 },
                                 {
                                     "text": "Understand the equality Act and what it means for the disabled student"
@@ -35,7 +35,7 @@
                                     "text": "Appreciate the need for reasonable adjustments and how they support students with a disability"
                                 },
                                 {
-                                    "text": "Understand the support systems and mechanisms students with disabilities can access"
+                                    "text": "Understand the support systems and mechanisms of support systems, students with disabilities can access"
                                 }
                             ],
                             "space_after": false
@@ -164,7 +164,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "The practice environment is primarily about meeting the needs of patients and ensuring clinical practice is safe, professional and professional. Students are in the practice setting to learn, however, their education is a secondary feature of the learning environment. The educator/mentor will be doing their job and at the same time maximising opportunities to ensure students learn."
+                                    "text": "The practice environment is primarily about meeting the needs of patients and ensuring clinical practice is safe and professional. Students are in the practice setting to learn, however, their education is a secondary feature of the learning environment. The educator/mentor will be doing their job and at the same time maximising opportunities to ensure students learn."
                                 }
                             ],
                             "subtitle": "Work comes first"
@@ -208,7 +208,7 @@
                                 {
                                     "tag": "Find out more at",
                                     "text": "www.acas.org.uk/disability",
-                                    "link": "www.acas.org.uk/disability"
+                                    "link": "http://www.acas.org.uk/disability"
                                 }
                             ],
                             "space_after": true
@@ -300,7 +300,8 @@
                                     "text": "You should communicate effectively and co-operate with members of staff at your education provider and practice placement provider to benefit service users and carers."
                                 },
                                 {
-                                    "text": "If you are experiencing any difficulties or other issues which may affect your learning or ability to successfully participate in your programme, you should tell your education provider and practice placement provider."
+                                    "text": "If you are experiencing any difficulties or other issues which may affect your learning or ability to successfully participate in your programme, you should tell your education provider and practice placement provider.",
+                                    "embolden":true
                                 },
                                 {
                                     "text": "You should use all forms of communication appropriately and responsibly, including social media and networking websites."
@@ -319,10 +320,12 @@
                                     "text": "You should make sure that you are appropriately supervised for any task that you are asked to carry out."
                                 },
                                 {
-                                    "text": "You should ask for help when you need it."
+                                    "text": "You should ask for help when you need it.",
+                                    "embolden": true
                                 },
                                 {
-                                    "text": "You should be aware of any restrictions which apply to you in carrying out certain tasks and follow any relevant policies of your education provider or practice placement provider."
+                                    "text": "You should be aware of any restrictions which apply to you in carrying out certain tasks and follow any relevant policies of your education provider or practice placement provider.",
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should recognise that opportunities for carrying out any unsupervised tasks will vary during your programme and may depend on your knowledge, understanding, skills and experience."
@@ -331,7 +334,8 @@
                                     "text": "You should only carry out an unsupervised task if you feel that you have the appropriate knowledge and skills to do so safely and effectively."
                                 },
                                 {
-                                    "text": "You should take responsibility for your own learning."
+                                    "text": "You should take responsibility for your own learning.",
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should be aware of and follow any guidance issued by your education provider or practice placement provider for working with service users and carers."
@@ -409,13 +413,16 @@
                                     "text": "You should follow your education provider's or practice placement provider's policy on managing risk."
                                 },
                                 {
-                                    "text": "You should be aware that you may put your service users or yourself at risk if your performance or judgement is affected by your physical or mental health."
+                                    "text": "You should be aware that you may put your service users or yourself at risk if your performance or judgement is affected by your physical or mental health.",
+                                    "embolden" : true
                                 },
                                 {
-                                    "text": "You should ask for appropriate support and adapt your study or stop studying if your performance or judgement is affected by your physical or mental health and could put service users, yourself or others at risk."
+                                    "text": "You should ask for appropriate support and adapt your study or stop studying if your performance or judgement is affected by your physical or mental health and could put service users, yourself or others at risk.",
+                                    "embolden" : true
                                 },
                                 {
-                                    "text": "You should get advice from a doctor or other appropriate professional if you are worried about your physical or mental health."
+                                    "text": "You should get advice from a doctor or other appropriate professional if you are worried about your physical or mental health.",
+                                    "embolden" : true
                                 }
                             ]
                         }
@@ -493,7 +500,8 @@
                                     "text": "You should provide constructive feedback on the quality of your teaching and learning experience in both the education and practice placement setting."
                                 },
                                 {
-                                    "text": "You should provide, as soon as possible, any important information about your conduct, competence or health to your education provider and practice placement provider."
+                                    "text": "You should provide, as soon as possible, any important information about your conduct, competence or health to your education provider and practice placement provider.",
+                                    "embolden" : true
                                 },
                                 {
                                     "text": "You should tell your education provider, as soon as possible, if you are charged with, convicted of, or accept a caution for, any offence."
@@ -831,7 +839,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "How effective the change will be in avoiding the disadvantage the disabled worker would otherwise experience"
+                                    "text": "How effective the adjustments will be in reducing/elminating the disadvantage the disabled worker would otherwise experience"
                                 },
                                 {
                                     "text": "Its practicality"
@@ -993,7 +1001,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Learning in practice is structural different to learning in the classroom. Students are entitled to support from their educators and could have reasonable adjustments provided they can meet the competencies set out in the standards of proficiency."
+                            "text": "Learning in practice is structurally different to learning in the classroom. Students are entitled to support from their educators and could have access to reasonable adjustments, provided they can meet the competencies set out in the standards of proficiency."
                         }
                     ]
                 }

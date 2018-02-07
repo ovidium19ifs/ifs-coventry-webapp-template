@@ -80,6 +80,16 @@
                     ]
                 },
                 {
+                    "subtitle": "Important Note",
+                    "space_after" :false,
+                    "components": [
+                        {
+                            "type": "text-alert",
+                            "text": "These handbook documents were correct at the time they were uploaded (18/01/2018), however new revisions of these documents may have been carried out by your faculty since."
+                        }
+                    ]
+                },
+                {
                     "subtitle": "Nursing Docs",
                     "space_after": true,
                     "components": [
@@ -620,7 +630,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "Your educator will be willing to address any concerns you may have, also you could contact the visiting tutor or the disability tem on campus.",
+                            "text": "Your educator will be willing to address any concerns you may have, also you could contact the visiting tutor or the disability team on campus.",
                             "space_after": true
                         },
                         {
@@ -653,7 +663,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "How do I manage assignments and placement commitments/ shifts?"
+                                    "text": "How do I manage assignments and placement commitments/shifts?"
                                 }
                             ]
                         },
@@ -672,7 +682,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "You are expected to be on time and present throughout the placement period. If you have challenges getting to and from the placement let your educator or mentor know your travel arrangements, they may be able to advise you about alternate routes or more suitable public transport links. Always plan to arrive at work 15 – 30 minutes before your shift begins and consider heavy traffic, parking problems and delays around hospitals.",
+                            "text": "You are expected to be on time and present throughout the placement period. If you have challenges getting to and from the placement, let your educator or mentor know your travel arrangements, they may be able to advise you about alternate routes or more suitable public transport links. Always plan to arrive at work 15 – 30 minutes before your shift begins and consider heavy traffic, parking problems and delays around hospitals.",
                             "space_after": true
                         },
                         {

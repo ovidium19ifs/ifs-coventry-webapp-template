@@ -1,5 +1,5 @@
 /* eslint-disable no-trailing-spaces,no-console */
-application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routeParams,$location){
+application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routeParams,$location,$timeout){
     "use strict";
     /*
     $scope.$watch(function(){
@@ -32,6 +32,7 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
        else{
            $scope.home=true;
        }
+       
     });
     $scope.$watch(
         function(){
@@ -68,6 +69,17 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
         }
     );
     $scope.$on("$dataWasLoaded",function(e,args){
+        if ($location.path().indexOf("content")>-1){
+            $timeout(function(){
+                let windowHeight = $(window).height();
+                let contentHeight = document.getElementById("mainContent").scrollHeight;
+                if (contentHeight>windowHeight)
+                    $scope.heightBiggerThanWindow = true;
+                else
+                    $scope.heightBiggerThanWindow = false;
+            },0);
+        
+        }
         $scope.$broadcast("dataWasLoaded",args);
     });
     $scope.$on("ifsPrepareScroll",function(e,args){
