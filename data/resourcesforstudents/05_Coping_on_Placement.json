@@ -12,7 +12,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "Every student will benefit from considering the coping strategies they could use on placement as you may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
+                            "text": "Every student will benefit from considering the coping strategies they could use on placement. You may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
                             "space_after": false
                         }
                     ],
@@ -42,7 +42,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "As a student you are ultimately responsible for your learning. You will have a lot of support from your tutors at University who have prepared you theoretically for practicing skills, values and attitudes during the placement Educators and mentors will be supporting you during the placement by providing learning opportunities and giving you feedback. The educators and mentors will also be your assessors and therefore will be responsible for ensuring that you can demonstrate the competencies and practice safely.",
+                            "text": "As a student you are ultimately responsible for your learning. You will have a lot of support from your tutors at University who have prepared you theoretically for practicing skills, values and attitudes during the placement. Educators and mentors will be supporting you during the placement by providing learning opportunities and giving you feedback. The educators and mentors will also be your assessors and therefore will be responsible for ensuring that you can demonstrate the competencies and practice safely.",
                             "space_after": true
                         },
                         {
@@ -69,7 +69,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "1.   They are usually a lot of students on placement at any given time. Students are on placement often during the training period.",
+                            "text": "1.   There are usually a lot of students on placement at any given time. Students are on placement often during the training period.",
                             "space_after": true
                         },
                         {
@@ -123,7 +123,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "The best thing you could take on placement is a positive attitude. Educators and mentors are always happy to welcome students and support their learning. They find this easier when students come to the placement with an attitude that is positive. This simply means a stunt is willing to learn, will be confident to ask for help when they are confronted by activities that are outside their scope of practice. The clinical placement is not a natural pedagogical atmosphere, however, the educators and mentors have been in your shoes and are quite welcoming and inspiring. You are quite likely to find new graduates on your ward who were on placement just a few months ago too; they will be happy to support your learning and help you.",
+                            "text": "The best thing you could take on placement is a positive attitude. Educators and mentors are always happy to welcome students and support their learning. They find this easier when students come to the placement with an attitude that is positive. This simply means a stunt is willing to learn and will be confident to ask for help when they are confronted by activities that are outside their scope of practice. The clinical placement is not a natural pedagogical atmosphere, however, the educators and mentors have been in your shoes and are quite welcoming and inspiring. You are quite likely to find new graduates on your ward who were on placement just a few months ago too; they will be happy to support your learning and help you.",
                             "space_after": false
                         }
                     ],
@@ -156,6 +156,10 @@
                             "type": "text-paragraph",
                             "text": "Your health is very important. Wellbeing involves taking care of emotional and mental wellbeing as well as physical wellbeing. ",
                             "space_after": true
+                        },
+                        {
+                            "type": "text-alert",
+                            "text": "If you are feeling unwell, physically or mentally, you should always seek the opinion of a doctor."
                         }
                     ],
                     "space_after": false
@@ -204,6 +208,57 @@
                     "space_after": true
                 },
                 {
+                    "subtitle": "Diet and Exercise",
+                    "components": [
+                        {
+                            "subtitle": "The key to a healthy diet is to:",
+                            "type": "text-paragraph",
+                            "list_elements": [],
+                            "text": "Eat the right amount of calories for how active you are, so that you balance the energy you consume with the energy you use. If you eat or drink too much, you'll put on weight. If you eat and drink too little, you'll lose weight.\n\nEat a wide range of foods to ensure that you're getting a balanced diet and that your body is receiving all the nutrients it needs."
+                        },
+                        {
+                            "subtitle": "These eight practical tips cover the basics of healthy eating, and can help you make healthier choices",
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Base your meals on starchy carbohydrates"
+                                },
+                                {
+                                    "text": "Eat lots of fruits and vegetables."
+                                },
+                                {
+                                    "text": "Eat more fish - including a portion of oily fish - or onclude vegetarian sources of omega 3."
+                                },
+                                {
+                                    "text": "Cut down on saturated fat and sugar."
+                                },
+                                {
+                                    "text": "Eat less salt - no more than 6g a day for adults."
+                                },
+                                {
+                                    "text": "Get active and have a healthy weight."
+                                },
+                                {
+                                    "text": "Don't get thirsty."
+                                },
+                                {
+                                    "text": "Don't skip breakfast."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.nhs.uk/Livewell/Goodfood/Pages/eight-tips-healthy-eating.aspx",
+                                    "text": "NHS - Eight tips to staying healthy",
+                                    "tag": "SOURCE"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "subtitle": "Emotional and mental well-being ",
                     "components": [
                         {
@@ -246,6 +301,32 @@
                 {
                     "subtitle": "More information",
                     "components": [
+                        {
+                            "subtitle": "Counselling Services",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.coventry.ac.uk/study-at-coventry/student-support/health-and-wellbeing/counselling-and-mental-health-service/",
+                                    "text": "Coventry University counselling service"
+                                },
+                                {
+                                    "link": "https://www.england.nhs.uk/mental-health/adults/iapt/",
+                                    "text": "NHS - Adult Improving Access to Psychological Therapies programme (IAPT)"
+                                },
+                                {
+                                    "link": "http://cwfriend.co.uk/",
+                                    "text": "Coventry Friend: Counselling (LGBT)"
+                                },
+                                {
+                                    "link": "https://www.counselling-directory.org.uk/",
+                                    "text": "Counselling Directory - find a counsellor near you"
+                                },
+                                {
+                                    "link": "https://www.cwmind.org.uk/get-help",
+                                    "text": "Coventry and Warwickshire Mind"
+                                }
+                            ]
+                        },
                         {
                             "subtitle": "",
                             "type": "link-website",

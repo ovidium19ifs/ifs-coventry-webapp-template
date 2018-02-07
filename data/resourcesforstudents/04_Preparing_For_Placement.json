@@ -81,7 +81,7 @@
                 },
                 {
                     "subtitle": "Important Note",
-                    "space_after" :false,
+                    "space_after": false,
                     "components": [
                         {
                             "type": "text-alert",
@@ -902,11 +902,16 @@
                                     "text": "Reasonable adjustments in employment"
                                 }
                             ],
+                            "space_after": false
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The link above represents a website published for Australian audiences, however it contains information relevant to UK students.",
                             "space_after": true
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "A student with a disability can legally request RA when they are going on placement. You will be supported by the Learning Support Tutor to put these in place."
+                            "text": "A student with a disability can legally request Reasonable Adjustments(RA) when they are going on placement. You will be supported by the Learning Support Tutor to put these in place."
                         },
                         {
                             "type": "text-paragraph",
@@ -1277,7 +1282,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "If you have questions you can contact your LST by email."
+                                    "text": "If you have questions you can contact your Learning Support Tutor(LST) by email."
                                 },
                                 {
                                     "text": "You could also make further contact with your practice educator by phone or make second pre-placement contact."
@@ -1324,7 +1329,7 @@
             "name": "PrePlacement Contact",
             "sections": [
                 {
-                    "subtitle": "Discuss with PT/LST about pre placement contact",
+                    "subtitle": "Discuss with private tutor or learning support tutor about pre placement contact",
                     "space_after": true,
                     "components": [
                         {
@@ -1363,15 +1368,15 @@
                 },
                 {
                     "subtitle": "If you cannot arrange a preplacement visit",
-                    "space_after": true,
+                    "space_after": false,
                     "components": [
                         {
                             "type": "text-paragraph",
                             "text": "You can make a list of your needs and goals and give this to your educator when you begin your placement and have your first meeting to discuss the placement"
                         },
                         {
-                            "type": "text-paragraph",
-                            "text": "Thought bubble - To implement - Do you need a real time visit or a telephone call?",
+                            "type": "thought-bubble",
+                            "text": "Do you need a real time visit or a telephone call?",
                             "space_after": false
                         }
                     ]

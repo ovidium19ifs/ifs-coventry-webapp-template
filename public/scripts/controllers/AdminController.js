@@ -23,7 +23,7 @@ application.controller("AdminController",function($scope,dataBlock,$location,nav
         });
     };
     $scope.selectGroup = function(grp){
-        $location.path("/admini/"+grp);
+        $location.path("/admin/"+grp);
     };
     $scope.editBlock = function(i){
         if ($scope.selected!==i)

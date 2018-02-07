@@ -15,7 +15,7 @@
             <h4 class="card-subtitle">{{section.subtitle}}</h4>
             <div  ng-repeat="component in section.components">
                 <text-paragraph component="component" ng-if="component.type==='text-paragraph'"></text-paragraph>
-
+                <thought-bubble component="component" ng-if="component.type==='thought-bubble'"></thought-bubble>
                 <text-quote component="component" ng-if="component.type==='text-quote'"></text-quote>
                 <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
                 <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>

@@ -185,7 +185,7 @@
                             "type": "text-paragraph",
                             "text": "The Disabilities team and the Mental Health team at the university have lots of experience working with students who have disabilities. Please feel free to contact them for advice with any concerns you may have relating to workplace and the reasonable adjustments you may be able to make for students with a disability, SpLD or Mental Health needs. Please note we can only give specific student related advice if a student has disclosed their learning needs to us (see Disclosure-Procedure) and completed a data protection form.",
                             "space_after": true,
-                            "links":[
+                            "links": [
                                 {
                                     "href": "content/students/blocks/Disclosure/chapter/Procedure",
                                     "portion": "Disclosure-Procedure"

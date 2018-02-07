@@ -301,7 +301,7 @@
                                 },
                                 {
                                     "text": "If you are experiencing any difficulties or other issues which may affect your learning or ability to successfully participate in your programme, you should tell your education provider and practice placement provider.",
-                                    "embolden":true
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should use all forms of communication appropriately and responsibly, including social media and networking websites."
@@ -414,15 +414,15 @@
                                 },
                                 {
                                     "text": "You should be aware that you may put your service users or yourself at risk if your performance or judgement is affected by your physical or mental health.",
-                                    "embolden" : true
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should ask for appropriate support and adapt your study or stop studying if your performance or judgement is affected by your physical or mental health and could put service users, yourself or others at risk.",
-                                    "embolden" : true
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should get advice from a doctor or other appropriate professional if you are worried about your physical or mental health.",
-                                    "embolden" : true
+                                    "embolden": true
                                 }
                             ]
                         }
@@ -501,7 +501,7 @@
                                 },
                                 {
                                     "text": "You should provide, as soon as possible, any important information about your conduct, competence or health to your education provider and practice placement provider.",
-                                    "embolden" : true
+                                    "embolden": true
                                 },
                                 {
                                     "text": "You should tell your education provider, as soon as possible, if you are charged with, convicted of, or accept a caution for, any offence."
