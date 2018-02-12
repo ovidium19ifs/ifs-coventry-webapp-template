@@ -95,6 +95,7 @@
 }
 
 .card.main-card{
+    height: 468px;
     .main-card-style;
     .card-header{
       .part-descriptor{
@@ -106,6 +107,23 @@
     }
   .card-body{
     padding-top:3rem;
+  }
+  .small-screens{
+    display: none;
+  }
+  .large-screens{
+    display: flex;
+  }
+  @media screen {
+    @media (max-width: 1090px){
+      .large-screens{
+        display: none;
+
+      }
+      .small-screens{
+        display: flex;
+      }
+    }
   }
 }
 

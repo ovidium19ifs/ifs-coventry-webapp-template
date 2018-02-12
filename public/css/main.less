@@ -431,16 +431,38 @@ div.overlay-content{
 .icon-resources{
   width: 33%;
   height:75%;
-  &:hover {
-    img{
-      filter: brightness(150%);
-    }
-    h3{
-      filter: brightness(150%);
-    }
+}
+  .highlight-overlay{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top, hsla(0,0%,0%,.5) 0%, hsla(0,0%,100%,.5) 100%);
+    opacity: 0;
+  }
+  &.educator{
+    background: url('../images/icons/Educators.png') no-repeat center;
+    background-size: contain;
+  }
+
+  &.staff{
+    background: url('../images/icons/Staff.png') no-repeat center;
+    background-size: contain;
+    top:55px;
+  }
+  &.student{
+    background: url('../images/icons/Students.png') no-repeat center;
+    background-size: contain;
+
+  }
+  .highlight-overlay:hover{
+    opacity: 0.3;
+  }
+  &:hover{
     cursor: pointer;
   }
-}
+
 
 .content{
     .content-background();
