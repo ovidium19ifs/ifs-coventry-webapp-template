@@ -36,7 +36,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Learning happens every day. All the skills and knowledge we use we have learned, however we often take it for granted. There are different earning styles, most people use a combination of learning styles to facilitate their learning."
+                            "text": "Learning happens every day. All the skills and knowledge we use we have learned, however we often take it for granted. There are different learning styles, most people use a combination of learning styles to facilitate their learning."
                         },
                         {
                             "type": "list-text",
@@ -45,7 +45,7 @@
                                     "text": "Find out which learning styles best facilitate your learning. You can reflect on the things you learn and how your learning was enhanced – it may be the reading material or the way the educator or mentor explained something in particular or even the way you chose to link the theory with the practical skill. Learning how you learn will support your capacity to learn."
                                 },
                                 {
-                                    "text": "Practice, practice, practice! The best way to know if you can do something is to practice is – be hands on and develop the confidence to try."
+                                    "text": "Practice, practice, practice! The best way to know if you can do something is to practice – be hands on and develop the confidence to try."
                                 },
                                 {
                                     "text": "Stay focused and motivated. A healthy diet influences your mood and motivation. Eating plenty of fruits and vegetables, exercising regularly and sleeping well will be particularly useful to ensure you have a good mood and motivation to learn."
@@ -57,19 +57,38 @@
                                     "text": "Self-learn. It is your responsibility to direct your own learning. Focus on learning and it is likely you learn the more."
                                 },
                                 {
-                                    "text": "Develop good relationships with your mentors and educators. You cannot make anyone like you but being polite and respectful shows you are putting in the effort and most people mimic behaviour when relationships are being developed."
+                                    "text": "Develop good relationships with your mentors and educators. You cannot make anyone like you, but being polite and respectful shows you are putting in the effort and most people mimic behaviour when relationships are being developed."
                                 },
                                 {
                                     "text": "Reflection is good practice. You may want to keep a learning diary where you summarise your experiences and summarise the things you have learned every day."
-                                },
-                                {
-                                    "text": "Be SMART. Set small, measurable, achievable, realistic goals every week. Have a good discussion with your educator or mentor about you want to achieve your goals and enjoy your journey."
                                 },
                                 {
                                     "text": "You never really fail, you just learn differently. Be determined to get better if your performance is below par."
                                 }
                             ],
                             "subtitle": "Tips for learning effectively in practice"
+                        },
+                        {
+                            "type": "list-text",
+                            "subtitle": "Be SMART. Set small, measurable, achievable, realistic goals every week.",
+                            "list_elements": [
+                                {
+                                    "text": "Specific  - a vague goal which is ill defined is less likely to be achieved"
+                                },
+                                {
+                                    "text": "Measurable - how will you measure your success,eg 'I will review 5 patients daily on average by the end of the wekk' versus 'I will review more patients by the end of the week'"
+                                },
+                                {
+                                    "text": "Achievable - the goal you set should be challenging but not beyond your scope"
+                                },
+                                {
+                                    "text": "Relevant - is the goal relevant to your practice? Is this the right time to set this goal? Do I have other goals I need to prioritise first?"
+                                },
+                                {
+                                    "text": "Timely - setting a time limit or end point makes the goal focused and easier to achieve. Eg: 'I will review 5 patients daily on average by the end of the week' versus ' I will review 5 patients daily on average'"
+                                }
+                            ]
+
                         }
                     ]
                 },
@@ -104,7 +123,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Communication is essential when you are placement\n\nBe honest and transparent with your educator. Provide them with feedback about your learning and how they can best support you maximising your strengths and developing your weak ares\n\nBe honest with your self – reflect on your progress and be honest about how you can make the most of the placement. See challenges as opportunities to develop and grow\n\nDevelop a polite, professional manner when speaking with patients and colleagues."
+                            "text": "Communication is essential when you are on placement. Be honest and transparent with your educator. Provide them with feedback about your learning and how they can best support you in maximising your strengths and developing your weak areas. Be honest with your self – reflect on your progress and be honest about how you can make the most of the placement. See challenges as opportunities to develop and grow. Develop a polite, professional manner when speaking with patients and colleagues."
                         },
                         {
                             "type": "link-website",
@@ -203,7 +222,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "We always try to encourage students to reflect on their feelings and their overall situation. It is an important skill which bring to light issues that then the student ca take further steps to solve. In order to do that, we motivate you to read the articles and watch the videos that we consider are very relevant to opening your eyes when it comes to reflection."
+                            "text": "We always try to encourage students to reflect on their feelings and their overall situation. It is an important skill which brings to light issues that then the student can take further steps to solve. In order to do that, we motivate you to read the articles and watch the videos that we consider are very relevant to opening your eyes when it comes to reflection."
                         },
                         {
                             "type": "link-website",
@@ -221,7 +240,7 @@
                         {
                             "subtitle": "Communicate with yourself – reflect",
                             "type": "text-paragraph",
-                            "text": "Various models of reflection are available, there is no “right model”. Students are encouraged to use a model that is right for them, one that they feel can comfortable with. So many of the models use similar language and activities. Reflective models are used to deconstruct events and consolidate learning."
+                            "text": "Various models of reflection are available, there is no “right model”. Students are encouraged to use a model that is right for them, one that they feel comfortable with. So many of the models use similar language and activities. Reflective models are used to deconstruct events and consolidate learning."
                         },
                         {
                             "type": "link-website",
@@ -319,7 +338,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Be proactive, and demonstrate that you can be autonomous and hands-on colleague. Always check to ensure your practice is safe and give your educator regular feedback. Show leadership and courage."
+                            "text": "Be proactive, and demonstrate that you can be an autonomous and hands-on colleague. Always check to ensure your practice is safe and give your educator regular feedback. Show leadership and courage."
                         },
                         {
                             "type": "link-website",
@@ -402,7 +421,7 @@
                                     "text": "Exercise"
                                 },
                                 {
-                                    "text": "Take regular breaks ant the appropriate times"
+                                    "text": "Take regular breaks at the appropriate times"
                                 },
                                 {
                                     "text": "Watch that your sleep patterns are healthy, even though you may have to adjust to night shifts or odd shift patterns"
@@ -429,7 +448,7 @@
                         },
                         {
                             "type": "video-single",
-                            "subtitle": "Healthy night shifts",
+                            "subtitle": "Money Matters",
                             "video": {
                                 "type": "youtube",
                                 "src": "https://www.youtube.com/embed/QJJzDluz4ac",
@@ -486,7 +505,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "If you think your RA are not adequate, have a conversation with the Learning Support Tutor about why you will want to changes some things. Then talk you’re your mentor or educator about that changes. Consider how the RA can be introduced. Some RA may not be accessible in particular environments.",
+                            "text": "If you think your RA are not adequate, have a conversation with the Learning Support Tutor about why you will want to change some things. Then talk to your mentor or educator about the changes. Consider how the RA can be introduced. Some RA may not be accessible in particular environments.",
                             "space_after": true
                         }
                     ]
@@ -512,7 +531,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "Ensure you collate evidence to competencies"
+                                    "text": "Ensure you collate evidence for competencies"
                                 },
                                 {
                                     "text": "Be aware of what you have achieved"
@@ -521,7 +540,7 @@
                                     "text": "Be aware of learning opportunities you need"
                                 },
                                 {
-                                    "text": "If relevant – are you ready for end of placement exam?"
+                                    "text": "If relevant – are you ready for end of placement exam/review?"
                                 },
                                 {
                                     "text": "Find opportunities to practice?"

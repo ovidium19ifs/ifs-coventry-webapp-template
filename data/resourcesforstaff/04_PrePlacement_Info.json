@@ -204,7 +204,7 @@
                             "space_after": false,
                             "video": {
                                 "type": "youtube",
-                                "src": "http://www.youtube.com/embed/kEQeX8Gv4Ic",
+                                "src": "https://www.youtube.com/embed/kEQeX8Gv4Ic",
                                 "thumb": "kEQeX8Gv4Ic.jpg"
                             }
                         }
@@ -370,7 +370,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "A student with a disability can legally request RA when they are going on placement. They can be supported by the Disability Team and Learning Support Tutors.",
+                            "text": "A student with a disability can legally request Reasonable Adjustments(RA) when they are going on placement. They can be supported by the Disability Team and Learning Support Tutors.",
                             "space_after": true
                         },
                         {
@@ -533,8 +533,8 @@
                                     "text": "You may wish to consider and explore with the student whether they need to seek help and guidance from their General Practitioner."
                                 },
                                 {
-                                    "text": "Coventry University offers a range of student Health and Wellbeing Services which includes physical, emotional and spiritual support which are confidential and accessible for the student. Two of the web links cited below from Coventry University briefly explain how the student can contact services such as the counselling services, welfare and disabilities and offers access to the “How are you today” (general wellbeing checklist web page)  which may be of benefit.",
-                                    "links": []
+                                    "text": "Coventry University offers a range of student Health and Wellbeing Services which includes physical, emotional and spiritual support which are confidential and accessible for the student. Two of the web links cited below from Coventry University briefly explain how the student can contact services such as the counselling services, welfare and disabilities and offers access to the “How are you today” (general wellbeing checklist web page)  which may be of benefit."
+
                                 },
                                 {
                                     "text": "Student Services at Coventry University",
@@ -549,7 +549,7 @@
                                     "text": "\"How are you today\" (general wellbeing checklist) at Coventry University .",
                                     "links": [
                                         {
-                                            "portion": "\"How are you today\" (general wellbeing checklist) at Coventry University .",
+                                            "portion": "How are you today",
                                             "href": "http://placementconnect.coventry.ac.uk/images/category/general_information/general_wellbeing_checklist.pdf"
                                         }
                                     ]
@@ -635,7 +635,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "It is important that students with disabilities are notified of their placement in good time so they can make adequate preparations. Some students with disabilities may need time to agree reasonable adjustments or discuss their learning needs prior to the placement"
+                            "text": "It is important that students with disabilities are notified of their placement in good time so they can make adequate preparations. Some students with disabilities may need time to agree reasonable adjustments or discuss their learning needs prior to the placement."
                         }
                     ]
                 }

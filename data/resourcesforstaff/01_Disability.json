@@ -11,7 +11,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability",
+                            "text": "This section will introduce the concept of disability, what to expect from employers and how to improve people's awareness of your disability.",
                             "space_after": false
                         }
                     ],
@@ -25,16 +25,16 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "Will provide material about what a disability is ."
+                                    "text": "Will provide material about what a disability is."
                                 },
                                 {
-                                    "text": "Will help you understand the terminology associated disability ."
+                                    "text": "Will help you understand the terminology associated disability."
                                 },
                                 {
                                     "text": "Clarifies what support mechanisms the University should provide for disabled students."
                                 },
                                 {
-                                    "text": "Will support your capacity to carry out duties and responsibilities with respect to reporting a disability and supporting students with a disability."
+                                    "text": "Will support your capacity to carry out duties and responsibilities with respect to reporting a disability, and supporting students with a disability."
                                 }
                             ],
                             "space_after": false
@@ -54,7 +54,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "You are classed as disabled under the Equality Act 2010 if you have a physical or mental impairment which has a ‘substantial’ and ‘long-term’ negative effect on your ability to do normal daily activities.",
+                            "text": "A person is classed as disabled under the Equality Act 2010 if he/she has a physical or mental impairment which has a ‘substantial’ and ‘long-term’ negative effect on his/her ability to do normal daily activities.",
                             "space_after": true
                         },
                         {
@@ -141,10 +141,7 @@
                                     ]
                                 },
                                 {
-                                    "text": "doing things another way, such as allowing someone with social anxiety disorder to have their own desk instead of hot-desking",
-                                    "links": [
-                                        {}
-                                    ]
+                                    "text": "doing things another way, such as allowing someone with social anxiety disorder to have their own desk instead of hot-desking"
                                 },
                                 {
                                     "text": "making physical changes to the workplace, such as installing a ramp for a wheelchair user or an audio-visual fire alarm for a deaf person"
@@ -185,8 +182,14 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "The Disabilities team and the Mental Health team at the university have lots of experience working with students who have disabilities. Please feel free to contact them for advice with any concerns you may have relating to workplace and the reasonable adjustments you may be able to make for students with a disability, SpLD or Mental Health needs. Please note we can only give specific student related advice if a student has disclosed their learning needs to us (see point 1.4) and completed a data protection form.",
-                            "space_after": true
+                            "text": "The Disabilities team and the Mental Health team at the university have lots of experience working with students who have disabilities. Please feel free to contact them for advice with any concerns you may have relating to workplace and the reasonable adjustments you may be able to make for students with a disability, SpLD or Mental Health needs. Please note we can only give specific student related advice if a student has disclosed their learning needs to us (see Disclosure-Procedure) and completed a data protection form.",
+                            "space_after": true,
+                            "links": [
+                                {
+                                    "href": "content/staff/blocks/Disclosure/chapter/Procedure",
+                                    "portion": "Disclosure-Procedure"
+                                }
+                            ]
                         }
                     ],
                     "space_after": false

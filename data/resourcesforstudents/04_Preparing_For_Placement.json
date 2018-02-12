@@ -35,7 +35,7 @@
                                     "text": "Enable you to reflect on your preparedness for placement"
                                 },
                                 {
-                                    "text": "Plan how you will organise your time practically during placement. It offers academic, social and skills"
+                                    "text": "Plan how you will organise your time practically during placement."
                                 },
                                 {
                                     "text": "Suggestions to help you plan for a successful placement"
@@ -73,7 +73,7 @@
                                     "text": "Evaluation documents – to be completed after the placement"
                                 },
                                 {
-                                    "text": "You may need to ask for relevant documents or if you have a particular requests or want to document the reasonable adjustments you will need on placement."
+                                    "text": "You may need to ask for relevant documents in case you have a particular request or want to document the reasonable adjustments you will need on placement."
                                 }
                             ]
                         }
@@ -95,7 +95,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "The following two documents apply to all branches of nursing and provide valuable information about the Nursing Placement. Study them carefully."
+                            "text": "The following two documents apply to all branches of nursing and provide valuable information about the nursing placement. Study them carefully."
                         },
                         {
                             "type": "link-pdf",
@@ -617,7 +617,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "If you are worried about completing any official documents speak to Academic Personal Tutor, Learning Support Tutor or contact the Disability team for support",
+                            "text": "If you are worried about completing any official documents speak to your Academic Personal Tutor, Learning Support Tutor or contact the Disability team for support.",
                             "space_after": true
                         },
                         {
@@ -669,7 +669,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "You will be given a typical shift, this will basically correspond to the type of shifts you should expect when you clarify. There are absence policies in the hand books, if you are unable to make a shift, if it expected that you inform your educator and all relevant personnel in a professional manner.",
+                            "text": "You will be given a typical shift, this will basically correspond to the type of shifts you should expect when you qualify. There are absence policies in the hand books, if you are unable to make a shift, it is expected that you inform your educator and all relevant personnel in a professional manner.",
                             "space_after": true
                         },
                         {
@@ -695,7 +695,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "It will be a good opportunity to review your finances, Ensure you have enough money saved as you may not be able to work during a placement. Some students save up for placements during the summer, ensuring they have the extra cash to cover any moving costs or transportation. Make a list of all the things you need and have a sensible financial plan ready. Note that student bursaries are no longer available for the majority of health and social care students in the England. Some students with disabilities may be able to get some financial help, see 1 and 2 for further information.",
+                            "text": "It will be a good opportunity to review your finances, ensure you have enough money saved as you may not be able to work during a placement. Some students save up for placements during the summer, ensuring they have the extra cash to cover any moving costs or transportation. Make a list of all the things you need and have a sensible financial plan ready. Note that student bursaries are no longer available for the majority of health and social care students in England. Some students with disabilities may be able to get some financial help, see 1 and 2 for further information.",
                             "space_after": true
                         },
                         {
@@ -869,7 +869,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "If you have any questions about preparing for your placement and would like some tips and advice from the disability advisors or specialist tutors, you can book an appointment with the disabilities Team. To book an appointment, follow the link below:",
+                            "text": "If you have any questions about preparing for your placement and would like some tips and advice from the disability advisors or specialist tutors, you can book an appointment with the disabilities team. To book an appointment, follow the link below:",
                             "space_after": false
                         },
                         {
@@ -892,7 +892,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Reasonable adjustments are changes to the work environment that allow people with disability to work safely and productively. Under the Equal Opportunity Act 2010, 'disability' includes: physical, psychological or neurological disease or disorder. illness, whether temporary or permanent."
+                            "text": "Reasonable adjustments are changes to the work environment that allow people with disability to work safely and productively. Under the Equal Opportunity Act 2010, 'disability' includes: physical, psychological or neurological disease/disorder and illnesses, whether temporary or permanent."
                         },
                         {
                             "type": "link-website",
@@ -1110,7 +1110,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "It’s just a placement – like a different kind of classroom\n\nMake sure you have a positive attitude, the motivation to do well, a good support system and the theoretical knowledge you need. If you need to read up, ask your educator which areas are most relevant to the area you will be focusing on."
+                            "text": "It’s just a placement – like a different kind of classroom. Make sure you have a positive attitude, the motivation to do well, a good support system and the theoretical knowledge you need. If you need to read up, ask your educator which areas are most relevant to the area you will be focusing on."
                         },
                         {
                             "type": "video-carousel",

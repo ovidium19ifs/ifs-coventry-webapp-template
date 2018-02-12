@@ -24,7 +24,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students and staff could provide reassurance and support to students who are struggling."
+                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students, and staff could provide reassurance and support to students who are struggling."
                         }
                     ]
                 }
@@ -91,10 +91,6 @@
                                 {
                                     "link": "pdfs/AdviceforlecturersSupportingstudentswithAspergersSyndromeMMU.pdf",
                                     "text": "Advice for lecturers supporting students with Asperger's Syndrome ( MMU)"
-                                },
-                                {
-                                    "link": "pdfs/Teachingstudentswithaspergers.pdf",
-                                    "text": "Teaching students with aspergers"
                                 }
                             ]
                         }
@@ -139,11 +135,11 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Staff can access the Disability Team if they need support engaging with a student. The disabilities team can support staff by offering advice, tips and skills to about challenges students with disabilities may have."
+                            "text": "Staff can access the Disability Team if they need support engaging with a student. The disabilities team can support staff by offering advice, tips and skills to address challenges students with disabilities may have."
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "If you have any questions contact the team"
+                            "text": "If you have any questions contact the team."
                         },
                         {
                             "type": "link-website",

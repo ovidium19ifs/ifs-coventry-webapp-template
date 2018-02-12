@@ -52,7 +52,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Disclosure is making known a disability to the university.  It involves discussing difficulties the student may encounter, any reasonable adjustments needed for attainment and individual examination arrangements."
+                            "text": "Disclosure is making a disability known to the university.  It involves discussing difficulties the student may encounter, any reasonable adjustments needed for attainment and individual examination arrangements."
                         }
                     ]
                 }
@@ -143,7 +143,7 @@
                         },
                         {
                             "type": "text-paragraph",
-                            "text": "The Disability Team will hold all data students provide about their disability and you can decide who you need to share this information with. To discuss reasonable adjustments on placements, you will need share the information with teams and people on a “need to know” bases for example - the placement team, the learning support tutor and the placement teams. You are not obliged to share the information. If you share the information, you will be supported by the various support teams and you will sign a disability disclosure agreement."
+                            "text": "The Disability Team will hold all data students provide about their disability and you can decide who you need to share this information with. To discuss reasonable adjustments on placements, you will need share the information with teams and people on a “need to know” bases for example - the placement teams and the learning support tutor. You are not obliged to share the information. If you share the information, you will be supported by the various support teams and you will sign a disability disclosure agreement."
                         }
                     ]
                 },
@@ -177,7 +177,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "The University has an obligation to support students with disabilities. As soon as a student declares a disability the University has a duty of care to support the student and offer reasonable adjustments. A student could decide to not disclose a disability."
+                            "text": "The University has an obligation to support students with disabilities. As soon as a student declares a disability, the University has a duty of care to support the student and offer reasonable adjustments. A student could decide to not disclose a disability."
                         },
                         {
                             "type": "text-paragraph",

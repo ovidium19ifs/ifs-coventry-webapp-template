@@ -252,8 +252,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "Set appropriate goals with your student at the beginning of the placement",
-                                    "links": []
+                                    "text": "Set appropriate goals with your student at the beginning of the placement."
                                 },
                                 {
                                     "text": "Discuss how you will support the student to achieve the goals with respect to time pressure, patient safety and any needs you may have."
@@ -300,7 +299,7 @@
                             "space_after": true,
                             "video": {
                                 "type": "youtube",
-                                "src": "http://www.youtube.com/embed/qmXYquQkG5o",
+                                "src": "https://www.youtube.com/embed/qmXYquQkG5o",
                                 "thumb": "qmXYquQkG5o.jpg"
                             }
                         },
@@ -688,7 +687,7 @@
             "name": "Case Studies",
             "sections": [
                 {
-                    "subtitle": "Case Studies from NMC",
+                    "subtitle": "Case Studies from HCPC",
                     "space_after": false,
                     "components": [
                         {

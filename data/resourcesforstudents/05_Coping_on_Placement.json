@@ -12,7 +12,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "Every student will benefit from considering the coping strategies they could use on placement. You may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot of from your emotional reservoir.",
+                            "text": "Every student will benefit from considering the coping strategies they could use on placement. You may feel a little drained, physically or emotionally worn down and/or find working with certain people difficult. The work place is challenging and you may encounter people or situations that knock your confidence or demand a lot from your emotional reservoir.",
                             "space_after": false
                         }
                     ],
@@ -123,7 +123,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "The best thing you could take on placement is a positive attitude. Educators and mentors are always happy to welcome students and support their learning. They find this easier when students come to the placement with an attitude that is positive. This simply means a stunt is willing to learn and will be confident to ask for help when they are confronted by activities that are outside their scope of practice. The clinical placement is not a natural pedagogical atmosphere, however, the educators and mentors have been in your shoes and are quite welcoming and inspiring. You are quite likely to find new graduates on your ward who were on placement just a few months ago too; they will be happy to support your learning and help you.",
+                            "text": "The best thing you could take on placement is a positive attitude. Educators and mentors are always happy to welcome students and support their learning. They find this easier when students come to the placement with an attitude that is positive. This simply means a student is willing to learn and will be confident to ask for help when they are confronted by activities that are outside their scope of practice. The clinical placement is not a natural pedagogical atmosphere, however, the educators and mentors have been in your shoes and are quite welcoming and inspiring. You are quite likely to find new graduates on your ward who were on placement just a few months ago too; they will be happy to support your learning and help you.",
                             "space_after": false
                         }
                     ],
@@ -201,7 +201,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "When you improve your physical health, you'll automatically experience greater mental and emotional well-being",
+                            "text": "When you improve your physical health, you'll experience greater mental and emotional well-being",
                             "space_after": false
                         }
                     ],
@@ -261,12 +261,6 @@
                 {
                     "subtitle": "Emotional and mental well-being ",
                     "components": [
-                        {
-                            "subtitle": "",
-                            "type": "text-paragraph",
-                            "text": "Mental wellbeing is your mental state; how to feel about and cope with daily life. ",
-                            "space_after": false
-                        },
                         {
                             "subtitle": "",
                             "type": "text-paragraph",

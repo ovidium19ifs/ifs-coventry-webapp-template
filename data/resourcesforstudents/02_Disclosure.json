@@ -55,7 +55,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "Disclosure is making known a disability to the university.  It involves discussing difficulties you may encounter, any reasonable adjustments needed for attainment and individual examination arrangements.",
+                            "text": "Disclosure is making a disability known to the university.  It involves discussing difficulties you may encounter, any reasonable adjustments needed for attainment and individual examination arrangements.",
                             "space_after": true
                         },
                         {
@@ -84,7 +84,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "You can disclose at any time during the recruitment process, such as on your application or UCAS form or when you are on your course. ",
+                            "text": "You can disclose at any time during the recruitment process, such as on your application or UCAS form, or when you are on your course. ",
                             "space_after": false
                         },
                         {
@@ -183,7 +183,7 @@
                     "space_after": true
                 },
                 {
-                    "subtitle": "What is evidence",
+                    "subtitle": "What counts as evidence",
                     "components": [
                         {
                             "subtitle": "",
@@ -206,7 +206,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "If you have a medical condition, you will need to provide evidence including doctor’s letter, copy of medical records or a medical report. If you have an autistic spectrum condition, you will need to provide a copy of an educational psychologist report or doctors letter. ",
+                            "text": "If you have a medical condition, you will need to provide evidence including a doctor’s letter, copy of medical records or a medical report. If you have an autism spectrum condition, you will need to provide a copy of an educational psychologist's report or doctors letter. ",
                             "space_after": false
                         },
                         {
@@ -272,12 +272,12 @@
             "name": "Sign Data Protection",
             "sections": [
                 {
-                    "subtitle": "How to sign the Data Protection Act",
+                    "subtitle": "How to sign the Data Protection Form",
                     "components": [
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "The data protection form should be signed as soon as possible once you have made contact with the Disabilities Team. It can be completed electronically (email and scanning your copy), during an appointment or you can visit the department.",
+                            "text": "The data protection form should be signed as soon as possible once you have made contact with the Disabilities Team. It can be completed electronically (by emailing and scanning your copy), during an appointment or you can visit the department.",
                             "space_after": false
                         },
                         {
@@ -301,7 +301,7 @@
                         {
                             "subtitle": "",
                             "type": "text-paragraph",
-                            "text": "You should tell your department directly about your disability, which can be done through email or face to face conversations. Your department can also look on Solar which contains information about disability details, exam arrangements and reasonable adjustments.",
+                            "text": "You should tell your department directly about your disability, which can be done through email or \"face-to-face\" conversations. Your department can also look on Solar which contains information about disability details, exam arrangements and reasonable adjustments.",
                             "space_after": false
                         }
                     ],

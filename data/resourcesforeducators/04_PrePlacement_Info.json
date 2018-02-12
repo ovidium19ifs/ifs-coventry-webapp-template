@@ -49,7 +49,7 @@
                             "space_after": false,
                             "video": {
                                 "type": "youtube",
-                                "src": "http://www.youtube.com/embed/kEQeX8Gv4Ic",
+                                "src": "https://www.youtube.com/embed/kEQeX8Gv4Ic",
                                 "thumb": "kEQeX8Gv4Ic.jpg"
                             }
                         }

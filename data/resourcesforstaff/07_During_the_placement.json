@@ -11,7 +11,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "This section presents guidance and suggestions aimed at supporting students while they are on placement"
+                            "text": "This section presents guidance and suggestions aimed at supporting students while they are on placement."
                         }
                     ]
                 },
@@ -20,7 +20,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "This section will provide you with a few checklist and ideas about what you could review"
+                            "text": "This section will provide you with a few checklists and ideas about what you could review."
                         }
                     ]
                 }
@@ -68,7 +68,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Students have a safe space tod discuss any concerns they may have about the placement or their experience"
+                            "text": "Make sure students have a safe space to discuss any concerns they may have about the placement or their experience."
                         },
                         {
                             "type": "link-website",
@@ -93,7 +93,7 @@
                                     "text": "Students knows how assessment will take place and who will attend."
                                 },
                                 {
-                                    "text": "Student has relevant and effective feedback after assessment"
+                                    "text": "Student has relevant and effective feedback after assessment."
                                 }
                             ]
                         }

@@ -12,7 +12,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "A health or social care placement is a learning environment for skills practice and assessment, but it also provides an opportunity for students to experience work in real time. A lot of students will be excited about this prospect, probably also nervous; many will not know what to expect. The work environment is filled with lots of complexity and uncertainty, particularly in health service delivery. It is however a good chance for you to begin contributing to health care delivery and there will be lots learning opportunities."
+                            "text": "A health or social care placement is a learning environment for skills practice and assessment, but it also provides an opportunity for students to experience work in real time. A lot of students will be excited about this prospect, probably also nervous; many will not know what to expect. The work environment is filled with lots of complexity and uncertainty, particularly in health service delivery. It is however a good chance for you to begin contributing to health care delivery and there will be lots of learning opportunities."
                         },
                         {
                             "type": "text-paragraph",
@@ -48,11 +48,11 @@
                             "subtitle": "Checklist",
                             "list_elements": [
                                 {
-                                    "text": "Have I collected the uniforms and Personal Protective Equipment?",
-                                    "links": []
+                                    "text": "Have I collected the uniforms and Personal Protective Equipment?"
+
                                 },
                                 {
-                                    "text": "Have I collected by Identity cards?"
+                                    "text": "Have I collected my Identity cards?"
                                 },
                                 {
                                     "text": "Have I got my vaccinations? Where to Get?"
@@ -101,13 +101,13 @@
                                     "text": "Get involved in the task and activities, be prepared to learn as much as you can"
                                 },
                                 {
-                                    "text": "show willing interest with a can-do attitude"
+                                    "text": "Show willing interest with a can-do attitude"
                                 },
                                 {
-                                    "text": "do not have your phone on and refrain from checking it constantly"
+                                    "text": "Do not have your phone on and refrain from checking it constantly"
                                 },
                                 {
-                                    "text": "take responsibility for yourself and your actions, and recognise you are one part of a busy business rather than the focus of it"
+                                    "text": "Take responsibility for yourself and your actions, and recognise you are one part of a busy business rather than the focus of it"
                                 }
                             ],
                             "space_after": true
@@ -137,7 +137,7 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "You are a team player can work with others"
+                                    "text": "You are a team player who can work with others"
                                 },
                                 {
                                     "text": "Can manage yourself, take care of your needs, manage emotions"
@@ -189,7 +189,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Professional behaviour is usefully summarised as a series of actions deemed acceptable in the workplace. Judgements about professional behaviour can be arrived at dependent on an individual’s: communicative abilities, critical thinking and problem-solving; initiative and accountability and ethical approaches and reflections. Furthermore, nonverbal gestures and demeanour will also influence how other’s perceive an individual’s professional behaviour."
+                            "text": "Professional behaviour is usually summarised as a series of actions deemed acceptable in the workplace. Judgements about professional behaviour can be arrived at depending on an individual’s: communicative abilities, critical thinking and problem-solving; initiative and accountability and ethical approaches and reflections. Furthermore, nonverbal gestures and demeanour will also influence how other’s perceive an individual’s professional behaviour."
                         },
                         {
                             "type": "text-paragraph",
@@ -220,7 +220,7 @@
                                     "text": "Students should make every effort to sustain the University's good name and reputation whilst completing their placement. In particular, you should have consideration for your colleagues and your employer’s clients, service users or customers. As you may also come into contact with your employer’s suppliers and other professionals, it is very important your conduct remains consistently professional - at all times."
                                 },
                                 {
-                                    "text": "A student who fails to maintain a reasonable standard of behaviour (deemed by the placement provider according to their disciplinary policy and process), or who compromises their own safety, or the safety of others, may be dismissed from their placement and may face disciplinary procedures through the University’s General Regulations http://www.coventry.ac.uk/cu/registry/regulations",
+                                    "text": "A student who fails to maintain a reasonable standard of behaviour (deemed by the placement provider according to their disciplinary policy and process), or who compromises their own safety, or the safety of others, may be dismissed from their placement and may face disciplinary procedures through the University’s General Regulations http://www.coventry.ac.uk/cu/registry/regulations .",
                                     "links": [
                                         {
                                             "portion": "http://www.coventry.ac.uk/cu/registry/regulations",
@@ -229,7 +229,7 @@
                                     ]
                                 },
                                 {
-                                    "text": "All placements are subject to the processes of student risk assessment and provider health and safety checks, conducted by Faculty Employability Support. You must however, ensure you have read and understood the documentation in the Student Placement Pack, issued to you by Employability Support at the time of your meeting with the advisor"
+                                    "text": "All placements are subject to the processes of student risk assessment and provider health and safety checks, conducted by Faculty Employability Support. You must however, ensure you have read and understood the documentation in the Student Placement Pack, issued to you by Employability Support at the time of your meeting with the advisor."
                                 },
                                 {
                                     "text": "During the student risk assessment with the Employability Support advisor, you will have an opportunity to discuss any disabilities or long-term health conditions you are managing. This information will be treated in confidence. If however, the student choses to make a disclosure to the placement provider, the advisor can help you to present this information in a professional way. Doing so, enables the placement provider to make reasonable adjustments, if required. It is the best policy for students to discuss any disabilities or long-term health conditions with the advisor first."
@@ -250,7 +250,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "It goes without saying that your behaviour will have an impact on colleagues and other stakeholders, such as clients and service users. Sometimes students, perhaps through lack of experience, do not recognise that their actions and behaviour may have unintended and long-lasting consequences. As part of your professional development you should take responsibility to regularly reflect upon and modify your actions and behaviour. This is quite normal and part of your development. It something you can talk to your placement supervisor about. You can also discuss this with the Academic Placement Supervisor allocated to you."
+                            "text": "It goes without saying that your behaviour will have an impact on colleagues and other stakeholders, such as clients and service users. Sometimes students, perhaps through lack of experience, do not recognise that their actions and behaviour may have unintended and long-lasting consequences. As part of your professional development you should take responsibility to regularly reflect upon and modify your actions and behaviour. This is quite normal and part of your development. It is something you can talk to your placement supervisor about. You can also discuss this with the Academic Placement Supervisor allocated to you."
                         },
                         {
                             "type": "text-paragraph",
@@ -265,16 +265,16 @@
                                     "text": "Attend employer briefings/inductions sessions."
                                 },
                                 {
-                                    "text": "Follow employer’s procedures and comply with employer’s statutory and legal requirements relating. to,  for example, data protection, children’s  and vulnerable adults safeguarding, food hygiene, health and safety, manual handling, COSH and  the correct use and management of substances hazardous to health (e.g. cleaning products) etc."
+                                    "text": "Follow employer’s procedures and comply with employer’s statutory and legal requirements relating to,  for example, data protection, children’s  and vulnerable adults safeguarding, food hygiene, health and safety, manual handling, COSH and  the correct use and management of substances hazardous to health (e.g. cleaning products) etc."
                                 },
                                 {
                                     "text": "Maintain highest standards of professional behaviour and conduct yourself in a mature, responsible, courteous and respectful manner with colleagues, customers, clients and suppliers."
                                 },
                                 {
-                                    "text": "Treat company or organisational information and/or trade secrets, as CONFIDENTIAL INFORMATION. During placement you may learn about information relating to the company, a Group of companies, or one of their clients. You must not at any time during or after the placement disclose or make use of your knowledge about this confidential information."
+                                    "text": "Treat company or organisational information and/or trade secrets, as CONFIDENTIAL INFORMATION. During placement you may learn about information relating to the company, a group of companies, or one of their clients. You must not at any time during or after the placement disclose or make use of your knowledge about this confidential information."
                                 },
                                 {
-                                    "text": "Adhere to employers policies, in particular those pertaining to ITS and the use of social networking sites, such as Facebook, Twitter and the internet. If in doubt, do NOT use ICT/ social media for personal purposes, on placement."
+                                    "text": "Adhere to employers policies, in particular those pertaining to ITS (IT Services) and the use of social networking sites, such as Facebook, Twitter and the internet. If in doubt, do NOT use ICT/ social media for personal purposes, on placement."
                                 },
                                 {
                                     "text": "Maintain a high standard of customer service and ensure the highest standards of quality are achieved in all duties carried out."
@@ -325,40 +325,40 @@
                             "type": "list-text",
                             "list_elements": [
                                 {
-                                    "text": "I have sufficient support strategies in place -"
+                                    "text": "I have sufficient support strategies in place."
                                 },
                                 {
-                                    "text": "I have the contact number of my visiting tutor/Uni contact"
+                                    "text": "I have the contact number of my visiting tutor/Uni contact."
                                 },
                                 {
-                                    "text": "I know my shift patterns and times"
+                                    "text": "I know my shift patterns and times."
                                 },
                                 {
-                                    "text": "I know when the placement will start and finish"
+                                    "text": "I know when the placement will start and finish."
                                 },
                                 {
-                                    "text": "I have organised care for my children or dependents"
+                                    "text": "I have organised care for my children or dependents."
                                 },
                                 {
                                     "text": "I know when my study days are?"
                                 },
                                 {
-                                    "text": "I have organised travel – tickets, parking, permits, note (Limited parking in many hospitals) Tried and tested route"
+                                    "text": "I have organised travel – tickets, parking, permits, note (Limited parking in many hospitals) Tried and tested route."
                                 },
                                 {
-                                    "text": "I am ready to set my goals with my educator/mentor"
+                                    "text": "I am ready to set my goals with my educator/mentor."
                                 },
                                 {
-                                    "text": "I have my placement log"
+                                    "text": "I have my placement log."
                                 },
                                 {
                                     "text": "Is it possible to contact students on the same placement?"
                                 },
                                 {
-                                    "text": "I am confident I can have a successful placement"
+                                    "text": "I am confident I can have a successful placement."
                                 },
                                 {
-                                    "text": "I have a Placement Learning Plan"
+                                    "text": "I have a Placement Learning Plan."
                                 }
                             ],
                             "space_after": false
@@ -435,7 +435,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "Students who have frequent severe panic attacks and extreme anxieties may not be keeping track of when these occurrences happen, and may not be aware of why they are more frequently occurring. The following tool can be attached within the online ‘self-guide’ to be downloaded and printed off to be completed. \nIt aims to identify the areas in which the student feel comfortable in within their placement:"
+                            "text": "Students who have frequent severe panic attacks and extreme anxieties may not be keeping track of when these occurrences happen, and may not be aware of why they are more frequently occurring. The following tool can be attached within the online ‘self-guide’ to be downloaded and printed off to be completed. \nIt aims to identify the areas in which the student feels comfortable in their placement:"
                         },
                         {
                             "type": "list-text",

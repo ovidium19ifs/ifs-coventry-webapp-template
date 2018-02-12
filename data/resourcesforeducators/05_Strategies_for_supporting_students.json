@@ -24,7 +24,7 @@
                     "components": [
                         {
                             "type": "text-paragraph",
-                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students and staff could provide reassurance and support to students who are struggling."
+                            "text": "This section will highlight some key tips for supporting students on placement. Placements are an unusual learning environment for students, and staff could provide reassurance and support to students who are struggling."
                         }
                     ]
                 }
@@ -180,10 +180,6 @@
                                 {
                                     "link": "pdfs/supportingstudentswithdyslexiainpractice2ndedition.pdf",
                                     "text": "Supporting students with dyslexia"
-                                },
-                                {
-                                    "link": "pdfs\\Teachingstudentswithaspergers.pdf",
-                                    "text": "Teaching students with aspergers"
                                 }
                             ]
                         }
