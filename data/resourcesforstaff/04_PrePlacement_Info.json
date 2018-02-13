@@ -339,7 +339,7 @@
                     "subtitle": "Thinking Point",
                     "components": [
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "You suspect a student is not aware of the requirements and competencies noted in the handbook. What should you do?"
                         }
                     ]
@@ -430,11 +430,11 @@
                     "subtitle": "Thinking Point",
                     "components": [
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "Why are students so anxious about placements?"
                         },
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "Most placements are successful. If students have all the necessary resources why do some struggle?"
                         }
                     ]
