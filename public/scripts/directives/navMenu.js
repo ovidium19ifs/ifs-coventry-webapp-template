@@ -53,14 +53,14 @@ application.directive("navMenu",function() {
                     //$scope.chSelected = $scope.chSelected+ch_name;
                     var base = $location.path();
                     console.log("NAVIGATION MENU: "+ base);
-                    $location.path(base+ "/chapter/"+$filter('nospaces')(ch_name,"-"));
+                    $location.url(base+ "/chapter/"+$filter('nospaces')(ch_name,"-"));
                     //$location.path("/content/"+group+"/blocks/"+$scope.selected+"/chapter/"+ch_name);
                 }
 
                 else if ($scope.chSelected.indexOf(ch_name) <= 0) {
                     //$scope.chSelected = $scope.chSelected.slice(0, $scope.chSelected.indexOf("-")) + ch_name;
                     var base = $location.path().slice(0, $location.path().lastIndexOf("/") + 1);
-                    $location.path(base + $filter('nospaces')(ch_name,"-"));
+                    $location.url(base + $filter('nospaces')(ch_name,"-"));
                 }
 
             };

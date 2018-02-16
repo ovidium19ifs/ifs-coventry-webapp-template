@@ -6,6 +6,7 @@ application.controller("searchController",function($scope,query,navigate,$routeP
     $scope.resultCount = 0;
     $scope.blocks = [];
     var mainWindow = angular.element(document.getElementById("mainContent"));
+    var matchTracker;
     mainWindow.scrollTop(0);
     $scope.goBack = function(){
         $window.history.back();
@@ -35,110 +36,105 @@ application.controller("searchController",function($scope,query,navigate,$routeP
             keys:[
                 "subtitle",
                 "components.text",
-                "components.list_elements.text"
+                "components.list_elements.text",
+                "components.links.text",
+                "components.subtitle"
             ],
             threshold: $scope.query.length > 8 ? 0.5 : $scope.query.length > 5 ? 0.34 : 0.15,
             minMatchCharLength: query.query.length-2,
             includeMatches: true,
             includeScore: true
         };
-
+        matchTracker = [];
         $scope.data.forEach(function(block){
             block.chapters.forEach(function(chapter){
                 var fuse = new Fuse(chapter.sections,options);
                 let res= fuse.search(query.query);
-
                 if (res.length>0){
-                    
                     for (var i=0;i<res.length;i++){
                         res[i].matches.forEach(function(match){
-                            switch (match.key) {
-                                case "subtitle":
-                                    $scope.resultCount++;
-                                    if (!$scope.blocks.some(function(elem){
-                                        if (elem.name===block.name) {
-                                            elem.count++;
-                                            elem.matches.sections.push({
-                                                ref: res[i].item.subtitle,
-                                                search : match,
-                                                block  : block.name,
-                                                chapter: chapter.name,
-                                                score: res[i].score
+                            if (!matchTracker.includes(match.value.trim())){
+                                switch (match.key) {
+                                    case "subtitle":
+                                        $scope.resultCount++;
+                                        if (!$scope.blocks.some(function(elem){
+                                                if (elem.name===block.name) {
+                                                    elem.count++;
+                                                    elem.matches.sections.push({
+                                                        ref: res[i].item.subtitle,
+                                                        search : match,
+                                                        block  : block.name,
+                                                        chapter: chapter.name,
+                                                        score: res[i].score
+                                                    });
+                                                    return true;
+                                                }
+                                                return false;
+                                            })){
+                                            $scope.blocks.push({
+                                                name: block.name,
+                                                count:1,
+                                                matches:{
+                                                    sections:[{
+                                                        ref: res[i].item.subtitle,
+                                                        search : match,
+                                                        block  : block.name,
+                                                        chapter: chapter.name,
+                                                        score: res[i].score
+                                                    }],
+                                                    components: [],
+                                                    "external links": [],
+                                                    documents: []
+                                                }
                                             });
-                                            return true;
                                         }
-                                        return false;
-                                        })){
-                                        $scope.blocks.push({
-                                            name: block.name,
-                                            count:1,
-                                            matches:{
-                                                sections:[{
-                                                    ref: res[i].item.subtitle,
-                                                    search : match,
-                                                    block  : block.name,
-                                                    chapter: chapter.name,
-                                                    score: res[i].score
-                                                }],
-                                                components: [],
-                                                "external links": [],
-                                                documents: []
-                                            }
-                                        });
-                                    }
-                                    break;
-                                case "components.text":
-                                case "components.list_elements.text":
-                                    $scope.resultCount++;
-                                    if (!$scope.blocks.some(function(elem){
-                                            if (elem.name===block.name) {
-                                                elem.count++;
-                                                elem.matches.components.push({
-                                                    ref: res[i].item.subtitle,
-                                                    search: match,
-                                                    block  : block.name,
-                                                    chapter: chapter.name,
-                                                    score: res[i].score
-                                                });
-                                                return true;
-                                            }
-                                            return false;
-                                        })){
-                                        $scope.blocks.push({
-                                            name: block.name,
-                                            count:1,
-                                            matches:{
-                                                sections:[],
-                                                components: [{
-                                                    ref: res[i].item.subtitle,
-                                                    search: match,
-                                                    block  : block.name,
-                                                    chapter: chapter.name,
-                                                    score: res[i].score
-                                                }],
-                                                "external links": [],
-                                                documents: []
-                                            }
-                                        });
-                                    }
-                                    break;
+                                        break;
+                                    case "components.text":
+                                    case "components.list_elements.text":
+                                    case "components.subtitle":
+                                    case "components.links.text":
+                                        $scope.resultCount++;
+                                        if (!$scope.blocks.some(function(elem){
+                                                if (elem.name===block.name) {
+                                                    elem.count++;
+                                                    elem.matches.components.push({
+                                                        ref: res[i].item.subtitle,
+                                                        key: match.key,
+                                                        search: match,
+                                                        block  : block.name,
+                                                        chapter: chapter.name,
+                                                        score: res[i].score
+                                                    });
+                                                    return true;
+                                                }
+                                                return false;
+                                            })){
+                                            $scope.blocks.push({
+                                                name: block.name,
+                                                count:1,
+                                                matches:{
+                                                    sections:[],
+                                                    components: [{
+                                                        ref: res[i].item.subtitle,
+                                                        key: match.key,
+                                                        search: match,
+                                                        block  : block.name,
+                                                        chapter: chapter.name,
+                                                        score: res[i].score
+                                                    }],
+                                                    "external links": [],
+                                                    documents: []
+                                                }
+                                            });
+                                        }
+                                        break;
+                                }
+                                matchTracker.push(match.value.trim());
                             }
                         });
                     }
                 }
             });
         });
-        for (var key in $scope.results){
-            if ($scope.results.hasOwnProperty(key)){
-                $scope.results[key].sort(function(a,b){
-                    let score_a = a.score;
-                    let score_b = b.score;
-                    if (score_a<score_b) return -1;
-                    else if (score_a===score_b) return 0;
-                    else return 1;
-                });
-            }
-        }
-        console.log($scope.blocks);
     }
 });

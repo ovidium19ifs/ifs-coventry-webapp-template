@@ -6,12 +6,17 @@
         <span>{{group | capitalize}}</span>
          content...
     </p>
+    <form class="d-flex flex-column align-items-center search-box mx-auto w-50" name="searchForm" ng-submit="submitSearch(query,searchForm)" novalidate style="border: none" ng-if="resultCount>0">
+        <input  type="search" id="q" name="q" placeholder="Search..." class="form-control d-block" ng-model="query" required ng-minlength="3" ng-blur="query=''">
+        <p class="small text-center" ng-if="(searchForm.q.$error.required || searchForm.q.$error.minlength) && searchForm.$submitted">Your search must be at least 3 characters long</p>
+    </form>
     <div class="search-results-brief my-3">
         <p ng-if="resultCount>0"> We have found <span>{{resultCount}}</span> result<span ng-if="resultCount>1" style="font-weight: normal">s</span> in the following sections:</p>
         <div class="" ng-if="resultCount===0">
             <p class="mb-3">We have not found any results... Try a different search below!</p>
-            <form class="d-flex align-items-center search-box mx-0 w-50" name="searchForm" ng-submit="submitSearch(searchTerm)" novalidate style="border: none">
-                <input type="search" id="q" name="q" placeholder="Search..." class="form-control" ng-model="searchTerm" ng-blur="searchTerm=''">
+            <form class="d-flex flex-column align-items-center search-box mx-auto w-50" name="searchForm" ng-submit="submitSearch(searchTerm,searchForm)" novalidate style="border: none">
+                <input  type="search" id="q" name="q" placeholder="Search..." class="form-control d-block" ng-model="searchTerm" required ng-minlength="3" >
+                <p class="small text-center" ng-if="(searchForm.q.$error.required || searchForm.q.$error.minlength) && searchForm.$submitted">Your search must be at least 3 characters long</p>
             </form>
         </div>
         <div class="search-blocks bottom-sep py-3">
@@ -20,22 +25,32 @@
                 <li class="list-group-item" ng-repeat="block in blocks" ng-click="scrollTo(block.name)">
                     <span class="fa fa-caret-square-o-right"></span>
                     <span class="block-name">{{block.name}}</span>
-                    <span class="badge badge-primary badge-pill float-right mr-3">{{block.count}}</span>
+                    <span class="badge badge-success badge-pill float-right mr-3">{{block.count}}</span>
                 </li>
 
             </ul>
         </div>
 
-        <div class="block-results bottom-sep py-3" ng-repeat="block in blocks" id="{{block.name | nospaces | lowercase}}">
+        <div class="block-results bottom-sep py-3" ng-repeat="block in blocks" id="{{block.name | nospaces | lowercase}}" ng-class="{'mb-4':$last}">
             <h3>{{block.name}}</h3>
             <span class="back-to-top mb-2" ng-click="scrollTop()" ng-if="!$first"><code class="border border-danger">Back to Top</code></span>
             <div class="">
                 <div class="component-results my-3 pt-3" ng-repeat=" match in block.matches.components">
-                    <h4 class="subtitle" ng-if="$first || match.chapter!==block.matches.components[$index-1].chapter">{{match.chapter}}</h4>
-                    <h5 class="text-muted" ng-if="$first || match.ref!==block.matches.components[$index-1].ref">{{match.ref}}</h5>
+                    <h4 class="subtitle text-success" ng-if="$first || match.chapter!==block.matches.components[$index-1].chapter">{{match.chapter}}</h4>
+                    <h5 class="text-muted text-danger" ng-if="$first || match.ref!==block.matches.components[$index-1].ref">{{match.ref}}</h5>
                     <p class="text-muted" style="font-size: 0.9rem">"{{match.search.value | limitTo: 120}}..."</p>
                     <button class="btn btn-sm btn-success"
                     ng-click="goTo(block.name,match.chapter,match.ref)">Go to Link</button>
+                    <div class="separator" ng-if="$last"></div>
+                </div>
+                <div class="section-results-intro mt-3 mb-2" ng-if="block.matches.sections.length>0">
+                    <p style="font-size: 1.1rem">Sections in "<i><b>{{block.name}}</b></i>" that can be relevant to your search:</p>
+                </div>
+                <div class="section-results my-3 pt-3" ng-repeat="match in block.matches.sections">
+                    <a href="" ng-click="goTo(block.name,match.chapter,match.ref)" style="text-decoration: none;font-size:1.5rem">
+                    <span class="fa fa-angle-double-right mr-1"></span>
+                    {{match.ref}}
+                    </a>
                 </div>
 
             </div>
@@ -51,6 +66,7 @@
             </div>
             -->
         </div>
+        <span class="back-to-top mt-4" ng-click="scrollTop()"><code class="border border-danger">Back to Top</code></span>
 
     </div>
 </div>

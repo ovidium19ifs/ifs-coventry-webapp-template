@@ -43,8 +43,9 @@
         <div class="row main-content h-100" >
             <!-- Left-side sticky panel - Search function and navigation menu -->
             <div class="d-flex flex-column col-md-3  col-lg-2 order-0 side-menu px-0" ng-if="inContentState" style="min-width:230px">
-                <form class="d-flex align-items-center search-box mx-0" name="searchForm" ng-submit="submitSearch(searchTerm)" novalidate style="border: none">
-                    <input type="search" id="q" name="q" placeholder="Search..." class="form-control" ng-model="searchTerm" ng-blur="searchTerm=''">
+                <form class="d-flex flex-column align-items-center search-box mx-0" name="searchForm" ng-submit="submitSearch(searchTerm,searchForm)" novalidate style="border: none">
+                    <input  type="search" id="q" name="q" placeholder="Search..." class="form-control d-block" ng-model="searchTerm" required ng-minlength="3" >
+                    <p class="small text-center" ng-if="(searchForm.q.$error.required || searchForm.q.$error.minlength) && searchForm.$submitted">Your search must be at least 3 characters long</p>
                 </form>
                 <p class="small text-center pb-3" style="border-bottom: 1px solid black;">(Press Enter to start a search)</p>
                 <nav-menu  class="px-2" id="navigation"></nav-menu>

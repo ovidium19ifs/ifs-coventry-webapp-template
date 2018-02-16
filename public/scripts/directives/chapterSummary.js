@@ -14,16 +14,17 @@ application.directive("chapterSummary",function(){
             $scope.$on("dataWasLoaded",function(e,args){
                 var data = args;
                 $scope.titles=[];
-                if (data && data.hasOwnProperty("introcontent")){
-                    for (let obj of data.introcontent){
-                        $scope.titles.push(obj.title);
+                if (data)
+                    if (data.hasOwnProperty("introcontent")){
+                        for (let obj of data.introcontent){
+                            $scope.titles.push(obj.title);
+                        }
                     }
-                }
-                else{
-                    for (let obj of data.sections){
-                        $scope.titles.push(obj.subtitle);
+                    else{
+                        for (let obj of data.sections){
+                            $scope.titles.push(obj.subtitle);
+                        }
                     }
-                }
 
             });
             $scope.scrollTo = function (subtitle) {

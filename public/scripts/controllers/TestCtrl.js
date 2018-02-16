@@ -121,15 +121,16 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
     };
 
 ///////////////////////////////////////////////////////////
-    $scope.submitSearch = function(q){
+    $scope.submitSearch = function(q,f){
+        
+        if (f.$invalid) return;
         let block = navigate.getGroup();
         $location.search({query: q});
         $location.hash([]);
         $location.path("/"+block+"/search");
     };
     $scope.resetSearch =function(){
-        console.log("Blur");
-        console.log($scope);
+        
         $scope.searchTerm = "";
     }
 
