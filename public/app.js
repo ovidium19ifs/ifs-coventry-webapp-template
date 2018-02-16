@@ -120,6 +120,27 @@ application.config(function ($routeProvider,$locationProvider) {
             }
 
         })
+        .when("/:group/search",{
+            templateUrl: "templates/searchResults.html",
+            controller: "searchController",
+            resolve: {
+                query: function($location){
+                    "use strict";
+                    return $location.search();
+                },
+                dataBlock: function(navigate,dataFetcher,$route){
+                    if (!navigate.getData() || navigate.getGroup()!=$route.current.params.group){
+                        return dataFetcher.get($route.current.params.group).$promise.then(
+                            function(res){
+                                navigate.setData(res,$route.current.params.group);
+                                return res;
+                            }
+                        )
+                    }
+                    return navigate.getData();
+                }
+            }
+        })
         .when("/404",{
             templateUrl: "templates/404.html",
 

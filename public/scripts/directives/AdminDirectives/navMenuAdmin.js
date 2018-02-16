@@ -17,7 +17,7 @@ application.directive("navMenuAdmin",function(){
                         name: "New Chapter "+ ++newChaptersAdded,
                         sections:[]
                     }
-                };
+                }
                 function makeSection(){
                     return{
                         name: "New Section "+ ++newSectionsAdded,
@@ -29,7 +29,7 @@ application.directive("navMenuAdmin",function(){
                             }
                         ]
                     }
-                };
+                }
                return{
                    makeChapter: makeChapter,
                    makeSection: makeSection

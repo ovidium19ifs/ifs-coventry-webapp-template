@@ -52,11 +52,11 @@ application.factory("navigate",function($location,$filter){
         },
         goTo : function(bl_name,ch_name){
             if (ch_name){
-                $location.path("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
+                $location.url("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
 
             }
             else{
-                $location.path("/content/"+group+"/blocks/"+bl_name);
+                $location.url("/content/"+group+"/blocks/"+bl_name);
             }
 
         },
@@ -72,20 +72,20 @@ application.factory("navigate",function($location,$filter){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
-                $location.path("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
+                $location.url("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
                 path="/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-");
             }
             else if (current_ch_index<data[current_bl_index].chapters.length-1){
 
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index+1].name;
-                $location.path("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
+                $location.url("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
                 path="/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-");
             }
             else if (current_ch_index === data[current_bl_index].chapters.length-1){
                 bl_name = data[current_bl_index+1].name;
                 ch_name = data[current_bl_index+1].chapters[0].name;
-                $location.path("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
+                $location.url("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
                 path="/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-");
             }
         },
@@ -95,14 +95,14 @@ application.factory("navigate",function($location,$filter){
                 current_ch_index--;
                 bl_name = data[current_bl_index].name;
                 ch_name = data[current_bl_index].chapters[current_ch_index].name;
-                $location.path("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
+                $location.url("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
             }
             else{
                 current_bl_index--;
                 bl_name = data[current_bl_index].name;
                 current_ch_index = data[current_bl_index].chapters.length-1;
                 ch_name = data[current_bl_index].chapters[current_ch_index].name;
-                $location.path("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
+                $location.url("/content/"+group+"/blocks/"+$filter('nospaces')(bl_name,"-")+"/chapter/"+$filter('nospaces')(ch_name,"-"));
             }
         },
         getDataBlock: function(name,chapter){

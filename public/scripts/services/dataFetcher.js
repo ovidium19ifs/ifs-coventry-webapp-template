@@ -7,7 +7,7 @@ application.factory("dataFetcher",function($resource,$cacheFactory){
     return{
         get: function(group){
             var cache = $cacheFactory.get('$http');
-            console.log(cache);
+            
             return resource.query({source:group,cache:false});
 
         },

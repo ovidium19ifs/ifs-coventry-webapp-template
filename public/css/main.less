@@ -444,19 +444,31 @@ div.overlay-content{
   &.educator {
     background: url('../images/icons/Educators.png') no-repeat center;
     background-size: contain;
+    &:hover{
+      background: url('../images/icons/EducatorsOver.png') no-repeat center;
+      background-size: contain;
+    }
   }
 
   &.staff {
     background: url('../images/icons/Staff.png') no-repeat center;
     background-size: contain;
     top: 55px;
+    &:hover{
+      background: url('../images/icons/StaffOver.png') no-repeat center;
+      background-size: contain;
+    }
   }
   &.student {
     background: url('../images/icons/Students.png') no-repeat center;
     background-size: contain;
+    &:hover{
+      background: url('../images/icons/StudentsOver.png') no-repeat center;
+      background-size: contain;
+    }
 
   }
-  .highlight-overlay:hover {
+  &.generic .highlight-overlay:hover {
     opacity: 0.3;
   }
   &:hover {
@@ -477,6 +489,9 @@ div.overlay-content{
 }
 .content.no-scroll{
   overflow-y: hidden;
+}
+.content.search-bg{
+  background: white;
 }
 /*
 .content::-webkit-scrollbar{

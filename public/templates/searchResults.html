@@ -1,0 +1,56 @@
+<div class="container-fluid">
+    <p class="search-intro text-muted text-center py-3 bottom-sep " style="font-size:2rem;">
+        Searching for
+        <span>{{query | capitalize}}</span>
+         in
+        <span>{{group | capitalize}}</span>
+         content...
+    </p>
+    <div class="search-results-brief my-3">
+        <p ng-if="resultCount>0"> We have found <span>{{resultCount}}</span> result<span ng-if="resultCount>1" style="font-weight: normal">s</span> in the following sections:</p>
+        <div class="" ng-if="resultCount===0">
+            <p class="mb-3">We have not found any results... Try a different search below!</p>
+            <form class="d-flex align-items-center search-box mx-0 w-50" name="searchForm" ng-submit="submitSearch(searchTerm)" novalidate style="border: none">
+                <input type="search" id="q" name="q" placeholder="Search..." class="form-control" ng-model="searchTerm" ng-blur="searchTerm=''">
+            </form>
+        </div>
+        <div class="search-blocks bottom-sep py-3">
+            <ul class="list-group-flush w-50">
+
+                <li class="list-group-item" ng-repeat="block in blocks" ng-click="scrollTo(block.name)">
+                    <span class="fa fa-caret-square-o-right"></span>
+                    <span class="block-name">{{block.name}}</span>
+                    <span class="badge badge-primary badge-pill float-right mr-3">{{block.count}}</span>
+                </li>
+
+            </ul>
+        </div>
+
+        <div class="block-results bottom-sep py-3" ng-repeat="block in blocks" id="{{block.name | nospaces | lowercase}}">
+            <h3>{{block.name}}</h3>
+            <span class="back-to-top mb-2" ng-click="scrollTop()" ng-if="!$first"><code class="border border-danger">Back to Top</code></span>
+            <div class="">
+                <div class="component-results my-3 pt-3" ng-repeat=" match in block.matches.components">
+                    <h4 class="subtitle" ng-if="$first || match.chapter!==block.matches.components[$index-1].chapter">{{match.chapter}}</h4>
+                    <h5 class="text-muted" ng-if="$first || match.ref!==block.matches.components[$index-1].ref">{{match.ref}}</h5>
+                    <p class="text-muted" style="font-size: 0.9rem">"{{match.search.value | limitTo: 120}}..."</p>
+                    <button class="btn btn-sm btn-success"
+                    ng-click="goTo(block.name,match.chapter,match.ref)">Go to Link</button>
+                </div>
+
+            </div>
+            <!--
+            <div class="section-results" ng-repeat="(key,val) in block.matches">
+                <h5 class="w-50" style="border-bottom:1px solid black">{{key | capitalize}}</h5>
+                <ul >
+                    <li ng-repeat="match in val">
+                        {{match.score}}
+                    </li>
+                </ul>
+
+            </div>
+            -->
+        </div>
+
+    </div>
+</div>

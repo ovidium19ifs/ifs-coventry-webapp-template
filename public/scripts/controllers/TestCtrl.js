@@ -32,6 +32,12 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
        else{
            $scope.home=true;
        }
+       if ($location.path().indexOf("search")>-1){
+           $scope.searchState= true;
+       }
+       else{
+           $scope.searchState=false;
+       }
        
     });
     $scope.$watch(
@@ -112,8 +118,19 @@ application.controller("TestCtrl",function($scope,dataFetcher,navigate,$routePar
             }]
         });
         console.log($scope);
+    };
+
+///////////////////////////////////////////////////////////
+    $scope.submitSearch = function(q){
+        let block = navigate.getGroup();
+        $location.search({query: q});
+        $location.hash([]);
+        $location.path("/"+block+"/search");
+    };
+    $scope.resetSearch =function(){
+        console.log("Blur");
+        console.log($scope);
+        $scope.searchTerm = "";
     }
-
-
 
 });
