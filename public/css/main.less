@@ -93,7 +93,7 @@ DEFAULT:
   color: #005369;
 }
 .content-background() when (@theme=ocean){
-  background-color: #a7cde2;
+  background-color: lighten(#a7cde2,10%);
   color: #2f4858;
 }
 .content-background() when (@theme=robust){
@@ -129,7 +129,7 @@ DEFAULT:
   border-left:1px solid #D7CCC8;
 }
 .aside-style() when (@theme=ocean){
-  background-color: lighten(#B0A4A1,20%);
+  background-color: lighten(#a7b0e2,10%);
   border-left:1px solid #D7CCC8;
 }
 .aside-style() when (@theme=robust){
@@ -491,7 +491,7 @@ div.overlay-content{
   overflow-y: hidden;
 }
 .content.search-bg{
-  background: white;
+
 }
 /*
 .content::-webkit-scrollbar{

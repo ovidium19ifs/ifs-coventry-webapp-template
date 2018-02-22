@@ -25,7 +25,7 @@ application.controller("searchController",function($scope,query,navigate,$routeP
        let match_format = $filter('nospaces')(match,"-");
        $location.url("content/"+$scope.group+"/blocks/"+block_format+"/chapter/"+match_format+"#"+reference);
     };
-    if($scope.data){
+    if($scope.data && $scope.query){
         $scope.results={
             sections:[],
             comps: [],
