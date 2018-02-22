@@ -20,10 +20,13 @@ application.controller("searchController",function($scope,query,navigate,$routeP
         mainWindow.scrollToElement(elem,50,120);
     };
     $scope.goTo = function(block,match,ref){
-       let reference = $filter('nospaces')(ref).toLowerCase();
+       let reference =  ref ? $filter('nospaces')(ref).toLowerCase() : undefined;
        let block_format = $filter('nospaces')(block,"-");
        let match_format = $filter('nospaces')(match,"-");
-       $location.url("content/"+$scope.group+"/blocks/"+block_format+"/chapter/"+match_format+"#"+reference);
+       if (reference)
+            $location.url("content/"+$scope.group+"/blocks/"+block_format+"/chapter/"+match_format+"#"+reference);
+       else
+            $location.url("content/"+$scope.group+"/blocks/"+block_format+"/chapter/"+match_format);
     };
     if($scope.data && $scope.query){
         $scope.results={
@@ -98,7 +101,7 @@ application.controller("searchController",function($scope,query,navigate,$routeP
                                                 if (elem.name===block.name) {
                                                     elem.count++;
                                                     elem.matches.components.push({
-                                                        ref: res[i].item.subtitle,
+                                                        ref: res[i].item.subtitle || "",
                                                         key: match.key,
                                                         search: match,
                                                         block  : block.name,
