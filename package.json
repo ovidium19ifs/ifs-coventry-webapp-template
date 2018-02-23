@@ -5,7 +5,12 @@
     "check": "nsp check",
     "share": "lt --port 8000",
     "start": "node server/web-server.js",
-    "start-and-share": "npm-run-all --parallel share start"
+    "start-and-share": "npm-run-all --parallel share start",
+    "webpack-watch": "webpack  --watch",
+    "build": "webpack -d",
+    "start-dev": "npm-run-all --parallel webpack-watch start",
+    "build-prod": "webpack --config webpack-prod.config.js -p",
+    "start-prod": "run-s -ln build-prod start"
   },
   "dependencies": {
     "body-parser": "latest",
@@ -13,9 +18,21 @@
     "less-middleware": "^2.2.1"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-plugin-angularjs-annotate": "^0.8.2",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
     "eslint": "^4.16.0",
+    "json-loader": "^0.5.7",
     "localtunnel": "^1.8.3",
-    "nsp": "^3.1.0"
+    "ng-annotate-webpack-plugin": "^0.2.1-pre",
+    "npm-run-all": "^4.1.2",
+    "nsp": "^3.1.0",
+    "raw-loader": "^0.5.1",
+    "strip-loader": "^0.1.2",
+    "webpack": "^3.11.0"
   },
   "bundleDependencies": [
     "angular-ui-bootstrap"

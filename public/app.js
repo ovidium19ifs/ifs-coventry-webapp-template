@@ -3,7 +3,8 @@ var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate","du
         "use strict";
         $anchorScroll.yOffset = 90;
     });
-application.config(function ($routeProvider,$locationProvider) {
+application.config(["$routeProvider","$locationProvider",
+    function ($routeProvider,$locationProvider) {
     $routeProvider.when("/content/:group/blocks/:blockname/chapter/:chaptername",{
         templateUrl: "templates/newContent.html",
         controller: "MainContentCtrl",
@@ -152,4 +153,44 @@ application.config(function ($routeProvider,$locationProvider) {
         .otherwise({
         });
     $locationProvider.html5Mode(true);
-});
+}]);
+require('./scripts/directives/textParagraph')(application);
+require('./scripts/controllers/admin/AdminInterfaceController')(application);
+require('./scripts/controllers/AdminController')(application);
+require('./scripts/controllers/ArrayDeleteModalCtrl')(application);
+require('./scripts/controllers/ContentRedirecter')(application);
+//require('./scripts/controllers/IntroductionCtrl')(application);
+require('./scripts/controllers/MainContentCtrl')(application);
+require('./scripts/controllers/MainMenuController')(application);
+require('./scripts/controllers/searchController')(application);
+require('./scripts/controllers/TestCtrl')(application);
+require('./scripts/services/dataFetcher')(application);
+require('./scripts/services/navigate')(application);
+require('./scripts/filters/capitalize')(application);
+require('./scripts/filters/noSpaces')(application);
+require('./scripts/filters/singular')(application);
+require('./scripts/directives/AdminDirectives/chapterSummaryAdmin')(application);
+require('./scripts/directives/AdminDirectives/navMenuAdmin')(application);
+require('./scripts/directives/FormDirectives/linkPdf')(application);
+require('./scripts/directives/FormDirectives/linkReference')(application);
+require('./scripts/directives/FormDirectives/linkTelephoneForm')(application);
+require('./scripts/directives/FormDirectives/linkWebsite')(application);
+require('./scripts/directives/FormDirectives/listTextForm')(application);
+require('./scripts/directives/FormDirectives/textMythFactForm')(application);
+require('./scripts/directives/FormDirectives/textQuote')(application);
+require('./scripts/directives/appForm')(application);
+require('./scripts/directives/chapterSummary')(application);
+require('./scripts/directives/fontSizeSelector')(application);
+require('./scripts/directives/ifsEditable')(application);
+require('./scripts/directives/ifsExtendable')(application);
+require('./scripts/directives/ifsVideo')(application);
+require('./scripts/directives/linkEmail')(application);
+require('./scripts/directives/linkTelephone')(application);
+require('./scripts/directives/listText')(application);
+require('./scripts/directives/navMenu')(application);
+require('./scripts/directives/quizCarousel')(application);
+require('./scripts/directives/textQuote')(application);
+require('./scripts/directives/themeSelector')(application);
+require('./scripts/directives/thoughtBubble')(application);
+require('./scripts/directives/topBar')(application);
+require('./scripts/directives/videoCarousel')(application);

@@ -1,6 +1,10 @@
-application.filter("singular", function(){
+module.exports = function(application){
     "use strict";
-    return function(input){
-        return input.slice(0,input.length-1);
-    }
-});
+    application.filter("singular", function(){
+        "use strict";
+        return function(input){
+            return input.slice(0,input.length-1);
+        }
+    });
+};
+

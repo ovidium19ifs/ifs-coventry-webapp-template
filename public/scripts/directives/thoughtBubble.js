@@ -1,13 +1,16 @@
-application.directive("thoughtBubble",function(){
+module.exports = function(application){
     "use strict";
-    return{
-        restrict: "E",
-        scope: {
-            component: "=",
-        },
-        templateUrl: "templates/components/text/thought.html",
-        controller: function($scope){
-        
+    application.directive("thoughtBubble",function(){
+        "use strict";
+        return{
+            restrict: "E",
+            scope: {
+                component: "=",
+            },
+            template: require('../../templates/components/text/thought.html'),
+            controller: function($scope){
+            
+            }
         }
-    }
-});
+    });
+};

@@ -1,11 +1,15 @@
-application.directive("linkTelephone",function(){
+module.exports = function(application){
     "use strict";
-    return{
-        restrict: "E",
-        scope:{
-            component: "="
-        },
-        templateUrl: "templates/components/link/telephone.html",
-        controlller: function($scope){}
-    }
-});
+    application.directive("linkTelephone",function(){
+        "use strict";
+        return{
+            restrict: "E",
+            scope:{
+                component: "="
+            },
+            template: require('../../templates/components/link/telephone.html'),
+            controlller: function($scope){}
+        }
+    });
+};
+

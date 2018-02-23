@@ -14,6 +14,9 @@ app.use(express.static(path.join(rootPath+"public")));
 app.use("/pdf",express.static(path.join(rootPath,"public","pdfs")));
 app.get("/data/:source",parts.get);
 app.post("/data/:source",parts.put);
+app.get("/assets/js/bundle.js",function(req,res){
+    res.sendFile(rootPath+"dist/js/bundle.js");
+});
 app.get("*",function(req,res){
     res.sendFile(rootPath+"/index.html");
 });

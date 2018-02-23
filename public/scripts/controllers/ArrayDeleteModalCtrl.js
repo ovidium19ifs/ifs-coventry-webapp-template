@@ -1,5 +1,8 @@
-application.controller("ArrayDeleteModalCtrl",function($scope,$uibModalInstance,item){
+module.exports = function(application){
     "use strict";
+    application.controller("ArrayDeleteModalCtrl",["$scope","$uibModalInstance","item",
+        function($scope,$uibModalInstance,item){
+        "use strict";
         console.log(item);
         $scope.item = item;
         $scope.closeModal = function(){
@@ -8,4 +11,5 @@ application.controller("ArrayDeleteModalCtrl",function($scope,$uibModalInstance,
         $scope.dismissModal = function(){
             $uibModalInstance.dismiss("Modal dismissed");
         }
-});
+    }]);
+};
