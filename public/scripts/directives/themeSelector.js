@@ -23,9 +23,11 @@ module.exports = function(application){
                     scope.$emit("changeFont",$(e.currentTarget).attr("data-theme"));
                     e.stopPropagation();
                     e.preventDefault();
-                    var href = "css/all-"+$(e.currentTarget).attr("data-theme")+".css";
+                    var href = "assets/css/all-"+$(e.currentTarget).attr("data-theme")+".css";
                     toInsert.attr("href",href);
-                    style = $("link[href^=css]");
+                    console.log(toInsert);
+                    style = $("link[href*=assets]");
+                    console.log(style);
                     if (style.length==1 && style.attr("href")!=href){
                         console.log("changing style now");
                         style.after(toInsert[0]);

@@ -44,7 +44,7 @@ module.exports = function(application){
                     "components.links.text",
                     "components.subtitle"
                 ],
-                threshold: $scope.query.length > 8 ? 0.5 : $scope.query.length > 5 ? 0.34 : 0.15,
+                threshold: $scope.query.length > 8 ? 0.2 : $scope.query.length > 5 ? 0.34 : 0.15,
                 minMatchCharLength: query.query.length-2,
                 includeMatches: true,
                 includeScore: true
