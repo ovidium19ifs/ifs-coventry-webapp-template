@@ -591,6 +591,20 @@
                             ]
                         }
                     ]
+                },
+                {
+                    "subtitle": "Occupational Health Docs",
+                    "components":[
+                        {
+                            "type": "link-website",
+                            "links":[
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/images/category/social_work/pd_practice_placement_agreement_2015.pdf",
+                                    "text": "Occupational Health - Placement Connect"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -776,6 +790,260 @@
                         }
                     ],
                     "space_after": false
+                }
+            ]
+        },
+        {
+            "blockname": "Preparing for Placement",
+            "name": "Funding",
+            "sections": [
+                {
+                    "subtitle": "Disabled Students Allowances  (DSA)",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Disabled Students Allowances (DSAs) - This is funding that can be applied for to give disabled students the extra financial support they require whilst studying."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "An individual may be entitled to apply for DSA if the student has:",
+                            "subtitle": "Eligibility"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "A disability"
+                                },
+                                {
+                                    "text": "A specific learning difficulty – like dyslexia"
+                                },
+                                {
+                                    "text": "An on-going health condition"
+                                },
+                                {
+                                    "text": "A mental-health condition."
+                                }
+                            ],
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The University disability and wellbeing team can help you if you understand the eligibility criteria and how to apply."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "How to get a Disabled Students Allowance (DSA)",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "DSAs are awarded in the form of a grant, not repayable, and can be applied for on their own or as additional funding on top of the standard student finance you are entitled to. Book an appointment to talk to someone about your concerns:"
+                        },
+                        {
+                            "type": "link-email",
+                            "links": [
+                                {
+                                    "link": "mailto:disabilityadvisor.ss@coventry.ac.uk",
+                                    "text": "disabilityadvisor.ss@coventry.ac.uk"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "DSA helps pay for things like:"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Equipment, i.e. computer hardware and software,"
+                                },
+                                {
+                                    "text": "Travel costs towards the extras you have to pay as a result of your disability"
+                                },
+                                {
+                                    "text": "Books and stationery, i.e. books in Braille or large print"
+                                },
+                                {
+                                    "text": "Non-medical help, i.e. a note-taker to assist you during lectures"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Needs Assessment",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Funding is dependent on your needs. To determine the financial support a student may be offered a ‘needs assessment’ is required. A disabled student will have a discussion with an assessor who recommends to a funding body what may be needed. The funding body will then decide if they want to approve the support."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "For example the DSA website explains:"
+                        },
+                        {
+                            "type": "text-quote",
+                            "text": "You may be recommended a new computer if your current computer does not meet the required specification or you do not have one. If you are applying for DSAs for the first time you will be required to pay a personal contribution of £200 towards the cost of any computer."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Speak to your Learning Support Tutor (LST) and a tutor in the disability about your needs before you go for the needs assessment. You will want to discuss any needs you may require whilst on placement."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Further information from the DSA about a needs assessment",
+                                    "link": "https://dsa-qag.org.uk/students/what-are-dsas/assessment-process"
+                                },
+                                {
+                                    "link": "http://www.yourdsa.com/dsa/needs-assessment/",
+                                    "text": "About the needs assessment (DSA)"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Funding Bodies",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://www.gov.uk/disabled-students-allowances-dsas",
+                                    "text": "Student Finance England"
+                                },
+                                {
+                                    "link": "http://www.studentfinancewales.co.uk/media/9009/sfw_dsa_qg_1516_d.pdf",
+                                    "text": "Student Finance Wales"
+                                },
+                                {
+                                    "link": "http://www.sasc.org.uk/SASC_Default.aspx?id=2",
+                                    "text": "SpLD Assessment Standards Committee"
+                                },
+                                {
+                                    "link": "https://dsa-qag.org.uk/students/useful-information",
+                                    "text": "Useful Information for the 2017/2018 Academic Year"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Processing Time",
+                    "components": [
+                        {
+                            "type": "image-single",
+                            "src": "images/fundingprocessing.png"
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "To ensure your DSA is in place for you as quickly as possible, follow these top tips:"
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Apply as early as possible – in most cases, you don’t need to have a place confirmed at university or college to apply"
+                                },
+                                {
+                                    "text": "Once you receive notification that you are eligible, book your needs assessment as soon as you can"
+                                },
+                                {
+                                    "text": "When you attend your needs assessment interview, in addition to the medical evidence returned to the centre, you should give the assessor as much information as possible. You may want to take along any other relevant paperwork you have to help the assessor with determining what will help you"
+                                },
+                                {
+                                    "text": "As soon as you receive your entitlement notification from your funding body, you should contact the authorised supplier the agreed support and equipment"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Disabled Student Allowance",
+                            "video": {
+                                "type": "youtube",
+                                "thumb": "yaHKUvHQXVc.jpg",
+                                "src": "https://www.youtube.com/embed/yaHKUvHQXVc"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Your DSA explained",
+                    "components": [
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "text": "Funding higher education for disabled students 2017/18",
+                                    "link": "https://www.disabilityrightsuk.org/funding-higher-education-disabled-students-201718"
+                                },
+                                {
+                                    "text": "Applying for Disabled Students’ Allowances (DSAs)",
+                                    "link": "https://www.disabilityrightsuk.org/applying-disabled-students%E2%80%99-allowances-dsas"
+                                },
+                                {
+                                    "text": "Funding from charitable trusts",
+                                    "link": "https://www.disabilityrightsuk.org/funding-charitable-trusts"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Case Study - Funding",
+                    "components":[
+                        {
+                            "type": "video-single",
+                            "subtitle": "Helen's First Year (DSA)",
+                            "video":{
+                                "type": "youtube",
+                                "thumb":"YEDU_ZD7RiA.jpg",
+                                "src": "https://www.youtube.com/embed/YEDU_ZD7RiA"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Other Useful Documents on Funding",
+                    "components":[
+                        {
+                            "type": "link-pdf",
+                            "links":[
+                                {
+                                    "link": "pdfs/Student Finance Guide work placement.pdf",
+                                    "text": "Student Finance Guide work placement"
+                                },
+                                {
+                                    "link":"pdfs/DSA Guide (SFE).pdf",
+                                    "text": "DSA Guide (SFE)"
+                                },
+                                {
+                                    "link": "pdfs/How you are assessed and paid (SFE).pdf",
+                                    "text": "How you are assessed and paid (SFE)"
+                                },
+                                {
+                                    "link": "pdfs/Extra Help Dependant's Grants.pdf",
+                                    "text": "Extra Help Dependant's Grants"
+                                },
+                                {
+                                    "link": "pdfs/Into higher education 2017.pdf",
+                                    "text": "Into higher education 2017"
+                                },
+                                {
+                                    "link": "pdfs/Student Finance England Travel Grants.pdf",
+                                    "text": "Student Finance England Travel Grants"
+                                }
+                            ]
+
+                        }
+                    ]
                 }
             ]
         },
