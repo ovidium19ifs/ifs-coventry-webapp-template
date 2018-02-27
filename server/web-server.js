@@ -15,11 +15,12 @@ app.use("/pdf",express.static(path.join(rootPath,"public","pdfs")));
 app.get("/data/:source",parts.get);
 app.post("/data/:source",parts.put);
 app.get("/assets/js/bundle.js",function(req,res){
-    res.sendFile(rootPath+"dist/js/bundle.js");
+    res.sendFile(rootPath+"dist/bundle.js");
 });
 app.get("/assets/css/:fileName",function(req,res){
     let fn = req.params.fileName;
-    res.sendFile(rootPath+"dist/"+fn);
+    res.contentType("text/css");
+    res.sendFile(rootPath+"dist/css/"+fn);
 });
 app.get("/assets/css/images/:img",function(req,res){
     "use strict";

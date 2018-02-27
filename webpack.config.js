@@ -3,14 +3,14 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 module.exports = {
     context: path.resolve('public'),
     entry: {
-        js: "./app.js",
+        'bundle.js': "./app.js",
         'all-default.css': "./build-default.js",
         'all-ocean.css': "./build-ocean.js",
         'all-robust.css':"./build-robust.js"
     },
     output:{
         path: path.resolve(__dirname,"dist"),
-        filename: "./js/bundle.js"
+        filename: "./[name]"
     },
     module:{
         rules:[
@@ -42,7 +42,7 @@ module.exports = {
     },
     plugins: [
         new ExtractTextPlugin({
-            filename: "[name]"
+            filename: "./css/[name]"
         })
     ]
 };

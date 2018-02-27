@@ -241,5 +241,3 @@ require('./scripts/directives/thoughtBubble')(application);
 require('./scripts/directives/topBar')(application);
 require('./scripts/directives/videoCarousel')(application);
 
-//preload hover images
-

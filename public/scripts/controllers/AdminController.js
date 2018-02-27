@@ -26,7 +26,7 @@ module.exports  = function(application){
                 });
         };
         $scope.selectGroup = function(grp){
-            $location.path("/admin/"+grp);
+            $location.path("/admini/"+grp);
         };
         $scope.editBlock = function(i){
             if ($scope.selected!==i)
