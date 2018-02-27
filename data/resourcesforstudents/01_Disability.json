@@ -247,6 +247,20 @@
                         }
                     ],
                     "space_after": false
+                },
+                {
+                    "subtitle": "Learning Support Team (LST)",
+                    "components":[
+                        {
+                            "subtitle": "Introduction to the Learning Support Team",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_introduction_learning_support.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21096&quality=hi&captions=n&chapterId=0"
+                            }
+                        }
+                    ]
                 }
             ]
         },

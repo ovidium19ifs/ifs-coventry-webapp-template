@@ -187,6 +187,15 @@
                     "subtitle": "Professional Behaviour",
                     "components": [
                         {
+                            "subtitle": "Professional behaviour during placement",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_benefits_of_disclosure.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21118&quality=hi&captions=n&chapterId=0"
+                            }
+                        },
+                        {
                             "type": "text-paragraph",
                             "text": "Professional behaviour is usually summarised as a series of actions deemed acceptable in the workplace. Judgements about professional behaviour can be arrived at depending on an individual’s: communicative abilities, critical thinking and problem-solving; initiative and accountability and ethical approaches and reflections. Furthermore, nonverbal gestures and demeanour will also influence how other’s perceive an individual’s professional behaviour."
                         },
@@ -206,6 +215,15 @@
                                     "text": "Coventry University - Student Portal - Policies and Procedures"
                                 }
                             ]
+                        },
+                        {
+                            "subtitle": "Professionalism",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_disclosing_a_disability.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21119&quality=hi&captions=n&chapterId=0"
+                            }
                         }
                     ]
                 },

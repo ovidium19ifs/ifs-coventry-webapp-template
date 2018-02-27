@@ -71,6 +71,25 @@
                         }
                     ],
                     "space_after": false
+                },
+                {
+                    "subtitle": "Benefits of Disclosure",
+                    "components":[
+                        {
+                            "subtitle": "",
+                            "type": "text-paragraph",
+                            "text": "The following video clearly underlines how disclosing your disability can help staff and educators to support you during your placement, to provide the right reasonable adjustments and to make your experience enjoyable and satisfactory."
+                        },
+                        {
+                            "subtitle": "Benefits of Disclosure",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_benefits_of_disclosure.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21117&quality=hi&captions=n&chapterId=0"
+                            }
+                        }
+                    ]
                 }
             ]
         },
@@ -121,6 +140,15 @@
                 {
                     "subtitle": "When to disclose your disability",
                     "components": [
+                        {
+                            "subtitle": "Disclosing a disability",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_disclosing_a_disability.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21104&quality=hi&captions=n&chapterId=0"
+                            }
+                        },
                         {
                             "type": "list-text",
                             "subtitle": "Application stage",
@@ -287,6 +315,24 @@
                             "type": "text-paragraph",
                             "text": "You can also make appointments or contact the Disabilities Team through the student portal and selecting ‘support at CU’.",
                             "space_after": false
+                        },
+                        {
+                            "subtitle": "Visiting the disability office",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_visiting_disability_office.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21123&quality=hi&captions=n&chapterId=0"
+                            }
+                        },
+                        {
+                            "subtitle": "Meeting a disability officer",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_meeting_disability_officer.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21120&quality=hi&captions=n&chapterId=0"
+                            }
                         }
                     ],
                     "space_after": true
@@ -660,15 +706,15 @@
                     "subtitle": "Reflect",
                     "components": [
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "If a student chooses not to disclose a disability, could their actions influence their duty of care to patients or clients?"
                         },
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "If a student has a hidden disability, how will practitioners or educators/mentors know they may need extra support?"
                         },
                         {
-                            "type": "text-paragraph",
+                            "type": "thought-bubble",
                             "text": "What is the role of the Learning Support Tutor?"
                         }
                     ]

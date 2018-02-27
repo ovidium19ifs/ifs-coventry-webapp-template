@@ -251,6 +251,20 @@
                     ]
                 },
                 {
+                    "subtitle": "Requirements and Competencies",
+                    "components":[
+                        {
+                            "subtitle": "Requirements and Competencies Overview",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_benefits_of_disclosure.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21107&quality=hi&captions=n&chapterId=0"
+                            }
+                        }
+                    ]
+                },
+                {
                     "subtitle": "1. Promote and protect the interests of service users and carers",
                     "components": [
                         {
@@ -821,6 +835,16 @@
                             "type": "text-paragraph",
                             "text": "Equality law identifies disabled people as one of eight protected categories in society. This means that the way society organises education, employment and access to recreation, etc. needs to be restructured to account for any barriers that may treat people with disabilities unfairly. In higher education, the law states it is the duty of institutions to provide students with disabilities reasonable adjustments.",
                             "space_after": true
+                        },
+                        {
+                            "subtitle": "About reasonable adjustments",
+                            "type": "video-single",
+                            "space_after": true,
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_benefits_of_disclosure.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21108&quality=hi&captions=n&chapterId=0"
+                            }
                         },
                         {
                             "subtitle": "What is it?",

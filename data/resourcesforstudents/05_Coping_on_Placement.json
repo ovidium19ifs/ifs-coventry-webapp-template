@@ -110,6 +110,28 @@
                         }
                     ],
                     "space_after": false
+                },
+                {
+                    "subtitle": "Success on Placement (Documents)",
+                    "components": [
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/Get Back to where we belong Guide for disabled people in employment.pdf",
+                                    "text": "Get Back to where we belong Guide for disabled people in employment"
+                                },
+                                {
+                                    "link": "pdfs/HelpingStudentsgettheBestfromtheirPracticePlacements.pdf",
+                                    "text": "Helping students get the best from their practice placements."
+                                },
+                                {
+                                    "link": "pdfs/Resilience booklet going wth the flow for TFL employees.pdf",
+                                    "text": "Resilience booklet going wth the flow for TFL employees"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -141,6 +163,23 @@
                         }
                     ],
                     "space_after": false
+                },
+                {
+                    "subtitle": "Case Study",
+                    "components": [
+                        {
+                            "type": "link-pdf",
+                            "straightlink": {
+                                "link": ""
+                            },
+                            "links": [
+                                {
+                                    "link": "pdfs/casestudy_selfawareness.docx",
+                                    "text": "Self-Awareness (Case Study)"
+                                }
+                            ]
+                        }
+                    ]
                 }
             ]
         },
@@ -335,6 +374,245 @@
                         }
                     ],
                     "space_after": false
+                }
+            ]
+        },
+        {
+            "blockname": "Coping on Placement",
+            "name": "Strategies",
+            "sections": [
+                {
+                    "subtitle": "What to do if you feel isolated",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Some students report feelings of isolation on their placement. This may be because they are away from their friends and home. Don’t worry- there are lots of strategies you can use to reduce these feelings."
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Friends"
+                                },
+                                {
+                                    "text": "The Disabilities Team"
+                                },
+                                {
+                                    "text": "Family"
+                                },
+                                {
+                                    "text": "Your mentor or practice educator"
+                                }
+                            ],
+                            "subtitle": "Talk to someone",
+                            "space_after": false
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "Enquire about other students on placement near you"
+                                },
+                                {
+                                    "text": "Get involved in activities organised by your placement"
+                                },
+                                {
+                                    "text": "Keep in touch using social media"
+                                },
+                                {
+                                    "text": "Plan activities for your days off"
+                                }
+                            ]
+                        },
+                        {
+                            "subtitle": "",
+                            "space_after": true,
+                            "type": "text-paragraph",
+                            "text": "If these feelings persist you may need to book an appointment to visit your GP.",
+                            "embolden": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "subtitle": "Working in a professional work environment",
+                            "text": "Research the Trust, school or organisation you will be working in. You can learn about the ethos and culture by looking on the internet. You will benefit from learning as much as you can about the local policies, the community of professionals and the work practice. You could ask your educator/mentor questions about policies you do not understand during your induction.",
+                            "space_after": true
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Before you start a placement reflect on what your strengths are and how you could use this to your advantage during placement. You may be good communicator or great at organising and managing your time. These are great skills. You could also think about the things you may struggle with and what you can do to.",
+                            "subtitle": "What are your challenges?",
+                            "space_after": true
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Apps and resources to help with coping on placement",
+                    "components": [
+                        {
+                            "subtitle": "Coventry University time management system",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://sway.com/PmxH3yiPqlEtJ1tb?ref=Link",
+                                    "text": "Time Management (Sway)"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/personaltoolkit.docx",
+                                    "text": "Personal Toolkit (Download)"
+                                }
+                            ],
+                            "subtitle": "Personal toolkit for organising your time"
+                        },
+                        {
+                            "subtitle": "Online Apps",
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://99designs.co.uk/blog/tips-en-gb/10-organization-apps-will-keep-efficient-2015/",
+                                    "text": "Best 10 apps for organising your time"
+                                },
+                                {
+                                    "link": "https://www.pastemagazine.com/articles/2016/09/organizing-ones-life-is-rarely.html",
+                                    "text": "Tips on organising your time and useful apps (Paste Magazine)"
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Advice from students about placements",
+                    "components": [
+                        {
+                            "subtitle": "",
+                            "type": "video-carousel",
+                            "videos": [
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Student nurses give their advice about placement",
+                                    "video": {
+                                        "type": "youtube",
+                                        "thumb": "1gsjp9SNrGc.jpg",
+                                        "src": "https://www.youtube.com/embed/1gsjp9SNrGc"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "The placement experience- Mental Health",
+                                    "video": {
+                                        "type": "youtube",
+                                        "thumb": "4MFHNRnS2Fw.jpg",
+                                        "src": "https://www.youtube.com/embed/4MFHNRnS2Fw"
+                                    }
+                                },
+                                {
+                                    "type": "video-single",
+                                    "subtitle": "Clinical Placements Reflections",
+                                    "video": {
+                                        "type": "youtube",
+                                        "thumb": "d69X1mGIG1c.jpg",
+                                        "src": "https://www.youtube.com/embed/d69X1mGIG1c"
+                                    }
+                                }
+                            ]
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
+                    "subtitle": "Consider patient safety and competencies",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The patient is at the centre of healthcare delivery. Everything that happens in a clinical or work environment centres on supporting patient care. Students on placement are expected to ensure they are fit to participate in this duty and are not at risk to patients in anyway."
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Nursing students talk about their experiences",
+                            "video": {
+                                "type": "youtube",
+                                "src": "https://www.youtube.com/embed/T8BrZ242dfY",
+                                "thumb": "T8BrZ242dfY.jpg"
+                            },
+                            "space_after": true
+                        },
+                        {
+                            "subtitle": "Be flexible",
+                            "type": "text-paragraph",
+                            "text": "The clinical environment is unlike any other workplace. Be prepared to be flexible. No two days would be the same. It is an exciting opportunity to experience and learn all you can about your profession and see first-hand how you would be expected to behave and practice when you qualify."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "Be prepared to enjoy the ride, unexpected things may happen, you will be thinking on your feet and responding to some very challenging situations. You have all the support you will need and you are not expected to act a registered member of staff, so you have the opportunity to ask a lot of questions and reflect on your experiences. Perhaps it may be useful to keep a reflective diary."
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Top tips",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The Student Executive Committee (Chartered Physiotherapy Society) have a few tips to help you get the most from the experience."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://www.csp.org.uk/membership/student-members/top-tips-clinical-placement-success",
+                                    "text": "Top tips for clinical placements"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "list-text",
+                            "list_elements": [
+                                {
+                                    "text": "What to expect – Placements are work environments, primarily geared towards caring for patients or clients. It is an opportunity to learn skills and good practice."
+                                },
+                                {
+                                    "text": "Your responsibilities and Professional etiquette and personal conduct  – See guidelines from HCPC and NMC"
+                                },
+                                {
+                                    "text": "Your host’s responsibilities – the placement providers are expected to support your learning and assess your skills. They have a duty of care towards you as an employee while you are on placement."
+                                },
+                                {
+                                    "text": "Shared responsibilities – you have a responsibility to learn and act as supernumerary staff. This is an opportunity to join a team and practice some skills. The more you practice, the more your confidence will grow. Always speak to your educator or mentor about the goals you want to achieve and ask them to supervise you."
+                                },
+                                {
+                                    "text": "Communication is key – Talk to your educator or mentor. They can only know what you need if you tell them."
+                                },
+                                {
+                                    "text": "Networking at work – seek out other students. Many units have study days, during this time you will be able to meet other students who you can talk and learn with."
+                                },
+                                {
+                                    "text": "How can you network at work? – be open. \nIntroduce yourself to the staff and team and offer your assistance. This may sound daunting, but it is a good way to interact. You may be called on to do interesting tasks.\nLook out for any social/sports events and sign up. It’s a great way to meet other people in the company. \nBe open, make eye contact with others, smile at people when you can in the hallway, lift or in the kitchen and say hello. This is actually important - be interested! Make sure you ask open-ended questions"
+                                },
+                                {
+                                    "text": "When you finish your placement - reflect on your progress."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Coping on Placement",
+            "name": "Summary",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The section provides information that inform you about the placement environment, things you should consider and strategies for coping on placement."
+                        }
+                    ],
+                    "subtitle": "Summary"
                 }
             ]
         },

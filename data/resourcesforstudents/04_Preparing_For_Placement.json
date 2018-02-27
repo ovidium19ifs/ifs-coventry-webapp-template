@@ -594,10 +594,10 @@
                 },
                 {
                     "subtitle": "Occupational Health Docs",
-                    "components":[
+                    "components": [
                         {
                             "type": "link-website",
-                            "links":[
+                            "links": [
                                 {
                                     "link": "http://placementconnect.coventry.ac.uk/images/category/social_work/pd_practice_placement_agreement_2015.pdf",
                                     "text": "Occupational Health - Placement Connect"
@@ -755,6 +755,24 @@
                         }
                     ],
                     "space_after": true
+                },
+                {
+                    "subtitle": "Worrying about your placement",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "The following is a short animation to remind you that you are not alone during your placement and when preparing. The disabilities team is just a phone call away and you should not hesitate to contact if needed"
+                        },
+                        {
+                            "subtitle": "Worried about your placement",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_worried_placement.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21124&quality=hi&captions=n&chapterId=0"
+                            }
+                        }
+                    ]
                 },
                 {
                     "subtitle": "Disabilities Team",
@@ -998,13 +1016,13 @@
                 },
                 {
                     "subtitle": "Case Study - Funding",
-                    "components":[
+                    "components": [
                         {
                             "type": "video-single",
                             "subtitle": "Helen's First Year (DSA)",
-                            "video":{
+                            "video": {
                                 "type": "youtube",
-                                "thumb":"YEDU_ZD7RiA.jpg",
+                                "thumb": "YEDU_ZD7RiA.jpg",
                                 "src": "https://www.youtube.com/embed/YEDU_ZD7RiA"
                             }
                         }
@@ -1012,16 +1030,16 @@
                 },
                 {
                     "subtitle": "Other Useful Documents on Funding",
-                    "components":[
+                    "components": [
                         {
                             "type": "link-pdf",
-                            "links":[
+                            "links": [
                                 {
                                     "link": "pdfs/Student Finance Guide work placement.pdf",
                                     "text": "Student Finance Guide work placement"
                                 },
                                 {
-                                    "link":"pdfs/DSA Guide (SFE).pdf",
+                                    "link": "pdfs/DSA Guide (SFE).pdf",
                                     "text": "DSA Guide (SFE)"
                                 },
                                 {
@@ -1041,7 +1059,6 @@
                                     "text": "Student Finance England Travel Grants"
                                 }
                             ]
-
                         }
                     ]
                 }
@@ -1100,7 +1117,7 @@
                                     "type": "video-single",
                                     "space_after": true,
                                     "video": {
-                                        "type": "youtube",
+                                        "type": "helix",
                                         "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=4867&quality=hi&captions=n&chapterId=0",
                                         "thumb": "thumb_sp_making_the_most.jpg"
                                     }
@@ -1110,7 +1127,7 @@
                                     "type": "video-single",
                                     "space_after": true,
                                     "video": {
-                                        "type": "youtube",
+                                        "type": "helix",
                                         "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=4866&quality=hi&captions=n&chapterId=0",
                                         "thumb": "thumb_sp_life_events.jpg"
                                     }
@@ -1222,6 +1239,20 @@
             "blockname": "Preparing for Placement",
             "name": "Policies",
             "sections": [
+                {
+                    "subtitle": "About your placement documents",
+                    "components":[
+                        {
+                            "subtitle": "Placement Form",
+                            "type": "video-single",
+                            "video" : {
+                                "type": "helix",
+                                "thumb": "thumb_worried_placement.jpg",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21121&quality=hi&captions=n&chapterId=0"
+                            }
+                        }
+                    ]
+                },
                 {
                     "subtitle": "Placement Allocation Policy",
                     "components": [
@@ -1458,6 +1489,37 @@
                     "space_after": true
                 },
                 {
+                    "subtitle": "Inform relevant people and agencies",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you have a disability that will have an impact on your work or behaviour ensure you inform the relevant people prior to the placement. Follow the link below to see a flowchart that may help you find out which people you have to inform."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "https://cele.coventry.ac.uk/projects/reasonableadjustments/Support_Process/Support_Process.html",
+                                    "text": "Support Process"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you require support or additional needs, you will need to inform your educator. It is better you do this before the placement."
+                        },
+                        {
+                            "type": "link-website",
+                            "links": [
+                                {
+                                    "link": "http://placementconnect.coventry.ac.uk/index.php/physiotherapy/quality-monitoring",
+                                    "text": "Quality Monitoring"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
                     "subtitle": "Now what? Consider what you will need",
                     "components": [
                         {
@@ -1621,6 +1683,18 @@
                     ]
                 },
                 {
+                    "subtitle": "When should you know about your placement",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "You will be informed about your placement 2- 4 weeks before you start. In very rare cases, there may be a delay, but the placement team will keep you informed. You will be supported by the LST and placement team if you ask for help and communicate your concerns.",
+                            "space_after": false,
+                            "embolden": true
+                        }
+                    ],
+                    "space_after": true
+                },
+                {
                     "subtitle": "Prepare for Preplacement contact",
                     "components": [
                         {
@@ -1630,6 +1704,14 @@
                         {
                             "type": "text-paragraph",
                             "text": "Many placement sites are busy environments and it may be difficult to arrange a pre placement visit. If you will benefit from a preplacement visit, ensure you arrange this in good time so that the team has time to arrange it and have a brief chat with you. A pre placement visit does not have to be long. Do your best to make a list of what you want to say and be as concise and clear as possible."
+                        },
+                        {
+                            "type": "thought-bubble",
+                            "text": "Try to articulate what you may need to have a successful Placement"
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "You could ask a disability tutor to help you articulate your thoughts."
                         }
                     ],
                     "space_after": true
@@ -1675,6 +1757,114 @@
                                     "text": "CSP -Top tips for clinical placement success"
                                 }
                             ]
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Guidance on requesting reasonable adjustments",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Reasonable adjustments are changes to the work environment that allow people with disability to work safely and productively. Under the Equal Opportunity Act 2010, 'disability' includes: physical, psychological or neurological disease or disorder. illness, whether temporary or permanent."
+                        },
+                        {
+                            "type": "link-website",
+                            "subtitle": "Reasonable adjustments in employment",
+                            "links": [
+                                {
+                                    "text": "About reasonable adjustments ( Australia, but still relevant)",
+                                    "link": "https://www.humanrightscommission.vic.gov.au/the-workplace/employer-responsibilities/reasonable-adjustments-in-employment",
+                                    "tag": ""
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "A student with a disability can legally request RA when they are going on placement. You will be supported by the Learning Support Tutor to put these in place."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "It is your responsibility to think about what you will need and articulate these clearly to the placement."
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "You can get help on this from the Learning Support Tutor and the Disability Office"
+                        },
+                        {
+                            "type": "video-single",
+                            "subtitle": "Reasonable Adjustments",
+                            "video": {
+                                "type": "helix",
+                                "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=3817&quality=hi&captions=n&chapterId=0",
+                                "thumb": "thumb_reasonable_adjustments.jpg"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "subtitle": "Contact",
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "If you have any questions during placement you can contact the disabilities team by phone or email:"
+                        },
+                        {
+                            "type": "link-telephone",
+                            "text": "+44 (0)24 7765 8029"
+                        },
+                        {
+                            "type": "link-email",
+                            "links": [
+                                {
+                                    "text": "disabilityadvisor.ss@coventry.ac.uk"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text-paragraph",
+                            "text": "The disabilities team has lots of experience working with students who have disabilities. They are happy to provide you with advice, tips and will support you with your concerns."
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Preparing for Placement",
+            "name": "Checklist",
+            "sections": [
+                {
+                    "components": [
+                        {
+                            "type": "text-paragraph",
+                            "text": "Use this checklist to break down you pre-placement period into sub-tasks that are easier to complete and keep track of."
+                        },
+                        {
+                            "type": "link-pdf",
+                            "links": [
+                                {
+                                    "link": "pdfs/PrePlacement_checklist.docx",
+                                    "text": "Pre-Placement Checklist"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "blockname": "Preparing for Placement",
+            "name": "Reflection",
+            "sections": [
+                {
+                    "subtitle": "Think about it",
+                    "components": [
+                        {
+                            "type": "thought-bubble",
+                            "text": "What do you feel will make you less concerned about your placement?"
+                        },
+                        {
+                            "type": "thought-bubble",
+                            "text": "Most placements are successful. Do you have everything you need to succeed?"
                         }
                     ]
                 }

@@ -42,7 +42,10 @@ module.exports = function(application){
                     "components.text",
                     "components.list_elements.text",
                     "components.links.text",
-                    "components.subtitle"
+                    "components.subtitle",
+                    "components.title",
+                    "components.publisher",
+                    "components.authors.name"
                 ],
                 threshold: $scope.query.length > 8 ? 0.2 : $scope.query.length > 5 ? 0.34 : 0.15,
                 minMatchCharLength: query.query.length-2,
@@ -97,6 +100,9 @@ module.exports = function(application){
                                         case "components.list_elements.text":
                                         case "components.subtitle":
                                         case "components.links.text":
+                                        case "components.title":
+                                        case "components.publisher":
+                                        case "components.authors.name":
                                             $scope.resultCount++;
                                             if (!$scope.blocks.some(function(elem){
                                                     if (elem.name===block.name) {
