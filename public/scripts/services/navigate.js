@@ -1,3 +1,10 @@
+//this is a rly messy service however is was the first one created and I focused on working with it..
+//it should definitely be changed, but that requires a lot of changes throughout the entire app
+//maybe one day...
+
+/*
+    basically responsible for validating URLs, navigating the data, keeping track of data indexes and stores the data as well
+ */
 module.exports = function(application){
     "use strict";
     application.factory("navigate",["$location","$filter",
@@ -44,8 +51,6 @@ module.exports = function(application){
                 group = gr;
                 current_bl_index=0;
                 current_ch_index=-1;
-                
-                
             },
             getData: function(){
                 return data;

@@ -1,3 +1,4 @@
+//deprecated
 module.exports = function(application){
     "use strict";
     application.controller("IntroductionCtrl",["$scope","navigate","$routeParams",

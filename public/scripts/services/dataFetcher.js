@@ -2,6 +2,7 @@ module.exports = function(application){
     "use strict";
     application.factory("dataFetcher",["$resource","$cacheFactory",function($resource,$cacheFactory){
         "use strict";
+        //when we get data, we receive an array, therefore we have to specify isArray in the resource method definition
         var resource = $resource("/data/:source",{source:"@source"},{
             'query': {method: 'GET',cache:true,isArray: true},
         });

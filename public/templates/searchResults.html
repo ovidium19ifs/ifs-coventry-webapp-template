@@ -1,5 +1,5 @@
 <div class="container-fluid bg-transparent">
-    <p class="search-intro text-muted text-center py-3 bottom-sep " style="font-size:2rem;">
+    <p class="search-intro text-muted text-center py-3 bottom-sep " style="font-size:2rem;" ng-if="query">
         Searching for
         <span>{{query | capitalize}}</span>
          in
@@ -37,8 +37,22 @@
             <div class="">
                 <div class="component-results my-3 pt-3" ng-repeat=" match in block.matches.components">
                     <h4 class="subtitle text-success" ng-if="$first || match.chapter!==block.matches.components[$index-1].chapter">{{match.chapter}}</h4>
-                    <h5 class="text-muted" ng-if="$first || match.ref!==block.matches.components[$index-1].ref">{{match.ref}}</h5>
-                    <p class="" style="font-size: 1rem;color:#5D6369">"{{match.search.value | limitTo: 120}}..."</p>
+                    <div ng-if="$first || match.ref!==block.matches.components[$index-1].ref">
+                        <h5 class="text-muted" >{{match.ref}}</h5>
+                        <h6 class="text-danger">Relevance : <span> {{match.relevance}} %</span></h6>
+                    </div>
+                    <match-text match="match.search"></match-text>
+                    <!--
+                    <p class="" style="font-size: 1rem;color:#5D6369">
+                             "{{match.search.value | limitTo: match.indices[0][0]-1}}
+                        <span class="highlight-search-result" style="color: green;padding:0;margin:0">
+                            {{match.search.value | limitTo: match.indices[0][1]-match.indices[0][0]+1 : match.indices[0][0]}}
+                        </span>
+                            {{match.search.value | limitTo: 800 : match.indices[0][1]+1}}..."
+
+
+                    </p>
+                    -->
                     <button class="search-result-link"
                     ng-click="goTo(block.name,match.chapter,match.ref)" ng-if="$last || (match.ref!==block.matches.components[$index+1].ref)">Go there <span class="fa fa-angle-double-right ml-2"></span></button>
                     <div class="separator" ng-if="$last || match.ref!==block.matches.components[$index+1].ref"></div>

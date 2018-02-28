@@ -1,3 +1,6 @@
+//this redirects to the first chapter of content in the url is:
+    //  content/:group
+    //  content/:group/blocks/:block
 module.exports = function(application){
     "use strict";
     application.controller("ContentRedirecter",["$scope","dataBlock","$location","navigate","$routeParams",

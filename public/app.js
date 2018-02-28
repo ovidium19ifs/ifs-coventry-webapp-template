@@ -53,7 +53,7 @@ application.config(["$routeProvider","$locationProvider",
         templateUrl: "templates/newContent.html",
         controller: "MainContentCtrl",
         resolve: {
-            dataBlock: function(navigate,dataFetcher,$route,$location){
+            dataBlock: function(navigate,dataFetcher,$route){
                 if (!navigate.getData() || navigate.getGroup()!=$route.current.params.group){
                     return dataFetcher.get($route.current.params.group).$promise.then(
                         function(res){
@@ -240,4 +240,4 @@ require('./scripts/directives/themeSelector')(application);
 require('./scripts/directives/thoughtBubble')(application);
 require('./scripts/directives/topBar')(application);
 require('./scripts/directives/videoCarousel')(application);
-
+require('./scripts/directives/matchText')(application);

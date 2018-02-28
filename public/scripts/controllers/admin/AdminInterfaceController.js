@@ -6,6 +6,7 @@ module.exports = function(application){
         
         $scope.selBlock = dataBlock[0];
         $scope.selChapter = dataBlock[0].chapters[0];
+        //angular.element is a jquery selector
         var container = angular.element(document.getElementById("mainContent2"));
         $timeout(function(){
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);

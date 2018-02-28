@@ -1,3 +1,4 @@
+//front page controller
 module.exports = function(application){
     "use strict";
     application.controller("MainMenuController",["$scope","$location",
@@ -15,7 +16,11 @@ module.exports = function(application){
                 $scope.selectGroup = function(group){
                     $location.url("/content/"+group+"/");
                 };
+                //always scroll top when accessing front page
                 $("#mainContent").scrollTop(0);
+                
+                //because we have templates for most things, I arranged the front-page data in
+                //the format needed to be processed correctly by my components
                 $scope.videoComp = {
                     "type": "video-single",
                     "subtitle": "The Successful Placement App Introduction",
@@ -62,6 +67,7 @@ module.exports = function(application){
                     "space_after": false
                 };
                 
+                //logo animation
                 var animation = bodymovin.loadAnimation({
                     container: document.getElementById("bm"),
                     loop: true,
@@ -69,11 +75,15 @@ module.exports = function(application){
                     autoplay: true,
                     animationData: require('../../logo.json')
                 });
+                
+                //quote-carousel in the front-page
                 var carousel  = $(".carousel");
                 carousel.carousel({
                     autoplay: true,
                     interval: 4500
                 });
+                
+                //unused vars...will delete eventually still figuring if i need them
                 var body = angular.element(document.getElementById("mainContent"));
                 var portion_one = angular.element(document.getElementsByClassName("home-container"));
                 var bm = angular.element(document.getElementById("bm"));

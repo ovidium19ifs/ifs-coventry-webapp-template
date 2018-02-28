@@ -1,9 +1,14 @@
 /* eslint-disable no-trailing-spaces,no-console */
+
+//quite a mess, can be improved
 module.exports = function(application){
     "use strict";
     application.controller("TestCtrl",["$scope","dataFetcher","navigate","$routeParams","$location","$timeout",
         function($scope,dataFetcher,navigate,$routeParams,$location,$timeout){
         "use strict";
+        /*
+            home, searchState, inContentState and adminState are used to control what tags appear on the page at any given time
+         */
         $scope.home=true;
         $scope.$on("$locationChangeSuccess", function(e,newUrl){
             if ($location.path()!=="/"){
@@ -55,6 +60,8 @@ module.exports = function(application){
             }
         );
         $scope.$on("$dataWasLoaded",function(e,args){
+            //this logic decides if the Prev and Next buttons should also be place at the bottom of content page
+            //they are placed if the height of the content is bigger than the height of the window.
             if ($location.path().indexOf("content")>-1){
                 $timeout(function(){
                     let windowHeight = $(window).height();
@@ -68,9 +75,13 @@ module.exports = function(application){
             }
             $scope.$broadcast("dataWasLoaded",args);
         });
+        
+        //intercept emitted event from right-side menu and pass it to content page
         $scope.$on("ifsPrepareScroll",function(e,args){
             $scope.$broadcast("ifsScrollTo", args);
         });
+        
+        
         $scope.lowEnd = true;
         $scope.highEnd = false;
         
@@ -102,8 +113,9 @@ module.exports = function(application){
 
 ///////////////////////////////////////////////////////////
         $scope.submitSearch = function(q,f){
-            
+            //if search is invalid, return (less than 3 characters)
             if (f.$invalid) return;
+            
             let block = navigate.getGroup();
             $location.search({query: q});
             $location.hash([]);

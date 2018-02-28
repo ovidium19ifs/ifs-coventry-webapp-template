@@ -42,7 +42,7 @@
         },
         {
             "blockname": "Evaluating the placement",
-            "name": "Was Placement Successful?",
+            "name": "Evaluating the placement's success",
             "sections": [
                 {
                     "subtitle": "Was Placement Successful?",
