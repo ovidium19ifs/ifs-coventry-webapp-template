@@ -9,10 +9,11 @@ module.exports = function(application){
             link: function(scope,elem,attrs,ctrl){
                 var fn = $parse(attrs['ifsExtendableCallback']);
                 var classes = attrs['classes'] || "";
+                var title = attrs['ifsExtendableTitle'];
                 var content = angular.element(`<li class="${classes}">
                         <button class="btn btn-success w-100 btn-sm" ng-click="sendMessage()">
                             <span class="fa fa-plus-circle fa-fw text-white float-left"></span>
-                            <span> Add New</span>
+                            <span> ${title}</span>
                         </button>
                     </li>`);
                 var content = $compile(content)(scope);

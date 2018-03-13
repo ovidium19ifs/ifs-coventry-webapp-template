@@ -1,0 +1,18 @@
+<div class="undo-panel text-center">
+    <div class="undo-list">
+        <div class="undo-list-item" ng-repeat="item in undoItems">
+            <div class="undo-item-icon">
+                <span class="fa"></span>
+            </div>
+            <div class="undo-text">
+                <h5 class="undo-list-item-title"></h5>
+                <p class="undo-item-summary"></p>
+            </div>
+
+            <button class="btn btn-warning undo-action" ng-click="resolveUndo($index)">UNDO</button>
+        </div>
+    </div>
+    <div ng-if="!undoItems || undoItems.length==0">
+        No actions have been performed yet.
+    </div>
+</div>

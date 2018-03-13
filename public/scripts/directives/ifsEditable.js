@@ -34,10 +34,16 @@ module.exports = function(application){
                 },0);
             },
             controller: function($scope){
+                function getSubtitle(i,j){
+                    if (isNaN(j))
+                            return $scope.data[i].name;
+                    return $scope.data[j].chapters[i].name;
+                }
                 $scope.sendUpMessage = function(){
                     $scope.$emit("move",{
                         message: $scope.message,
                         index: $scope.$index,
+                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
                         parentIndex: $scope.$parent.$index,
                         direction: "up"
                     });
@@ -46,6 +52,7 @@ module.exports = function(application){
                     $scope.$emit("move",{
                         message: $scope.message,
                         index: $scope.$index,
+                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
                         parentIndex: $scope.$parent.$index,
                         direction: "down"
                     });
@@ -54,7 +61,8 @@ module.exports = function(application){
                     $scope.$emit("deleteFromArray",{
                         message: $scope.message,
                         index: $scope.$index,
-                        parentIndex: $scope.$parent.$index,
+                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
+                        parentIndex: $scope.$parent.$index
                     });
                 }
             }
