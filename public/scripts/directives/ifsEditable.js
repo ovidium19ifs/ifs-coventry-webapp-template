@@ -43,7 +43,6 @@ module.exports = function(application){
                     $scope.$emit("move",{
                         message: $scope.message,
                         index: $scope.$index,
-                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
                         parentIndex: $scope.$parent.$index,
                         direction: "up"
                     });
@@ -52,7 +51,6 @@ module.exports = function(application){
                     $scope.$emit("move",{
                         message: $scope.message,
                         index: $scope.$index,
-                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
                         parentIndex: $scope.$parent.$index,
                         direction: "down"
                     });

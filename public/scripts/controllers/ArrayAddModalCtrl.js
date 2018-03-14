@@ -8,9 +8,12 @@ module.exports = function(application){
             if (item.message === 'Block'){
                 $scope.newElement = item.newSection;
             }
-            else{
+            else if (item.message === 'Chapter'){
                 $scope.newElement = item.newChapter;
                 $scope.sectionName = item.sectionName;
+            }
+            else if (item.message === 'Section'){
+                $scope.newElement = item.newSection;
             }
             $scope.message = item.message;
             $scope.closeModal = function(form){

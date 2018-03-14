@@ -123,12 +123,13 @@
 
                 <div class="card-body">
 
-                    <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section" ng-repeat="section in selChapter.sections">
+                    <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section" ifs-editable="Section"  ng-repeat="section in selChapter.sections">
 
                         <h4 class="card-subtitle">{{section.subtitle}}</h4>
-                        <div  ng-repeat="component in section.components" class="editable-component my-3">
-                            <ng-include  src="'templates/components/text/paragraph.html'" ng-if="component.type==='text-paragraph'"></ng-include>
-                            <ng-include  src="'templates/components/text/quote.html'" ng-if="component.type==='text-quote'"></ng-include>
+                        <div  ng-repeat="component in section.components" class="editable-component my-3" ifs-editable="Component" >
+                            <text-paragraph component="component" ng-if="component.type==='text-paragraph'"></text-paragraph>
+                            <thought-bubble component="component" ng-if="component.type==='thought-bubble'"></thought-bubble>
+                            <text-quote component="component" ng-if="component.type==='text-quote'"></text-quote>
                             <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
                             <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
                             <ng-include  src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
@@ -138,17 +139,18 @@
                             <ng-include  src="'templates/components/text/mythfact.html'" ng-if="component.type==='text-mythfact'"></ng-include>
                             <ng-include  src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>
                             <ng-include  src="'templates/components/link/reference.html'" ng-if="component.type==='link-reference'"></ng-include>
+                            <ng-include src="'templates/components/images/imageSingle.html'" ng-if="component.type==='image-single'"></ng-include>
                             <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
                             <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
                             <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
-                            <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="$parent.$index.toString()+$index.toString()"></video-carousel>
-
+                            <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="(section.subtitle | lowercase | nospaces)+(component.subtitle | lowercase | nospaces)"></video-carousel>
                             <hr class="mid-comp-sep my-5" ng-if="component['space_after']">
                         </div>
 
 
                         <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
                     </div>
+                    <ul class="list-group p-0" ifs-extendable ifs-extendable-callback="addSection()" ifs-extendable-title="Add New Section" data-classes="list-group-item p-0"></ul>
                 </div>
             </div>
 

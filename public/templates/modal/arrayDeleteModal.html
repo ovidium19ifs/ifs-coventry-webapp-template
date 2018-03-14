@@ -6,7 +6,11 @@
     </div>
     <div class="card-body text-center">
         <p>Are you sure you want to delete ? </p>
-        <p>{{item.block}} > {{item.section}} <span ng-show="item.chapter"> > </span> {{item.chapter}}</p>
+        <p><span class="font-weight-bold" ng-show="item.block">Block: </span> {{item.block}}</p>
+        <p><span class="font-weight-bold" ng-show="item.chapter">Chapter: </span> {{item.chapter}}</p>
+        <p><span class="font-weight-bold" ng-show="item.section">Section: </span> {{item.section}}</p>
+        <p><span class="font-weight-bold" ng-show="item.type">Component: </span> {{item.type}}</p>
+
     </div>
     <div class="card-footer text-center">
         <div class="btn-group ">

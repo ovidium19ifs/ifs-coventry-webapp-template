@@ -11,7 +11,7 @@ module.exports = function(application){
                 var classes = attrs['classes'] || "";
                 var title = attrs['ifsExtendableTitle'];
                 var content = angular.element(`<li class="${classes}">
-                        <button class="btn btn-success w-100 btn-sm" ng-click="sendMessage()">
+                        <button class="btn btn-success w-100 btn-sm"">
                             <span class="fa fa-plus-circle fa-fw text-white float-left"></span>
                             <span> ${title}</span>
                         </button>
