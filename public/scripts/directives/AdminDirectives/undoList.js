@@ -17,9 +17,7 @@ module.exports = function(application){
                 scope.$watchCollection("undoItems",function(newC,oldC){
                     if (newC.length > oldC.length){
                         let titleContent = ``;
-                        console.log(newC[0].title);
                         for (let i=0;i<newC[0].title.length;i++){
-                            console.log(newC[0].title[i]);
                             titleContent+=`<p><span class="text-dark font-weight-bold">${newC[0].title[i][0]}:</span> ${newC[0].title[i][1]}</p>`;
                         }
                         let listItem = $(elem).find('.undo-list-item').first();

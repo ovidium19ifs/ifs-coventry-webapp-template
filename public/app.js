@@ -219,6 +219,8 @@ require('./scripts/filters/singular')(application);
 require('./scripts/directives/AdminDirectives/chapterSummaryAdmin')(application);
 require('./scripts/directives/AdminDirectives/navMenuAdmin')(application);
 require('./scripts/directives/AdminDirectives/undoList')(application);
+require('./scripts/directives/AdminDirectives/collapsible')(application);
+require('./scripts/directives/AdminDirectives/editElement')(application);
 require('./scripts/directives/FormDirectives/linkPdf')(application);
 require('./scripts/directives/FormDirectives/linkReference')(application);
 require('./scripts/directives/FormDirectives/linkTelephoneForm')(application);

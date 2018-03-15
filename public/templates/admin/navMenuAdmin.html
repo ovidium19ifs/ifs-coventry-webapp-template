@@ -4,10 +4,10 @@
     </button>
     <div class="navbar-collapse collapse" id="rsSidebar">
         <ul class="nav rs-sidebar flex-column flex-nowrap" ifs-extendable ifs-extendable-callback="addBlock()" ifs-extendable-title="Add New Block" data-classes="nav-item">
-            <li class="nav-item blah blah-again" ng-repeat="block in data" ng-class="{active: selected===block.name}" ifs-editable="Block">
+            <li class="nav-item blah blah-again" ng-repeat="block in data" ng-class="{active: selected===block.name}" ifs-editable="Block" callback-array="data">
                 <a href="" class="nav-link block-link small " ng-click="select($index,$event)">{{block.name}}</a>
                 <ul class=" nav rs-sub flex-column flex-nowrap" ng-show="selected===block.name" ifs-extendable ifs-extendable-callback="addChapter($index)" ifs-extendable-title="Add New Chapter" data-classes="nav-item">
-                    <li class="nav-item border border-success" ifs-editable="Chapter"  ng-repeat="chapter in block.chapters" ng-class="{'sub-active':chSelected === (block.name+'-'+chapter.name)}" >
+                    <li class="nav-item border border-success" ifs-editable="Chapter" callback-array="block.chapters" ng-repeat="chapter in block.chapters" ng-class="{'sub-active':chSelected === (block.name+'-'+chapter.name)}" >
                         <a href="" class="nav-link chapter-link h-100 small border border-primary"  ng-click="selectChapter($parent.$index,$index,$event)">{{chapter.name}}</a>
                     </li>
 

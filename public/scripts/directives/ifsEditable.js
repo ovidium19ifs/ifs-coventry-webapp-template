@@ -6,6 +6,7 @@ module.exports = function(application){
         return {
             restrict: "A",
             link: function (scope, elem, attrs, ctrl, transcludeFn) {
+                let arr = $parse(attrs['callbackArray'])(scope);
                 var content = angular.element(`<div class="btn-group btn-group-sm " role="group">
   <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$first" ng-click="sendUpMessage()" ><span class="fa fa-arrow-up"></span></button>
   <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$last" ng-click="sendDownMessage()"><span class="fa fa-arrow-down"></span></button>
@@ -32,37 +33,37 @@ module.exports = function(application){
                     elem.addClass("position-relative");
                     elem.append(content);
                 },0);
+    
+                scope.sendUpMessage = function(){
+                    console.log(scope.$index);
+                    scope.$emit("move",{
+                        message: scope.message,
+                        index: scope.$index,
+                        parentIndex: scope.$parent.$index,
+                        direction: "up",
+                        array: arr
+                    });
+                };
+                scope.sendDownMessage = function(){
+                    scope.$emit("move",{
+                        message: scope.message,
+                        index: scope.$index,
+                        parentIndex: scope.$parent.$index,
+                        direction: "down",
+                        array: arr
+                    });
+                };
+                scope.sendDeleteMessage = function(){
+                    scope.$emit("deleteFromArray",{
+                        message: scope.message,
+                        index: scope.$index,
+                        parentIndex: scope.$parent.$index,
+                        array: arr
+                    });
+                }
             },
             controller: function($scope){
-                function getSubtitle(i,j){
-                    if (isNaN(j))
-                            return $scope.data[i].name;
-                    return $scope.data[j].chapters[i].name;
-                }
-                $scope.sendUpMessage = function(){
-                    $scope.$emit("move",{
-                        message: $scope.message,
-                        index: $scope.$index,
-                        parentIndex: $scope.$parent.$index,
-                        direction: "up"
-                    });
-                };
-                $scope.sendDownMessage = function(){
-                    $scope.$emit("move",{
-                        message: $scope.message,
-                        index: $scope.$index,
-                        parentIndex: $scope.$parent.$index,
-                        direction: "down"
-                    });
-                };
-                $scope.sendDeleteMessage = function(){
-                    $scope.$emit("deleteFromArray",{
-                        message: $scope.message,
-                        index: $scope.$index,
-                        subtitle: getSubtitle($scope.$index,$scope.$parent.$index),
-                        parentIndex: $scope.$parent.$index
-                    });
-                }
+            
             }
             
         }

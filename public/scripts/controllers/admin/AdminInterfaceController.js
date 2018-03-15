@@ -39,7 +39,7 @@ module.exports = function(application){
                 let deleted_elem = args.chapter.pop();
             }
         }
-        function move(args){
+        function move(args,scroll){
             var dir = args.direction;
             if (dir==="up"){
                 var dif=-1;
@@ -47,32 +47,20 @@ module.exports = function(application){
             else{
                 var dif=1;
             }
-    
+            if (scroll){
+                let subtitle = args.array[args.index+dif].subtitle; //why
+                var target = subtitle.replace(/\s/g,"").toLowerCase();
+                $timeout(function(){
+                    $scope.$broadcast("ifsPrepareScroll",[target]);
+                },0);
+            }
             var ind = args.index;
+            
             if (args.hasOwnProperty("index") && typeof args.index === "undefined") return;
-            if (args.message==="Block"){
-                let tempObj = $scope.data[ind];
-                $scope.data[ind] = $scope.data[ind+dif];
-                $scope.data[ind+dif] = tempObj;
-            }
-            else if(args.message==="Chapter"){
-                let ref = $scope.data[args.parentIndex];
-                let tempObj = ref.chapters[ind];
-                ref.chapters[ind] =ref.chapters[ind+dif];
-                ref.chapters[ind+dif] = tempObj;
-            }
-            else if (args.message === "Section"){
-                let ref = $scope.selChapter.sections; //error here
-                let tempObj = ref[ind];
-                ref[ind] = ref[ind+dif];
-                ref[ind+dif] = tempObj;
-            }
-            else if (args.message ===  "Component"){
-                let ref = $scope.selChapter.sections[args.parentIndex].components;
-                let tempObj = ref[ind];
-                ref[ind] = ref[ind+dif];
-                ref[ind+dif] = tempObj;
-            }
+            let ref = args.array;
+            let tempObj = ref[ind];
+            ref[ind] = ref[ind+dif];
+            ref[ind+dif] = tempObj;
         }
         var templateMaker = (function(){
             var newSectionsAdded = 0;
@@ -122,15 +110,13 @@ module.exports = function(application){
         ];
         $scope.selBlock = dataBlock[0];
         $scope.selChapter = dataBlock[0].chapters[0];
+        $scope.$watchCollection('selChapter.sections',function(newV,oldV){
+            $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
+        });
         //angular.element is a jquery selector
         //send a message to the chapter summary(right-hand menu) that data has been loaded, so it can link subtitles to page elements
         var container = angular.element(document.getElementById("mainContent2"));
-        $timeout(function(){
-            $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
-        },0);
         
-        
-       
         $scope.addBlock = function(){
             console.log("Adding section");
             var newSection = templateMaker.makeBlock();
@@ -278,7 +264,8 @@ module.exports = function(application){
                     callback: undoMove,
                     args: [new_args]
                 };
-                move(args);
+            
+                move(args,args.message==='Section');
                 $scope.undoItems.unshift(new_undo);
         });
         $scope.$on("ChangeChapter",function(e,bl_index,ch_index){
@@ -296,7 +283,6 @@ module.exports = function(application){
         });
         $scope.$on("ifsPrepareScroll",function(e,args){
             e.preventDefault();
-            e.stopPropagation();
             var title = args[0];
             var elem = angular.element(document.getElementById(title));
             container.scrollToElement(elem,50,120);
