@@ -124,7 +124,7 @@
                 <div class="card-body">
 
                     <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section" ifs-editable="Section" callback-array="selChapter.sections" collapsible-elem="Section" ng-repeat="section in selChapter.sections">
-                        <edit-element component="section"></edit-element>
+                        <edit-element component="section" chapter="selChapter"></edit-element>
                         <h4 class="card-subtitle">{{section.subtitle}}</h4>
                         <div class="collapsible">
                             <div  ng-repeat="component in section.components" class="editable-component my-3" ifs-editable="Component" collapsible-elem="Component" callback-array="section.components" >

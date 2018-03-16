@@ -2,24 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/collapsible.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/edit-element.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstudents/data.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/data.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-default.css" afterPath="$PROJECT_DIR$/dist/css/all-default.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-ocean.css" afterPath="$PROJECT_DIR$/dist/css/all-ocean.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-robust.css" afterPath="$PROJECT_DIR$/dist/css/all-robust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/admin.less" afterPath="$PROJECT_DIR$/public/css/admin.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.less" afterPath="$PROJECT_DIR$/public/css/main.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/myModal.less" afterPath="$PROJECT_DIR$/public/css/myModal.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/chapterSummaryAdmin.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/chapterSummaryAdmin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/undoList.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/undoList.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/ifsEditable.js" afterPath="$PROJECT_DIR$/public/scripts/directives/ifsEditable.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/admin/adminHome.html" afterPath="$PROJECT_DIR$/public/templates/admin/adminHome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html" afterPath="$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/link/pdf.html" afterPath="$PROJECT_DIR$/public/templates/components/link/pdf.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/arrayAddModal.html" afterPath="$PROJECT_DIR$/public/templates/modal/arrayAddModal.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html" afterPath="$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,56 +29,63 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="editElement.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js">
+      <file leaf-file-name="AdminInterfaceController.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="284">
+              <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+              <folding>
+                <element signature="e#326#1157#0" expanded="false" />
+                <element signature="e#1188#1613#0" expanded="false" />
+                <element signature="e#1648#2419#0" expanded="false" />
+                <element signature="e#2459#3634#0" expanded="false" />
+                <element signature="e#3683#3879#0" expanded="false" />
+                <element signature="e#5896#7440#0" expanded="false" />
+                <element signature="e#7480#8930#0" expanded="false" />
+                <element signature="e#10933#11448#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrayAddModal.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/modal/arrayAddModal.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="144">
-              <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit-element.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/admin/edit-element.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="16">
-              <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="adminHome.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/admin/adminHome.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
+              <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
-                <element signature="e#530#5375#0" expanded="false" />
+                <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdf.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/templates/components/link/pdf.html">
+      <file leaf-file-name="myModal.less" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/css/myModal.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="94" lean-forward="false" selection-start-line="2" selection-start-column="94" selection-end-line="2" selection-end-column="94" />
+            <state relative-caret-position="400">
+              <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.less" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/public/css/admin.less">
+      <file leaf-file-name="navMenuAdmin.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="116" column="22" lean-forward="true" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
-              <folding>
-                <element signature="e#3124#6099#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="data.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/data.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="64">
+              <caret line="1964" column="49" lean-forward="false" selection-start-line="1964" selection-start-column="49" selection-end-line="1964" selection-end-column="49" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -102,7 +105,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>thought</find>
       <find>Challenges</find>
       <find>Requirements</find>
       <find>image</find>
@@ -132,6 +134,7 @@
       <find>move</find>
       <find>$scope</find>
       <find>summary-list</find>
+      <find>The Equality Act</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/dist/js/bundle.js" />
         <option value="$PROJECT_DIR$/public/templates/topBar.html" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/08_Evaluating_the_Placement.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
@@ -168,29 +170,30 @@
         <option value="$PROJECT_DIR$/data/resourcesforstudents/04_Preparing_For_Placement.json" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/05_Coping_on_Placement.json" />
         <option value="$PROJECT_DIR$/data/resourcesforstaff/data.json" />
-        <option value="$PROJECT_DIR$/data/resourcesforstudents/data.json" />
         <option value="$PROJECT_DIR$/data/resourcesforeducators/data.json" />
         <option value="$PROJECT_DIR$/server/partsController.js" />
         <option value="$PROJECT_DIR$/public/scripts/controllers/ArrayDeleteModalCtrl.js" />
         <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/navMenuAdmin.js" />
-        <option value="$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html" />
         <option value="$PROJECT_DIR$/public/templates/admin/undo-list.html" />
         <option value="$PROJECT_DIR$/public/scripts/directives/ifsExtendable.js" />
         <option value="$PROJECT_DIR$/public/scripts/controllers/ArrayAddModalCtrl.js" />
-        <option value="$PROJECT_DIR$/public/templates/modal/arrayAddModal.html" />
-        <option value="$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html" />
         <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/undoList.js" />
         <option value="$PROJECT_DIR$/public/scripts/directives/ifsEditable.js" />
-        <option value="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" />
         <option value="$PROJECT_DIR$/public/css/main.less" />
         <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/chapterSummaryAdmin.js" />
         <option value="$PROJECT_DIR$/public/app.js" />
         <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/collapsible.js" />
         <option value="$PROJECT_DIR$/public/templates/admin/edit-element.html" />
-        <option value="$PROJECT_DIR$/public/templates/admin/adminHome.html" />
-        <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" />
         <option value="$PROJECT_DIR$/public/templates/components/link/pdf.html" />
         <option value="$PROJECT_DIR$/public/css/admin.less" />
+        <option value="$PROJECT_DIR$/public/templates/admin/adminHome.html" />
+        <option value="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" />
+        <option value="$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html" />
+        <option value="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" />
+        <option value="$PROJECT_DIR$/public/templates/modal/arrayAddModal.html" />
+        <option value="$PROJECT_DIR$/public/css/myModal.less" />
+        <option value="$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html" />
+        <option value="$PROJECT_DIR$/data/resourcesforstudents/data.json" />
       </list>
     </option>
   </component>
@@ -265,18 +268,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <expand>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="SupportForStudents" type="cbb8eebc:String" user="SupportForStudents" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -288,6 +279,12 @@
               <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
               <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
               <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+              <item name="resourcesforstudents" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
@@ -316,6 +313,21 @@
               <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
               <item name="directives" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -331,6 +343,13 @@
               <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SupportForStudents" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SupportForStudents" type="b2602c69:ProjectViewProjectNode" />
@@ -353,6 +372,18 @@
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="modal" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="SupportForStudents" type="cbb8eebc:String" user="SupportForStudents" />
             </path>
           </expand>
           <select />
@@ -502,7 +533,8 @@
       <workItem from="1520935623495" duration="13905000" />
       <workItem from="1521022641247" duration="11254000" />
       <workItem from="1521040018349" duration="3527000" />
-      <workItem from="1521107993771" duration="13250000" />
+      <workItem from="1521107993771" duration="13847000" />
+      <workItem from="1521196354186" duration="5984000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -515,7 +547,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="743674000" />
+    <option name="totallyTimeSpent" value="750255000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -532,12 +564,12 @@
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23320659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.58111537" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.47718632" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.4949303" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.47718632" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.41888466" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22983871" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.49239543" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -597,7 +629,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/08_Evaluating_the_Placement.json" />
     <entry file="file://$PROJECT_DIR$/data/resourcesforstaff/01_Disability.json" />
     <entry file="file://$PROJECT_DIR$/data/resourcesforeducators/01_Disability.json" />
     <entry file="file://$PROJECT_DIR$/data/resourcesforeducators/02_Disclosure.json" />
@@ -703,13 +734,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/ArrayDeleteModalCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="15" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -721,9 +745,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1280">
           <caret line="80" column="42" lean-forward="false" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="267">
           <caret line="55" column="16" lean-forward="false" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
-          <folding>
-            <element signature="e#394#1476#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/data.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="6791" column="3" lean-forward="false" selection-start-line="6791" selection-start-column="3" selection-end-line="6791" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="98" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="11" selection-end-column="98" />
         </state>
       </provider>
     </entry>
@@ -790,15 +794,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/modal/arrayAddModal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="31" lean-forward="false" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -806,7 +801,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -814,7 +808,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="18" column="46" lean-forward="false" selection-start-line="18" selection-start-column="46" selection-end-line="18" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -830,43 +823,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="752">
           <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="116" lean-forward="false" selection-start-line="9" selection-start-column="116" selection-end-line="9" selection-end-column="116" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/directives/ifsEditable.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="34" column="21" lean-forward="true" selection-start-line="29" selection-start-column="16" selection-end-line="34" selection-end-column="21" />
-          <folding>
-            <marker date="1521112315540" expanded="true" signature="473:926" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-384">
-          <caret line="41" column="35" lean-forward="false" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
-          <folding>
-            <element signature="e#326#1157#0" expanded="false" />
-            <element signature="e#1188#1613#0" expanded="false" />
-            <element signature="e#2459#3634#0" expanded="false" />
-            <element signature="e#3683#3879#0" expanded="false" />
-            <element signature="e#4551#5844#0" expanded="false" />
-            <element signature="e#5886#7420#0" expanded="false" />
-            <element signature="e#7460#8900#0" expanded="false" />
-            <element signature="e#10903#11418#0" expanded="false" />
-            <element signature="e#11731#16228#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -874,7 +830,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="256">
           <caret line="222" column="57" lean-forward="false" selection-start-line="222" selection-start-column="57" selection-end-line="222" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -882,33 +837,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="34" column="51" lean-forward="false" selection-start-line="34" selection-start-column="51" selection-end-line="34" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/admin/edit-element.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="39" lean-forward="false" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/templates/admin/adminHome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="139" column="38" lean-forward="true" selection-start-line="139" selection-start-column="38" selection-end-line="139" selection-end-column="38" />
-          <folding>
-            <element signature="e#530#5375#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -920,13 +848,116 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/admin/edit-element.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/ifsEditable.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="16" lean-forward="true" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+          <folding>
+            <marker date="1521112315540" expanded="true" signature="473:926" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="12" column="52" lean-forward="false" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/admin/adminHome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="126" column="77" lean-forward="false" selection-start-line="126" selection-start-column="77" selection-end-line="126" selection-end-column="77" />
+          <folding>
+            <element signature="e#530#5375#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/css/admin.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="116" column="22" lean-forward="true" selection-start-line="116" selection-start-column="22" selection-end-line="116" selection-end-column="22" />
+        <state relative-caret-position="384">
+          <caret line="135" column="13" lean-forward="false" selection-start-line="135" selection-start-column="13" selection-end-line="135" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/ArrayDeleteModalCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="27" lean-forward="true" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/modal/arrayDeleteModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="19" column="10" lean-forward="true" selection-start-line="16" selection-start-column="4" selection-end-line="19" selection-end-column="10" />
           <folding>
-            <element signature="e#3124#6099#0" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="127" column="48" lean-forward="false" selection-start-line="127" selection-start-column="48" selection-end-line="127" selection-end-column="48" />
+          <folding>
+            <element signature="e#326#1157#0" expanded="false" />
+            <element signature="e#1188#1613#0" expanded="false" />
+            <element signature="e#1648#2419#0" expanded="false" />
+            <element signature="e#2459#3634#0" expanded="false" />
+            <element signature="e#3683#3879#0" expanded="false" />
+            <element signature="e#5896#7440#0" expanded="false" />
+            <element signature="e#7480#8930#0" expanded="false" />
+            <element signature="e#10933#11448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/modal/arrayAddModal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="43" lean-forward="false" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#p#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/myModal.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="40" column="25" lean-forward="false" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/templates/admin/navMenuAdmin.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="68" lean-forward="false" selection-start-line="0" selection-start-column="68" selection-end-line="0" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/resourcesforstudents/data.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="1964" column="49" lean-forward="false" selection-start-line="1964" selection-start-column="49" selection-end-line="1964" selection-end-column="49" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,12 +1,16 @@
 <div class="card">
-    <div class="card-header">
-        <span class="float-right fa fa-close fa-2x" style="color: blue;cursor:pointer" ng-click="dismissModal()"></span>
-        <h3 class="" style="line-height: 2.3rem">Enter a name for your new {{message}}.</h3>
+    <div class="card-header p-0">
+        <p class="mb-0">
+            Add new {{message}}
+            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+        </p>
 
     </div>
     <div class="card-body text-center">
+        <h5 ng-if="sectionName" class="mb-3">Block: {{sectionName}}</h5>
+        <p>Enter a name for your new {{message}}.</p>
         <form name="nameForm" ng-submit="closeModal(nameForm)">
-            <h5 ng-if="sectionName">Block: {{sectionName}}</h5>
+
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" ng-model="newElement.name" ng-minlength="3" ng-required="true" ng-if="newElement.hasOwnProperty('name')">
             <input type="text" id="name" name="name" ng-model="newElement.subtitle" ng-minlength="3" ng-required="true" ng-if="newElement.hasOwnProperty('subtitle')">
@@ -14,10 +18,7 @@
         </form>
     </div>
     <div class="card-footer text-center">
-        <div class="btn-group ">
-            <button class="btn btn-danger" ng-click="dismissModal()"> Never mind </button>
-            <div class="mx-2"></div>
-            <button class="btn btn-success" ng-click="closeModal(nameForm)"> Create</button>
-        </div>
+        <button class="btn btn-warning mx-4 w-25" ng-click="dismissModal()"> Never Mind </button>
+        <button class="btn btn-success mx-4 w-25" ng-click="closeModal(nameForm)"> Create</button>
     </div>
 </div>

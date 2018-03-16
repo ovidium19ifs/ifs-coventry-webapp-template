@@ -125,7 +125,7 @@ module.exports = function(application){
                 template: require('../../../templates/modal/arrayAddModal.html'),
                 controller: "ArrayAddModalCtrl",
                 animation: false,
-                windowClass: "my-modal",
+                windowClass: "my-modal modal-add",
                 backdrop: 'static',
                 resolve: {
                     item: function(){
@@ -162,7 +162,7 @@ module.exports = function(application){
                 template   : require('../../../templates/modal/arrayAddModal.html'),
                 controller : "ArrayAddModalCtrl",
                 animation  : false,
-                windowClass: "my-modal",
+                windowClass: "my-modal modal-add",
                 backdrop   : 'static',
                 resolve    : {
                     item: function () {
@@ -198,7 +198,7 @@ module.exports = function(application){
                 template   : require('../../../templates/modal/arrayAddModal.html'),
                 controller : "ArrayAddModalCtrl",
                 animation  : false,
-                windowClass: "my-modal",
+                windowClass: "my-modal modal-add",
                 backdrop   : 'static',
                 resolve    : {
                     item: function () {
@@ -320,7 +320,7 @@ module.exports = function(application){
                 template: require('../../../templates/modal/arrayDeleteModal.html'),
                 controller: "ArrayDeleteModalCtrl",
                 animation: false,
-                windowClass: "my-modal",
+                windowClass: "my-modal modal-delete",
                 backdrop: 'static',
                 resolve: {
                     item,

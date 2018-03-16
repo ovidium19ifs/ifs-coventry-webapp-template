@@ -1,7 +1,9 @@
 <div class="card">
-    <div class="card-header">
-        <span class="float-right fa fa-close fa-2x" style="color: blue;cursor:pointer" ng-click="dismissModal()"></span>
-        <h3 class="" style="line-height: 2.3rem">Are you sure?</h3>
+    <div class="card-header p-0">
+        <p class="mb-0">
+            Delete
+            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+        </p>
 
     </div>
     <div class="card-body text-center">
@@ -13,10 +15,7 @@
 
     </div>
     <div class="card-footer text-center">
-        <div class="btn-group ">
-            <button class="btn btn-success" ng-click="dismissModal()"> No </button>
-            <div class="mx-2"></div>
-            <button class="btn btn-warning" ng-click="closeModal()"> Yes</button>
-        </div>
+            <button class="btn btn-success mx-4 w-25" ng-click="dismissModal()"> No </button>
+            <button class="btn btn-danger mx-4 w-25" ng-click="closeModal()"> Yes</button>
     </div>
 </div>
