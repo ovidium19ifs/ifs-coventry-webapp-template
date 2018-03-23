@@ -49,7 +49,7 @@ module.exports = function(application){
             },
             controller: function($scope,navigate,$location,$timeout) {
                 
-                
+                $scope.adminMode = true;
                 $scope.titles=[];
                 $scope.$on("dataWasLoaded",function(e,sections){
                     if (!sections){
@@ -67,6 +67,9 @@ module.exports = function(application){
                     e.preventDefault();
                     var target = subtitle.replace(/\s/g,"").toLowerCase();
                     $scope.$emit("ifsPrepareScroll",[target]);
+                };
+                $scope.sendAddSectionMessage = function(){
+                    $scope.$emit("addSection");
                 }
             }
         }

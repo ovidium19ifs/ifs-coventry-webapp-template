@@ -1,0 +1,32 @@
+<div class="card">
+    <div class="card-header main p-0">
+        <p class="mb-0">
+            Add new {{item.message}}
+            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+        </p>
+
+    </div>
+    <div class="card-body text-center">
+
+        <form name="typeForm" novalidate>
+            <div class="form-group text-center types">
+                <label for="componentType">Component Type: </label>
+                <select id="componentType" class="custom-select" ng-model="item.newComponent.type" ng-required="true">
+                    <option ng-repeat="type in types" ng-value="type.type">
+                        <div class="flex-item">
+                            <span class="{{type.icon}}" style="width: 25px"></span>
+                            <span class="ml-2 small" style="width: 75px">{{type.display}}</span>
+                        </div>
+                    </option>
+                </select>
+            </div>
+            <p>Current type: {{item.newComponent.type}}</p>
+        </form>
+
+        </div>
+    </div>
+    <div class="card-footer text-center">
+        <button class="btn btn-warning mx-4 w-25" ng-click="dismissModal()"> Never Mind </button>
+        <button class="btn btn-success mx-4 w-25" ng-click="closeModal(nameForm)"> Create</button>
+    </div>
+</div>

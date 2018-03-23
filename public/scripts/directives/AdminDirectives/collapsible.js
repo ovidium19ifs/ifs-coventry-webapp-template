@@ -4,16 +4,16 @@ module.exports = function(app){
         return{
             restrict: 'A',
             link: function(scope,elem,attrs){
-                scope.elem = attrs['collapsibleElem'];
+                var type = attrs['collapsibleElem'];
                 scope.collapsed = false;
                 let content = angular.element(`<button class="btn btn-sm py-0" ng-click="toggleCollapse()"> <span class="fa fa-minus-square mr-2"></span> <span class="button-text">Collapse</span></button>`);
                 content.css({
                     position: "absolute",
                     top: "-1.2rem",
-                    right: scope.elem==='Section' ? '25%' : '37%',
+                    right: type==='Section' ? '25%' : '37%',
                     "z-index": "100"
                 });
-                content.addClass(scope.elem==='Section' ? 'btn-info w-50' : 'btn-danger w-25');
+                content.addClass(type==='Section' ? 'btn-info w-50' : 'btn-danger w-25');
                 var compiled = $compile(content)(scope);
                 $timeout(function(){
         

@@ -1,8 +1,12 @@
+.modal-open .modal.my-modal{
+  overflow: hidden;
+  height:100vh;
+}
 .my-modal{
   & + .modal-backdrop{
     opacity: 0.5;
   }
-  .card-header{
+  .card-header.main{
     text-align: center;
     color:white;
     font-size:1.5rem;
@@ -25,20 +29,69 @@
       }
     }
   }
-  .card-footer{
+  .card-footer.main{
     background: lighten(#336699,50%);
     padding:5px 0px;
     box-shadow: 0px -1px 5px 0px lightgray;
   }
   &.modal-delete{
-    .card-header{
+    .card-header.main{
       background: #fe7171;
 
     }
   }
   &.modal-add{
-    .card-header{
+    .card-header.main{
       background: #28a745;
     }
   }
+  &.modal-edit{
+    & + .modal-backdrop{
+      opacity:0.2;
+    }
+    .card-header.main{
+      background: #336699;
+      color: #e2e6ea;
+    }
+    .modal-dialog{
+      position:relative;
+      max-width: none;
+      .modal-content{
+        .card.main{
+          form{
+            overflow: hidden;
+            height:100vh;
+            .component-edit-form{
+              overflow-y: auto;
+              height:80%;
+            }
+          }
+        }
+        width:30%;
+        position:absolute;
+        right:0;
+        top:-30px;
+        justify-content: flex-start;
+        align-items: stretch;
+      }
+    }
+  }
+}
+.form-section{
+  .card-header{
+    background: #336699;
+    color: #e2e6ea;
+    cursor:pointer;
+    border-color:#336699;
+    box-shadow: 0 1px 3px 1px lightgray;
+  }
+  .card{
+    border-color: #336699;
+  }
+  .types{
+    .flex-item{
+      color:#336699;
+    }
+  }
+
 }

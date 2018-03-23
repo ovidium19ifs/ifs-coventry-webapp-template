@@ -1,6 +1,6 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal",function($scope,dataBlock,$timeout,$uibModal){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter",function($scope,dataBlock,$timeout,$uibModal,$filter){
         "use strict";
         function undoMove(args){
             move(args);
@@ -35,8 +35,23 @@ module.exports = function(application){
                 let deleted_elem = $scope.data[args.index].chapters.pop();
                 return;
             }
-            else if (args.message === 'Section'){
+            else if (args.message === 'Section' || args.message=== 'Component'){
                 let deleted_elem = args.chapter.pop();
+            }
+        }
+        function undoEdit(args){
+            console.log(args);
+            switch (args.type){
+                case 'Chapter':
+                    args.element.name = args.prev.name;
+                    break;
+                case 'Component':
+                case 'Section':
+                    args.context[args.index] = angular.copy(args.prev);
+                    $scope.broadcast();
+                    break;
+                default:
+                    break;
             }
         }
         function move(args,scroll){
@@ -92,10 +107,16 @@ module.exports = function(application){
                     components: []
                 }
             }
+            function makeComponent(){
+                return{
+                    type: 'text-paragraph'
+                }
+            }
             return{
                 makeChapter: makeChapter,
                 makeBlock: makeBlock,
                 makeSection: makeSection,
+                makeComponent
             }
         })();
         $scope.resolveUndo = function(index){
@@ -108,10 +129,33 @@ module.exports = function(application){
         $scope.undoMode = false;
         $scope.undoItems = [
         ];
+        $scope.registerUndo = function(type,args){
+              console.log(type);
+              let new_undo = {};
+              if (type === 'Edit'){
+                  let compType = args.type;
+                  new_undo.event = 'edit';
+                  new_undo.title = [["Block",$scope.selBlock.name],["Chapter",$scope.selChapter.name]];
+                  new_undo.summary = `${compType} ${compType == 'Component' ? $filter('nicename')(args.title) : args.title} has been edited`;
+                  new_undo.callback = undoEdit;
+                  new_undo.args = [{
+                      element : args.element,
+                      context: args.context,
+                      index: args.index,
+                      prev: args.master,
+                      type: compType
+                  }
+                  ];
+              }
+              $scope.undoItems.unshift(new_undo);
+        };
         $scope.selBlock = dataBlock[0];
         $scope.selChapter = dataBlock[0].chapters[0];
-        $scope.$watchCollection('selChapter.sections',function(newV,oldV){
+        $scope.broadcast = function(){
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
+        };
+        $scope.$watchCollection(function(){return $scope.selChapter.sections;},function(newV,oldV){
+            $scope.broadcast();
         });
         //angular.element is a jquery selector
         //send a message to the chapter summary(right-hand menu) that data has been loaded, so it can link subtitles to page elements
@@ -222,6 +266,44 @@ module.exports = function(application){
                 ];
                 $scope.undoItems.unshift(new_undo);
                 $scope.selChapter.sections.push(newSection);
+                $timeout(function(){
+                    $scope.$broadcast("ifsPrepareScroll",[$filter('nospaces')(newSection.subtitle).toLowerCase()])
+                },100);
+            }, function (reason) {
+                console.log(reason);
+            });
+        };
+        $scope.addComponent = function(s){
+            var newComponent = templateMaker.makeComponent();
+            if (!$uibModal) return;
+            var modalInstance = $uibModal.open({
+                template   : require('../../../templates/modal/arrayAddComponentModal.html'),
+                controller : "ArrayAddComponentModalCtrl",
+                animation  : false,
+                windowClass: "my-modal modal-add",
+                backdrop   : 'static',
+                resolve    : {
+                    item: function () {
+                        return {
+                            newComponent,
+                            message: 'Component'
+                        }
+                    }
+                }
+            });
+            modalInstance.result.then(function (res) {
+                let new_undo = {};
+                new_undo.event = 'add';
+                new_undo.title = [["Block",$scope.selBlock.name],["Chapter",$scope.selChapter.name],["Section",s.subtitle]];
+                new_undo.summary = `Component of type  ${$filter('nicename')(newComponent.type)} has been added`;
+                new_undo.callback = undoAdd;
+                new_undo.args = [{
+                    message: 'Component',
+                    chapter: s.components
+                }
+                ];
+                $scope.undoItems.unshift(new_undo);
+                s.components.push(newComponent);
             }, function (reason) {
                 console.log(reason);
             });
@@ -278,11 +360,13 @@ module.exports = function(application){
             }
             $scope.selBlock = dataBlock[bl_index];
             $scope.selChapter = dataBlock[bl_index].chapters[ch_index];
+            $scope.index = ch_index;
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
             container[0].scrollTop = 0;
         });
         $scope.$on("ifsPrepareScroll",function(e,args){
             e.preventDefault();
+            console.log(args);
             var title = args[0];
             var elem = angular.element(document.getElementById(title));
             container.scrollToElement(elem,50,120);
@@ -378,6 +462,9 @@ module.exports = function(application){
                 console.log(reason);
             });
         
+        });
+        $scope.$on("addSection",function(e){
+            $scope.addSection();
         });
         $scope.undoToggle = function(){
             $scope.undoMode = !$scope.undoMode;

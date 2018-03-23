@@ -37,7 +37,10 @@ module.exports = function(application){
                                 icon.addClass('fa-plus');
                                 listItem.addClass('add');
                                 break;
-                               
+                            case 'edit':
+                                icon.addClass('fa-pencil-square-o');
+                                listItem.addClass('edit');
+                                break;
                             default:
                                 break;
                         }
