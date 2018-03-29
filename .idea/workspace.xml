@@ -2,48 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/email.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/linkReference.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/listText.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/telephone.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textAlert.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textMyth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textParagraph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textQuote.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/websiteLinks.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/services/authors.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/services/links.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/email.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/listText.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/reference.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/telephone.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/textAlert.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/textMyth.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/textParagraph.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/textQuote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/websiteLinks.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/all-default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/all-ocean.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dist/all-robust.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-default.css" afterPath="$PROJECT_DIR$/dist/css/all-default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-ocean.css" afterPath="$PROJECT_DIR$/dist/css/all-ocean.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-robust.css" afterPath="$PROJECT_DIR$/dist/css/all-robust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/myModal.less" afterPath="$PROJECT_DIR$/public/css/myModal.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/ArrayEditModalCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/ArrayEditModalCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/editElement.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/ifsEditable.js" afterPath="$PROJECT_DIR$/public/scripts/directives/ifsEditable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/listText.js" afterPath="$PROJECT_DIR$/public/scripts/directives/listText.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/textParagraph.js" afterPath="$PROJECT_DIR$/public/scripts/directives/textParagraph.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/filters/nicename.js" afterPath="$PROJECT_DIR$/public/scripts/filters/nicename.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/link/email.html" afterPath="$PROJECT_DIR$/public/templates/components/link/email.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/link/reference.html" afterPath="$PROJECT_DIR$/public/templates/components/link/reference.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/link/telephone.html" afterPath="$PROJECT_DIR$/public/templates/components/link/telephone.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/list/text.html" afterPath="$PROJECT_DIR$/public/templates/components/list/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/arrayEditModal.html" afterPath="$PROJECT_DIR$/public/templates/modal/arrayEditModal.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -107,8 +66,8 @@
       <file leaf-file-name="textParagraph.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textParagraph.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+            <state relative-caret-position="464">
+              <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -608,7 +567,7 @@
       <workItem from="1521802825813" duration="10702000" />
       <workItem from="1522141412927" duration="14462000" />
       <workItem from="1522243443261" duration="4790000" />
-      <workItem from="1522327453409" duration="7569000" />
+      <workItem from="1522327453409" duration="8005000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -621,7 +580,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="816277000" />
+    <option name="totallyTimeSpent" value="816713000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -634,8 +593,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23320659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23320659" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.58111537" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.4949303" order="2" side_tool="false" content_ui="tabs" />
@@ -1104,8 +1064,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/textParagraph.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="17" column="65" lean-forward="false" selection-start-line="17" selection-start-column="65" selection-end-line="17" selection-end-column="65" />
+        <state relative-caret-position="464">
+          <caret line="29" column="14" lean-forward="true" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
           <folding />
         </state>
       </provider>
