@@ -11,14 +11,18 @@ module.exports = function(application){
             link: function(scope,elem){
                 $timeout(function(){
                     if (scope.component.hasOwnProperty("links")){
+                        let final = scope.component.text;
                         for (var i=0;i<scope.component["links"].length;i++) {
-                            var reg = new RegExp(scope.component.links[i].portion, "gi");
-                            $(elem).find("p").html(function(){
-                                return scope.component.text.replace(reg,`<span class="fa fa-globe"></span><a class="website-link" target="_blank" href="${scope.component.links[i].href}">${scope.component.links[i].portion}</a>`);
-                            });
+                            console.log("in paragraph");
+                            if (scope.component["links"][i].portion.length < 3) continue;
+                            var reg = new RegExp(scope.component["links"][i].portion, "gi");
+                            final=final.replace(reg, `<span class="fa fa-globe"></span><a class="website-link" target="_blank" href="${scope.component["links"][i].href}">${scope.component["links"][i].portion}</a>`);
                         }
+                        $(elem).find("p").html(final);
                     }
+                    
                 },0);
+    
             }
         }
     }]);

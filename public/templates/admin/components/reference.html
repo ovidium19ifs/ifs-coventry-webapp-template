@@ -1,0 +1,36 @@
+<ng-form name="componentSpecifics" novalidate>
+    <div class="form-group text-center">
+        <label for="textTitle">Title:</label>
+        <input class="form-control" name="textTitle" id="textTitle" ng-model="item.element.title" ng-required="true">
+    </div>
+    <div class="form-group text-center">
+        <label for="textAuthors">Authors:</label>
+        <textarea class="form-control" name="textAuthors" id="textAuthors" rows="5" cols="25"  ng-model="ctrl.authors" ></textarea>
+
+        <small  class="form-text text-success">
+            If there are multiple authors, please only write 1 author per line. Make sure you end each line by pressing ENTER.
+        </small>
+    </div>
+    <div class="form-group text-center">
+        <label for="textVolume">Volume:</label>
+        <input class="form-control" name="textVolume" id="textVolume"  ng-model="item.element.volume">
+    </div>
+
+    <div class="form-group text-center">
+        <label for="textYear">Year:</label>
+        <input class="form-control" name="textYear" id="textYear"  ng-model="item.element.year" ng-pattern="/^[0-9]{4}$/">
+        <span ng-if="componentSpecifics.textYear.$error.pattern"> Must be in the format <span class="font-italic text-success">yyyy</span></span>
+    </div>
+    <div class="form-group text-center">
+        <label for="textPages">Pages:</label>
+        <input class="form-control" name="textPages" id="textPages"  ng-model="item.element.pages">
+    </div>
+    <div class="form-group text-center">
+        <label for="textPublisher">Publisher:</label>
+        <input class="form-control" name="textPublisher" id="textPublisher"  ng-model="item.element.publisher">
+    </div>
+    <div class="form-group text-center">
+        <label for="textVolume">URL:</label>
+        <input type="url" class="form-control" name="textLink" id="textLink"  ng-model="item.element.link" optional>
+    </div>
+</ng-form>

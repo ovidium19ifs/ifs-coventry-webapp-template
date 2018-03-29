@@ -7,10 +7,11 @@ module.exports = function(application){
             restrict: "A",
             link: function (scope, elem, attrs, ctrl, transcludeFn) {
                 let arr = $parse(attrs['callbackArray'])(scope);
-                var content = angular.element(`<div class="btn-group btn-group-sm " role="group">
-  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$first" ng-click="sendUpMessage()" ><span class="fa fa-arrow-up"></span></button>
-  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$last" ng-click="sendDownMessage()"><span class="fa fa-arrow-down"></span></button>
-  <button type="button " class="btn btn-danger small py-0 px-1" ng-click="sendDeleteMessage()"><span class="fa fa-trash"></span></button>
+                let classes= attrs['ifsEditableClass'] || '';
+                var content = angular.element(`<div class="btn-group btn-group-sm ${classes} " role="group">
+  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$first" ng-click="sendUpMessage($event)" ><span class="fa fa-arrow-up"></span></button>
+  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$last" ng-click="sendDownMessage($event)"><span class="fa fa-arrow-down"></span></button>
+  <button type="button " class="btn btn-danger small py-0 px-1" ng-click="sendDeleteMessage($event)"><span class="fa fa-trash"></span></button>
 </div>`);
                 content.css({
                     position: "absolute",
@@ -34,8 +35,10 @@ module.exports = function(application){
                     elem.append(content);
                 },0);
     
-                scope.sendUpMessage = function(){
+                scope.sendUpMessage = function(e){
+                    e.stopPropagation();
                     console.log(scope.$index);
+                    
                     scope.$emit("move",{
                         message: scope.message,
                         index: scope.$index,
@@ -44,7 +47,8 @@ module.exports = function(application){
                         array: arr
                     });
                 };
-                scope.sendDownMessage = function(){
+                scope.sendDownMessage = function(e){
+                    e.stopPropagation();
                     scope.$emit("move",{
                         message: scope.message,
                         index: scope.$index,
@@ -53,7 +57,8 @@ module.exports = function(application){
                         array: arr
                     });
                 };
-                scope.sendDeleteMessage = function(){
+                scope.sendDeleteMessage = function(e){
+                    e.stopPropagation();
                     scope.$emit("deleteFromArray",{
                         message: scope.message,
                         index: scope.$index,

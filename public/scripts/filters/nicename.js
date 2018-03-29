@@ -50,7 +50,7 @@ module.exports = function(application){
                     icon: "fa fa-globe"
                 },
                 {
-                    display: "Link(Telephone)",
+                    display: "Telephone Number",
                     type: "link-telephone",
                     icon: "fa fa-phone"
                 },

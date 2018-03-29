@@ -1,7 +1,7 @@
 <div class="card card-inner">
     <div class="card-body py-2">
         <div class="card-subtitle">
-            E-mail:
+            {{component.subtitle || "E-mail:"}}
         </div>
         <div class="card-text">
             <div ng-repeat="mail in component.links">

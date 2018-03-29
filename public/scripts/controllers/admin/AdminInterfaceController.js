@@ -77,6 +77,7 @@ module.exports = function(application){
             ref[ind] = ref[ind+dif];
             ref[ind+dif] = tempObj;
         }
+        
         var templateMaker = (function(){
             var newSectionsAdded = 0;
             var newChaptersAdded = 0;
@@ -119,6 +120,7 @@ module.exports = function(application){
                 makeComponent
             }
         })();
+        
         $scope.resolveUndo = function(index){
             for (let i=0;i<=index;i++){
                 $scope.undoItems[i].callback.apply(this,$scope.undoItems[i].args);
@@ -157,6 +159,8 @@ module.exports = function(application){
         $scope.$watchCollection(function(){return $scope.selChapter.sections;},function(newV,oldV){
             $scope.broadcast();
         });
+        
+        
         //angular.element is a jquery selector
         //send a message to the chapter summary(right-hand menu) that data has been loaded, so it can link subtitles to page elements
         var container = angular.element(document.getElementById("mainContent2"));
@@ -308,8 +312,11 @@ module.exports = function(application){
                 console.log(reason);
             });
         };
+        
+        
         $scope.$on("move",function(e,args){
                 e.preventDefault();
+                console.log(args);
                 let title;
                 switch (args.message){
                     case 'Chapter':
@@ -324,6 +331,10 @@ module.exports = function(application){
                     case 'Component':
                         title = [["Block",$scope.selBlock.name],["Chapter",$scope.selChapter.name],["Section",$scope.selChapter.sections[args.parentIndex].subtitle],
                             ["Type",$scope.selChapter.sections[args.parentIndex].components[args.index].type]];
+                        break;
+                    case 'Link':
+                        move(args);
+                        return;
                         break;
                     default:
                         break;

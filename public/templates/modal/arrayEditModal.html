@@ -7,15 +7,18 @@
 
     </div>
     <form name="masterForm">
+        <!-- Sections and Components -->
         <div class="card-body component-edit-form" ng-if="item.type!=='Chapter'">
+            <!-- title -->
             <div class="px-3 py-1 font-weight-bold">
                 <h5>
                     <span>Chapter <span class="text-success">{{item.chapter}}</span> <span ng-if="item.section.subtitle"> > Section <span class="text-danger">{{item.section.subtitle}}</span> </span></span>
                 </h5>
 
             </div>
-            <div class="component-basics form-section">
 
+            <div class="component-basics form-section">
+                <!-- Component Basics -->
                 <div class="card mb-2" collapsible-card>
                     <div class="card-header p-1">
                         <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Component Basics<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
@@ -36,11 +39,12 @@
                     </div>
                 </div>
 
+                <!-- Component Type selector -->
                 <div class="card mb-2" ng-if="item.element.hasOwnProperty('type')" collapsible-card>
                     <div class="card-header p-1">
-                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold" ng-click="tog">Component Type<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
+                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Component Type<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
                     </div>
-                    <div class="card-body">
+                    <div class="card-body collapse">
                         <ng-form name="typeForm" novalidate>
                             <div class="form-group text-center types">
                                 <label for="componentType">Component Type: </label>
@@ -48,7 +52,7 @@
                                     <option ng-repeat="type in types" ng-value="type.type">
                                         <div class="flex-item">
                                             <span class="{{type.icon}}" style="width: 25px"></span>
-                                            <span class="ml-2 small" style="width: 75px">{{type.display}}</span>
+                                            <span class="ml-2 small" style="width: 75px">{{type.type | nicename}}</span>
                                         </div>
                                     </option>
                                 </select>
@@ -60,13 +64,25 @@
 
                 <div class="card mb-2" ng-if="item.element.hasOwnProperty('type')" collapsible-card>
                     <div class="card-header p-1">
-                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold" ng-click="tog">{{item.element.type | nicename: types}} Options<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
+                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">{{item.element.type | nicename: types}} Options<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
                     </div>
-                    <div class="card-body"></div>
+                    <div class="card-body collapse">
+                        <text-paragraph-admin ng-if="item.element.type==='text-paragraph'" item="item.element"></text-paragraph-admin>
+                        <text-quote-admin ng-if="item.element.type==='text-quote'"></text-quote-admin>
+                        <text-alert-admin ng-if="item.element.type==='text-alert'"></text-alert-admin>
+                        <text-myth-admin ng-if="item.element.type==='text-mythfact'"></text-myth-admin>
+                        <reference-admin ng-if="item.element.type==='link-reference'"></reference-admin>
+                        <telephone-admin ng-if="item.element.type==='link-telephone'"></telephone-admin>
+                        <email-admin ng-if="item.element.type==='link-email'"></email-admin>
+                        <website-links-admin ng-if="item.element.type==='link-website'"></website-links-admin>
+                        <list-admin ng-if="item.element.type==='list-text'"></list-admin>
+                    </div>
                 </div>
 
             </div>
         </div>
+
+        <!-- Only for Chapters-->
         <div class="card-body component-edit-form" ng-if="item.type==='Chapter'">
             <ng-form name="chapterForm" novalidate >
                 <div class="form-group text-center">
@@ -76,6 +92,13 @@
                 </div>
             </ng-form>
         </div>
+
+
+
+
+
+
+
         <div class="card-footer main text-center">
             <button class="btn btn-success mx-4 " ng-click="closeModal(masterForm)">Save</button>
             <button class="btn btn-danger mx-4"  ng-click="dismissModal($event)">Close without saving</button>

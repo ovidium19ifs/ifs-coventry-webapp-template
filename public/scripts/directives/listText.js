@@ -17,8 +17,9 @@ module.exports = function(application){
                                 console.log(item.text);
                                 console.log("This paragraph has links\n-------------------------------------------------------");
                                 for (var j=0;j<item.links.length;j++){
+                                    if (item.links[j].portion.length<3) continue;
                                     var applied = item.text.replace(item.links[j].portion,"<span class='fa fa-globe'></span><a href='"+item.links[j].href+"' class='list-link' target='_blank'>"+item.links[j].portion+"<\/a>");
-                                    $(".learning-outcome:contains('"+item.links[j].portion+"')").html(applied);
+                                    $(elem).find(`#${j}`).html(applied);
                                 }
                             }
                         }

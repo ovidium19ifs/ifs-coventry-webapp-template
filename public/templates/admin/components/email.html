@@ -1,0 +1,19 @@
+<ng-form name="componentSpecifics" novalidate>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.mails.length" ng-click="ctrl.createMails()">Add Email</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="mail in ctrl.mails" ifs-editable="Link" callback-array="ctrl.mails" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Mail {{$index}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body">
+                <div class="form-group text-center">
+                    <label for="label{{$index}}">Label:</label>
+                    <input id="label{{$index}}"  name="label{{$index}}" class="form-control m-auto" ng-model="mail.tag" placeholder="Label to show" optional>
+                    <label for="myth{{$index}}">E-mail:</label>
+                    <input id="myth{{$index}}" type="email" name="myth{{$index}}" class="form-control m-auto" ng-model="mail.text" placeholder="Enter email" ng-required="true">
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.mails.length>0" ng-click="ctrl.addMail()">Add another</a>
+    </div>
+</ng-form>

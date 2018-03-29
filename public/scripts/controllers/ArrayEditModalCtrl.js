@@ -2,12 +2,11 @@ module.exports = function(application){
     "use strict";
     //this uses angular ui bootstrap modal component
     //need to inject $uibModalInstance to properly close the modal instance
-    application.controller("ArrayEditModalCtrl",["$scope","$uibModalInstance","item",
-        function($scope,$uibModalInstance,item){
+    application.controller("ArrayEditModalCtrl",["$scope","$uibModalInstance","item","links","authors",
+        function($scope,$uibModalInstance,item,links,authors){
             "use strict";
             //set height of container
            // $('.modal-content .card.main')
-            console.log(item);
             $scope.item = item;
             $scope.types = [
                 {
@@ -86,19 +85,73 @@ module.exports = function(application){
                     icon: "fa fa-quote-right"
                 }
             ];
+            console.log(item);
             $scope.closeModal = function(f){
-                console.log(f);
                 if (f.$valid){
-                    $uibModalInstance.close({val: true});
+                    
+                    if (item.element.type==='text-paragraph'){
+                        console.log("Rebooting element");
+                        /*
+                        var element = angular.copy(item.element);
+                        element.links = links.links;
+                        links.links = [];
+                        $uibModalInstance.close({reboot: true,element});
+                        */
+                        $uibModalInstance.close({reboot: true,element: angular.copy(item.element)});
+                    }
+                    else if (item.element.type==='list-text'){
+                        $uibModalInstance.close({reboot: true,element: angular.copy(item.element)});
+                    }
+                    else if (item.element.hasOwnProperty("authors") && authors.authors!==item.element.authors.reduce((acc,curr) => acc.concat(`${curr.name}\n`),'')){
+                        item.element.authors = [];
+                        authors.authors.split("\n").forEach(function(elem,index){
+                            console.log(index);
+                           item.element.authors.push({name: elem});
+                        });
+                        authors.authors = '';
+                        $uibModalInstance.close({reboot: false});
+                    }
+                    else if(item.element.type==='link-email'){
+                        item.element.links = item.element.links.map(function(elem){
+                            elem.link = `mailto:`+elem.text;
+                            return elem;
+                        });
+                        $uibModalInstance.close({reboot: false});
+                    }
+                    else{
+                        $uibModalInstance.close({reboot: false});
+                    }
+                    
                 }
                 
             };
             $scope.dismissModal = function(e){
-                console.log(e);
+                
                 $uibModalInstance.dismiss("Modal dismissed");
             };
             $scope.log = function(){
-                console.log(this);
-            }
+            };
+            $scope.$on("move",function(e,args){
+                e.preventDefault();
+                e.stopPropagation();
+                console.log(args);
+                var dir = args.direction;
+                if (dir==="up"){
+                    var dif=-1;
+                }
+                else{
+                    var dif=1;
+                }
+                var ind = args.index;
+    
+                if (args.hasOwnProperty("index") && typeof args.index === "undefined") return;
+                let ref = args.array;
+                let tempObj = ref[ind];
+                ref[ind] = ref[ind+dif];
+                ref[ind+dif] = tempObj;
+            });
+            $scope.$on("deleteFromArray",function(e,args){
+               args.array.splice(args.index,1);
+            });
         }]);
 };

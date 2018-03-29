@@ -9,6 +9,7 @@ module.exports = function(application){
                 var arr = $parse(attrs['contextArray'])(scope);
                 var index = $parse(attrs['indexInContext'])(scope);
                 var type = attrs['editType'];
+                //minor fix as this does not update correctly when changing pages in the editor
                 if (type === 'Chapter'){
                     scope.$watch('selChapter',function(newV,oldV){
                         element = newV;
@@ -24,7 +25,7 @@ module.exports = function(application){
                     let master = angular.copy(element);
                     let changed=false;
                     let init=0;
-                    let watcher = scope.$watchCollection(function(){return element;},function(){
+                    let watcher = scope.$watch(function(){return element;},function(){
                         console.log("called");
                         if (init>0){
                             changed=true;
@@ -32,7 +33,8 @@ module.exports = function(application){
                             watcher();
                         }
                         init++;
-                    });
+                    },true);
+                    
                     var modalInstance = $uibModal.open({
                         template: require('../../../templates/modal/arrayEditModal.html'),
                         controller: "ArrayEditModalCtrl",
@@ -51,16 +53,20 @@ module.exports = function(application){
                         }
                     });
                     modalInstance.result.then(function(res){
-                        if (changed) {
+                        if (changed || res.reboot) {
                             if (type==='Section'){
                                 console.log("Broadcasting");
                                 scope.broadcast();
+                            }
+                            console.log(res.element);
+                            if (res.reboot){
+                                arr.splice(index,1,res.element);
                             }
                             scope.registerUndo('Edit',{
                                 type,
                                 context: arr,
                                 index,
-                                element,
+                                element: res.reboot ? res.element : element,
                                 master,
                                 title: type==='Component' ? master.type : type==='Section' ? master.subtitle : master.name
                             });
@@ -69,8 +75,8 @@ module.exports = function(application){
         
                     },function(reason){
                         console.log(reason);
-                        scope[attrs['component']] = angular.copy(master);
-                        element = scope[attrs['component']];
+                        arr[index] = angular.copy(master);
+                        element = arr[index];
                     });
                 });
             },

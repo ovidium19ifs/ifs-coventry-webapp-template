@@ -1,0 +1,21 @@
+<ng-form name="componentSpecifics" novalidate>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.myths.length" ng-click="ctrl.createMyths()">Add Myth/Fact</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="mf in ctrl.myths" ifs-editable="Link" callback-array="ctrl.myths" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Link {{$index}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body">
+                <div class="form-group text-center">
+                    <label for="myth{{$index}}">Myth</label>
+                    <textarea id="myth{{$index}}" name="myth{{$index}}" class="form-control m-auto" ng-model="mf.myth" placeholder="The myth..." ng-required="true"></textarea>
+                </div>
+                <div class="form-group text-center">
+                    <label for="fact{{$index}}">Fact</label>
+                    <textarea id="fact{{$index}}" name="fact{{$index}}" class="form-control m-auto" ng-model="mf.fact" placeholder="The fact..." ng-required="true"></textarea>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.myths.length>0" ng-click="ctrl.addMyth()">Add Myth/Fact</a>
+    </div>
+</ng-form>

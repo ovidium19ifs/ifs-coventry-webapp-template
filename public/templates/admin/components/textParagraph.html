@@ -1,0 +1,31 @@
+<ng-form name="componentSpecifics" class="sub-form" novalidate>
+    <div class="form-group text-center">
+        <label for="textParagraph">Text:</label>
+        <textarea class="form-control" name="textParagraph" id="textParagraph" cols="30" rows="5" ng-model="item.text"></textarea>
+
+    </div>
+    <div class="form-group text-center">
+        <input class="form-check-input" type="checkbox" ng-model="item.embolden" id="componentHr">
+        <label class="form-check-label" for="componentHr">Emphasize text</label>
+    </div>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.links.length" ng-click="ctrl.createLinks()">Embed Links</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="link in ctrl.links" ifs-editable="Link" callback-array="ctrl.links" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Link {{$index}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body">
+                <div class="form-group text-center">
+                    <label for="linkportion{{$index}}">Text to Hyperlink</label>
+                    <input id="linkportion{{$index}}" name="linkportion{{$index}}" class="form-control m-auto" ng-model="link.portion" placeholder="The portion of text to be hyperlinked" ng-required="true">
+                </div>
+                <div class="form-group text-center">
+                    <label for="link{{$index}}">URL</label>
+                    <input id="link{{$index}}" name="link{{$index}}" class="form-control m-auto" ng-model="link.href" placeholder="Url to link to" ng-required="true">
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.links.length>0" ng-click="ctrl.addLink()">Add Link</a>
+    </div>
+</ng-form>
+

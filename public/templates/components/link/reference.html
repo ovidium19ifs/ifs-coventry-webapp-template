@@ -18,7 +18,8 @@
 
         <div class="card-text">
             <b>Title: </b>
-            <a class="website-link" href="{{component.link}}" title="Go to: {{component.link}}" target="_blank">{{component.title}}</a>
+            <span ng-if="!component.link">{{component.title}}</span>
+            <a class="website-link" href="{{component.link}}" title="Go to: {{component.link}}" target="_blank" ng-if="component.link">{{component.title}}</a>
         </div>
 
         <div class="card-text" ng-show="component.publisher">

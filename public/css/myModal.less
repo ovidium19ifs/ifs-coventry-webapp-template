@@ -78,6 +78,15 @@
   }
 }
 .form-section{
+  input[optional]{
+    position:relative;
+    &:after{
+      content: 'optional';
+      font-style: italic;
+      font-size: 0.9rem;
+      padding-left: 10px;
+    }
+  }
   .card-header{
     background: #336699;
     color: #e2e6ea;
@@ -87,6 +96,12 @@
   }
   .card{
     border-color: #336699;
+    .link-card{
+      .card-body{
+        color:white;
+        background: lighten(#336699,20%);
+      }
+    }
   }
   .types{
     .flex-item{

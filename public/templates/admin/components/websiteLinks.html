@@ -1,0 +1,19 @@
+<ng-form name="componentSpecifics" novalidate>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.links.length" ng-click="ctrl.createLinks()">Add Link</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="link in ctrl.links" ifs-editable="Link" callback-array="ctrl.links" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Link {{$index+1}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body">
+                <div class="form-group text-center">
+                    <label for="label{{$index}}">Display:</label>
+                    <input id="label{{$index}}"  name="label{{$index}}" class="form-control m-auto" ng-model="link.text" placeholder="Label to show" optional>
+                    <label for="myth{{$index}}">Link:</label>
+                    <input id="myth{{$index}}" type="url" name="myth{{$index}}" class="form-control m-auto" ng-model="link.link" placeholder="Enter URL" ng-required="true">
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.links.length>0" ng-click="ctrl.addLink()">Add another</a>
+    </div>
+</ng-form>
