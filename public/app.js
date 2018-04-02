@@ -47,8 +47,13 @@ var application = angular.module("MyApp",["ngRoute","ngResource","ngAnimate","du
         "use strict";
         $anchorScroll.yOffset = 90;
     });
-application.config(["$routeProvider","$locationProvider",
-    function ($routeProvider,$locationProvider) {
+application.config(["$routeProvider","$locationProvider","$compileProvider",
+    function ($routeProvider,$locationProvider,$compileProvider) {
+        var oldWhiteList = $compileProvider.imgSrcSanitizationWhitelist();
+        var oldHrefList = $compileProvider.aHrefSanitizationWhitelist();
+        $compileProvider.imgSrcSanitizationWhitelist(/^\s*(https?|ftp|file|blob):|data:image\//);
+        $compileProvider.aHrefSanitizationWhitelist(/^\s*(https?|ftp|file|blob):|data:image\//);
+
     $routeProvider.when("/content/:group/blocks/:blockname/chapter/:chaptername",{
         templateUrl: "templates/newContent.html",
         controller: "MainContentCtrl",
@@ -194,6 +199,16 @@ application.config(["$routeProvider","$locationProvider",
             templateUrl : "templates/mainmenu.html",
             controller: "MainMenuController"
         })
+        .when("/test",{
+            templateUrl: "templates/test.html",
+            controller: "TestController",
+            resolve:{
+                dataBlock: function(){
+                    "use strict";
+                    return undefined;
+                }
+            }
+        })
         .otherwise({
         });
     $locationProvider.html5Mode(true);
@@ -209,6 +224,7 @@ require('./scripts/controllers/ArrayEditModalCtrl')(application);
 require('./scripts/controllers/ArrayAddComponentModalCtrl')(application);
 require('./scripts/directives/collapsibleCard')(application);
 require('./scripts/controllers/ContentRedirecter')(application);
+require('./scripts/controllers/TestController')(application);
 //require('./scripts/controllers/IntroductionCtrl')(application);
 require('./scripts/controllers/MainContentCtrl')(application);
 require('./scripts/controllers/MainMenuController')(application);
@@ -216,6 +232,7 @@ require('./scripts/controllers/searchController')(application);
 require('./scripts/controllers/TestCtrl')(application);
 require('./scripts/services/dataFetcher')(application);
 require('./scripts/services/navigate')(application);
+require('./scripts/services/fileService')(application);
 require('./scripts/services/links')(application);
 require('./scripts/services/authors')(application);
 require('./scripts/filters/capitalize')(application);
