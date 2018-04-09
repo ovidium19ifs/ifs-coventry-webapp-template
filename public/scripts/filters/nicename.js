@@ -36,7 +36,7 @@ module.exports = function(application){
                 },
                 {
                     display: "Video",
-                    type: "video",
+                    type: "video-single",
                     icon: "fa fa-play"
                 },
                 {

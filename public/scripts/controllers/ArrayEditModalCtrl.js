@@ -2,11 +2,23 @@ module.exports = function(application){
     "use strict";
     //this uses angular ui bootstrap modal component
     //need to inject $uibModalInstance to properly close the modal instance
-    application.controller("ArrayEditModalCtrl",["$scope","$uibModalInstance","item","links","authors",
-        function($scope,$uibModalInstance,item,links,authors){
+    application.controller("ArrayEditModalCtrl",["$scope","$uibModalInstance","item","links","authors","fileService","$timeout",
+        function($scope,$uibModalInstance,item,links,authors,fileService,$timeout){
             "use strict";
             //set height of container
            // $('.modal-content .card.main')
+            var files = {};
+            //overwrite default behaviour on pressing Enter in inputs of type text
+            /*
+            $(document).on("keypress", ":input:not(textarea)", function(event) {
+                console.log("pressed: "+ event.keyCode);
+                return event.keyCode != 13;
+            });*/
+            var container;
+            $timeout(function(){
+                container = angular.element(document.getElementsByClassName("component-edit-form"));
+                console.log(container);
+            },0);
             $scope.item = item;
             $scope.types = [
                 {
@@ -41,7 +53,7 @@ module.exports = function(application){
                 },
                 {
                     display: "Video",
-                    type: "video",
+                    type: "video-single",
                     icon: "fa fa-play"
                 },
                 {
@@ -85,8 +97,11 @@ module.exports = function(application){
                     icon: "fa fa-quote-right"
                 }
             ];
-            console.log(item);
+            
+           
             $scope.closeModal = function(f){
+                console.log(f);
+                fileService.log();
                 if (f.$valid){
                     
                     if (item.element.type==='text-paragraph'){
@@ -99,16 +114,27 @@ module.exports = function(application){
                         */
                         $uibModalInstance.close({reboot: true,element: angular.copy(item.element)});
                     }
+                    else if (item.element.type === 'video-single' || item.element.type==='video-carousel'){
+                        console.log(item.element.type);
+                        $uibModalInstance.close({reboot: true,element: item.element});
+                    }
                     else if (item.element.type==='list-text'){
                         $uibModalInstance.close({reboot: true,element: angular.copy(item.element)});
                     }
-                    else if (item.element.hasOwnProperty("authors") && authors.authors!==item.element.authors.reduce((acc,curr) => acc.concat(`${curr.name}\n`),'')){
-                        item.element.authors = [];
-                        authors.authors.split("\n").forEach(function(elem,index){
-                            console.log(index);
-                           item.element.authors.push({name: elem});
-                        });
-                        authors.authors = '';
+                    else if (item.element.type === 'link-reference'){
+                        let itemAuthors = '';
+                        if (item.element.hasOwnProperty("authors")){
+                            itemAuthors = item.element.authors.reduce((acc,curr) => acc.concat(`${curr.name}\n`),'');
+                        }
+                        if(itemAuthors !== authors.authors){
+                            item.element.authors = [];
+                            console.log("Detecting reference, editin authors");
+                            authors.authors.split("\n").forEach(function(elem,index){
+        
+                                item.element.authors.push({name: elem});
+                            });
+                            authors.authors = '';
+                        }
                         $uibModalInstance.close({reboot: false});
                     }
                     else if(item.element.type==='link-email'){
@@ -118,16 +144,27 @@ module.exports = function(application){
                         });
                         $uibModalInstance.close({reboot: false});
                     }
+                    else if (item.element.type==='link-pdf' || item.element.type === 'image-single'){
+                        fileService.createUrls();
+                        $uibModalInstance.close({reboot: false});
+                    }
                     else{
                         $uibModalInstance.close({reboot: false});
                     }
                     
+                }
+                else{
+                    $scope.$broadcast("invalid");
+                    $timeout(function(){
+                        $scope.$emit("scrollTo",{message: 'invalid'});
+                    },100);
                 }
                 
             };
             $scope.dismissModal = function(e){
                 
                 $uibModalInstance.dismiss("Modal dismissed");
+                console.log(files);
             };
             $scope.log = function(){
             };
@@ -153,5 +190,14 @@ module.exports = function(application){
             $scope.$on("deleteFromArray",function(e,args){
                args.array.splice(args.index,1);
             });
+            $scope.$on("scrollTo",function(e,args){
+                e.preventDefault();
+                e.stopPropagation();
+                if (args.message==='invalid'){
+                
+                   let invalids = container.find("input.ng-invalid,textarea.ng-invalid").first();
+                   container.scrollTo(invalids,50,120);
+                }
+            })
         }]);
 };

@@ -1,6 +1,6 @@
 module.exports = function(application){
     "use strict";
-    application.directive("editElement",["$parse","$uibModal",function($parse,$uibModal){
+    application.directive("editElement",["$parse","$uibModal","$timeout",function($parse,$uibModal,$timeout){
         return{
             restrict: 'E',
             template: require('../../../templates/admin/edit-element.html'),
@@ -26,10 +26,8 @@ module.exports = function(application){
                     let changed=false;
                     let init=0;
                     let watcher = scope.$watch(function(){return element;},function(){
-                        console.log("called");
                         if (init>0){
                             changed=true;
-                            console.log(changed);
                             watcher();
                         }
                         init++;
@@ -60,7 +58,11 @@ module.exports = function(application){
                             }
                             console.log(res.element);
                             if (res.reboot){
-                                arr.splice(index,1,res.element);
+                                arr[index]=undefined;
+                                $timeout(function(){
+                                    console.log("Rebooting element through timeout");
+                                    arr[index] = res.element;
+                                },100);
                             }
                             scope.registerUndo('Edit',{
                                 type,
@@ -70,6 +72,9 @@ module.exports = function(application){
                                 master,
                                 title: type==='Component' ? master.type : type==='Section' ? master.subtitle : master.name
                             });
+                        }
+                        else{
+                            watcher();
                         }
                         
         

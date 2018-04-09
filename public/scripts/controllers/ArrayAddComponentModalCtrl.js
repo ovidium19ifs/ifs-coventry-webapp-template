@@ -39,13 +39,18 @@ module.exports = function(application){
                 },
                 {
                     display: "Video",
-                    type: "video",
+                    type: "video-single",
                     icon: "fa fa-play"
                 },
                 {
                     display: "Video(Multiple)",
                     type: "video-carousel",
                     icon: "fa fa-file-video-o"
+                },
+                {
+                    display: "Video",
+                    type: "video-single",
+                    icon: "fa fa-video"
                 },
                 {
                     display: "Link(Web)",

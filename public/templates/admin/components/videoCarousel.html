@@ -1,10 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<ng-form name="componentSpecifics" novalidate>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.items.length" ng-click="ctrl.createItems()">Add List entry</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="item in ctrl.items" ifs-editable="Link" callback-array="ctrl.items" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Video{{$index+1}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body collapse">
+                <div class="form-group">
+                    <label for="sub{{$index}}">Title: </label>
+                    <input type="text" name="sub{{$index}}" id="sub{{$index}}" class="form-control" ng-model="item.subtitle">
+                </div>
+                <video-admin form-name="video{{$index}}" item="item"></video-admin>
+
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.items.length>0" ng-click="ctrl.addItem()">Add another</a>
+    </div>
+</ng-form>

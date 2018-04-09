@@ -110,3 +110,22 @@
   }
 
 }
+//Form
+form[name='masterForm'].ng-submitted{
+  input[type='file'].ng-invalid.ng-dirty + .fileSelector{
+    border-color: #d40202;
+    border-width: 3px;
+    box-shadow: 0px 0px 1px 1px #d40202;
+
+    &:hover{
+      color:white;
+      background-color: red;
+    }
+  }
+  input.ng-invalid,
+  textarea.ng-invalid{
+    border-color: #d40202;
+    border-width: 3px;
+    box-shadow: 0px 0px 1px 1px #d40202;
+  }
+}

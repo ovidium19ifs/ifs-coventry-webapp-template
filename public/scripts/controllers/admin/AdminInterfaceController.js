@@ -1,6 +1,6 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter",function($scope,dataBlock,$timeout,$uibModal,$filter){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService){
         "use strict";
         function undoMove(args){
             move(args);
@@ -47,6 +47,14 @@ module.exports = function(application){
                     break;
                 case 'Component':
                 case 'Section':
+                    if (args.context[args.index].type === 'link-pdf'){
+                        console.log("Undoing a link-pdf, gottac check for file references");
+                        args.context[args.index].links.forEach(function(ctx){
+                           if (ctx.link.startsWith('blob')){
+                               fileService.remove(ctx);
+                           }
+                        });
+                    }
                     args.context[args.index] = angular.copy(args.prev);
                     $scope.broadcast();
                     break;
@@ -377,7 +385,6 @@ module.exports = function(application){
         });
         $scope.$on("ifsPrepareScroll",function(e,args){
             e.preventDefault();
-            console.log(args);
             var title = args[0];
             var elem = angular.element(document.getElementById(title));
             container.scrollToElement(elem,50,120);

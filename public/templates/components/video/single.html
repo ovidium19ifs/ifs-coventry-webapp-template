@@ -1,22 +1,18 @@
 
 <div class="video-player d-flex align-items-center justify-content-between flex-column mt-4">
     <h5 ng-show="element.subtitle">{{element.subtitle}}</h5>
-    <img src="images/{{element.video.thumb}}" alt="{{element.subtitle}}" title="{{element.subtitle}}" class="img-fluid d-block" ng-show="!videoPlaying">
+    <img src="{{element.video.thumb}}" alt="{{element.subtitle}}" title="{{element.subtitle}}" width="200" height="113" class="img-fluid d-block" ng-show="!videoPlaying">
     <button class="btn play-video" ng-click="openVideo($event)">
         <span class="fa fa-play mr-2" ng-show="!videoPlaying"></span>
         {{videoPlaying ? "Hide Video" : "Play Video"}}
     </button>
 
     <iframe type="text/html"
-            ng-src={{link}}
-            frameborder="0" allowfullscreen ng-if="element.video.type==='youtube' && videoPlaying">
-    </iframe>
-
-    <iframe type="text/html"
             ng-src="{{link}}"
             frameborder="0"
             scrolling="no"
-            ng-if="element.video.type==='helix' && videoPlaying"
+            autoplay="false"
+            ng-if="videoPlaying"
             allowfullscreen>
     </iframe>
 

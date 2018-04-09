@@ -27,7 +27,7 @@ module.exports = function(application){
                     "video":{
                         "type": "helix",
                         "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21122&quality=hi&captions=n&chapterId=0",
-                        "thumb": "successful_placement.jpg"
+                        "thumb": "images/successful_placement.jpg"
                     }
                 };
                 $scope.quoteComp = {

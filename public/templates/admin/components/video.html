@@ -1,10 +1,21 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<ng-form name="componentSpecifics" class="sub-form" novalidate>
+    <div class="form-group text-center">
+        <label for="videoUrl">URL</label>
+        <input type="text" name="url" class="form-control" id="videoUrl" ng-pattern="/https?:\/\/(www\.)?[-a-zA-Z0-9@:%._\+~#=]{2,256}\.[a-z]{2,6}\b([-a-zA-Z0-9@:%_\+.~#?&\/\/=]*)/"
+               ng-model="ctrl.element.video.src" ng-model-options="{debounce: 1000}" ng-required="true">
+        <p class="small text-danger" ng-if="componentSpecifics.url.$error.required">You must enter an URL</p>
+        <p class="small text-danger" ng-if="componentSpecifics.url.$error.pattern">The text entered does not match an url</p>
+    </div>
+    <div class="form-group" ng-if="ctrl.element.video.src && !ctrl.youtube">
+
+        <file-uploader context="ctrl.element" form="componentSpecifics">
+            <input type="file"  class="fileUpload" name="fileInput" id="fileInput" ng-model="fileUp" accept="image/*" style="display:none" valid-file="(.jpg|.jpeg|.png)$" data-max-size="20">
+            <button type="button" class="fileSelector btn btn-success form-control"><span class="fa fa-upload mr-3"></span>Add {{ctrl.element.video.thumb ? "Another" : ""}} image</button>
+            <p class="form-text small">You have entered a non-Youtube link. You have to upload your own thumbnail. Maximum allowed size is 20kb, so if your thumbnail doesn't work, resize it to dimensions 200x113</p>
+            <p class="small bg-danger text-white" ng-if="componentSpecifics.$error.validFile">Your file is too big ({{this.file.size}}). Maximum allowed is 20KB.</p>
+            <p class="small bg-danger text-white" ng-if="componentSpecifics.$error.validType">Your file has to be the an image (.jpg/.jpeg/.png)</p>
+        </file-uploader>
+    </div>
+    <p class="small mt-3 mb-1">Current Image: </p>
+    <p class="small bg-dark text-white">{{ctrl.currentImage}}</p>
+</ng-form>

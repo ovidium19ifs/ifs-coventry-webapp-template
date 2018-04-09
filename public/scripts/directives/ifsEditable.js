@@ -9,9 +9,9 @@ module.exports = function(application){
                 let arr = $parse(attrs['callbackArray'])(scope);
                 let classes= attrs['ifsEditableClass'] || '';
                 var content = angular.element(`<div class="btn-group btn-group-sm ${classes} " role="group">
-  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$first" ng-click="sendUpMessage($event)" ><span class="fa fa-arrow-up"></span></button>
-  <button type="button " class="btn btn-info small py-0 px-1" ng-hide="$last" ng-click="sendDownMessage($event)"><span class="fa fa-arrow-down"></span></button>
-  <button type="button " class="btn btn-danger small py-0 px-1" ng-click="sendDeleteMessage($event)"><span class="fa fa-trash"></span></button>
+  <button type="button" class="btn btn-info small py-0 px-1" ng-hide="$first" ng-click="sendUpMessage($event)" ><span class="fa fa-arrow-up"></span></button>
+  <button type="button" class="btn btn-info small py-0 px-1" ng-hide="$last" ng-click="sendDownMessage($event)"><span class="fa fa-arrow-down"></span></button>
+  <button type="button" class="btn btn-danger small py-0 px-1" ng-click="sendDeleteMessage($event)"><span class="fa fa-trash"></span></button>
 </div>`);
                 content.css({
                     position: "absolute",

@@ -8,8 +8,8 @@ module.exports = function(application){
         $scope.$watchCollection('files',function(newV,oldV){
             if (!newV) return;
             for (let f of newV){
-                if (!$scope.urls.hasOwnProperty(f)){
-                    $scope.urls[f] = $window.URL.createObjectURL(f);
+                if (!$scope.urls.hasOwnProperty(f.name)){
+                    $scope.urls[f.name] = $window.URL.createObjectURL(f);
                 }
             }
         });
@@ -21,7 +21,7 @@ module.exports = function(application){
            };
         });
         document.getElementById('fileElem').addEventListener('change',function(){
-            let f = this.files
+            let f = this.files;
             $scope.$apply(function(){
                 $scope.files = f;
                 console.log(f[0]);
@@ -33,7 +33,7 @@ module.exports = function(application){
                 images: fileService.get('images'),
                 pdfs: fileService.get('pdfs')
             };
-        }
+        };
         function constructBody(){
             return new Promise(function(resolve,reject){
                 let requestBody = {};
@@ -47,7 +47,7 @@ module.exports = function(application){
                         requestBody[f.name].type = f.type;
                         requestBody[f.name].content = e.target.result;
                         if (iter==nrOfFiles) resolve(requestBody);
-                    }
+                    };
                     r.readAsBinaryString(f);
                 }
             });

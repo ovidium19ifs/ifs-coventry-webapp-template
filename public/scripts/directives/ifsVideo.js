@@ -56,7 +56,10 @@ module.exports = function(application){
                 
             },
             controller: function($scope,$sce){
-                $scope.link = $sce.trustAsResourceUrl($scope.element.video.src);
+                if ($scope.element.video){
+                    $scope.link = $sce.trustAsResourceUrl($scope.element.video.src);
+                }
+               
                 $scope.videoPlaying=false;
                 $scope.openVideo = function(){
                     $scope.videoPlaying= !$scope.videoPlaying;

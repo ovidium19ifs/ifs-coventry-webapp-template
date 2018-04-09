@@ -2,6 +2,7 @@
     <div class="form-group text-center">
         <label for="textTitle">Title:</label>
         <input class="form-control" name="textTitle" id="textTitle" ng-model="item.element.title" ng-required="true">
+        <p class="form-text small text-danger" ng-if="componentSpecifics.textTitle.$error.required">Title is required.</p>
     </div>
     <div class="form-group text-center">
         <label for="textAuthors">Authors:</label>

@@ -5,12 +5,14 @@
             <div class="card-header p-1" >
                 <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Mail {{$index}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
             </div>
-            <div class="card-body">
+            <div class="card-body collapse">
                 <div class="form-group text-center">
                     <label for="label{{$index}}">Label:</label>
                     <input id="label{{$index}}"  name="label{{$index}}" class="form-control m-auto" ng-model="mail.tag" placeholder="Label to show" optional>
                     <label for="myth{{$index}}">E-mail:</label>
-                    <input id="myth{{$index}}" type="email" name="myth{{$index}}" class="form-control m-auto" ng-model="mail.text" placeholder="Enter email" ng-required="true">
+                    <input id="myth{{$index}}" type="email" name="myth{{$index}}" class="form-control m-auto" ng-model="mail.text" ng-model-options="{updateOn: 'blur'}" placeholder="Enter email" ng-required="true">
+                    <p class="form-text small text-danger" ng-if="componentSpecifics['myth'+$index].$error.required">You must enter an e-mail address. Delete this entry if you don't need it.</p>
+                    <p class="form-text small text-danger" ng-if="componentSpecifics['myth'+$index].$error.email">This is not an e-mail. Must be in the format aaa@bbb.cc</p>
                 </div>
             </div>
         </div>

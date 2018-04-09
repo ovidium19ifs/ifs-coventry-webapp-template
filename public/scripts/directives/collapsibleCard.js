@@ -14,10 +14,33 @@ module.exports = function(application){
                         sign.addClass('fa-arrow-down');
                     }
                     else{
+                        elem.siblings().find('.card-body').each(function(i,e){
+                            let elem = $(e);
+                            console.log(elem);
+                            if (!elem.hasClass('collapse')){
+                                elem.addClass('collapse');
+                                let sign = elem.parent().find('.card-header').find('span');
+                                sign.removeClass('fa-minus');
+                                sign.addClass('fa-arrow-down');
+                            }
+                        });
                         sign.removeClass('fa-arrow-down');
                         sign.addClass('fa-minus');
                     }
                 });
+                scope.$on("invalid",function(e,args){
+                    let invalids = $(body).find("input.ng-invalid,textarea.ng-invalid");
+                    if (invalids.length>0){
+                        if (body.hasClass('collapse')){
+                            body.toggleClass('collapse');
+                            sign.removeClass('fa-arrow-down');
+                            sign.addClass('fa-minus');
+                        }
+                        
+                    }
+                    
+                });
+                header.click();
             }
         }
     }])

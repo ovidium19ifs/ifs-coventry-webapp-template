@@ -251,6 +251,12 @@ require('./scripts/directives/AdminDirectives/components/textMyth')(application)
 require('./scripts/directives/AdminDirectives/components/linkReference')(application);
 require('./scripts/directives/AdminDirectives/components/telephone')(application);
 require('./scripts/directives/AdminDirectives/components/email')(application);
+require('./scripts/directives/AdminDirectives/components/video')(application);
+require('./scripts/directives/AdminDirectives/components/videoCarousel')(application);
+require('./scripts/directives/AdminDirectives/components/files')(application);
+require('./scripts/directives/AdminDirectives/fileUploader')(application);
+require('./scripts/directives/AdminDirectives/validFile')(application);
+require('./scripts/directives/AdminDirectives/components/image')(application);
 require('./scripts/directives/AdminDirectives/components/websiteLinks')(application);
 require('./scripts/directives/AdminDirectives/components/listText')(application);
 require('./scripts/directives/FormDirectives/linkPdf')(application);

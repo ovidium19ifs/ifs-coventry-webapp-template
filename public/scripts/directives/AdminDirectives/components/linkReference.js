@@ -9,8 +9,15 @@ module.exports = function(application){
             },
             controllerAs: 'ctrl',
             controller: ["links","$scope","authors",function(links,$scope,authors){
-                this.authors = $scope.item.element.authors.reduce((acc,curr) => acc.concat(`${curr.name}\n`),'');
-                let watcher = $scope.$watch(function(){return $scope.ctrl.authors},function(newV,oldV){authors.authors = newV});
+                if ($scope.item.element.hasOwnProperty('authors') && $scope.item.element.authors.length>0){
+                    this.authors = $scope.item.element.authors.reduce((acc,curr) => acc.concat(`${curr.name}\n`),'');
+                }
+                else{
+                    this.authors ='';
+                }
+        
+                
+                let watcher = $scope.$watch(function(){return $scope.ctrl.authors},function(newV,oldV){authors.authors = newV;console.log("Updating authors")});
                 $scope.$on("destroy",function(e){
                    watcher();
                 });

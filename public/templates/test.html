@@ -2,7 +2,7 @@
 <div class="card">
     <div class="card-body">
         <button class="btn btn-danger" ng-click="getFiles()">Show Current Files</button>
-        <input type="file" id="fileElem" accept="application/pdf" multiple style="display:none">
+        <input type="file" id="fileElem" accept="application/pdf,image/*" multiple style="display:none">
         <button id="fileSelect">Select some files</button>
         <button class="btn btn-danger" ng-click="sendFiles()" ng-show="files.length>0">Show Current Files</button>
     </div>
@@ -32,3 +32,4 @@
         </div>
     </div>
 </div>
+<iframe width="330" height="270" src="https://vls.uclan.ac.uk/player?autostart=n&fullscreen=y&width=320&height=260&videoId=1985&captions=n&chapterId=0" frameborder="0" scrolling="no"  allowfullscreen></iframe>

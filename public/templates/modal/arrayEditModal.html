@@ -6,7 +6,7 @@
         </p>
 
     </div>
-    <form name="masterForm">
+    <form name="masterForm" id="masterForm" novalidate>
         <!-- Sections and Components -->
         <div class="card-body component-edit-form" ng-if="item.type!=='Chapter'">
             <!-- title -->
@@ -64,18 +64,23 @@
 
                 <div class="card mb-2" ng-if="item.element.hasOwnProperty('type')" collapsible-card>
                     <div class="card-header p-1">
-                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">{{item.element.type | nicename: types}} Options<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
+                        <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">{{item.element.type | nicename}} Options<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
                     </div>
                     <div class="card-body collapse">
                         <text-paragraph-admin ng-if="item.element.type==='text-paragraph'" item="item.element"></text-paragraph-admin>
                         <text-quote-admin ng-if="item.element.type==='text-quote'"></text-quote-admin>
-                        <text-alert-admin ng-if="item.element.type==='text-alert'"></text-alert-admin>
+                        <text-alert-admin ng-if="item.element.type==='text-alert' || item.element.type==='thought-bubble'"></text-alert-admin>
                         <text-myth-admin ng-if="item.element.type==='text-mythfact'"></text-myth-admin>
                         <reference-admin ng-if="item.element.type==='link-reference'"></reference-admin>
                         <telephone-admin ng-if="item.element.type==='link-telephone'"></telephone-admin>
                         <email-admin ng-if="item.element.type==='link-email'"></email-admin>
                         <website-links-admin ng-if="item.element.type==='link-website'"></website-links-admin>
                         <list-admin ng-if="item.element.type==='list-text'"></list-admin>
+                        <files-admin ng-if="item.element.type==='link-pdf'"></files-admin>
+                        <image-admin ng-if="item.element.type==='image-single'"></image-admin>
+                        <video-admin ng-if="item.element.type==='video-single'" item="item.element"></video-admin>
+                        <video-carousel-admin ng-if="item.element.type==='video-carousel'"></video-carousel-admin>
+
                     </div>
                 </div>
 
@@ -100,7 +105,7 @@
 
 
         <div class="card-footer main text-center">
-            <button class="btn btn-success mx-4 " ng-click="closeModal(masterForm)">Save</button>
+            <button type="submit" class="btn btn-success mx-4 " ng-click="closeModal(masterForm)">Save</button>
             <button class="btn btn-danger mx-4"  ng-click="dismissModal($event)">Close without saving</button>
         </div>
     </form>

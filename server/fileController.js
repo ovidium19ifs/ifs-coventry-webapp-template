@@ -11,7 +11,6 @@ module.exports.update = function(){
                console.log(err);
                return;
            }
-           console.log(this);
            module.exports.files[folder] = files;
         });
     }

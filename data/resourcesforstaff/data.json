@@ -271,7 +271,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/tqobBVtrM-k",
-                  "thumb": "tqobBVtrM-k.jpg"
+                  "thumb": "images/tqobBVtrM-k.jpg"
                 },
                 "space_after": false
               }
@@ -771,7 +771,7 @@
                 "video": {
                   "type": "helix",
                   "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=204&quality=hi&captions=n&chapterId=0",
-                  "thumb": "thumb_great_expectations.jpg"
+                  "thumb": "images/thumb_great_expectations.jpg"
                 },
                 "space_after": true
               },
@@ -781,7 +781,7 @@
                 "video": {
                   "type": "helix",
                   "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=213&quality=hi&captions=n&chapterId=0",
-                  "thumb": "thumb_learning_experience.jpg"
+                  "thumb": "images/thumb_learning_experience.jpg"
                 },
                 "space_after": false
               }
@@ -842,7 +842,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=207&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_supporting_student.jpg"
+                      "thumb": "images/thumb_supporting_student.jpg"
                     }
                   },
                   {
@@ -851,7 +851,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=208&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_unsatisfactory_student.jpg"
+                      "thumb": "images/thumb_unsatisfactory_student.jpg"
                     }
                   }
                 ]
@@ -867,7 +867,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2686&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_reasonable_adjustment.jpg"
+                      "thumb": "images/thumb_swan_reasonable_adjustment.jpg"
                     }
                   },
                   {
@@ -876,7 +876,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2680&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_defining.jpg"
+                      "thumb": "images/thumb_swan_defining.jpg"
                     }
                   },
                   {
@@ -885,7 +885,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2681&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_diversity.jpg"
+                      "thumb": "images/thumb_swan_diversity.jpg"
                     }
                   },
                   {
@@ -894,7 +894,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2683&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_supporting.jpg"
+                      "thumb": "images/thumb_swan_supporting.jpg"
                     }
                   },
                   {
@@ -903,7 +903,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2684&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_practical_examples.jpg"
+                      "thumb": "images/thumb_swan_practical_examples.jpg"
                     }
                   },
                   {
@@ -912,7 +912,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2687&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_managing.jpg"
+                      "thumb": "images/thumb_swan_managing.jpg"
                     }
                   },
                   {
@@ -921,7 +921,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2688&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_preconceptions.jpg"
+                      "thumb": "images/thumb_swan_preconceptions.jpg"
                     }
                   }
                 ]
@@ -1006,7 +1006,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/qmXYquQkG5o",
-                  "thumb": "qmXYquQkG5o.jpg"
+                  "thumb": "images/qmXYquQkG5o.jpg"
                 }
               },
               {
@@ -1016,7 +1016,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/QWhjJWavsKk",
-                  "thumb": "QWhjJWavsKk.jpg"
+                  "thumb": "images/QWhjJWavsKk.jpg"
                 }
               },
               {
@@ -1082,7 +1082,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/NRtztkc35hg",
-                  "thumb": "equality_act_disability.jpg"
+                  "thumb": "images/equality_act_disability.jpg"
                 },
                 "space_after": true
               },
@@ -1352,7 +1352,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/MFOOzzoRtDc?start=97",
-                  "thumb": "reasonable_adjustments_eq_act.jpg"
+                  "thumb": "images/reasonable_adjustments_eq_act.jpg"
                 },
                 "space_after": true
               },
@@ -1362,7 +1362,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/B_QFO8BW0PI",
-                  "thumb": "reasonable_adjustments_inpractice.jpg"
+                  "thumb": "images/reasonable_adjustments_inpractice.jpg"
                 },
                 "space_after": false
               }
@@ -1407,7 +1407,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/KFisdBqa19M",
-                      "thumb": "KFisdBqa19M.jpg"
+                      "thumb": "images/KFisdBqa19M.jpg"
                     }
                   },
                   {
@@ -1417,7 +1417,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/R74ioeRCvgg",
-                      "thumb": "R74ioeRCvgg.jpg"
+                      "thumb": "images/R74ioeRCvgg.jpg"
                     }
                   },
                   {
@@ -1427,7 +1427,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/sDCzycN_Xu0",
-                      "thumb": "sDCzycN_Xu0.jpg"
+                      "thumb": "images/sDCzycN_Xu0.jpg"
                     }
                   },
                   {
@@ -1437,7 +1437,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/29m1vdeMIyI",
-                      "thumb": "29m1vdeMIyI.jpg"
+                      "thumb": "images/29m1vdeMIyI.jpg"
                     }
                   }
                 ],
@@ -1746,7 +1746,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/kEQeX8Gv4Ic",
-                  "thumb": "kEQeX8Gv4Ic.jpg"
+                  "thumb": "images/kEQeX8Gv4Ic.jpg"
                 }
               }
             ],
@@ -1787,7 +1787,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2680&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_defining.jpg"
+                      "thumb": "images/thumb_swan_defining.jpg"
                     }
                   },
                   {
@@ -1797,7 +1797,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2681&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_diversity.jpg"
+                      "thumb": "images/thumb_swan_diversity.jpg"
                     }
                   },
                   {
@@ -1807,7 +1807,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2683&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_supporting.jpg"
+                      "thumb": "images/thumb_swan_supporting.jpg"
                     }
                   },
                   {
@@ -1817,7 +1817,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2684&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_practical_examples.jpg"
+                      "thumb": "images/thumb_swan_practical_examples.jpg"
                     }
                   },
                   {
@@ -1827,7 +1827,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2686&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_reasonable_adjustment.jpg"
+                      "thumb": "images/thumb_swan_reasonable_adjustment.jpg"
                     }
                   },
                   {
@@ -1837,7 +1837,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2687&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_managing.jpg"
+                      "thumb": "images/thumb_swan_managing.jpg"
                     }
                   },
                   {
@@ -1847,7 +1847,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2688&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_swan_preconceptions.jpg"
+                      "thumb": "images/thumb_swan_preconceptions.jpg"
                     }
                   }
                 ]
@@ -1870,7 +1870,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/mOf8xBDcsyo",
-                  "thumb": "mOf8xBDcsyo.jpg"
+                  "thumb": "images/mOf8xBDcsyo.jpg"
                 }
               }
             ],
@@ -1931,7 +1931,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/C-uyB5I6WnQ",
-                  "thumb": "C-uyB5I6WnQ.jpg"
+                  "thumb": "images/C-uyB5I6WnQ.jpg"
                 }
               }
             ]
@@ -1961,7 +1961,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/cdUx3teXih8",
-                  "thumb": "cdUx3teXih8.jpg"
+                  "thumb": "images/cdUx3teXih8.jpg"
                 }
               }
             ],
@@ -2033,7 +2033,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2261&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_students_perspectives.jpg"
+                      "thumb": "images/thumb_students_perspectives.jpg"
                     }
                   },
                   {
@@ -2043,7 +2043,7 @@
                     "video": {
                       "type": "helix",
                       "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=2247&quality=hi&captions=n&chapterId=0",
-                      "thumb": "thumb_pre_placement.jpg"
+                      "thumb": "images/thumb_pre_placement.jpg"
                     }
                   }
                 ]
@@ -2534,7 +2534,7 @@
                 "video": {
                   "type": "youtube",
                   "src": "https://www.youtube.com/embed/QKs41bX8K1Y",
-                  "thumb": "QKs41bX8K1Y.jpg"
+                  "thumb": "images/QKs41bX8K1Y.jpg"
                 }
               }
             ]
@@ -2759,7 +2759,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/M9hyWVEG2x0",
-                      "thumb": "M9hyWVEG2x0.jpg"
+                      "thumb": "images/M9hyWVEG2x0.jpg"
                     }
                   },
                   {
@@ -2768,7 +2768,7 @@
                     "video": {
                       "type": "youtube",
                       "src": "https://www.youtube.com/embed/Vt0-2nucCMI",
-                      "thumb": "Vt0-2nucCMI.jpg"
+                      "thumb": "images/Vt0-2nucCMI.jpg"
                     }
                   }
                 ]
