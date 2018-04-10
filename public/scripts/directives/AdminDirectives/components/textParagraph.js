@@ -18,6 +18,10 @@ module.exports = function(application){
             controller: ["links","$scope",function(links,$scope){
                 if ($scope.item.hasOwnProperty('links'))
                     this.links = $scope.item.links;
+                else{
+                    $scope.item.links =[];
+                    this.links = $scope.item.links;
+                }
                 
                 this.createLinks = function(){
                     $scope.item.links = [{}];

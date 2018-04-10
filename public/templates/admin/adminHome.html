@@ -165,9 +165,15 @@
 
 
                         <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
-                        <ul class="list-group p-0" ifs-extendable ifs-extendable-callback="addComponent(section)" ifs-extendable-title="Add New Component" data-classes="btn-warning text-dark"></ul>
+                        <div class=" py-2">
+                            <button class="float-right btn-warning text-dark w-25" ng-click="addComponent(section)" style="cursor: pointer"><span class="fa fa-plus-circle fa-fw text-dark py-1"></span> <span>Add Component</span></button>
+                        </div>
+
                     </div>
-                    <ul class="list-group text-center p-0" ifs-extendable ifs-extendable-callback="addSection()" ifs-extendable-title="Add New Section" data-classes="btn-success"></ul>
+                    <div class=" py-2">
+                        <button class="float-right btn-info w-25 " ng-click="addSection()" style="cursor: pointer"><span class="fa fa-plus-circle fa-fw  py-1 text-white"></span> <span>Add Section</span></button>
+                    </div>
+
                 </div>
             </div>
 

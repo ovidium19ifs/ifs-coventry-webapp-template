@@ -11,7 +11,7 @@ module.exports = function(application){
                 var classes = attrs['classes'] || "";
                 var title = attrs['ifsExtendableTitle'];
                 var content = angular.element(`<li class="list-group-item p-0">
-                        <button class="btn btn-success w-100 btn-sm ${classes}">
+                        <button class="btn w-100 btn-sm ${classes}">
                             <span class="fa fa-plus-circle fa-fw text-white float-left"></span>
                             <span> ${title}</span>
                         </button>
