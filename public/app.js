@@ -222,6 +222,7 @@ require('./scripts/controllers/ArrayDeleteModalCtrl')(application);
 require('./scripts/controllers/ArrayAddModalCtrl')(application);
 require('./scripts/controllers/ArrayEditModalCtrl')(application);
 require('./scripts/controllers/ArrayAddComponentModalCtrl')(application);
+require('./scripts/controllers/ArraySuccessModalCtrl')(application);
 require('./scripts/directives/collapsibleCard')(application);
 require('./scripts/controllers/ContentRedirecter')(application);
 require('./scripts/controllers/TestController')(application);

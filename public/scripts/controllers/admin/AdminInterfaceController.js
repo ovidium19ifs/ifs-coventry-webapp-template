@@ -1,6 +1,6 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window","$location",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window,$location){
         "use strict";
         function undoMove(args){
             move(args);
@@ -499,8 +499,16 @@ module.exports = function(application){
                 console.log(res);
                 dataFetcher.post($scope.group,$scope.data).$promise
                     .then(function(res){
-                        console.log("Data saved");
-                        $window.alert("Data has been saved successfully");
+                        let modalInstance = $uibModal.open({
+                            template   : require('../../../templates/modal/arraySuccessModal.html'),
+                            controller : "ArraySuccessModalCtrl",
+                            animation  : false,
+                            windowClass: "my-modal modal-add",
+                            backdrop   : 'static',
+                        });
+                        modalInstance.result.then(function(res){
+                            $location.url("/");
+                        });
                     })
                     .catch(function(err){
                         console.log("Data not saved");

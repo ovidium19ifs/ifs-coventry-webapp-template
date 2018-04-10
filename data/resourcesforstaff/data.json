@@ -8,69 +8,13 @@
                 "name": "Introduction",
                 "sections": [
                     {
-                        "subtitle": "Section 3",
+                        "subtitle": "Intro",
                         "space_after": false,
                         "components": [
                             {
                                 "type": "text-paragraph",
                                 "links": [],
-                                "text": "SDFOSDFKOSDFKSDfsd dsf"
-                            },
-                            {
-                                "type": "text-paragraph",
-                                "links": [],
-                                "text": "Melodramatic exercises"
-                            }
-                        ]
-                    },
-                    {
-                        "subtitle": "Section 1",
-                        "space_after": false,
-                        "components": [
-                            {
-                                "type": "image-single",
-                                "src": "images/majbull.jpg"
-                            }
-                        ]
-                    }
-                ]
-            },
-            {
-                "blockname": "Introduction",
-                "name": "Images",
-                "sections": [
-                    {
-                        "subtitle": "Videos",
-                        "space_after": false,
-                        "components": [
-                            {
-                                "type": "video-single",
-                                "video": {
-                                    "src": "https://stream.uhi.ac.uk/Player/9920",
-                                    "thumb": "images/majbull.jpg"
-                                }
-                            },
-                            {
-                                "type": "video-single",
-                                "video": {
-                                    "src": "https://www.youtube.com/embed/bsLk0NPRFAc",
-                                    "thumb": "https://img.youtube.com/vi/bsLk0NPRFAc/maxresdefault.jpg"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "subtitle": "Random",
-                        "space_after": false,
-                        "components": [
-                            {
-                                "type": "link-pdf",
-                                "links": [
-                                    {
-                                        "link": "pdfs/Late_Enrolment_Ovidiu_Mitroi.pdf",
-                                        "text": "Late_Enrolment_Ovidiu_Mitroi.pdf"
-                                    }
-                                ]
+                                "text": "Hello World"
                             }
                         ]
                     }
