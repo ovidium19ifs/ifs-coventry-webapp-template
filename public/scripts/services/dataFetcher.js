@@ -4,12 +4,12 @@ module.exports = function(application){
         "use strict";
         //when we get data, we receive an array, therefore we have to specify isArray in the resource method definition
         var resource = $resource("/data/:source",{source:"@source"},{
-            'query': {method: 'GET',cache:true,isArray: true},
+            'query': {method: 'GET',isArray: true}
         });
         return{
             get: function(group){
                 var cache = $cacheFactory.get('$http');
-                return resource.query({source:group,cache:true});
+                return resource.query({source:group});
             },
             post: function(group,data){
                 return resource.save({source:group},data);

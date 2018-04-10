@@ -1,6 +1,6 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window){
         "use strict";
         function undoMove(args){
             move(args);
@@ -136,6 +136,7 @@ module.exports = function(application){
             $scope.undoItems.splice(0,index+1);
         };
         $scope.data = dataBlock;
+        $scope.group = $routeParams.group;
         $scope.undoMode = false;
         $scope.undoItems = [
         ];
@@ -160,7 +161,10 @@ module.exports = function(application){
               $scope.undoItems.unshift(new_undo);
         };
         $scope.selBlock = dataBlock[0];
-        $scope.selChapter = dataBlock[0].chapters[0];
+        if ($scope.selBlock && $scope.selBlock.hasOwnProperty('chapters')){
+            $scope.selChapter = dataBlock[0].chapters[0];
+        }
+        
         $scope.broadcast = function(){
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
         };
@@ -486,6 +490,27 @@ module.exports = function(application){
         });
         $scope.undoToggle = function(){
             $scope.undoMode = !$scope.undoMode;
+        };
+    
+        $scope.saveChanges = function(){
+            console.log($scope.data);
+            console.log(`Saving data to ${$scope.group}`);
+            fileService.post().then(function(res){
+                console.log(res);
+                dataFetcher.post($scope.group,$scope.data).$promise
+                    .then(function(res){
+                        console.log("Data saved");
+                        $window.alert("Data has been saved successfully");
+                    })
+                    .catch(function(err){
+                        console.log("Data not saved");
+                        console.log(err);
+                    });
+                })
+                .catch(function(err){
+                    console.log("Data not saved (files)");
+                    console.log(err);
+                });
         };
     }]);
 };

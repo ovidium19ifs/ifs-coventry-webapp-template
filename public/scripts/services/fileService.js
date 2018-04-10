@@ -8,12 +8,65 @@ module.exports = function(application){
         });
         var files = {};
         var urls = {};
+        function constructBody(data){
+            return new Promise(function(resolve,reject){
+                if (!data || data.length<1) reject({});
+                let requestBody = {};
+                let nrOfFiles = data.length;
+                let iter = 0;
+                for (let f of data){
+                    let r = new FileReader();
+                    r.onload = function(e){
+                        iter++;
+                        requestBody[f.name]={};
+                        requestBody[f.name].type = f.type;
+                        requestBody[f.name].content = e.target.result;
+                        if (iter==nrOfFiles) resolve(requestBody);
+                    };
+                    r.readAsBinaryString(f);
+                }
+            });
+        }
         return{
             get: function(group){
                 return resource.query({folder:group});
             },
-            post: function(data){
-                return resource.save(data);
+            post: function(){
+                let data = [];
+                for (let key of Object.keys(files)){
+                    let dir = '';
+                    if (files[key].file.type.startsWith('image'))
+                            dir = 'images/';
+                    else dir = 'pdfs/';
+                    for (let ctx of files[key].context){
+                        switch (ctx.type){
+                            case 'image-single':
+                                ctx.src = dir+key;
+                                break;
+                            case 'video-single':
+                                ctx.video.thumb = dir+key;
+                                break;
+                            case 'link-pdf':
+                                ctx.link = dir+key;
+                                break;
+                            default:
+                                ctx.link = dir+key;
+                        }
+                    }
+                    data.push(files[key].file);
+                }
+                
+               return constructBody(data).then(function(res){
+                    console.log(this);
+                    console.log(res);
+                    for (let f of Object.keys(files)){
+                        $window.URL.revokeObjectURL(files[f].url);
+                    }
+                    return resource.save(res);
+                })
+                   .catch(function(res){
+                       return;
+                   });
             },
             addFile: function(args){
                 let file = args[1];

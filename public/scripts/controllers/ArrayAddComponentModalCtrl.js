@@ -18,12 +18,12 @@ module.exports = function(application){
                     icon: "fa fa-list"
                 },
                 {
-                    display: "Link(PDF)",
+                    display: "Documents",
                     type: "link-pdf",
                     icon: "fa fa-file-pdf-o"
                 },
                 {
-                    display: "Link(Email)",
+                    display: "E-mail",
                     type: "link-email",
                     icon: "fa fa-envelope-o"
                 },
@@ -43,22 +43,17 @@ module.exports = function(application){
                     icon: "fa fa-play"
                 },
                 {
-                    display: "Video(Multiple)",
+                    display: "Video Carousel",
                     type: "video-carousel",
                     icon: "fa fa-file-video-o"
                 },
                 {
-                    display: "Video",
-                    type: "video-single",
-                    icon: "fa fa-video"
-                },
-                {
-                    display: "Link(Web)",
+                    display: "Website Links",
                     type: "link-website",
                     icon: "fa fa-globe"
                 },
                 {
-                    display: "Link(Telephone)",
+                    display: "Contact Number",
                     type: "link-telephone",
                     icon: "fa fa-phone"
                 },

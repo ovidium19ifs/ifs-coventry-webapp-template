@@ -34,10 +34,10 @@ module.exports = function(application){
                         makeSection: makeSection
                     }
                 })();
-                
-                $scope.selected = $scope.data[0].name;
-                $scope.chSelected = $scope.data[0].name+"-"+$scope.data[0].chapters[0].name;
-                
+                if ($scope.data){
+                    $scope.selected = $scope.data[0].name;
+                    $scope.chSelected = $scope.data[0].name+"-"+$scope.data[0].chapters[0].name;
+                }
                 $scope.select = function(bl_index,evt){
                     evt.preventDefault();
                     evt.stopPropagation();
