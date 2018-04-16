@@ -152,7 +152,7 @@
                                     <ng-include  src="'templates/components/link/reference.html'" ng-if="component.type==='link-reference'"></ng-include>
                                     <ng-include src="'templates/components/images/imageSingle.html'" ng-if="component.type==='image-single'"></ng-include>
                                     <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
-                                    <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
+                                    <quiz-modal-start  ng-if="component.type==='quiz'" component="component"></quiz-modal-start>
                                     <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
                                     <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="(section.subtitle | lowercase | nospaces)+(component.subtitle | lowercase | nospaces)"></video-carousel>
                                 </div>
@@ -166,7 +166,7 @@
 
                         <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
                         <div class=" py-2">
-                            <button class="float-right btn-warning text-dark w-25" ng-click="addComponent(section)" style="cursor: pointer"><span class="fa fa-plus-circle fa-fw text-dark py-1"></span> <span>Add Component</span></button>
+                            <button class="float-right btn-warning text-dark w-25 text-nowrap" ng-click="addComponent(section)" style="cursor: pointer;min-width: 10rem"><span class="fa fa-plus-circle fa-fw text-dark py-1"></span> <span>Add Component</span></button>
                         </div>
 
                     </div>

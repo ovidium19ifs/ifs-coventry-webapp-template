@@ -1,0 +1,17 @@
+<div class="card main">
+    <div class="card-header main p-0">
+        <p class="mb-0">
+            Quiz
+            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+        </p>
+
+    </div>
+    <div class="card-body no-scrolling text-center">
+        <div class="scroll">
+            <quiz-carousel questions="questions"></quiz-carousel>
+        </div>
+    </div>
+    <div class="card-footer main text-center">
+        <button class="btn btn-success mx-4 w-25" ng-click="closeModal()" style="cursor: pointer"> Close</button>
+    </div>
+</div>

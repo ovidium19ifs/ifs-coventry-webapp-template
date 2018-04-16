@@ -55,7 +55,7 @@ module.exports = function(application){
                         answer: $scope.questions[q].answers[i].text,
                         tip: $scope.questions[q].tip
                     };
-                    if ($scope.questions[q].answers[i].id === $scope.questions[q]['correct_answer']){
+                    if ($scope.questions[q].answers[i].text === $scope.questions[q]['correct_answer']){
                         $scope.advanceProgress(true,q);
                         r.correct = true;
                     }
@@ -67,10 +67,13 @@ module.exports = function(application){
                     if (q===$scope.questions.length-1)
                         $timeout(function(){
                             $scope.quizFinished = true;
-                        },1000);
+                        },300);
+                    else{
+                        $($scope.carousel).carousel('next');
+                    }
                 
                 
-                    $($scope.carousel).carousel('next');
+                    
                 };
                 $scope.reloadQuiz = function(){
                     $route.reload();

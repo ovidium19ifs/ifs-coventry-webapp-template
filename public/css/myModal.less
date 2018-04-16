@@ -45,6 +45,64 @@
       background: #28a745;
     }
   }
+  &.modal-quiz{
+    .modal-dialog{
+      max-width: none;
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .modal-content{
+        max-width: 50%;
+        @media screen{
+          @media (max-width: 768px){
+            max-width: 100%;
+          }
+        }
+
+        .card-header.main{
+          background-color: #336699;
+          color: #e2e6ea;
+          span{
+            color: #f4ad46;
+          }
+        }
+        .card-footer.main{
+          box-shadow: 0px 0px 1px 1px gray inset;
+        }
+        .card-body.no-scrolling{
+          overflow: hidden;
+          height: 80vh;
+          padding: 0;
+          padding-top: 1rem;
+          .scroll{
+            overflow-x: hidden;
+            overflow-y: auto;
+            height:100%;
+            margin: 0;
+            &::-webkit-scrollbar-track
+            {
+              -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+              background-color: #F5F5F5;
+            }
+
+            &::-webkit-scrollbar
+            {
+              width: 10px;
+              background-color: #F5F5F5;
+            }
+
+            &::-webkit-scrollbar-thumb
+            {
+              background-color: #336699;
+              -webkit-box-shadow: inset  0 0 2px rgba(0,0,0,0.4);
+            }
+          }
+        }
+      }
+    }
+
+  }
   &.modal-edit{
     & + .modal-backdrop{
       opacity:0.2;
@@ -63,7 +121,7 @@
             height:100vh;
             .component-edit-form{
               overflow-y: auto;
-              height:80%;
+              height:85%;
             }
           }
         }
@@ -98,8 +156,8 @@
     border-color: #336699;
     .link-card{
       .card-body{
-        color:white;
-        background: lighten(#336699,20%);
+        color: #2f4858;
+        background: lighten(#2f4858,50%);
       }
     }
   }
@@ -111,7 +169,15 @@
 
 }
 //Form
+/*
+.error-text{
+  display: none;
+}
+*/
 form[name='masterForm'].ng-submitted{
+  .error-text{
+    display:block;
+  }
   input[type='file'].ng-invalid.ng-dirty + .fileSelector{
     border-color: #d40202;
     border-width: 3px;
@@ -128,4 +194,10 @@ form[name='masterForm'].ng-submitted{
     border-width: 3px;
     box-shadow: 0px 0px 1px 1px #d40202;
   }
+
+}
+input[ng-required].ng-pristine.ng-empty,
+textarea[ng-required].ng-pristine.ng-empty{
+  border-color: #8b3333 ;
+  box-shadow: 0px 0px 1px 1px #8b3333;
 }

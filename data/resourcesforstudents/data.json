@@ -940,7 +940,7 @@
                 "type": "quiz",
                 "questions": [
                   {
-                    "index": 0,
+
                     "text": "Disclosure involves taking responsibility to make your disability known to the university through completing the admissions form or by discussing your disability with the Disabilities Team.",
                     "answers": [
                       {
@@ -952,11 +952,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 0,
+                    "correct_answer": "True",
                     "tip": ""
                   },
                   {
-                    "index": 1,
+
                     "text": "The university can verify your disability when you talk to them about your needs.",
                     "answers": [
                       {
@@ -968,11 +968,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 1,
+                    "correct_answer": "False",
                     "tip": "the university can verify your disability after you have supplied diagnostic evidence."
                   },
                   {
-                    "index": 2,
+
                     "text": "Evidence is only required for a medical condition. ",
                     "answers": [
                       {
@@ -984,11 +984,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 1,
+                    "correct_answer": "False",
                     "tip": "evidence is required for all disabilities including Specific Learning Disabilities (e.g. dyslexia, dyspraxia etc.) "
                   },
                   {
-                    "index": 3,
+
                     "text": "It is your responsibility to verify your disability.",
                     "answers": [
                       {
@@ -1000,11 +1000,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 1,
+                    "correct_answer": "False",
                     "tip": "The Disability Team will verify your disability once they have received diagnostic evidence.  It is your responsibility to disclose and provide evidence in the first instance."
                   },
                   {
-                    "index": 4,
+
                     "text": "The data protection form should be signed at the earliest point.",
                     "answers": [
                       {
@@ -1016,11 +1016,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 0,
+                    "correct_answer": "True",
                     "tip": ""
                   },
                   {
-                    "index": 5,
+
                     "text": "Once your disability is verified by the disabilities Team, all adjustments etc. will be put in place.",
                     "answers": [
                       {
@@ -1032,11 +1032,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 1,
+                    "correct_answer": "False",
                     "tip": "It is useful and important for you to speak directly to your faculty and ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA)."
                   },
                   {
-                    "index": 6,
+
                     "text": "If details of your disability are added and saved on the University’s database all arrangements/ adjustments will be organised. ",
                     "answers": [
                       {
@@ -1048,11 +1048,11 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 1,
+                    "correct_answer": "False",
                     "tip": "Whilst having the details added to the database is necessary it is not a guarantee that everything will run smoothly. It is useful for you to regularly communicate with your faculty to ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA and placement requests)."
                   },
                   {
-                    "index": 7,
+
                     "text": "The disabilities Team will support you with disclosing a disability and completing required documents.",
                     "answers": [
                       {
@@ -1064,7 +1064,7 @@
                         "text": "False"
                       }
                     ],
-                    "correct_answer": 0,
+                    "correct_answer": "True",
                     "tip": "you can make an appointment with a disability advisor using connect2 following the link: https://healthandwellbeingbookings.coventry.ac.uk/"
                   }
                 ],

@@ -16,7 +16,6 @@ module.exports = function(application){
                     else{
                         elem.siblings().find('.card-body').each(function(i,e){
                             let elem = $(e);
-                            console.log(elem);
                             if (!elem.hasClass('collapse')){
                                 elem.addClass('collapse');
                                 let sign = elem.parent().find('.card-header').find('span');

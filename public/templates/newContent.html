@@ -28,7 +28,7 @@
                 <ng-include  src="'templates/components/link/reference.html'" ng-if="component.type==='link-reference'"></ng-include>
                 <ng-include src="'templates/components/images/imageSingle.html'" ng-if="component.type==='image-single'"></ng-include>
                 <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
-                <quiz-carousel  ng-if="component.type==='quiz'" questions="component.questions"></quiz-carousel>
+                <quiz-modal-start  ng-if="component.type==='quiz'" component="component"></quiz-modal-start>
                 <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
                 <video-carousel ng-if="component.type==='video-carousel'" component="component" compkey="(section.subtitle | lowercase | nospaces)+(component.subtitle | lowercase | nospaces)"></video-carousel>
                 <hr class="mid-comp-sep my-5" ng-if="component['space_after']">

@@ -148,6 +148,19 @@ module.exports = function(application){
                         fileService.createUrls();
                         $uibModalInstance.close({reboot: false});
                     }
+                    else if (item.element.type==='quiz'){
+                        item.element.questions = item.element.questions.map(function(elem){
+                            let answers = elem.answers.split("\n");
+                            console.log(answers);
+                            answers = answers.map(elem => {
+                                return {text: elem}
+                            });
+                            elem.answers = answers;
+                            return elem;
+                        });
+                        console.log(item.element.questions);
+                        $uibModalInstance.close({reboot: false});
+                    }
                     else{
                         $uibModalInstance.close({reboot: false});
                     }
