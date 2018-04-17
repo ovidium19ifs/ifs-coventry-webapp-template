@@ -9,10 +9,6 @@ module.exports = function(application){
             },
             controllerAs: 'ctrl',
             controller: ["$scope",function($scope){
-                if ($scope.item.element.questions){
-                    $scope.item.element["questions"].map(elem => elem.answers =  elem.answers.reduce((acc,curr)=>acc+"\n"+curr.text,"").substr(1));
-                }
-                
                 this.items = $scope.item.element["questions"];
                 this.createItems = function(){
                     $scope.item.element["questions"] = [{}];
@@ -21,7 +17,7 @@ module.exports = function(application){
                 };
                 this.addItem = function(){
                     this.items.push({});
-                }
+                };
             }]
         }
     }]);

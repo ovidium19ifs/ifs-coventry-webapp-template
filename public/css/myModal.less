@@ -135,6 +135,19 @@
     }
   }
 }
+.list-group-item.correct-answer{
+  background-color: green;
+  color: white;
+  position:relative;
+  &:after{
+    font-family: FontAwesome;
+    content: '\f00c';
+    position: absolute;
+    right:0.8rem;
+    font-size: 1.1rem;
+    color:white;
+  }
+}
 .form-section{
   input[optional]{
     position:relative;
@@ -201,3 +214,4 @@ textarea[ng-required].ng-pristine.ng-empty{
   border-color: #8b3333 ;
   box-shadow: 0px 0px 1px 1px #8b3333;
 }
+

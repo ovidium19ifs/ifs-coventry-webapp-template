@@ -1375,6 +1375,19 @@ span.fa-plus-circle {
   overflow-y: auto;
   height: 85%;
 }
+.list-group-item.correct-answer {
+  background-color: green;
+  color: white;
+  position: relative;
+}
+.list-group-item.correct-answer:after {
+  font-family: FontAwesome;
+  content: '\F00C';
+  position: absolute;
+  right: 0.8rem;
+  font-size: 1.1rem;
+  color: white;
+}
 .form-section input[optional] {
   position: relative;
 }

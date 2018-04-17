@@ -260,6 +260,7 @@ require('./scripts/directives/AdminDirectives/components/files')(application);
 require('./scripts/directives/AdminDirectives/fileUploader')(application);
 require('./scripts/directives/AdminDirectives/validFile')(application);
 require('./scripts/directives/AdminDirectives/validAnswer')(application);
+require('./scripts/directives/AdminDirectives/interactiveTiles')(application);
 require('./scripts/directives/AdminDirectives/components/image')(application);
 require('./scripts/directives/AdminDirectives/components/websiteLinks')(application);
 require('./scripts/directives/AdminDirectives/components/listText')(application);

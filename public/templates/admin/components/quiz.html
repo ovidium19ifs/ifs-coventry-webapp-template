@@ -8,23 +8,25 @@
             <div class="card-body collapse">
                 <div class="form-group text-center">
                     <label for="text{{$index}}">Text: </label>
-                    <textarea class="form-control" name="text{{$index}}" id="text{{$index}}" cols="30" rows="5" ng-model="item.text" ng-required="true"></textarea>
+                    <textarea class="form-control" name="text{{$index}}" id="text{{$index}}" cols="30" rows="5" ng-model="item.text"  ng-required="true" ></textarea>
                     <p class="small text-danger error-text" ng-if="componentSpecifics['text'+$index].$error.required">This field is required.</p>
+                    <p class="small text-danger error-text" ng-if="componentSpecifics['text'+$index].$error.validAnswer">validAnswer is invalid</p>
                 </div>
                 <div class="form-group text-center">
                     <label for="answer{{$index}}">Answers: </label>
-                    <textarea class="form-control" name="answer{{$index}}" id="answer{{$index}}" cols="30" rows="5" ng-model="item.answers" ng-required="true"></textarea>
+                    <textarea class="form-control" name="answer{{$index}}" id="answer{{$index}}" cols="30" rows="5" ng-model="item.answers"  ng-required="true" valid-answer="answers"></textarea>
                     <p class="form-text bg-light text-success">Write each answer on a new line.</p>
                     <p class="small text-danger error-text" ng-if="componentSpecifics['answer'+$index].$error.required">This field is required.</p>
                 </div>
-
+                <interactive-tile ng-model="item['correct_answer']" ng-required></interactive-tile>
+                <!--
                 <div class="form-group text-center">
                     <label for="correct{{$index}}">Correct Answer: </label>
-                    <input class="form-control" name="correct{{$index}}" id="correct{{$index}}" ng-model="item['correct_answer']" ng-model-options="{ updateOn: 'default blur', debounce: { default: 500, blur: 0 } }" ng-required="true" valid-answer>
+                    <input class="form-control" name="correct{{$index}}" id="correct{{$index}}" ng-model="item['correct_answer']" ng-model-options="{ updateOn: 'default blur', debounce: { default: 500, blur: 0 } }" ng-required="true" valid-answer="correct">
                     <p class="small text-danger error-text" ng-if="componentSpecifics['correct'+$index].$error.required">This field is required.</p>
-                    <p class="small text-danger error-text" ng-if="componentSpecifics['correct'+$index].$error.validAnswer">This answer cannot be found in the given ones above.</p>
+                    <p class="small text-danger error-text" ng-if="componentSpecifics['correct'+$index].$error.validAnswerCorrect">This answer cannot be found in the given ones above.</p>
                 </div>
-
+                -->
                 <div class="form-group text-center">
                     <label for="help{{$index}}">Explanation: </label>
                     <textarea class="form-control" name="help{{$index}}" id="help{{$index}}" cols="30" rows="5" ng-model="item.tip"></textarea>

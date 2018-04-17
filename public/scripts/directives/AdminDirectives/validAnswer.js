@@ -4,21 +4,30 @@ module.exports = function(application){
             restrict: 'A',
             require: 'ngModel',
             link: function(scope,elem,attrs,ctrl){
-                
-                ctrl.$validators.validAnswer = function(modelValue,viewValue){
-                    let ans=scope.item.answers;
-                    let reg=`\\b${modelValue}\\b`;
-                    let re = new RegExp(reg,"g");
-                    console.log(re);
-                    if (re.test(ans)){
-                        
-                        return true;
+                /*
+                Explanation:
+                    The answers of a questions are stored as an array of objects, each with only one property (text)
+                    As input, I chose textarea, and for the two-way data binding to work correctly we have to
+                    link the textarea viewValue to the modelValue described above.
+                    
+                    
+                    function parseResult - takes the value from the textarea, splits it by newline and creates the array of objects described above
+                    
+                    function formatResult - takes the array of objects and constructs the text to be put in the textarea
+                 */
+                function formatResult(modelValue){
+                    if (!modelValue){
+                        return modelValue;
                     }
-                    else{
-                        console.log(ans);
-                        return false;
-                    }
+                    let value = modelValue.reduce((acc,curr) => acc+"\n"+curr.text,"").substr(1);
+                    return value;
                 }
+                function parseResult(viewValue){
+                    return viewValue.split("\n").map(elem => {return {text: elem}});
+                }
+                ctrl.$formatters.push(formatResult);
+                ctrl.$parsers.push(parseResult);
+                
             }
         }
     }]);

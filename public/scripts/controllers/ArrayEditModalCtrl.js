@@ -149,6 +149,7 @@ module.exports = function(application){
                         $uibModalInstance.close({reboot: false});
                     }
                     else if (item.element.type==='quiz'){
+                        /*
                         item.element.questions = item.element.questions.map(function(elem){
                             let answers = elem.answers.split("\n");
                             console.log(answers);
@@ -158,6 +159,7 @@ module.exports = function(application){
                             elem.answers = answers;
                             return elem;
                         });
+                        */
                         console.log(item.element.questions);
                         $uibModalInstance.close({reboot: false});
                     }
