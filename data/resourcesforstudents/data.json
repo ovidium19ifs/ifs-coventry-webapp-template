@@ -304,6 +304,21 @@
                             }
                         ],
                         "space_after": false
+                    },
+                    {
+                        "subtitle": "Good Practice Framework",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "link-pdf",
+                                "links": [
+                                    {
+                                        "text": "Good Practice Framework for Supporting Disabled Students by the Office of Independent Adjudicator for students in Higher Education (OIA).",
+                                        "link": "pdfs/oia good practice supporting disabled students.pdf"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -381,6 +396,49 @@
         "chapters": [
             {
                 "blockname": "Disclosure",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "components": [
+                            {
+                                "subtitle": "",
+                                "type": "text-paragraph",
+                                "text": "This section will introduce the concept of disclosure and guidelines for disclosing a disability at the University.",
+                                "space_after": false
+                            }
+                        ],
+                        "space_after": true
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "components": [
+                            {
+                                "subtitle": "",
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "text": "To provide a clear definition of the concept of disclosure."
+                                    },
+                                    {
+                                        "text": "To provide students with adequate guidelines and practical tips about how to disclose a disability."
+                                    },
+                                    {
+                                        "text": "To provide students with a step-by-step guide of how disclosure is evidenced and recorded at the University."
+                                    },
+                                    {
+                                        "text": "To support students understand their rights and responsibilities with respect to disclosure."
+                                    }
+                                ],
+                                "space_after": false
+                            }
+                        ],
+                        "space_after": false
+                    }
+                ]
+            },
+            {
+                "blockname": "Disclosure",
                 "name": "Definition",
                 "sections": [
                     {
@@ -424,49 +482,6 @@
                                 }
                             }
                         ]
-                    }
-                ]
-            },
-            {
-                "blockname": "Disclosure",
-                "name": "Introduction",
-                "sections": [
-                    {
-                        "subtitle": "Introduction",
-                        "components": [
-                            {
-                                "subtitle": "",
-                                "type": "text-paragraph",
-                                "text": "This section will introduce the concept of disclosure and guidelines for disclosing a disability at the University.",
-                                "space_after": false
-                            }
-                        ],
-                        "space_after": true
-                    },
-                    {
-                        "subtitle": "Learning Outcomes",
-                        "components": [
-                            {
-                                "subtitle": "",
-                                "type": "list-text",
-                                "list_elements": [
-                                    {
-                                        "text": "To provide a clear definition of the concept of disclosure."
-                                    },
-                                    {
-                                        "text": "To provide students with adequate guidelines and practical tips about how to disclose a disability."
-                                    },
-                                    {
-                                        "text": "To provide students with a step-by-step guide of how disclosure is evidenced and recorded at the University."
-                                    },
-                                    {
-                                        "text": "To support students understand their rights and responsibilities with respect to disclosure."
-                                    }
-                                ],
-                                "space_after": false
-                            }
-                        ],
-                        "space_after": false
                     }
                 ]
             },
@@ -940,6 +955,7 @@
                                 "type": "quiz",
                                 "questions": [
                                     {
+                                        "index": 0,
                                         "text": "Disclosure involves taking responsibility to make your disability known to the university through completing the admissions form or by discussing your disability with the Disabilities Team.",
                                         "answers": [
                                             {
@@ -955,6 +971,7 @@
                                         "tip": ""
                                     },
                                     {
+                                        "index": 1,
                                         "text": "The university can verify your disability when you talk to them about your needs.",
                                         "answers": [
                                             {
@@ -970,6 +987,7 @@
                                         "tip": "the university can verify your disability after you have supplied diagnostic evidence."
                                     },
                                     {
+                                        "index": 2,
                                         "text": "Evidence is only required for a medical condition. ",
                                         "answers": [
                                             {
@@ -985,6 +1003,7 @@
                                         "tip": "evidence is required for all disabilities including Specific Learning Disabilities (e.g. dyslexia, dyspraxia etc.) "
                                     },
                                     {
+                                        "index": 3,
                                         "text": "It is your responsibility to verify your disability.",
                                         "answers": [
                                             {
@@ -1000,6 +1019,7 @@
                                         "tip": "The Disability Team will verify your disability once they have received diagnostic evidence.  It is your responsibility to disclose and provide evidence in the first instance."
                                     },
                                     {
+                                        "index": 4,
                                         "text": "The data protection form should be signed at the earliest point.",
                                         "answers": [
                                             {
@@ -1015,6 +1035,7 @@
                                         "tip": ""
                                     },
                                     {
+                                        "index": 5,
                                         "text": "Once your disability is verified by the disabilities Team, all adjustments etc. will be put in place.",
                                         "answers": [
                                             {
@@ -1030,6 +1051,7 @@
                                         "tip": "It is useful and important for you to speak directly to your faculty and ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA)."
                                     },
                                     {
+                                        "index": 6,
                                         "text": "If details of your disability are added and saved on the University’s database all arrangements/ adjustments will be organised. ",
                                         "answers": [
                                             {
@@ -1045,6 +1067,7 @@
                                         "tip": "Whilst having the details added to the database is necessary it is not a guarantee that everything will run smoothly. It is useful for you to regularly communicate with your faculty to ensure they are aware of; your disability, reasonable adjustments requested and other needs (e.g. IEA and placement requests)."
                                     },
                                     {
+                                        "index": 7,
                                         "text": "The disabilities Team will support you with disclosing a disability and completing required documents.",
                                         "answers": [
                                             {

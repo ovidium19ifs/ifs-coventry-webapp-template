@@ -21,13 +21,11 @@ module.exports = function(application){
                 
                 //because we have templates for most things, I arranged the front-page data in
                 //the format needed to be processed correctly by my components
-                $scope.videoComp = {
+                $scope.videoComp =  {
                     "type": "video-single",
-                    "subtitle": "The Successful Placement App Introduction",
-                    "video":{
-                        "type": "helix",
-                        "src": "https://media.coventry.ac.uk/player?autostart=n&fullscreen=n&width=0&height=0&videoId=21122&quality=hi&captions=n&chapterId=0",
-                        "thumb": "images/successful_placement.jpg"
+                    "video": {
+                        "src": "https://www.youtube.com/embed/QTpNqgNIV3o",
+                        "thumb": "https://img.youtube.com/vi/QTpNqgNIV3o/maxresdefault.jpg"
                     }
                 };
                 $scope.quoteComp = {

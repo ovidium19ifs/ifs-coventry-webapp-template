@@ -45,6 +45,9 @@ DEFAULT:
     .navbar-brand{
       color: darken(#fff,15%);
     }
+    .nav-link:not(.disabled):hover{
+      color: lighten(#690053,10%);
+    }
   }
 }
 .top-bar() when (@theme=ocean){
@@ -56,6 +59,9 @@ DEFAULT:
     }
     .navbar-brand{
       color: darken(#fff,15%);
+    }
+    .nav-link:not(.disabled):hover{
+      color: #f3a22e;
     }
   }
 }
@@ -69,6 +75,9 @@ DEFAULT:
     .navbar-brand{
       color: #9fb8ad;
   }
+    .nav-link:not(.disabled):hover{
+      color: #f4ad46;
+    }
   }
 }
 //--------------------------------------------------------
@@ -385,6 +394,14 @@ div.overlay-content{
     .btn-toolbar .btn{
       cursor:pointer;
     }
+    .dropdown-menu{
+      .dropdown-item:hover{
+        font-size: 1.1rem;
+        background-color: black;
+        color: white;
+      }
+    }
+
     .btn-fonts{
       background: #fff;
       border:0.5px solid black;
@@ -416,6 +433,10 @@ div.overlay-content{
     padding: 0.1rem;
   }
   nav{
+    transition: font-size 0.1s;
+    &:hover{
+      font-size: larger;
+    }
     background: transparent;
   }
 }
