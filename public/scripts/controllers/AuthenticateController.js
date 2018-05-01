@@ -16,14 +16,26 @@ module.exports = function(app){
       };
       github.authLocal(formData).$promise.then(resp => {
         console.log(resp);
+        /*
         //simlpified login
         github.authenticated = true;
         $location.url('/admin').replace();
         return;
         //-------------------
-        if (resp.redirect){
-          window.location.replace(resp.url);
-        }
+        */
+        github.get(true).$promise.then(resp => {
+          console.log(resp);
+            if (resp.redirect){
+                window.location.replace(resp.url);
+            }
+            else{
+                $scope.errorMessage = "This username is not valid";
+            }
+        })
+            .catch(err =>{
+                $scope.errorMessage = "This username is not valid";
+            })
+        
       })
         .catch(err => {
           $scope.errorMessage = "This username is not valid";

@@ -16,9 +16,9 @@ module.exports = function(application){
     var authenticated = false;
     
     return{
-      get: function(){
+      get: function(conn){
         
-        return resource.get();
+        return resource.get({connection: conn});
       },
       getConnectionUrl: function(){
         return resource.get({connection: true})

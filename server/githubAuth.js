@@ -5,18 +5,6 @@ const axios = require('axios');
 const btoa =require('base64url');
 
 const rootPath = path.normalize(__dirname+"/../");
-function readUser(){
-    let userPath = path.join(rootPath,'user.json');
-    if (!fs.existsSync(userPath)){
-        userPath = path.join(rootPath,'user.txt');
-        if (!fs.existsSync(userPath)){
-            res.status(400).send("user.json or user.txt doesn't exist. Create the file first");
-            res.end();
-            return;
-        }
-    }
-  return JSON.parse(fs.readFileSync(userPath, 'utf8'));
-}
 
 function exchangeCode(req,res){
   //this function creates on OAuth authorization link and sends it back to the controller
@@ -25,7 +13,7 @@ function exchangeCode(req,res){
     let url = '';
     let client_id = process.env.GITHUB_CLIENT_ID.trim();
     let scope = "repo";
-    let redirect_uri = "https://test-website-save.herokuapp.com/github/auth/";
+    let redirect_uri = process.env.GITHUB_REDIRECT.trim();
     let base = "https://github.com/login/oauth/authorize";
     url = `${base}?scope=${scope}&client_id=${client_id}&redirect_uri=${redirect_uri}`;
     res.send({
@@ -59,6 +47,11 @@ function revokeToken(token){
 }
 
 module.exports.get = function(req,res){
+    debug(req.query);
+    //alternative way by using environment variables
+    exchangeCode(req,res);
+    return;
+    /*
   //this happens after local authentication has succeded
   //it revokes the current token and then requests another one
   //by calling exchangeCode
@@ -77,13 +70,14 @@ module.exports.get = function(req,res){
   else{
       exchangeCode(req,res);
   }
+  */
 };
 module.exports.localAuth = function(req,res){
     //Simplified auth ... just check against env variables
     let user = req.body;
     if (user.username === process.env.USERNAME.trim() && user.password === process.env.PASSWORD.trim()){
         debug("USers match");
-        res.redirect("/authenticate?auth=true");
+        res.status(200).send({response:true});
         res.end();
         return;
     }
@@ -92,6 +86,7 @@ module.exports.localAuth = function(req,res){
         res.end();
         return;
     }
+    /*
   //localAuth is responsible for checking if the correct username and password have been sent to the server
     let userPath = path.join(rootPath,'user.json');
     if (!fs.existsSync(userPath)){
@@ -127,6 +122,7 @@ module.exports.localAuth = function(req,res){
       }
     }
   });
+  */
 };
 module.exports.getAuth = function(req,res){
   //this function handles the exchange from code to OAuth for GitHub (See docs)
@@ -141,7 +137,7 @@ module.exports.getAuth = function(req,res){
         code,
         client_id: process.env.GITHUB_CLIENT_ID.trim(),
         client_secret: process.env.GITHUB_CLIENT_SECRET.trim(),
-        redirect_uri: 'http://localhost:8000/github/auth',
+        redirect_uri: process.env.GITHUB_REDIRECT.trim(),
       },
       headers: {'Accept': 'application/json'}
     })
@@ -150,14 +146,33 @@ module.exports.getAuth = function(req,res){
         //we get token here, have to save token to file. After it is saved, we can redirect to /admin, which will check the
         //file for an active token. Will then use that token to grant access to the page
         const token = response.data.access_token;
+        debug("Got token");
+        debug(token);
         //get user login
         axios({
           method: 'GET',
           url: 'https://api.github.com/user?access_token='+response.data.access_token,
         })
-          .then(function(response){
-            //save user login and user token to the user file
-            const login = response.data.login;
+          .then(function(response) {
+              //save user login and user token to the user file
+              const login = response.data.login;
+              if (login !== process.env.GITHUB_LOGIN.trim()) {
+                  revokeToken(token).then(response => {
+                      res.redirect("/authenticate?user=false")
+                  });
+              }
+              else {
+                  res.redirect("/authenticate?auth=true");
+              }
+          })
+            .catch(err =>{
+                debug(err);
+                res.redirect("/authenticate?user=false");
+            })
+      })
+            //alternative way, without using file, just environment variables
+              
+              /*
             //read file
             let userPath = path.join(rootPath,'user.json');
             if (!fs.existsSync(userPath)){
@@ -219,6 +234,7 @@ module.exports.getAuth = function(req,res){
         res.end();
         return;
       })
+      
   }
   else{
     //we have our token
@@ -228,5 +244,10 @@ module.exports.getAuth = function(req,res){
       url: `https://api.github.com/applications/${process.env.GITHUB_CLIENT_ID}/tokens/:access_token`
     })*/
   }
+  else{
+      debug("No code");
+      res.redirect("/authenticate?user=false")
+  }
+  
  
 };
