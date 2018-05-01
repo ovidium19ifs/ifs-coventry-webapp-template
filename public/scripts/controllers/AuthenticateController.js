@@ -16,6 +16,11 @@ module.exports = function(app){
       };
       github.authLocal(formData).$promise.then(resp => {
         console.log(resp);
+        //simlpified login
+        github.authenticated = true;
+        $location.url('/admin').replace();
+        return;
+        //-------------------
         if (resp.redirect){
           window.location.replace(resp.url);
         }

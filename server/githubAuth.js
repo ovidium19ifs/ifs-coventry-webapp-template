@@ -79,6 +79,19 @@ module.exports.get = function(req,res){
   }
 };
 module.exports.localAuth = function(req,res){
+    //Simplified auth ... just check against env variables
+    let user = req.body;
+    if (user.username === process.env.USERNAME.trim() && user.password === process.env.PASSWORD.trim()){
+        debug("USers match");
+        res.redirect("/authenticate?auth=true");
+        res.end();
+        return;
+    }
+    else{
+        res.status(400).send('Bad Request');
+        res.end();
+        return;
+    }
   //localAuth is responsible for checking if the correct username and password have been sent to the server
     let userPath = path.join(rootPath,'user.json');
     if (!fs.existsSync(userPath)){
