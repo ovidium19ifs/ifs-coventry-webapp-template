@@ -2,117 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2745269c-a137-4aa7-9651-bd5df9a7c253" name="Default" comment="first commit">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/resourcesformainpage/data.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/controllers/AuthenticateController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/listImages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/quoteMain.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/directives/listImages.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/services/convertData.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/scripts/services/github.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/adminMainPage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/listImagesMain.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/admin/components/quoteMain.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/authenticate.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/components/list/listImages.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/templates/components/list/quote.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/github.strategy.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/config/passport.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server/githubAuth.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/user.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-grid.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap-reboot.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/css/bootstrap.min.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.bundle.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/bootstrap-4.0.0-beta.2-dist/js/bootstrap.min.js.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1gsjp9SNrGc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/1j9XzQesgrc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/29m1vdeMIyI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/4MFHNRnS2Fw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/68ciKK1afDQ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/8vjrlriT-SE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/97L0kHKAXCc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/C-uyB5I6WnQ.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/C5lKVHaYxvs.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/E4mtNrOLKgo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/I6TqSwlDtoY.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/IuufStMa21Y.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/JIvOnXM_0Ks.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/KFisdBqa19M.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Lua3JCCI3Zc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/M9hyWVEG2x0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Mcf8FaXnrPA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Pcn93Yux06s.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QJJzDluz4ac.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QKs41bX8K1Y.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/QWhjJWavsKk.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/R74ioeRCvgg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/SMwQ_SPr1Mk.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/T8BrZ242dfY.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/US7txWaTDPE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/Vt0-2nucCMI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/XdiJGxPeIB4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/YEDU_ZD7RiA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/_NQGQImrpx4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cdUx3teXih8.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/cwOlaoi6esI.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/d69X1mGIG1c.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/dkku8fe5O_g.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/hpAzoY_5JEA.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iDbdXTMnOmE.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/iQAsUKBBnSM.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/kEQeX8Gv4Ic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/l_NYrWqUR40.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/mOf8xBDcsyo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/qmXYquQkG5o.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/sDCzycN_Xu0.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/tqobBVtrM-k.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/ubt98g3njX4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/uoS4y6LKUDw.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/xR-rMtdeEpc.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/public/images/yaHKUvHQXVc.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstaff/data.json" afterPath="$PROJECT_DIR$/data/resourcesforstaff/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/resourcesforstudents/data.json" afterPath="$PROJECT_DIR$/data/resourcesforstudents/data.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/bundle.js" afterPath="$PROJECT_DIR$/dist/bundle.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-default.css" afterPath="$PROJECT_DIR$/dist/css/all-default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-ocean.css" afterPath="$PROJECT_DIR$/dist/css/all-ocean.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/css/all-robust.css" afterPath="$PROJECT_DIR$/dist/css/all-robust.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/app.js" afterPath="$PROJECT_DIR$/public/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/main.less" afterPath="$PROJECT_DIR$/public/css/main.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/AdminController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/AdminController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/ArrayEditModalCtrl.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/ArrayEditModalCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" afterPath="$PROJECT_DIR$/public/scripts/controllers/admin/AdminInterfaceController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/chapterSummaryAdmin.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/chapterSummaryAdmin.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/image.js" afterPath="$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/filters/nicename.js" afterPath="$PROJECT_DIR$/public/scripts/filters/nicename.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/scripts/services/fileService.js" afterPath="$PROJECT_DIR$/public/scripts/services/fileService.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/admin/adminHome.html" afterPath="$PROJECT_DIR$/public/templates/admin/adminHome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/admin/components/imageUpload.html" afterPath="$PROJECT_DIR$/public/templates/admin/components/imageUpload.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/adminHome.html" afterPath="$PROJECT_DIR$/public/templates/adminHome.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/images/imageSingle.html" afterPath="$PROJECT_DIR$/public/templates/components/images/imageSingle.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/components/list/text.html" afterPath="$PROJECT_DIR$/public/templates/components/list/text.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/mainmenu.html" afterPath="$PROJECT_DIR$/public/templates/mainmenu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/modal/arrayEditModal.html" afterPath="$PROJECT_DIR$/public/templates/modal/arrayEditModal.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/templates/topBar.html" afterPath="$PROJECT_DIR$/public/templates/topBar.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server/web-server.js" afterPath="$PROJECT_DIR$/server/web-server.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user.json" afterPath="$PROJECT_DIR$/user.json" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -142,7 +33,17 @@
         <entry file="file://$PROJECT_DIR$/user.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="107" lean-forward="false" selection-start-line="0" selection-start-column="107" selection-end-line="0" selection-end-column="107" />
+              <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="124" lean-forward="false" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
               <folding />
             </state>
           </provider>
@@ -192,21 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/main.less">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="158">
               <caret line="346" column="17" lean-forward="false" selection-start-line="346" selection-start-column="17" selection-end-line="346" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="video.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/video.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="53" column="107" lean-forward="false" selection-start-line="53" selection-start-column="56" selection-end-line="53" selection-end-column="107" />
               <folding />
             </state>
           </provider>
@@ -278,7 +169,6 @@
         <option value="$PROJECT_DIR$/public/templates/topBar.html" />
         <option value="$PROJECT_DIR$/server/config/passport.js" />
         <option value="$PROJECT_DIR$/server/config/github.strategy.js" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/public/scripts/controllers/AdminController.js" />
         <option value="$PROJECT_DIR$/public/templates/authenticate.html" />
         <option value="$PROJECT_DIR$/public/scripts/controllers/AuthenticateController.js" />
@@ -311,11 +201,12 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/public/scripts/services/github.js" />
         <option value="$PROJECT_DIR$/user.txt" />
-        <option value="$PROJECT_DIR$/user.json" />
         <option value="$PROJECT_DIR$/data/resourcesforstudents/data.json" />
         <option value="$PROJECT_DIR$/server/githubAuth.js" />
         <option value="$PROJECT_DIR$/public/templates/adminHome.html" />
         <option value="$PROJECT_DIR$/public/css/main.less" />
+        <option value="$PROJECT_DIR$/user.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -594,7 +485,7 @@
       <workItem from="1524739553221" duration="9777000" />
       <workItem from="1524819610943" duration="15693000" />
       <workItem from="1525079232254" duration="14930000" />
-      <workItem from="1525165045742" duration="5007000" />
+      <workItem from="1525165045742" duration="5340000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1512053526719</created>
@@ -607,7 +498,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="988368000" />
+    <option name="totallyTimeSpent" value="988701000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -700,13 +591,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/public/scripts/controllers/MainMenuController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="43" lean-forward="false" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/services/dataFetcher.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1044,14 +928,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="107" lean-forward="false" selection-start-line="0" selection-start-column="107" selection-end-line="0" selection-end-column="107" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/scripts/directives/AdminDirectives/components/video.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
@@ -1110,6 +986,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="346" column="17" lean-forward="false" selection-start-line="346" selection-start-column="17" selection-end-line="346" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="36" lean-forward="false" selection-start-line="0" selection-start-column="36" selection-end-line="0" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="124" lean-forward="false" selection-start-line="7" selection-start-column="124" selection-end-line="7" selection-end-column="124" />
           <folding />
         </state>
       </provider>
