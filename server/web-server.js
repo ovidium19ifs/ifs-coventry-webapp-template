@@ -2,17 +2,26 @@ var express= require('express');
 var path = require('path');
 var parts=require('./partsController');
 var files = require('./fileController');
+var githubAuth = require('./githubAuth');
+const morgan = require('morgan');
+const debug = require('debug')('app');
 //var lessMiddleware = require('less-middleware');
 var app = express();
 var bodyParser = require('body-parser');
 var rootPath = path.normalize(__dirname+"/../");
 app.use(bodyParser.json({limit: '50mb'}));
 app.use(bodyParser.urlencoded({limit: '50mb',extended:true}));
+
+app.use(morgan('tiny'));
+
 //app.use(lessMiddleware(path.join(rootPath,"public"),{force:true}));
 app.use(express.static(path.join(rootPath+"public")));
 app.use("/pdf",express.static(path.join(rootPath,"public","pdfs")));
 app.get("/data/:source",parts.get);
 app.get("/files/:folder",files.get);
+app.get("/github",githubAuth.get);
+app.get("/github/auth",githubAuth.getAuth);
+app.post("/auth",githubAuth.localAuth);
 app.post("/files/",files.put);
 app.post("/data/:source",parts.put);
 app.get("/assets/js/bundle.js",function(req,res){

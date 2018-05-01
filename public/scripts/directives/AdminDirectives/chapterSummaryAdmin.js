@@ -5,7 +5,7 @@ module.exports = function(application){
         return{
             restrict: "E",
             scope:{
-            
+                "adminMode": "="
             },
             template: require('../../../templates/chapterSummary.html'),
             link: function(scope,elem,attrs,ctrl){
@@ -48,8 +48,6 @@ module.exports = function(application){
                 */
             },
             controller: function($scope,navigate,$location,$timeout) {
-                
-                $scope.adminMode = true;
                 $scope.titles=[];
                 $scope.$on("dataWasLoaded",function(e,sections){
                     if (!sections){

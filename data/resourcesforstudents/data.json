@@ -65,7 +65,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/tqobBVtrM-k",
-                                    "thumb": "images/tqobBVtrM-k.jpg"
+                                    "thumb": "https://img.youtube.com/vi/tqobBVtrM-k/maxresdefault.jpg"
                                 },
                                 "space_after": true
                             },
@@ -1752,7 +1752,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/qmXYquQkG5o",
-                                    "thumb": "images/qmXYquQkG5o.jpg"
+                                    "thumb": "https://img.youtube.com/vi/qmXYquQkG5o/maxresdefault.jpg"
                                 }
                             },
                             {
@@ -1761,7 +1761,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/QWhjJWavsKk",
-                                    "thumb": "images/QWhjJWavsKk.jpg"
+                                    "thumb": "https://img.youtube.com/vi/QWhjJWavsKk/maxresdefault.jpg"
                                 }
                             },
                             {
@@ -1817,7 +1817,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/NRtztkc35hg",
-                                    "thumb": "images/equality_act_disability.jpg"
+                                    "thumb": "https://img.youtube.com/vi/NRtztkc35hg/maxresdefault.jpg"
                                 },
                                 "space_after": true
                             },
@@ -2097,7 +2097,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/MFOOzzoRtDc",
-                                    "thumb": "images/reasonable_adjustments_eq_act.jpg"
+                                    "thumb": "https://img.youtube.com/vi/MFOOzzoRtDc/maxresdefault.jpg"
                                 },
                                 "space_after": true
                             },
@@ -2107,7 +2107,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/B_QFO8BW0PI",
-                                    "thumb": "images/reasonable_adjustments_inpractice.jpg"
+                                    "thumb": "https://img.youtube.com/vi/B_QFO8BW0PI/maxresdefault.jpg"
                                 },
                                 "space_after": false
                             }
@@ -2152,7 +2152,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/KFisdBqa19M",
-                                            "thumb": "images/KFisdBqa19M.jpg"
+                                            "thumb": "https://img.youtube.com/vi/KFisdBqa19M/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -2162,7 +2162,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/R74ioeRCvgg",
-                                            "thumb": "images/R74ioeRCvgg.jpg"
+                                            "thumb": "https://img.youtube.com/vi/R74ioeRCvgg/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -2172,7 +2172,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/sDCzycN_Xu0",
-                                            "thumb": "images/sDCzycN_Xu0.jpg"
+                                            "thumb": "https://img.youtube.com/vi/sDCzycN_Xu0/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -2182,7 +2182,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/29m1vdeMIyI",
-                                            "thumb": "images/29m1vdeMIyI.jpg"
+                                            "thumb": "https://img.youtube.com/vi/29m1vdeMIyI/maxresdefault.jpg"
                                         }
                                     }
                                 ],
@@ -3023,7 +3023,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/kEQeX8Gv4Ic",
-                                    "thumb": "images/kEQeX8Gv4Ic.jpg"
+                                    "thumb": "https://img.youtube.com/vi/kEQeX8Gv4Ic/maxresdefault.jpg"
                                 }
                             }
                         ],
@@ -3706,7 +3706,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/dkku8fe5O_g",
-                                            "thumb": "images/dkku8fe5O_g.jpg"
+                                            "thumb": "https://img.youtube.com/vi/dkku8fe5O_g/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -3715,7 +3715,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/1j9XzQesgrc",
-                                            "thumb": "images/1j9XzQesgrc.jpg"
+                                            "thumb": "https://img.youtube.com/vi/1j9XzQesgrc/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -3724,7 +3724,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/ubt98g3njX4",
-                                            "thumb": "images/ubt98g3njX4.jpg"
+                                            "thumb": "https://img.youtube.com/vi/ubt98g3njX4/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -3733,7 +3733,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/hpAzoY_5JEA",
-                                            "thumb": "images/hpAzoY_5JEA.jpg"
+                                            "thumb": "https://img.youtube.com/vi/hpAzoY_5JEA/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -3742,7 +3742,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/JIvOnXM_0Ks",
-                                            "thumb": "images/JIvOnXM_0Ks.jpg"
+                                            "thumb": "https://img.youtube.com/vi/JIvOnXM_0Ks/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -4711,7 +4711,7 @@
                                         "subtitle": "Student nurses give their advice about placement",
                                         "video": {
                                             "type": "youtube",
-                                            "thumb": "images/1gsjp9SNrGc.jpg",
+                                            "thumb": "https://img.youtube.com/vi/1gsjp9SNrGc/maxresdefault.jpg",
                                             "src": "https://www.youtube.com/embed/1gsjp9SNrGc"
                                         }
                                     },
@@ -4729,7 +4729,7 @@
                                         "subtitle": "Clinical Placements Reflections",
                                         "video": {
                                             "type": "youtube",
-                                            "thumb": "images/d69X1mGIG1c.jpg",
+                                            "thumb": "https://img.youtube.com/vi/d69X1mGIG1c/maxresdefault.jpg",
                                             "src": "https://www.youtube.com/embed/d69X1mGIG1c"
                                         }
                                     }
@@ -4751,7 +4751,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/T8BrZ242dfY",
-                                    "thumb": "images/T8BrZ242dfY.jpg"
+                                    "thumb": "https://img.youtube.com/vi/T8BrZ242dfY/maxresdefault.jpg"
                                 },
                                 "space_after": true
                             },
@@ -5058,7 +5058,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/dkku8fe5O_g",
-                                            "thumb": "images/dkku8fe5O_g.jpg"
+                                            "thumb": "https://img.youtube.com/vi/dkku8fe5O_g/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5068,7 +5068,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/US7txWaTDPE",
-                                            "thumb": "images/US7txWaTDPE.jpg"
+                                            "thumb": "https://img.youtube.com/vi/US7txWaTDPE/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -5484,7 +5484,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/l_NYrWqUR40",
-                                    "thumb": "images/l_NYrWqUR40.jpg"
+                                    "thumb": "https://img.youtube.com/vi/l_NYrWqUR40/maxresdefault.jpg"
                                 }
                             },
                             {
@@ -5510,7 +5510,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/iDbdXTMnOmE",
-                                            "thumb": "images/iDbdXTMnOmE.jpg"
+                                            "thumb": "https://img.youtube.com/vi/iDbdXTMnOmE/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5530,7 +5530,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/_NQGQImrpx4",
-                                            "thumb": "images/_NQGQImrpx4.jpg"
+                                            "thumb": "https://img.youtube.com/vi/_NQGQImrpx4/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5540,7 +5540,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/68ciKK1afDQ",
-                                            "thumb": "images/68ciKK1afDQ.jpg"
+                                            "thumb": "https://img.youtube.com/vi/68ciKK1afDQ/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -5741,7 +5741,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/ESFNaZiiew4",
-                                            "thumb": "images/ESFNaZiiew4.jpg"
+                                            "thumb": "https://img.youtube.com/vi/ESFNaZiiew4/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5751,7 +5751,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/I6TqSwlDtoY",
-                                            "thumb": "images/I6TqSwlDtoY.jpg"
+                                            "thumb": "https://img.youtube.com/vi/I6TqSwlDtoY/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5761,7 +5761,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/E4mtNrOLKgo",
-                                            "thumb": "images/E4mtNrOLKgo.jpg"
+                                            "thumb": "https://img.youtube.com/vi/E4mtNrOLKgo/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -5817,7 +5817,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/97L0kHKAXCc",
-                                            "thumb": "images/97L0kHKAXCc.jpg"
+                                            "thumb": "https://img.youtube.com/vi/97L0kHKAXCc/maxresdefault.jpg"
                                         }
                                     },
                                     {
@@ -5826,7 +5826,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/ubt98g3njX4",
-                                            "thumb": "images/ubt98g3njX4.jpg"
+                                            "thumb": "https://img.youtube.com/vi/ubt98g3njX4/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -5907,7 +5907,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/uoS4y6LKUDw",
-                                    "thumb": "images/uoS4y6LKUDw.jpg"
+                                    "thumb": "https://img.youtube.com/vi/uoS4y6LKUDw/maxresdefault.jpg"
                                 }
                             }
                         ],
@@ -5949,7 +5949,7 @@
                                         "video": {
                                             "type": "youtube",
                                             "src": "https://www.youtube.com/embed/xR-rMtdeEpc",
-                                            "thumb": "images/xR-rMtdeEpc.jpg"
+                                            "thumb": "https://img.youtube.com/vi/xR-rMtdeEpc/maxresdefault.jpg"
                                         }
                                     }
                                 ]
@@ -6004,7 +6004,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/QJJzDluz4ac",
-                                    "thumb": "images/QJJzDluz4ac.jpg"
+                                    "thumb": "https://img.youtube.com/vi/QJJzDluz4ac/maxresdefault.jpg"
                                 }
                             }
                         ],
@@ -6032,7 +6032,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/Mcf8FaXnrPA",
-                                    "thumb": "images/Mcf8FaXnrPA.jpg"
+                                    "thumb": "https://img.youtube.com/vi/Mcf8FaXnrPA/maxresdefault.jpg"
                                 }
                             }
                         ]
@@ -6605,7 +6605,7 @@
                                 "video": {
                                     "type": "youtube",
                                     "src": "https://www.youtube.com/embed/Lua3JCCI3Zc",
-                                    "thumb": "images/Lua3JCCI3Zc.jpg"
+                                    "thumb": "https://img.youtube.com/vi/Lua3JCCI3Zc/maxresdefault.jpg"
                                 }
                             },
                             {

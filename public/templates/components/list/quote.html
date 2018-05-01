@@ -1,0 +1,10 @@
+<ul ng-cloak>
+    <li class="learning-outcome my-3" id={{$index}} ng-repeat="elem in component['list_elements']">
+        <text-paragraph component="elem"></text-paragraph>
+        <div>
+            <p class="float-left" ng-if="elem.author">Author: {{elem.author}}</p>
+            <p class="float-right" ng-if="elem.year">Year: {{elem.year}}</p>
+        </div>
+        <div class="clearfix"></div>
+    </li>
+</ul>

@@ -120,6 +120,11 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                 }
             }
         })
+        .when("/authenticate",{
+            templateUrl: "templates/authenticate.html",
+            controller: "AuthenticateController",
+            resolve: {}
+      })
         .when("/admin",{
             templateUrl: "templates/adminHome.html",
             controller: "AdminController",
@@ -128,6 +133,19 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                     "use strict";
                     return undefined;
                 }
+                /*,
+                user: function(github){
+                    "use strict";
+                    console.log("going to calculate user");
+                    return github.get().$promise.then(
+                      function (res) {
+                            return github.getConnectionUrl().$promise.then((res) => {
+                                console.log("Returning from inner promise");
+                                return res;
+                            });
+                      }
+                    )
+                }*/
             }
         })
         .when("/admin/:group",{
@@ -156,7 +174,9 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
             }
         })
         .when("/admini/:group",{
-            templateUrl: "templates/admin/adminHome.html",
+            templateUrl: function(params){
+              return params.group==='mainpage' ? "templates/admin/adminMainPage.html" : "templates/admin/adminHome.html"
+            },
             controller: "AdminInterfaceController",
             resolve: {
                 dataBlock: function(navigate,dataFetcher,$route){
@@ -166,6 +186,9 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                                 return res;
                             }
                         )
+                },
+                allow: function(github){
+                  return github.authenticated;
                 }
             }
 
@@ -197,7 +220,13 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
         })
         .when("/",{
             templateUrl : "templates/mainmenu.html",
-            controller: "MainMenuController"
+            controller: "MainMenuController",
+            resolve: {
+              dataBlock: function(dataFetcher){
+                return dataFetcher.get("mainpage").$promise.then(res => res)
+                  .catch(err => {console.log(err)});
+              }
+            }
         })
         .when("/test",{
             templateUrl: "templates/test.html",
@@ -217,6 +246,7 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
 
 require('./scripts/directives/textParagraph')(application);
 require('./scripts/controllers/admin/AdminInterfaceController')(application);
+require('./scripts/controllers/AuthenticateController')(application);
 require('./scripts/controllers/AdminController')(application);
 require('./scripts/controllers/ArrayDeleteModalCtrl')(application);
 require('./scripts/controllers/ArrayAddModalCtrl')(application);
@@ -235,6 +265,8 @@ require('./scripts/controllers/TestCtrl')(application);
 require('./scripts/services/dataFetcher')(application);
 require('./scripts/services/navigate')(application);
 require('./scripts/services/fileService')(application);
+require('./scripts/services/github')(application);
+require('./scripts/services/convertData')(application);
 require('./scripts/services/links')(application);
 require('./scripts/services/authors')(application);
 require('./scripts/filters/capitalize')(application);
@@ -257,6 +289,8 @@ require('./scripts/directives/AdminDirectives/components/video')(application);
 require('./scripts/directives/AdminDirectives/components/quiz')(application);
 require('./scripts/directives/AdminDirectives/components/videoCarousel')(application);
 require('./scripts/directives/AdminDirectives/components/files')(application);
+require('./scripts/directives/AdminDirectives/components/quoteMain')(application);
+require('./scripts/directives/AdminDirectives/components/listImages')(application);
 require('./scripts/directives/AdminDirectives/fileUploader')(application);
 require('./scripts/directives/AdminDirectives/validFile')(application);
 require('./scripts/directives/AdminDirectives/validAnswer')(application);
@@ -269,6 +303,7 @@ require('./scripts/directives/FormDirectives/linkReference')(application);
 require('./scripts/directives/FormDirectives/linkTelephoneForm')(application);
 require('./scripts/directives/FormDirectives/linkWebsite')(application);
 require('./scripts/directives/FormDirectives/listTextForm')(application);
+
 require('./scripts/directives/FormDirectives/textMythFactForm')(application);
 require('./scripts/directives/FormDirectives/textQuote')(application);
 require('./scripts/directives/appForm')(application);
@@ -280,6 +315,7 @@ require('./scripts/directives/ifsVideo')(application);
 require('./scripts/directives/linkEmail')(application);
 require('./scripts/directives/linkTelephone')(application);
 require('./scripts/directives/listText')(application);
+require('./scripts/directives/listImages')(application);
 require('./scripts/directives/navMenu')(application);
 require('./scripts/directives/quizCarousel')(application);
 require('./scripts/directives/quizModalStart')(application);
