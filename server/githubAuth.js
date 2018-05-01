@@ -25,7 +25,7 @@ function exchangeCode(req,res){
     let url = '';
     let client_id = process.env.GITHUB_CLIENT_ID.trim();
     let scope = "repo";
-    let redirect_uri = "http://localhost:8000/github/auth/";
+    let redirect_uri = "https://test-website-save.herokuapp.com/github/auth/";
     let base = "https://github.com/login/oauth/authorize";
     url = `${base}?scope=${scope}&client_id=${client_id}&redirect_uri=${redirect_uri}`;
     res.send({
