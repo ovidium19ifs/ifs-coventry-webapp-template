@@ -50,7 +50,7 @@ module.exports = function(application){
                                 ctx.link = dir+key;
                                 break;
                             default:
-                                ctx.link = dir+key;
+                                ctx.src = dir+key;
                         }
                     }
                     data.push(files[key].file);

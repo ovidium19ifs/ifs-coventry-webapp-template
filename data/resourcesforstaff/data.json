@@ -374,7 +374,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "Dyslexia affects a cross section of people regardless of race, ethnicity, gender, age, intellectual level etc.  It is not an indication of low or high intelligence."
                                     },
                                     {
@@ -390,7 +390,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "Dyslexia is not an illness, so it cannot be cured.  Dyslexia does not go away but the right support can help to alleviate its symptoms."
                                     },
                                     {
@@ -406,7 +406,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "It was thought that 4:1 were males, but it is now believed to be 50/50% "
                                     },
                                     {
@@ -422,7 +422,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "Not true.  Many dyslexic people enjoy reading."
                                     },
                                     {
@@ -438,7 +438,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "This is not true however many dyslexics have a cross-laterality issue which can cause problems."
                                     },
                                     {
@@ -454,7 +454,7 @@
                                                 "text": "False"
                                             }
                                         ],
-                                        "correct_answer": 1,
+                                        "correct_answer": "False",
                                         "tip": "The number of university students with dyslexia has grown year on year.  There is DSA support available which makes a big difference.  It is not unusual for dyslexia to be identified for the first time at university."
                                     }
                                 ],

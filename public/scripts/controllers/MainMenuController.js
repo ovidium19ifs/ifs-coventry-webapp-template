@@ -1,8 +1,8 @@
 //front page controller
 module.exports = function(application){
     "use strict";
-    application.controller("MainMenuController",["$scope","$location",
-        function($scope,$location){
+    application.controller("MainMenuController",["$scope","$location","dataBlock",
+        function($scope,$location,dataBlock){
                 "use strict";
                 //preload hover images
                  console.log("preloading images");
@@ -16,6 +16,7 @@ module.exports = function(application){
                 $scope.selectGroup = function(group){
                     $location.url("/content/"+group+"/");
                 };
+                $scope.data = dataBlock[0];
                 //always scroll top when accessing front page
                 $("#mainContent").scrollTop(0);
                 

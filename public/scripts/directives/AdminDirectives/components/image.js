@@ -3,14 +3,20 @@ module.exports = function(application){
     application.directive('imageAdmin',["fileService",function(fileService){
         return{
             restrict : 'E',
+            scope:{
+                item: "="
+            },
             template: require('../../../../templates/admin/components/imageUpload.html'),
             link: function(scope,elem,attrs,ctrl){
-            
+                console.log(attrs);
+              if (attrs.hasOwnProperty('formName')){
+                $(elem).find('.sub-form').attr('name',attrs['formName']);
+              }
             },
             controllerAs: 'ctrl',
             controller: ["$scope",function($scope){
                 let ctrl = this;
-                ctrl.element = $scope.item.element;
+                ctrl.element = $scope.item;
                 if (!ctrl.element.src){
                     ctrl.currentFile = "None";
                 }

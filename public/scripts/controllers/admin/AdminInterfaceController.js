@@ -1,7 +1,10 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window","$location",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window,$location){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window","$location","allow","convertData",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window,$location,allow,convertData){
         "use strict";
+        if (!allow){
+            $location.url("/authenticate").replace();
+        }
         function undoMove(args){
             move(args);
         }
@@ -160,11 +163,18 @@ module.exports = function(application){
               }
               $scope.undoItems.unshift(new_undo);
         };
-        $scope.selBlock = dataBlock[0];
-        if ($scope.selBlock && $scope.selBlock.hasOwnProperty('chapters')){
-            $scope.selChapter = dataBlock[0].chapters[0];
+        if ($scope.group === 'mainpage'){
+            $scope.data = convertData.sectionize($scope.data);
+            $scope.selChapter = $scope.data[0];
+            $scope.selBlock = {name: 'Main Page'};
+            console.log($scope.data);
         }
-        
+        else{
+          $scope.selBlock = dataBlock[0];
+          if ($scope.selBlock && $scope.selBlock.hasOwnProperty('chapters')){
+            $scope.selChapter = dataBlock[0].chapters[0];
+          }
+        }
         $scope.broadcast = function(){
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
         };
@@ -495,6 +505,8 @@ module.exports = function(application){
         $scope.saveChanges = function(){
             console.log($scope.data);
             console.log(`Saving data to ${$scope.group}`);
+            $scope.data = convertData.unsectionize($scope.data[0]);
+            console.log($scope.data);
             fileService.post().then(function(res){
                 console.log(res);
                 dataFetcher.post($scope.group,$scope.data).$promise

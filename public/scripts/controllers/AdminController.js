@@ -3,12 +3,21 @@
 module.exports  = function(application){
     "use strict";
     //For minifying purposes, we encapsulate the injected services in an array and pass them along with the constructor function
-    application.controller("AdminController",["$scope","dataBlock","$location","navigate","$timeout","dataFetcher",
-        function($scope,dataBlock,$location,navigate,$timeout,dataFetcher){
+    application.controller("AdminController",["$scope","dataBlock","$location","navigate","$timeout","dataFetcher","$window","github",
+        function($scope,dataBlock,$location,navigate,$timeout,dataFetcher,$window,github){
         "use strict";
+        if (!github.authenticated){
+            $location.url("/authenticate").replace();
+        }
         $scope.selected = "";
         $scope.step=0;
         $scope.chapter = null;
+        /*
+        if (user.redirect){
+           window.location.replace(user.url);
+        }
+        */
+      
 
         function capitalize(str){
             return str.slice(0,1).toUpperCase() + str.slice(1);

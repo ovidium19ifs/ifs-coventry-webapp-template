@@ -1,0 +1,52 @@
+<div class="container-fluid row admin-container">
+    <!-- Center Content -->
+    <div class="col-8 col-md col-lg order-1 content  h-100" id="mainContent2" >
+        <div class="container" ng-show="selChapter">
+            <!-- Content -->
+            <h1 class="text-center block-title">{{selChapter.blockname}}</h1>
+            <div class="card main-card">
+                <div class="card-header">
+                    <h2 class="card-title d-inline">
+                        {{selChapter.name}}
+                    </h2>
+                </div>
+
+                <div class="card-body">
+
+                    <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section"  collapsible-elem="Section" ng-repeat="section in selChapter.sections">
+                        <h4 class="card-subtitle">{{section.subtitle}}</h4>
+                        <div class="collapsible">
+                            <div  ng-repeat="component in section.components" class="editable-component my-3" ifs-editable="Component" collapsible-elem="Component" callback-array="section.components" >
+                                <edit-element context-array="selChapter.sections[$parent.$index].components" index-in-context="$index" chapter="selChapter" section="section" edit-type="Component"></edit-element>
+                                <div class="collapsible">
+                                    <text-paragraph component="component" ng-if="component.type==='text-paragraph'"></text-paragraph>
+                                    <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
+                                    <list-images ng-if="component.type==='list-images'" component="component"></list-images>
+                                    <ng-include  src="'templates/components/list/quote.html'" ng-if="component.type==='quote-list'"></ng-include>
+                                    <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
+                                    <ng-include  src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
+                                    <ng-include  src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>
+                                    <!--<ng-include src="'templates/components/quiz/questions.html'" ng-if="component.type==='quiz-questions'"></ng-include>-->
+                                    <ifs-video  element="component" ng-if="component.type==='video-single'"></ifs-video>
+                                </div>
+                                <hr class="mid-comp-sep my-5" ng-if="component['space_after']">
+                            </div>
+                        </div>
+                        <hr class="mid-section-sep mt-5" ng-if="section['space_after']">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container" ng-hide="selChapter">
+            <h3>Select a chapter from the menu</h3>
+        </div>
+    </div>
+    <!-- Right side page navigation -->
+    <div class="col col-md-2 col-lg-2 order-2 aside">
+        <div class="w-100 text-center">
+            <button class="btn btn-success text-center" ng-click="saveChanges()"> Save Changes </button>
+        </div>
+
+        <chapter-summary-admin admin-mode="false"></chapter-summary-admin>
+    </div>
+</div>

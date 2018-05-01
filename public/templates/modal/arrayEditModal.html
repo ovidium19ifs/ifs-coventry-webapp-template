@@ -17,9 +17,9 @@
 
             </div>
 
-            <div class="component-basics form-section">
+            <div class="component-basics form-section" >
                 <!-- Component Basics -->
-                <div class="card mb-2" collapsible-card>
+                <div class="card mb-2" collapsible-card ng-if="item.chapter!=='Main Page'">
                     <div class="card-header p-1">
                         <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Component Basics<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
                     </div>
@@ -40,7 +40,7 @@
                 </div>
 
                 <!-- Component Type selector -->
-                <div class="card mb-2" ng-if="item.element.hasOwnProperty('type')" collapsible-card>
+                <div class="card mb-2" ng-if="item.element.hasOwnProperty('type') && item.chapter!=='Main Page'" collapsible-card>
                     <div class="card-header p-1">
                         <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Component Type<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
                     </div>
@@ -77,10 +77,12 @@
                         <website-links-admin ng-if="item.element.type==='link-website'"></website-links-admin>
                         <list-admin ng-if="item.element.type==='list-text'"></list-admin>
                         <files-admin ng-if="item.element.type==='link-pdf'"></files-admin>
-                        <image-admin ng-if="item.element.type==='image-single'"></image-admin>
+                        <image-admin ng-if="item.element.type==='image-single'" item="item.element"></image-admin>
                         <video-admin ng-if="item.element.type==='video-single'" item="item.element"></video-admin>
                         <video-carousel-admin ng-if="item.element.type==='video-carousel'"></video-carousel-admin>
                         <quiz-admin ng-if="item.element.type==='quiz'"></quiz-admin>
+                        <quote-main-admin ng-if="item.element.type==='quote-list'"></quote-main-admin>
+                        <list-images-admin ng-if="item.element.type==='list-images'"></list-images-admin>
 
                     </div>
                 </div>

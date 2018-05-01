@@ -95,7 +95,17 @@ module.exports = function(application){
                     display: "Quote",
                     type: "text-quote",
                     icon: "fa fa-quote-right"
-                }
+                },
+              {
+                display: "Quote List (Main Page)",
+                type: "quote-list",
+                icon: "fa fa-quote-right"
+              },
+              {
+                display: "List of Images with Links",
+                type: "list-images",
+                icon: "fa fa-images"
+              }
             ];
             
            
@@ -144,7 +154,7 @@ module.exports = function(application){
                         });
                         $uibModalInstance.close({reboot: false});
                     }
-                    else if (item.element.type==='link-pdf' || item.element.type === 'image-single'){
+                    else if (item.element.type==='link-pdf' || item.element.type === 'image-single' || item.element.type==='list-images'){
                         fileService.createUrls();
                         $uibModalInstance.close({reboot: false});
                     }

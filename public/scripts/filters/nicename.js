@@ -78,7 +78,17 @@ module.exports = function(application){
                     display: "Quote",
                     type: "text-quote",
                     icon: "fa fa-quote-right"
-                }
+                },
+                  {
+                        display: "Quote List (Main Page)",
+                        type: "quote-list",
+                        icon: "fa fa-quote-right"
+                  },
+              {
+                display: "List of Images with Links",
+                type: "list-images",
+                icon: "fa fa-images"
+              }
             ];
             let res = types.find(function(elem){
                 return elem.type===input;

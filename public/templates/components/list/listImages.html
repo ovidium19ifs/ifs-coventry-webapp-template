@@ -1,7 +1,8 @@
 <h5 ng-show="component.subtitle">{{component.subtitle}}</h5>
 <ul ng-cloak>
     <li class="learning-outcome" id={{$index}} ng-repeat="elem in component['list_elements']">
-        <text-paragraph component="elem"></text-paragraph>
+        <a href="{{elem.href}}" target="_blank">
+            <img src="{{elem.src}}" class="ml-2 d-block" width="160" height="160" alt="{{elem.name}}">
+        </a>
     </li>
 </ul>
-
