@@ -47,33 +47,14 @@ function revokeToken(token){
 }
 
 module.exports.get = function(req,res){
-    debug(req.query);
+    //creates the url to request code and sends it back to the AngularJS controller (in exchangeCode)
     //alternative way by using environment variables
     exchangeCode(req,res);
     return;
-    /*
-  //this happens after local authentication has succeded
-  //it revokes the current token and then requests another one
-  //by calling exchangeCode
-  const user = readUser(req,res);
-  
-  if (user.token){
-    revokeToken(user.token)
-      .then(response => {
-        exchangeCode(req,res);
-      })
-      .catch(err => {
-        debug(err);
-        exchangeCode(req,res);
-      })
-  }
-  else{
-      exchangeCode(req,res);
-  }
-  */
 };
 module.exports.localAuth = function(req,res){
     //Simplified auth ... just check against env variables
+    //localAuth is responsible for checking if the correct username and password have been sent to the server
     let user = req.body;
     if (user.username === process.env.USERNAME.trim() && user.password === process.env.PASSWORD.trim()){
         debug("USers match");
@@ -86,43 +67,6 @@ module.exports.localAuth = function(req,res){
         res.end();
         return;
     }
-    /*
-  //localAuth is responsible for checking if the correct username and password have been sent to the server
-    let userPath = path.join(rootPath,'user.json');
-    if (!fs.existsSync(userPath)){
-        
-        userPath = path.join(rootPath,'user.txt');
-        if (!fs.existsSync(userPath)){
-          
-          res.status(400).send("user.json or user.txt doesn't exist. Create the file first");
-          res.end();
-          return;
-        }
-    }
-  
-  fs.readFile(userPath, 'utf8',(err, data) => {
-    if (err){
-      res.send({response:false});
-      res.end();
-    }
-    else{
-      let formUser = req.body;
-      let user = JSON.parse(data);
-      if (user.username === formUser.username && user.password === formUser.password){
-        //if users match, request github authentication
-        res.redirect("/github?connection=true");
-        res.end();
-        return;
-      }
-      else{
-        //else send information that the user is incorrect
-        res.status(400).send('Bad Request');
-        res.end();
-        return;
-      }
-    }
-  });
-  */
 };
 module.exports.getAuth = function(req,res){
   //this function handles the exchange from code to OAuth for GitHub (See docs)
@@ -170,84 +114,9 @@ module.exports.getAuth = function(req,res){
                 res.redirect("/authenticate?user=false");
             })
       })
-            //alternative way, without using file, just environment variables
-              
-              /*
-            //read file
-            let userPath = path.join(rootPath,'user.json');
-            if (!fs.existsSync(userPath)){
-                userPath = path.join(rootPath,'user.txt');
-                if (!fs.existsSync(userPath)){
-                    debug("user.txt also doesn't exist,returning with error");
-                    res.status(400).send("user.json or user.txt doesn't exist. Create the file first");
-                    res.end();
-                    return;
-                }
-            }
-            fs.readFile(userPath,'utf8',(err,data) =>{
-              if (err){
-                res.send({response: "No user file"});
-              }
-              else{
-                const user = JSON.parse(data);
-                
-                user.token = token;
-                if (!user.login){
-                  //if first time requesting github auth, all good
-                 
-                  user.login = login;
-                }
-                else {
-                    if (user.login !== login) {
-                       
-                        //if the github auth has another login, revoke its token and return to browser with error
-                        //require the original github auth to successfully login
-                        revokeToken(user.token)
-                            .then(response => {
-                                res.redirect("/authenticate?user=false");
-                            })
-                            .catch(err => {
-                                debug(err);
-                                res.redirect("/authenticate?user=false")
-                            })
-                    }
-                }
-                //write login and token to file.
-                fs.writeFile(userPath,JSON.stringify(user),(err) => {
-                  if (err){
-                    debug(err);
-                  }
-                  res.redirect("/authenticate?auth=true");
-                })
-              }
-            });
-            
-            return;
-          })
-          .catch((err) => {
-            debug(err);
-            return;
-          })
-      })
-      .catch(function(err){
-        debug(err);
-        res.end();
-        return;
-      })
-      
-  }
-  else{
-    //we have our token
-    /*
-    axios({
-      method: 'DELETE',
-      url: `https://api.github.com/applications/${process.env.GITHUB_CLIENT_ID}/tokens/:access_token`
-    })*/
   }
   else{
       debug("No code");
       res.redirect("/authenticate?user=false")
   }
-  
- 
 };
