@@ -18,6 +18,7 @@
                 <thought-bubble component="component" ng-if="component.type==='thought-bubble'"></thought-bubble>
                 <text-quote component="component" ng-if="component.type==='text-quote'"></text-quote>
                 <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
+                <media-description component="component" ng-if="component.type==='media-description'"></media-description>
                 <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
                 <ng-include  src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
                 <ng-include  src="'templates/components/link/website.html'" ng-if="component.type==='link-website'"></ng-include>

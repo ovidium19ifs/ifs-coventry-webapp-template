@@ -3,8 +3,8 @@
     //  content/:group/blocks/:block
 module.exports = function(application){
     "use strict";
-    application.controller("ContentRedirecter",["$scope","dataBlock","$location","navigate","$routeParams",
-        function($scope,dataBlock,$location,navigate,$routeParams){
+    application.controller("ContentRedirecter",["$scope","dataBlock","$location","navigate","$routeParams","$filter",
+        function($scope,dataBlock,$location,navigate,$routeParams,$filter){
         "use strict";
         var base = $location.path();
         if (base.includes("/blocks/")){
@@ -12,11 +12,11 @@ module.exports = function(application){
             var obj = dataBlock.find(function(elem){
                 return elem.name === $routeParams.blockname;
             });
-            $location.path(base+"\/chapter\/"+ obj.chapters[0].name).replace();
+            $location.path(base+"\/chapter\/"+ $filter('nospaces')(obj.chapters[0].name,"-")).replace();
             
         }
         else{
-            $location.path(base+"\/blocks\/"+ dataBlock[0].name+"\/chapter\/"+dataBlock[0].chapters[0].name).replace(); // .replace() simply prevents this location from being registered in the browser history
+            $location.path(base+"\/blocks\/"+ $filter('nospaces')(dataBlock[0].name,"-")+"\/chapter\/"+$filter('nospaces')(dataBlock[0].chapters[0].name,"-")).replace(); // .replace() simply prevents this location from being registered in the browser history
         }
         
     }]);

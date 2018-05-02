@@ -63,6 +63,11 @@ module.exports = function(application){
                     icon: 'fa fa-comment'
                 },
                 {
+                    display: "Profile",
+                    type: "media-description",
+                    icon: "fa fa-profile"
+                },
+                {
                     display: "Myth",
                     type: "text-mythfact",
                     icon: "fa fa-lightbulb-o"

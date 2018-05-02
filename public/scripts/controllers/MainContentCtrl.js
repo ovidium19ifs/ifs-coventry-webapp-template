@@ -12,8 +12,10 @@ module.exports = function(application){
         $scope.data={};
         var elem = angular.element(document.getElementById("mainContent"));
         if (!navigate.urlIsValid($routeParams)){
+            console.log("not a valid URL");
             navigate.errorPage();
         }
+        console.log("Valid URL");
         var data = navigate.getDataBlock();
         $scope.$emit("$dataWasLoaded",data[0]);
         $scope.data = data[0];

@@ -1,0 +1,24 @@
+<ng-form name="componentSpecifics" novalidate>
+    <div class="form-group text-center">
+        <label for="textName">Person Name:</label>
+        <input class="form-control" name="textName" id="textName" ng-model="item.element.name" ng-required="true">
+        <p class="form-text small text-danger" ng-if="componentSpecifics.textName.$error.required">Name is required.</p>
+    </div>
+    <div class="form-group text-center">
+        <label for="textTitle">Job Title:</label>
+        <input class="form-control" name="textTitle" id="textTitle" ng-model="item.element.title">
+    </div>
+    <div class="form-group text-center">
+        <label for="textUrl">Profile Link:</label>
+        <input class="form-control" name="textUrl" id="textUrl" ng-model="item.element.url">
+    </div>
+    <div class="card mb-2" collapsible-card>
+        <div class="card-header p-1">
+            <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Description<span class="fa fa-minus float-right" style="line-height: 1.5"></span></p>
+        </div>
+        <div class="card-body">
+            <text-paragraph-admin item="item.element.description"></text-paragraph-admin>
+        </div>
+    </div>
+    <image-admin form-name="img" item="item.element"></image-admin>
+</ng-form>

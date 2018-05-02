@@ -17,6 +17,7 @@ module.exports = function(application){
         return{
             urlIsValid:function(routeParams){
                 group=routeParams.group;
+                console.log(routeParams);
                 if (routeParams.hasOwnProperty("chaptername")) {
                     
                     
@@ -32,7 +33,7 @@ module.exports = function(application){
                     return (!(current_bl_index === -1 || current_ch_index === -1));
                 }
                 else if(routeParams.hasOwnProperty("blockname")){
-                    var bl_name=routeParams.blockname;
+                    var bl_name=$filter('tospaces')(routeParams.blockname);
                     current_bl_index = data.findIndex(function (elem) {
                         return elem.name === bl_name;
                     });
@@ -44,7 +45,7 @@ module.exports = function(application){
             errorPage: function(){
                 current_bl_index=-1;
                 current_ch_index=-1;
-                $location.path("/404");
+                $location.url("/404");
             },
             setData: function(fullData,gr){
                 data = fullData;

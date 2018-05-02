@@ -51,6 +51,10 @@ module.exports = function(application){
                         }
                     });
                     modalInstance.result.then(function(res){
+                        let index = arr.findIndex(e => {
+                            return  e === element;
+                        });
+                        console.log("found index: " + index);
                         if (changed || res.reboot) {
                             if (type==='Section'){
                                 console.log("Broadcasting");
@@ -61,6 +65,7 @@ module.exports = function(application){
                                 arr[index]=undefined;
                                 $timeout(function(){
                                     console.log("Rebooting element through timeout");
+                                    console.log("Writing at index: "+index);
                                     arr[index] = res.element;
                                 },100);
                             }
@@ -79,7 +84,14 @@ module.exports = function(application){
                         
         
                     },function(reason){
+                        console.log(element);
+                        let index = arr.findIndex(e => {
+                            console.log(e);
+                            
+                            return  e === element;
+                        });
                         console.log(reason);
+                        console.log("Writing at index: "+index);
                         arr[index] = angular.copy(master);
                         element = arr[index];
                     });

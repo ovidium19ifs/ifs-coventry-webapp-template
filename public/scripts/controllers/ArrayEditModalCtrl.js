@@ -92,6 +92,11 @@ module.exports = function(application){
                     icon: 'fa fa-image'
                 },
                 {
+                    display: "Profile",
+                    type: "media-description",
+                    icon: "fa fa-profile"
+                },
+                {
                     display: "Quote",
                     type: "text-quote",
                     icon: "fa fa-quote-right"
@@ -154,7 +159,7 @@ module.exports = function(application){
                         });
                         $uibModalInstance.close({reboot: false});
                     }
-                    else if (item.element.type==='link-pdf' || item.element.type === 'image-single' || item.element.type==='list-images'){
+                    else if (item.element.type==='link-pdf' || item.element.type === 'image-single' || item.element.type==='list-images' || item.element.type==='media-description'){
                         fileService.createUrls();
                         $uibModalInstance.close({reboot: false});
                     }

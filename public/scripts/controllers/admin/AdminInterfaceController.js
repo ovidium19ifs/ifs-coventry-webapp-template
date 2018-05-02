@@ -328,6 +328,9 @@ module.exports = function(application){
                     chapter: s.components
                 }
                 ];
+                if (newComponent.type==='media-description'){
+                    newComponent.src="images/placeholder.jpg";
+                }
                 $scope.undoItems.unshift(new_undo);
                 s.components.push(newComponent);
             }, function (reason) {
@@ -503,9 +506,11 @@ module.exports = function(application){
         };
     
         $scope.saveChanges = function(){
-            console.log($scope.data);
+            
             console.log(`Saving data to ${$scope.group}`);
-            $scope.data = convertData.unsectionize($scope.data[0]);
+            if ($scope.group ===  'mainpage'){
+                $scope.data = convertData.unsectionize($scope.data[0]);
+            }
             console.log($scope.data);
             fileService.post().then(function(res){
                 console.log(res);

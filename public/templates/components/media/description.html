@@ -1,0 +1,18 @@
+<div class="card card-inner">
+    <div class="card-header py-1 text-center">
+        <h4>{{component.name}}</h4>
+    </div>
+    <div class="card-body">
+        <div class="media">
+            <img class="mr-3 rounded" width="160" height="160" src="{{component.src}}" alt="{{component.name}}">
+            <div class="media-body">
+                <h5 class="mt-0">{{component.title}}</h5>
+                <text-paragraph component="component.description"></text-paragraph>
+                <a href="{{component.url}}" target="_blank" class="align-self-bottom justify-self-bottom website-link pt-3" ng-if="component.url">
+                    <span class="fa fa-globe"></span>
+                    Profile Link
+                </a>
+            </div>
+        </div>
+    </div>
+</div>

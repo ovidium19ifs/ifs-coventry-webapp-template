@@ -75,15 +75,20 @@ module.exports = function(application){
                     icon: 'fa fa-image'
                 },
                 {
+                    display: "Profile",
+                    type: "media-description",
+                    icon: "fa fa-profile"
+                },
+                {
                     display: "Quote",
                     type: "text-quote",
                     icon: "fa fa-quote-right"
                 },
-                  {
-                        display: "Quote List (Main Page)",
-                        type: "quote-list",
-                        icon: "fa fa-quote-right"
-                  },
+              {
+                    display: "Quote List (Main Page)",
+                    type: "quote-list",
+                    icon: "fa fa-quote-right"
+              },
               {
                 display: "List of Images with Links",
                 type: "list-images",
