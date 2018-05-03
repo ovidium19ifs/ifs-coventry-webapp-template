@@ -123,7 +123,30 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
         .when("/authenticate",{
             templateUrl: "templates/authenticate.html",
             controller: "AuthenticateController",
-            resolve: {}
+            resolve: {
+                loginLocal: function(github){
+                  return github.authAvailable().$promise.then(res => {
+                    console.log(res);
+                    return res.response;
+                  })
+                    .catch(err => {
+                      console.log(err);
+                      
+                      return false;
+                    })
+                },
+                loginGithub: function(github){
+                  return github.gitAvailable().$promise.then(res =>{
+                    console.log(res);
+                   return res.response;
+                  })
+                    .catch(err => {
+                      console.log(err);
+                      return false;
+                    })
+              }
+              
+            }
       })
         .when("/admin",{
             templateUrl: "templates/adminHome.html",

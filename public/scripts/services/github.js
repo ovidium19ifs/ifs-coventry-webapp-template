@@ -3,18 +3,19 @@ module.exports = function(application){
   application.factory("github",["$resource",function($resource){
     "use strict";
     //when we get data, we receive an array, therefore we have to specify isArray in the resource method definition
-    var resource = $resource("/github",{
+    var resource = $resource("/github",null,{
       'query': {method: 'GET', isArray:true},
-      'get': {method: 'GET',params: {connection:false}}
+      'get': {method: 'GET',params: {connection:false}},
+      'avail': {method: 'GET',params: {available: true}}
     });
     var resource_auth = $resource("/github/auth",{
       'get' : {method: 'GET'}
     });
     var resource_local = $resource("/auth",{
-      'post': {method: 'POST'}
+      'post': {method: 'POST'},
+      'get': {method: 'GET'}
     });
     var authenticated = false;
-    
     return{
       get: function(conn){
         
@@ -28,6 +29,16 @@ module.exports = function(application){
       },
       authLocal: function(form){
         return resource_local.save(null,form);
+      },
+      authAvailable: function(){
+        console.log("Have to find out from the server");
+        return resource_local.get();
+      
+      },
+      gitAvailable: function(){
+        console.log("Have to find out from the server if github is avaialble");
+        return resource.avail();
+        
       },
       authenticated: authenticated
     }

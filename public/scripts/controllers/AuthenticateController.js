@@ -1,6 +1,15 @@
 module.exports = function(app){
-  app.controller("AuthenticateController",["$scope","github","$location","$timeout",function($scope,github,$location,$timeout){
+  app.controller("AuthenticateController",["$scope","github","$location","$timeout","loginLocal","loginGithub",function($scope,github,$location,$timeout,loginLocal,loginGithub){
     const query = $location.search();
+    console.log(query);
+    console.log("Blah blashsdasodpka");
+    console.log(loginLocal);
+    console.log(loginGithub);
+    
+    if (!loginLocal){
+      github.authenticated = true;
+      $location.url('/admin').replace();
+    }
     if (query.hasOwnProperty('auth') && query.auth){
       github.authenticated = true;
       $location.url('/admin').replace();
@@ -23,18 +32,32 @@ module.exports = function(app){
         return;
         //-------------------
         */
-        github.get(true).$promise.then(resp => {
-          console.log(resp);
+        /*
+        if (!loginGithub){
+          github.authenticated = true;
+          $location.url('/admin').replace();
+        }
+        */
+        if (!loginGithub){
+          github.authenticated = true;
+          $location.url('/admin').replace();
+          return;
+        }
+        else{
+          github.get(true).$promise.then(resp => {
+            console.log(resp);
             if (resp.redirect){
-                window.location.replace(resp.url);
+              window.location.replace(resp.url);
             }
             else{
-                $scope.errorMessage = "This username is not valid";
+              $scope.errorMessage = "This username is not valid";
             }
-        })
+          })
             .catch(err =>{
-                $scope.errorMessage = "This username is not valid";
+              $scope.errorMessage = "This username is not valid";
             })
+        }
+       
         
       })
         .catch(err => {

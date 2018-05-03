@@ -22,6 +22,7 @@ app.get("/files/:folder",files.get);
 app.get("/github",githubAuth.get);
 app.get("/github/auth",githubAuth.getAuth);
 app.post("/auth",githubAuth.localAuth);
+app.get("/auth",githubAuth.localAvailable);
 app.post("/files/",files.put);
 app.post("/data/:source",parts.put);
 app.get("/assets/js/bundle.js",function(req,res){

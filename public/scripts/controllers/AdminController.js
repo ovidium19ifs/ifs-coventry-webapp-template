@@ -7,6 +7,7 @@ module.exports  = function(application){
         function($scope,dataBlock,$location,navigate,$timeout,dataFetcher,$window,github){
         "use strict";
         if (!github.authenticated){
+            console.log("Must connect first");
             $location.url("/authenticate").replace();
         }
         $scope.selected = "";

@@ -49,8 +49,20 @@ function revokeToken(token){
 module.exports.get = function(req,res){
     //creates the url to request code and sends it back to the AngularJS controller (in exchangeCode)
     //alternative way by using environment variables
-    exchangeCode(req,res);
-    return;
+    if (req.query.available){
+      debug("Requesting if available");
+      if (!process.env.GITHUB_CLIENT_ID || !process.env.GITHUB_CLIENT_SECRET || !process.env.GITHUB_REDIRECT || !process.env.GITHUB_LOGIN){
+        res.send({response: false})
+      }
+      else{
+        res.send({response: true})
+      }
+    }
+    else{
+      exchangeCode(req,res);
+      return;
+    }
+ 
 };
 module.exports.localAuth = function(req,res){
     //Simplified auth ... just check against env variables
@@ -119,4 +131,17 @@ module.exports.getAuth = function(req,res){
       debug("No code");
       res.redirect("/authenticate?user=false")
   }
+};
+module.exports.localAvailable = function(req,res){
+  debug(process.env.USERNAME);
+  debug(process.env.PASSWORD);
+    if (process.env.USERNAME && process.env.PASSWORD){
+    
+        res.send({response: true});
+    }
+    else{
+        res.send({response: false});
+    }
+    res.end();
+    return;
 };
