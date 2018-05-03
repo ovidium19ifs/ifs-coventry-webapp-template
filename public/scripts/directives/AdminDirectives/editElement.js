@@ -15,6 +15,11 @@ module.exports = function(application){
                         element = newV;
                     });
                 }
+                else if (type==='Block'){
+                    scope.$watch('selBlock',function(newV,oldV){
+                        element=newV;
+                    })
+                }
                 else{
                     element = arr[index];
                     var chapter = scope[attrs['chapter']];
@@ -22,7 +27,15 @@ module.exports = function(application){
                 }
                 $(elem).click(function(e){
                     if (!$uibModal) return;
-                    let master = angular.copy(element);
+                    console.log(scope);
+                    var master;
+                    if (type === 'Chapter' || type === 'Block'){
+                        master = element.name;
+                    }
+                    else{
+                      master = angular.copy(element);
+                    }
+                    
                     let changed=false;
                     let init=0;
                     let watcher = scope.$watch(function(){return element;},function(){
@@ -51,10 +64,14 @@ module.exports = function(application){
                         }
                     });
                     modalInstance.result.then(function(res){
-                        let index = arr.findIndex(e => {
-                            return  e === element;
-                        });
-                        console.log("found index: " + index);
+                        if (type==='Chapter' || type==='Block'){
+                            console.log(scope);
+                            watcher();
+                            return;
+                        }
+                        else{
+                          var index = scope.$index;
+                        }
                         if (changed || res.reboot) {
                             if (type==='Section'){
                                 console.log("Broadcasting");
@@ -84,16 +101,19 @@ module.exports = function(application){
                         
         
                     },function(reason){
-                        console.log(element);
-                        let index = arr.findIndex(e => {
-                            console.log(e);
-                            
-                            return  e === element;
-                        });
+                      if (type==='Chapter' || type==='Block'){
+                        console.log(scope);
+                        element.name = master;
+                        watcher();
+                        return;
+                      }
+                      else{
+                        let index = scope.$index;
                         console.log(reason);
                         console.log("Writing at index: "+index);
                         arr[index] = angular.copy(master);
                         element = arr[index];
+                      }
                     });
                 });
             },

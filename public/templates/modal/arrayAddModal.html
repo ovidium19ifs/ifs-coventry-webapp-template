@@ -9,16 +9,18 @@
     <div class="card-body text-center">
         <h5 ng-if="sectionName" class="mb-3">Block: {{sectionName}}</h5>
         <p>Enter a name for your new {{message}}.</p>
-        <form name="nameForm" ng-submit="closeModal(nameForm)">
-
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" ng-model="newElement.name" ng-minlength="3" ng-required="true" ng-if="newElement.hasOwnProperty('name')">
-            <input type="text" id="name" name="name" ng-model="newElement.subtitle" ng-minlength="3" ng-required="true" ng-if="newElement.hasOwnProperty('subtitle')">
-            <p ng-show="!nameForm.$pristine && nameForm.name.$error.minlength">Minimum 3 characters</p>
+        <form name="masterForm" ng-submit="closeModal(masterForm)">
+            <div class="form-group text-center">
+                <label for="name">Name:</label>
+                <input class="form-control w-50 mx-auto text-center" type="text" id="name" name="name" ng-model="newElement.name" ng-minlength="3" ng-required="true" ng-pattern="regex" ng-if="newElement.hasOwnProperty('name')">
+                <input class="form-control w-50 mx-auto text-center" type="text" id="name" name="name" ng-model="newElement.subtitle" ng-minlength="3" ng-required="true" ng-if="newElement.hasOwnProperty('subtitle')">
+                <span class="small text-danger" ng-show="!masterForm.$pristine && masterForm.name.$error.minlength">Minimum 3 characters</span>
+                <span class="small text-danger" ng-show="masterForm.$dirty && masterForm.name.$error.pattern">Cannot have the character "-" in the title.</span>
+            </div>
         </form>
     </div>
     <div class="card-footer text-center">
         <button class="btn btn-warning mx-4 w-25" ng-click="dismissModal()"> Never Mind </button>
-        <button class="btn btn-success mx-4 w-25" ng-click="closeModal(nameForm)"> Create</button>
+        <button class="btn btn-success mx-4 w-25" ng-click="closeModal(masterForm)"> Create</button>
     </div>
 </div>

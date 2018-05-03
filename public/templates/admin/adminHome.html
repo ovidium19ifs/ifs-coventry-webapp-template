@@ -111,7 +111,10 @@
     <div class="col col-md col-lg order-1 content  h-100" id="mainContent2" >
         <div class="container" ng-show="selChapter">
             <!-- Content -->
-            <h1 class="text-center block-title">{{selChapter.blockname}}</h1>
+            <h1 class="text-center block-title">
+                {{selBlock.name}}
+                <edit-element edit-type="Block"></edit-element>
+            </h1>
             <div class="card main-card">
                 <div class="card-header">
                     <h2 class="card-title d-inline">

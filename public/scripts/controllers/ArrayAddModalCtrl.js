@@ -5,6 +5,7 @@ module.exports = function(application){
     application.controller("ArrayAddModalCtrl",["$scope","$uibModalInstance","item",
         function($scope,$uibModalInstance,item){
             "use strict";
+            $scope.regex="[^-]+";
             if (item.message === 'Block'){
                 $scope.newElement = item.newSection;
             }

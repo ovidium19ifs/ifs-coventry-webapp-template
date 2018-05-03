@@ -8,6 +8,7 @@ module.exports = function(application){
             //set height of container
            // $('.modal-content .card.main')
             var files = {};
+            $scope.regex = "[^-]+";
             //overwrite default behaviour on pressing Enter in inputs of type text
             /*
             $(document).on("keypress", ":input:not(textarea)", function(event) {

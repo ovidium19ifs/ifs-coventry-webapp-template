@@ -178,8 +178,12 @@ module.exports = function(application){
         $scope.broadcast = function(){
             $scope.$broadcast("dataWasLoaded",$scope.selChapter.sections);
         };
-        $scope.$watchCollection(function(){return $scope.selChapter.sections;},function(newV,oldV){
-            $scope.broadcast();
+        $scope.$watchCollection(function(){
+            if ($scope.selChapter) return $scope.selChapter.sections;
+            else return undefined;
+            },function(newV,oldV){
+            if (newV)
+                $scope.broadcast();
         });
         
         

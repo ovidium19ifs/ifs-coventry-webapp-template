@@ -8,7 +8,7 @@
     </div>
     <form name="masterForm" id="masterForm" novalidate>
         <!-- Sections and Components -->
-        <div class="card-body component-edit-form" ng-if="item.type!=='Chapter'">
+        <div class="card-body component-edit-form" ng-if="item.type!=='Chapter' && item.type!=='Block'">
             <!-- title -->
             <div class="px-3 py-1 font-weight-bold">
                 <h5>
@@ -92,12 +92,13 @@
         </div>
 
         <!-- Only for Chapters-->
-        <div class="card-body component-edit-form" ng-if="item.type==='Chapter'">
+        <div class="card-body component-edit-form" ng-if="item.type==='Chapter' || item.type==='Block'">
             <ng-form name="chapterForm" novalidate >
                 <div class="form-group text-center">
                     <label for="chapterName" class="font-weight-bold">Chapter Name: </label>
-                    <input id="chapterName" name="chapterName" class="form-control  m-auto" ng-model="item.element.name" placeholder="Enter a name...{{item.section ? '(optional)' : ''}}" ng-required="true">
-                    <span ng-if="masterForm.chapterForm.$dirty &&  masterForm.chapterForm.chapterName.$error.required">Required</span>
+                    <input id="chapterName" name="chapterName" class="form-control  m-auto" ng-model="item.element.name" placeholder="Enter a name...{{item.section ? '(optional)' : ''}}" ng-required="true" ng-pattern="regex">
+                    <span class="small text-danger" ng-if="masterForm.chapterForm.$dirty &&  masterForm.chapterForm.chapterName.$error.required">Required</span>
+                    <span class="small text-danger" ng-if="masterForm.chapterForm.$dirty &&  masterForm.chapterForm.chapterName.$error.pattern">Not allowed to use "-" in Chapter title</span>
                 </div>
             </ng-form>
         </div>
