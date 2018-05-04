@@ -60,6 +60,9 @@ module.exports = function(application){
                 return group;
             },
             goTo : function(bl_name,ch_name){
+                console.log("in navigate.goTo");
+                console.log(bl_name);
+                console.log(ch_name);
                 if (ch_name){
                     $location.url("/content/"+group+"/blocks/"+bl_name+"/chapter/"+ch_name);
                     

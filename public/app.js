@@ -67,6 +67,7 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                         }
                     )
                 }
+                else return navigate.getData();
             }
         }
     })
@@ -251,16 +252,6 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
               }
             }
         })
-        .when("/test",{
-            templateUrl: "templates/test.html",
-            controller: "TestController",
-            resolve:{
-                dataBlock: function(){
-                    "use strict";
-                    return undefined;
-                }
-            }
-        })
         .otherwise({
         });
     $locationProvider.html5Mode(true);
@@ -277,10 +268,9 @@ require('./scripts/controllers/ArrayEditModalCtrl')(application);
 require('./scripts/controllers/ArrayAddComponentModalCtrl')(application);
 require('./scripts/controllers/ArraySuccessModalCtrl')(application);
 require('./scripts/controllers/ArrayQuizModal')(application);
+require('./scripts/controllers/WarnModalCtrl')(application);
 require('./scripts/directives/collapsibleCard')(application);
 require('./scripts/controllers/ContentRedirecter')(application);
-require('./scripts/controllers/TestController')(application);
-//require('./scripts/controllers/IntroductionCtrl')(application);
 require('./scripts/controllers/MainContentCtrl')(application);
 require('./scripts/controllers/MainMenuController')(application);
 require('./scripts/controllers/searchController')(application);
@@ -322,13 +312,6 @@ require('./scripts/directives/AdminDirectives/components/image')(application);
 require('./scripts/directives/AdminDirectives/components/websiteLinks')(application);
 require('./scripts/directives/AdminDirectives/components/listText')(application);
 require('./scripts/directives/AdminDirectives/components/mediaDescription')(application);
-require('./scripts/directives/FormDirectives/linkPdf')(application);
-require('./scripts/directives/FormDirectives/linkReference')(application);
-require('./scripts/directives/FormDirectives/linkTelephoneForm')(application);
-require('./scripts/directives/FormDirectives/linkWebsite')(application);
-require('./scripts/directives/FormDirectives/listTextForm')(application);
-require('./scripts/directives/FormDirectives/textMythFactForm')(application);
-require('./scripts/directives/FormDirectives/textQuote')(application);
 require('./scripts/directives/appForm')(application);
 require('./scripts/directives/chapterSummary')(application);
 require('./scripts/directives/fontSizeSelector')(application);

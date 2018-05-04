@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="card-header main p-0">
+        <p class="mb-0">
+            Delete
+            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+        </p>
+
+    </div>
+    <div class="card-body text-center">
+        <p> You haven't saved any changes. You can click the 'Save Changes' Button on the right column of the screen. If you leave now, you will lose all changes made.</p>
+    </div>
+    <div class="card-footer text-center">
+        <div class="btn-group-vertical">
+            <button class="btn btn-danger my-2" ng-click="closeModal()" style="cursor: pointer">Exit without saving</button>
+            <button class="btn btn-success my-2" ng-click="dismissModal()" style="cursor: pointer">I will save my changes first</button>
+        </div>
+
+    </div>
+</div>

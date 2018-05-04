@@ -1,0 +1,34 @@
+[
+    {
+        "block": "About",
+        "name": "Introduction",
+        "chapters": [
+            {
+                "blockname": "Introduction",
+                "name": "Information on this resource",
+                "sections": [
+                    {
+                        "subtitle": "Project details",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Research Centre for Global Learning: Education and Attainment at Coventry University",
+                                        "href": "https://www.coventry.ac.uk/research/areas-of-research/global-learning/"
+                                    },
+                                    {
+                                        "portion": "Higher Education Funding Council for England",
+                                        "href": "http://www.hefce.ac.uk/"
+                                    }
+                                ],
+                                "text": "This website is a resource developed by the Research Centre for Global Learning: Education and Attainment at Coventry University. It was funded by the Higher Education Funding Council for England (HEFCE) as part of its catalyst fund. It aims to provide information, evidence-based support and guidance to students, university staff and educators/mentors in practice education with a view to enhancing placement experiences, particularly for disabled students."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

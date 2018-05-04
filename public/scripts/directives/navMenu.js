@@ -29,10 +29,11 @@ module.exports = function(application){
                     evt.preventDefault();
                     evt.stopPropagation();
                     var bl_name = $filter('nospaces')($(evt.target).text(),"-");
+                    console.log("bl_name: "+bl_name);
                     //$scope.selected = $scope.selected === bl_name ? "" : bl_name;
                     //$scope.chSelected = bl_name+"-";
                     if ($location.path() !== ("/content/"+group+"/blocks/" + bl_name))
-                        navigate.goTo(bl_name,$filter('nospaces')($scope.data[bl_index].chapters[0].name),"-");
+                        navigate.goTo(bl_name,$filter('nospaces')($scope.data[bl_index].chapters[0].name,"-"));
                     /*
                     console.log(bl_index);
                     var bl = navigate.getBlockByIndex(bl_index);

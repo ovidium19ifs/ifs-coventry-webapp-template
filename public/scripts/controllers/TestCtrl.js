@@ -10,6 +10,7 @@ module.exports = function(application){
             home, searchState, inContentState and adminState are used to control what tags appear on the page at any given time
          */
         $scope.home=true;
+        var watcher;
         $scope.$on("$locationChangeSuccess", function(e,newUrl){
             if ($location.path()!=="/"){
                 $scope.home=false;
@@ -27,13 +28,13 @@ module.exports = function(application){
         });
         $scope.$watch(
             function(){
-                return $routeParams.hasOwnProperty("group") && $location.path().indexOf("content")>-1;
+                return ($routeParams.hasOwnProperty("group") && $location.path().indexOf("content")>-1);
             },
             function(newV){
-                if (newV && newV!=="undefined"){
+                if ((newV && newV!=="undefined")){
                     $scope.inContentState = true;
                     $scope.data=navigate.getData();
-                    $scope.$watch(
+                    watcher = $scope.$watch(
                         function(){
                             return navigate.lowEnd();
                         },
@@ -48,7 +49,10 @@ module.exports = function(application){
                             $scope.highEnd = newV;
                         });
                 }
-                else $scope.inContentState = false;
+                else {
+                    $scope.inContentState = false;
+                    if (watcher) watcher();
+                }
             }
         );
         $scope.$watch(
@@ -95,23 +99,6 @@ module.exports = function(application){
             
         };
         
-        
-        ////////////////////////////////
-        $scope.dataCopy = angular.copy($scope.data);
-        
-        $scope.addElem = function(){
-            console.log("Called addElem in TestCtrl");
-            $scope.data.push({
-                "name": "Edit this block",
-                "chapters": [{
-                    "name": "Introduction",
-                    "sections": []
-                }]
-            });
-            console.log($scope);
-        };
-
-///////////////////////////////////////////////////////////
         $scope.submitSearch = function(q,f){
             //if search is invalid, return (less than 3 characters)
             if (f.$invalid) return;

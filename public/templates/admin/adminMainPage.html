@@ -16,7 +16,7 @@
                     <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section"  collapsible-elem="Section" ng-repeat="section in selChapter.sections">
                         <h4 class="card-subtitle">{{section.subtitle}}</h4>
                         <div class="collapsible">
-                            <div  ng-repeat="component in section.components" class="editable-component my-3" ifs-editable="Component" collapsible-elem="Component" callback-array="section.components" >
+                            <div  ng-repeat="component in section.components" class="editable-component my-3"  collapsible-elem="Component"  >
                                 <edit-element context-array="selChapter.sections[$parent.$index].components" index-in-context="$index" chapter="selChapter" section="section" edit-type="Component"></edit-element>
                                 <div class="collapsible">
                                     <text-paragraph component="component" ng-if="component.type==='text-paragraph'"></text-paragraph>

@@ -20,52 +20,6 @@ module.exports = function(application){
                 //always scroll top when accessing front page
                 $("#mainContent").scrollTop(0);
                 
-                //because we have templates for most things, I arranged the front-page data in
-                //the format needed to be processed correctly by my components
-                $scope.videoComp =  {
-                    "type": "video-single",
-                    "video": {
-                        "src": "https://www.youtube.com/embed/QTpNqgNIV3o",
-                        "thumb": "https://img.youtube.com/vi/QTpNqgNIV3o/maxresdefault.jpg"
-                    }
-                };
-                $scope.quoteComp = {
-                    "subtitle": "",
-                    "type": "text-quote",
-                    "text": "Student nurses value a welcoming workplace where staff and educators are happy to help and have a positive attitude to student presence on the wards",
-                    "author": "Doyle et al ",
-                    "year": "2017"
-                };
-                $scope.contactDetails = {
-                    "subtitle": "Contact Details",
-                    "components": [
-                        {
-                            "subtitle": "Telephone",
-                            "type": "link-telephone",
-                            "text": "+44 (0)24 7765 8029",
-                            "space_after": false
-                        },
-                        {
-                            "subtitle": "E-mails",
-                            "type": "link-email",
-                            "links": [
-                                {
-                                    "tag": "Disability Team",
-                                    "text": "disabilityadvisor.ss@coventry.ac.uk",
-                                    "link": "mailto:disabilityadvisor.ss@coventry.ac.uk"
-                                },
-                                {
-                                    "tag": "Mental health Team",
-                                    "text": "counsell.ss@coventry.ac.uk",
-                                    "link": "mailto:counsell.ss@coventry.ac.uk"
-                                }
-                            ],
-                            "space_after": false
-                        }
-                    ],
-                    "space_after": false
-                };
-                
                 //logo animation
                 var animation = bodymovin.loadAnimation({
                     container: document.getElementById("bm"),

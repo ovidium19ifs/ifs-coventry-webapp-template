@@ -5,6 +5,35 @@ module.exports = function(application){
         if (!allow){
             $location.url("/authenticate").replace();
         }
+        else{
+          $scope.saved = false;
+          $scope.$on('$locationChangeStart', function(event, next, current) {
+            console.log(event);
+            let regex = /(?:https?:\/\/)?[A-Za-z0-9\.\-]+(?:\:[0-9]+)/;
+            let newUrl = next.replace(regex,"");
+            if ($scope.saved){
+            }
+            else{
+              event.preventDefault();
+              if (!$uibModal) return;
+              var modalInstance = $uibModal.open({
+                template: require('../../../templates/modal/WarnModal.html'),
+                controller: "WarnModalCtrl",
+                animation: false,
+                windowClass: "my-modal modal-add",
+                backdrop: 'static',
+                resolve: {
+                }
+              });
+              modalInstance.result.then(res => {
+                $scope.saved = true;
+                $location.url(newUrl);
+              },reason => {
+              });
+      
+            }
+          });
+        }
         function undoMove(args){
             move(args);
         }
@@ -138,6 +167,10 @@ module.exports = function(application){
             }
             $scope.undoItems.splice(0,index+1);
         };
+        //detecting location change to warn user that he hasn't saved his changes
+       
+        //----------------------------------------------
+      
         $scope.data = dataBlock;
         $scope.group = $routeParams.group;
         $scope.undoMode = false;
@@ -455,6 +488,10 @@ module.exports = function(application){
                 new_undo.event = 'delete';
                 new_undo.summary = `${args.message} has been deleted.`;
                 if (args.message==="Block"){
+                  if ($scope.data.length < 2){
+                    alert("You must have at least 1 Block");
+                    return;
+                  }
                     if ($scope.selBlock === $scope.data[args.index]){
                         currentlySelected = true;
                     }
@@ -528,6 +565,7 @@ module.exports = function(application){
                             backdrop   : 'static',
                         });
                         modalInstance.result.then(function(res){
+                            $scope.saved = true;
                             $location.url("/");
                         });
                     })
