@@ -9,7 +9,7 @@ module.exports = function(application){
           $scope.saved = false;
           $scope.$on('$locationChangeStart', function(event, next, current) {
             console.log(event);
-            let regex = /(?:https?:\/\/)?[A-Za-z0-9\.\-]+(?:\:[0-9]+)/;
+            let regex = /^(?:https?:\/\/)?[A-Za-z0-9\.\-]+(?:\:[0-9]+)?/;
             let newUrl = next.replace(regex,"");
             if ($scope.saved){
             }
