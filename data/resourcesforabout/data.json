@@ -98,6 +98,15 @@
                             },
                             {
                                 "type": "media-description",
+                                "src": "images/amanda_reece.jpg",
+                                "description": {
+                                    "links": []
+                                },
+                                "name": "Amanda Reece",
+                                "title": "Project Manager"
+                            },
+                            {
+                                "type": "media-description",
                                 "src": "images/placeholder.jpg",
                                 "name": "Joanne Opie",
                                 "title": "Principal Lecturer and Faculty Learning Support Coordinator",
@@ -135,6 +144,15 @@
                                     "type": "text-paragraph",
                                     "text": "some description"
                                 }
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/alex_andriuc.jpg",
+                                "description": {
+                                    "links": []
+                                },
+                                "name": "Alex Andriuc",
+                                "title": "Intervention for Success Project - Camera Work"
                             }
                         ]
                     },

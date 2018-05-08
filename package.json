@@ -15,6 +15,7 @@
     "testbuild": "webpack -p"
   },
   "dependencies": {
+    "archiver": "^2.1.1",
     "axios": "^0.18.0",
     "base64url": "^2.0.0",
     "body-parser": "latest",

@@ -16,6 +16,9 @@ module.exports = function(application){
             },
             controllerAs: 'ctrl',
             controller: ["links","$scope",function(links,$scope){
+                if (!$scope.item){
+                    $scope.item = {}
+                }
                 if ($scope.item.hasOwnProperty('links'))
                     this.links = $scope.item.links;
                 else{

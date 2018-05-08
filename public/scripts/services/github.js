@@ -15,6 +15,7 @@ module.exports = function(application){
       'post': {method: 'POST'},
       'get': {method: 'GET'}
     });
+    var download_resource = $resource("/download");
     var authenticated = false;
     return{
       get: function(conn){
@@ -39,6 +40,10 @@ module.exports = function(application){
         console.log("Have to find out from the server if github is avaialble");
         return resource.avail();
         
+      },
+      download: function(){
+        console.log("Downloading");
+        return download_resource.get();
       },
       authenticated: authenticated
     }

@@ -3,6 +3,7 @@ var path = require('path');
 var parts=require('./partsController');
 var files = require('./fileController');
 var githubAuth = require('./githubAuth');
+var downloader = require('./downloader');
 const morgan = require('morgan');
 const debug = require('debug')('app');
 //var lessMiddleware = require('less-middleware');
@@ -23,6 +24,7 @@ app.get("/github",githubAuth.get);
 app.get("/github/auth",githubAuth.getAuth);
 app.post("/auth",githubAuth.localAuth);
 app.get("/auth",githubAuth.localAvailable);
+app.get("/download",downloader.get);
 app.post("/files/",files.put);
 app.post("/data/:source",parts.put);
 app.get("/assets/js/bundle.js",function(req,res){

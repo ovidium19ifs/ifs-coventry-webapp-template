@@ -5,29 +5,199 @@
         "chapters": [
             {
                 "blockname": "Introduction",
-                "name": "Information on this resource",
+                "name": "Introduction",
                 "sections": [
                     {
-                        "subtitle": "Project details",
-                        "space_after": true,
-                        "components": [
-                            {
-                                "type": "text-paragraph",
-                                "links": [
-                                    {
-                                        "portion": "Research Centre for Global Learning: Education and Attainment at Coventry University",
-                                        "href": "https://www.coventry.ac.uk/research/areas-of-research/global-learning/"
-                                    },
-                                    {
-                                        "portion": "Higher Education Funding Council for England",
-                                        "href": "http://www.hefce.ac.uk/"
-                                    }
-                                ],
-                                "text": "This website is a resource developed by the Research Centre for Global Learning: Education and Attainment at Coventry University. It was funded by the Higher Education Funding Council for England (HEFCE) as part of its catalyst fund. It aims to provide information, evidence-based support and guidance to students, university staff and educators/mentors in practice education with a view to enhancing placement experiences, particularly for disabled students."
-                            }
-                        ]
+                        "subtitle": "Welcome to this tutorial",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": []
                     }
                 ]
+            },
+            {
+                "blockname": "Introduction",
+                "name": "Prerequisites",
+                "sections": [
+                    {
+                        "subtitle": "Github",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Heroku",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Getting the website running",
+        "chapters": [
+            {
+                "blockname": "New Block 1",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website",
+                "name": "Using github",
+                "sections": [
+                    {
+                        "subtitle": "Fork the website repository",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website",
+                "name": "Using heroku",
+                "sections": [
+                    {
+                        "subtitle": "Using heroku",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Authentication",
+        "chapters": [
+            {
+                "blockname": "New Block 2",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Setting up authentication",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Authentication",
+                "name": "Local Authentication",
+                "sections": [
+                    {
+                        "subtitle": "Setting username and password",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Authentication",
+                "name": "Github Authentication",
+                "sections": [
+                    {
+                        "subtitle": "Setting up external authentication (Optional)",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Admin Primer",
+        "chapters": [
+            {
+                "blockname": "New Block 3",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Getting to grips with page structure",
+                "sections": [
+                    {
+                        "subtitle": "Terminology",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Menus",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Widgets",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Form Page",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Adding and removing elements",
+                "sections": [
+                    {
+                        "subtitle": "Blocks",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Chapters",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Sections",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Components",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Undo Queue",
+                "sections": []
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Component Types",
+                "sections": []
             }
         ]
     }
