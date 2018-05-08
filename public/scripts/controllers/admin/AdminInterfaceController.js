@@ -1,11 +1,8 @@
 module.exports = function(application){
     "use strict";
-    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window","$location","allow","convertData",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window,$location,allow,convertData){
+    application.controller("AdminInterfaceController",["$scope","dataBlock","$timeout","$uibModal","$filter","fileService","dataFetcher","$routeParams","$window","$location","convertData",function($scope,dataBlock,$timeout,$uibModal,$filter,fileService,dataFetcher,$routeParams,$window,$location,convertData){
         "use strict";
-        if (!allow){
-            $location.url("/authenticate").replace();
-        }
-        else{
+      
           $scope.saved = false;
           $scope.$on('$locationChangeStart', function(event, next, current) {
             console.log(event);
@@ -33,7 +30,7 @@ module.exports = function(application){
       
             }
           });
-        }
+        
         function undoMove(args){
             move(args);
         }

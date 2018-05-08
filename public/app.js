@@ -152,11 +152,24 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
         .when("/admin",{
             templateUrl: "templates/adminHome.html",
             controller: "AdminController",
-            resolve:{
-                dataBlock: function(){
-                    "use strict";
-                    return undefined;
-                }
+            resolveRedirectTo: ["github",function(github){
+                return new Promise((resolve,reject) => {
+                  if (!github.authenticated){
+                    console.log("Must authenticate first");
+                    resolve('/authenticate');
+                  }
+                  else{
+                    reject();
+                  }
+                }).then(response => {
+                  console.log("In then function: "+ response);
+                  return response;
+                }).catch(err => {
+                  console.log("In catch");
+                  console.log(err);
+                  return;
+                });
+              }]
                 /*,
                 user: function(github){
                     "use strict";
@@ -170,32 +183,7 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                       }
                     )
                 }*/
-            }
-        })
-        .when("/admin/:group",{
-            templateUrl: "templates/adminEditor.html",
-            controller:"AdminController",
-            resolve: {
-                dataBlock: function(navigate,dataFetcher,$route){
-                    "use strict";
-                    // Delete this in production.
-                    return dataFetcher.get($route.current.params.group).$promise.then(
-                        function(res){
-                            navigate.setData(res,$route.current.params.group);
-                            return res;
-                        }
-                    );
-                    if (!navigate.getData() || navigate.getGroup()!==$route.current.params.group){
-                        return dataFetcher.get($route.current.params.group).$promise.then(
-                            function(res){
-                                navigate.setData(res,$route.current.params.group);
-                                return res;
-                            }
-                        )
-                    }
-                    else return navigate.getData();
-                }
-            }
+            
         })
         .when("/admini/:group",{
             templateUrl: function(params){
@@ -210,11 +198,26 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
                                 return res;
                             }
                         )
-                },
-                allow: function(github){
-                  return github.authenticated;
                 }
-            }
+            },
+          resolveRedirectTo: ["github",function(github){
+            return new Promise((resolve,reject) => {
+              if (!github.authenticated){
+                console.log("Must authenticate first");
+                resolve('/authenticate');
+              }
+              else{
+                reject();
+              }
+            }).then(response => {
+              console.log("In then function: "+ response);
+              return response;
+            }).catch(err => {
+              console.log("In catch");
+              console.log(err);
+              return;
+            });
+          }]
 
         })
         .when("/:group/search",{
@@ -253,6 +256,7 @@ application.config(["$routeProvider","$locationProvider","$compileProvider",
             }
         })
         .otherwise({
+          redirectTo: "/"
         });
     $locationProvider.html5Mode(true);
 }]);
