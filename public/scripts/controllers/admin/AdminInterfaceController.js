@@ -367,6 +367,10 @@ module.exports = function(application){
                 }
                 $scope.undoItems.unshift(new_undo);
                 s.components.push(newComponent);
+                $timeout(() => {
+                  let elem = s.components[s.components.length-1];
+                  $scope.$broadcast("recentlyAdded",[elem]);
+                },0);
             }, function (reason) {
                 console.log(reason);
             });

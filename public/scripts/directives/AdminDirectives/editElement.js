@@ -116,6 +116,15 @@ module.exports = function(application){
                       }
                     });
                 });
+                scope.$on("recentlyAdded",(e,args) =>{
+                    e.preventDefault();
+                    let s = args[0];
+                    let thisElem = s;
+                   
+                    if (s === element){
+                        $(elem).click();
+                    }
+                })
             },
             controller: ["$scope",function($scope){
             

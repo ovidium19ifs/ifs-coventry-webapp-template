@@ -10,12 +10,64 @@
                     {
                         "subtitle": "Welcome to this tutorial",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Heroku",
+                                        "href": "https://www.heroku.com/home"
+                                    },
+                                    {
+                                        "portion": "GitHub",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "In this tutorial, you will learn how to deploy your own version of this website. This tutorial will teach you how to deploy using Heroku, which is a very straight-forward service, very easy to use and FREE! You will also use GitHub, to download the website to your account and to upload the website to Heroku."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "This tutorial will only talk about deploying with Heroku. If you want to deploy your website on a local server, check the Github description page for the website linked below."
+                            },
+                            {
+                                "type": "link-website",
+                                "links": [
+                                    {
+                                        "text": "Github page for this website",
+                                        "link": "https://github.com/ovidium19/SupportForStudents"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This tutorial will also teach you how to use the various tools available on the website to edit its content. You can use the admin features to create your own version of content, embed links, images, videos and all sorts of components with minimal effort."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "Heroku",
+                                                "href": "https://www.heroku.com/home"
+                                            },
+                                            {
+                                                "portion": "Github",
+                                                "href": "https://github.com/"
+                                            }
+                                        ],
+                                        "text": "In this chapter, we will simply create a Heroku and a Github account. These tools will be needed in order to download the website to your Github account and upload it to Heroku, which is a cloud server that will make your website available for other users to see for FREE!"
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -26,12 +78,91 @@
                     {
                         "subtitle": "Github",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Github",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "First, you will need a Github account. Go to their website(linked in the name) and create an account. This is a simple process resembling all other sign-up forms you have probably used before.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Once you have created the account, you should login. Your landing page will look something like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_landing.jpg",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can read the guide for a bit to understand what github does, but for the purpose of this tutorial, it is not necessary."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Heroku",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Heroku",
+                                        "href": "https://id.heroku.com/login"
+                                    }
+                                ],
+                                "text": "We will do the same with Heroku. Create an account and then log in.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The landing page will look something like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_landing.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can click the 'New' Button and then 'Create New App'. This will prompt you to the second screen which looks like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_create.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The name you choose will be the name of you website. For example, if you choose test-server-2018, then the name of your website will be https://test-server-2018.herokuapp.com"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Introduction",
+                "name": "Summary",
+                "sections": [
+                    {
+                        "subtitle": "Before you go on...",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Try to have your Github and Heroku accounts set up. In Heroku, you can also create your new app at this point and name it however you want.\nThese are necessities in order to continue to the next chapter."
+                            }
+                        ]
                     }
                 ]
             }
@@ -47,7 +178,30 @@
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this chapter, you will do all the necessary work to upload and start your website on your heroku server."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to fork a repository on Github."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to link your github repository to your heroku app."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to deploy your website using heroku."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -58,7 +212,38 @@
                     {
                         "subtitle": "Fork the website repository",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In github, every user can have repositories. These can be private and public. A repository is a collection of files, that is stored on the cloud. Github also comes with a version control system, meaning that the state of your files is saved between changes. This means that you can see previous versions of your files after you have made changes. In our context, this can be useful if you have made mistakes when editing the content of the website and want to revert back to a previous state."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "https://help.github.com/articles/fork-a-repo/",
+                                        "portion": "forking a repository"
+                                    },
+                                    {
+                                        "portion": "You can find it here",
+                                        "href": "https://github.com/ovidium19/SupportForStudents"
+                                    }
+                                ],
+                                "text": "This website is available in the format of a github repository. You can find it here. In order to continue at this point, you need to get a copy of this repository into your own github account. In order to do that, there is a process in github called forking a repository.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "this repository",
+                                        "href": "https://github.com/ovidium19/SupportForStudents"
+                                    }
+                                ],
+                                "text": "In order to complete this step, you need to fork a copy of the website template page into your own github account. Simply go to this repository and click the 'Fork' button on the top-right side. This process will take several seconds, and then you will end up with a repository in your github account that has the name 'ifs-template-website'."
+                            }
+                        ]
                     }
                 ]
             },
@@ -69,7 +254,91 @@
                     {
                         "subtitle": "Using heroku",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You now have a repository in your github account called 'ifs-template-website'. Congratulations!!"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The next step is letting our heroku app know where our repository is."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "dashboard",
+                                                "href": "https://dashboard.heroku.com/apps"
+                                            }
+                                        ],
+                                        "text": "Go to your dashboard and select the previously created heroku app."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Go to the 'Deploy' tab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_deplymenu.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Where it says 'Deployment Method', click on Github."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Below that, there is a form with the title 'Search for a repository to connect to'. Start typing the name of your repository, which should be 'ifs-template-website' if you haven't changed the name."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_gitdeploy.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Once you click 'Search', the results will show just below. Click 'Connect' on the search result that pops up."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "After you connect the repository to heroku, more options will appear on the screen. You don't have to worry about these. Simply scroll all the way down to the section labelled 'Manual Deploy' and then click the button 'Deploy Branch'."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "After you click the button, the repository is copied on the heroku server. This takes some time, but you are provided feedback in the logs below. Once this process is done, another button will pop up , the 'View' button. Clicking this will take you to your new website."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website running",
+                "name": "Summary",
+                "sections": [
+                    {
+                        "subtitle": "Congratulations",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have done a lot of work in this chapter, and you now have a brand new website ready and deployed. It is time now to take a look at how to protect its admin features so that you are the only one that can access them. Let's talk about Authentication."
+                            }
+                        ]
                     }
                 ]
             }
@@ -85,12 +354,42 @@
                     {
                         "subtitle": "Setting up authentication",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The admin page of this website lets you edit the entire content of the website, and the button to access it is available from the top bar. The admin page has been exposed in such way to make it easier for you and other content creators to access it."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Because it is so exposed, there are a couple of authentication methods available to restrict access to it. If you opt for any of the authentication methods, you can better protect the content of the website."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "None of the two authentication methods are mandatory, but it is highly advised to include at least the local authentication."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "To explain how local authentication works and how to set it up"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "To learn how to set up github authentication and how to use it."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -101,7 +400,81 @@
                     {
                         "subtitle": "Setting username and password",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The username and password for the admin features are stored in environment variables."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "To create these on a local server, there are instructions on the template's github repository."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "To do this on Heroku, follow these steps:"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "dashboard",
+                                                "href": "https://dashboard.heroku.com/apps"
+                                            }
+                                        ],
+                                        "text": "Open your app from your dashboard"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Go to the Settings Tab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_settings.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Click on Reveal Config Vars"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You must enter two variables, one for the username, one for the password.\nThere is a KEY field and a VALUE field and a button ADD."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "For the username, enter USERNAME in the key field (must be all caps) and in the value field enter your desired username and click ADD."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "For the password, enter PASSWORD in the key field (must be all caps) and in the value field enter your desired password and click ADD."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_vars.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Test it",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have now set up some authentication for your website.\nTry to access the admin page now and if everything is all right, you should be prompted to enter these variables. \nYou now have a secure admin page!"
+                            }
+                        ]
                     }
                 ]
             },
@@ -112,7 +485,13 @@
                     {
                         "subtitle": "Setting up external authentication (Optional)",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Will come in the future."
+                            }
+                        ]
                     }
                 ]
             }
@@ -128,12 +507,44 @@
                     {
                         "subtitle": "Introduction",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this chapter, I will go over the admin page, its structure and elements and try to get you familiar with all the various components that are available, how to add and remove them."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn the terminology."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the various widgets and buttons available on the admin page."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the Undo queue and learn how to correct mistakes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to add and remove elements."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the available components in small detail."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -143,23 +554,125 @@
                 "sections": [
                     {
                         "subtitle": "Terminology",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Blocks",
+                                "text": "Blocks are the main elements of your data. They encapsulate all chapters and are available in the navigation menu on the left. The blocks in this case are: Introduction, Getting the website running, Authentication etc."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks are made of chapters.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Chapters",
+                                "text": "Chapters are the containers inside a block. For example, the chapters for the 'Admin Primer' block are : Introduction, Getting to grips with page structure, Adding and removing elements, etc.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "space_after": true,
+                                "subtitle": "Sections",
+                                "text": "Each page is made of several sections. A section starts with a coloured title. Sections also appear on the right side navigation menu for quick navigation. The sections on this page are: Terminology, Menus, Widgets, Form Page"
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "It is good practice to give your Blocks, Chapters and Sections very relevant names, as they appear in navigation menus and allow the user to quickly navigate to what they are looking for",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Components",
+                                "text": "Everything else is a component. All paragraphs, images, videos, alerts, links are components. When you create a page, it will usually be several sections which contain several components. We will go over components more in a later chapter."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Menus",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main menu on the left contains all the Blocks and Chapters, while the menu on the right will display all sections on the currently selected Block+Chapter."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that when you select a Block, it will automatically select the first Chapter from it. A block cannot contain anything else besides Chapters."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "All Blocks, Chapters and Sections must have a name. Name is optional for components."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "When you edit the content, you must always have at least 1 Block with 1 Chapter. The website will not let you delete content if you have less than required."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Widgets",
-                        "space_after": false,
-                        "components": []
-                    },
-                    {
-                        "subtitle": "Form Page",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can notice many buttons on the admin page. Everything in here is editable, therefore there are many ways you can interact with your blocks, chapters, sections and components."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Add Buttons",
+                                "space_after": false,
+                                "text": "There are 4 different Add buttons available. You can add Blocks and Chapters from the menu on the left. You can add Sections to a Page through the Add Section button at the bottom of the page, or the Add New Section button on the right-side menu."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "space_after": true,
+                                "text": "You can add components with the Add Component button. Since components must belong to a Section, every Section comes equipped with this button at the bottom of the Section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Colored Borders",
+                                "text": "There are coloured borders displayed for Sections and Components. Sections have a blue border, and Components have a red border. This is so you can easily identify which component and section you are currently editing."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that components(red borders) are encapsulated in sections(blue borders). You must understand this hierarchy before proceeding forward."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "Blocks contain chapters, which contain sections, which contain components.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Collapse Button",
+                                "space_after": true,
+                                "text": "Sections and Components can get fairly big in size, making it hard to navigate your page. These two elements come equipped with a Collapse button at the beginning. Clicking this will collapse the contents of the element, making the page shorter. It is good practice to collapse Sections that you have finished editing, and only leave the Section you are currently working on uncollapsed."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Move and Delete Widgets",
+                                "space_after": true,
+                                "text": "Every element has these widgets. It's a group of three buttons that can move the element up or down in the hierarchy, or delete it. You can easily change the order of your elements with these buttons, or delete an element. You will be prompted to accept when you try to delete something."
+                            }
+                        ]
                     }
                 ]
             },
@@ -197,6 +710,125 @@
             {
                 "blockname": "Admin Primer",
                 "name": "Component Types",
+                "sections": []
+            }
+        ]
+    },
+    {
+        "name": "Saving your work",
+        "chapters": [
+            {
+                "blockname": "New Block 1",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Saving your work",
+                "name": "Getting the data",
+                "sections": [
+                    {
+                        "subtitle": "Download you data after making changes",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Saving your work",
+                "name": "Using github to save your changes",
+                "sections": [
+                    {
+                        "subtitle": "A brief overview of github",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Why github",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "How to save your changes to github",
+                        "space_after": false,
+                        "components": []
+                    },
+                    {
+                        "subtitle": "Re-deploying to Heroku",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Components",
+        "chapters": [
+            {
+                "blockname": "New Block 2",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "New Section 8",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Paragraph",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "List",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Links",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Images",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Document Link or upload",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Videos",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Contact Information",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Thought Bubbles",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Quiz",
+                "sections": []
+            },
+            {
+                "blockname": "Components",
+                "name": "Other components",
                 "sections": []
             }
         ]
