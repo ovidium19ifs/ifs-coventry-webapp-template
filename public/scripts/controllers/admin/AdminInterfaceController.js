@@ -121,7 +121,6 @@ module.exports = function(application){
             var newBlocksAdded = 0;
             function makeChapter (i) {
                 return {
-                    blockname: $scope.data[i].name,
                     name: "New Chapter "+ ++newChaptersAdded,
                     sections:[]
                 }
@@ -131,7 +130,6 @@ module.exports = function(application){
                     name: "New Block "+ ++newBlocksAdded,
                     chapters:[
                         {
-                            "blockname": "New Block "+ newBlocksAdded,
                             "name": "Introduction",
                             "sections":[]
                         }

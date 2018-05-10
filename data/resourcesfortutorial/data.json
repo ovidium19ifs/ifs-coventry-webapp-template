@@ -565,22 +565,34 @@
                             {
                                 "type": "text-paragraph",
                                 "links": [],
-                                "text": "Blocks are made of chapters.",
-                                "space_after": true
+                                "text": "Blocks are made of chapters. Below there is an example of blocks.",
+                                "space_after": false
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/blocks.jpg"
                             },
                             {
                                 "type": "text-paragraph",
                                 "links": [],
                                 "subtitle": "Chapters",
-                                "text": "Chapters are the containers inside a block. For example, the chapters for the 'Admin Primer' block are : Introduction, Getting to grips with page structure, Adding and removing elements, etc.",
-                                "space_after": true
+                                "text": "Chapters are the containers inside a block. For example, the chapters for the 'Admin Primer' block are : Introduction, Getting to grips with page structure, Adding and removing elements, etc. See below an example of chapters in the block <span class='bg-info text-white p-1'>Admin Primer</span>",
+                                "space_after": false
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/chapters.jpg"
                             },
                             {
                                 "type": "text-paragraph",
                                 "links": [],
-                                "space_after": true,
+                                "space_after": false,
                                 "subtitle": "Sections",
-                                "text": "Each page is made of several sections. A section starts with a coloured title. Sections also appear on the right side navigation menu for quick navigation. The sections on this page are: Terminology, Menus, Widgets, Form Page"
+                                "text": "Each page is made of several sections. A section starts with a coloured title. Sections also appear on the right side navigation menu for quick navigation. An example of a section can be seen below"
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/sections.jpg"
                             },
                             {
                                 "type": "text-alert",
@@ -591,7 +603,11 @@
                                 "type": "text-paragraph",
                                 "links": [],
                                 "subtitle": "Components",
-                                "text": "Everything else is a component. All paragraphs, images, videos, alerts, links are components. When you create a page, it will usually be several sections which contain several components. We will go over components more in a later chapter."
+                                "text": "Everything else is a component. All paragraphs, images, videos, alerts, links are components. When you create a page, it will usually be several sections which contain several components. We will go over components more in a later chapter. An example of some components can be seen below."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/components.jpg"
                             }
                         ]
                     },
@@ -670,7 +686,7 @@
                                 "links": [],
                                 "subtitle": "Move and Delete Widgets",
                                 "space_after": true,
-                                "text": "Every element has these widgets. It's a group of three buttons that can move the element up or down in the hierarchy, or delete it. You can easily change the order of your elements with these buttons, or delete an element. You will be prompted to accept when you try to delete something."
+                                "text": "Every element has these widgets. It's a group of three buttons that can move the element up or down in the hierarchy, or delete it. You can easily change the order of your elements with these buttons, or delete an element. You will be prompted to accept when you try to delete something. They look something like this: <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1 fa-sm'></span></div>"
                             }
                         ]
                     }
@@ -682,35 +698,226 @@
                 "sections": [
                     {
                         "subtitle": "Blocks",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks are the main containers of data. You can see them listed on the left hand side menu. You can add a new block by clicking on the <div class='d-inline bg-info p-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Block</div> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the blocks using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a block by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Chapters",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Chapters are parts of a block. You can see them listed on the left hand side menu. When you click on a block, you see all the chapters inside that block. You can add a new chapter by clicking on the <div class='d-inline bg-success p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Chapter</div> button. The chapter is added in the current active block."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the chapters within a block by using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a chapter by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Sections",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Sections are the main elements of a chapter (a page). Sections also appear on the right-side menu for quick navigation (their name is displayed there). You can add a new section by clicking on the <div class='d-inline bg-success p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Section</div> button available on the right-side menu."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can also add sections from the <div class='d-inline bg-info p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add Section</div> button avaiable at the bottom of the page."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the sections within a page using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a section by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Components",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Components are everything else on the page. They have a red border. Every section of the page is made of components. There are several types of components, like image, text, video, quote, reference etc. You can add a new component by clicking on the <div class='d-inline bg-warning p-1 m-1 text-dark'><span class='fa fa-plus-circle mr-2 text-dark'></span>Add Component</div> button available at the bottom of every section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the components within a section using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a component by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "blockname": "Admin Primer",
-                "name": "Undo Queue",
-                "sections": []
+                "name": "Editing",
+                "sections": [
+                    {
+                        "subtitle": "The Edit Icon",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Once you access a chapter (a page), you will see all the elements of the page exposed. Most elements will have this <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon on the top-left or next to their name."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Clicking on the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon will open an interface on the right side which lets you edit the corresponding element."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Blocks and Chapters",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks and chapters only have a name property. There is no <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> button on the navigation menu on the left-hand side, simply because it was obscuring the names too much. To change the name of a block or a chapter, first you must access the chapter page, and at the top of the page you will see the block name with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon next to it and underneath there is the chapter name with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon next to it. Accessing the interface for the block or chapter will let you change their name."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Sections",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Sections are the parts of the page with blue borders. They contain components, but they also have a name property which is mandatory, and a checkbox property for drawing a horizontal line at the end of the section. The <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon lets you access the section interface to edit these two properties. It is situated in the top-left corner of the section, which is enclosed in blue borders."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Components",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each component also comes equipped with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon which is situated in the top-left corner. Just a reminder, components are enclosed in red borders."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Components are more complex, they contain various properties depending on the type. We will not go in-depth here about each component, we will talk about what properties all components share."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "When you open the interface for a component, you will see three tabs. The first tab is called <span class='text-white font-weight-bold bg-info p-1'>Component Basics</span> and here you can edit the subtitle of the component and the checkbox property that draws a horizontal line at the end of the component."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The next tab is called <span class='text-white font-weight-bold bg-info p-1'>Component Type</span>. Here you can change the type of the component, if you are not happy with the type you chose when you created it."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "at this link",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Components/chapter/Introduction"
+                                    }
+                                ],
+                                "text": "The last tab is custom, based on what type you selected for the component. It is usually named <span class='text-white font-weight-bold bg-info p-1'>{{Type}} Options</span>. Here you can edit all the various properties of a specific component type. You can find more information on component types and their properties at this link."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Admin Primer",
-                "name": "Component Types",
-                "sections": []
+                "name": "Undo Stack",
+                "sections": [
+                    {
+                        "subtitle": "The Undo Stack",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "On the far-right side of the page, you can see this button: <span class='fa fa-undo p-1 bg-dark text-white' style='opacity: 0.6; font-size: 1.2rem'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Most of your actions while editing are registered in this stack. You can see your previous actions by clicking the <span class='fa fa-undo p-1 bg-dark text-white' style='opacity: 0.6; font-size: 1.2rem'></span> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each of these actions gives you a brief description about where the change was made ( which block, chapter, section and component) and also displays an icon to show what type of action was made ( delete, move, add, edit). Each entry has an <span class='bg-warning text-dark p-1'>UNDO</span> button that allows you to revert the state of your document back to how it was before that change.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "When you click UNDO, you are reverting back the document to how it was before that change. That means that if you UNDO the 6th element in the stack, you will also lose the changes made in the 5 elements above. Think of this as hitting CTRL + Z on a windows machine. It reverts your previous change, but in order to revert back to the 6th previous change you made, you have to undo the 5 before as well."
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     },
@@ -724,7 +931,29 @@
                     {
                         "subtitle": "Learning Outcomes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn what happens when you save your changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to download your data after you made changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to save your new data to your github repository."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how and when you should re-upload your github repository to your heroku app."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
@@ -735,7 +964,38 @@
                     {
                         "subtitle": "Download you data after making changes",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-alert",
+                                "text": "This section only applies to you if your website is on a cloud server like Heroku where you cannot access your data. If you have your website on a local server, then whenever you press the 'Save Changes' button, your data is automatically saved in the folder called Data at the location of your website folder."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have made some changes, added some content and pressed the <span class='bg-success text-white p-1'>Save Changes</span> button in the top-right part of the page. Congratulations!! But what exactly happens to your data?"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "All data is stored in some files in the website folder. These files are grouped in a folder called 'Data'. If your website is on a cloud server, then you don't have access to the newly updated data straight away."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can choose to download the data at any time using the <span class='bg-success text-white p-1'>Download Data</span> button in the main admin interface. Clicking this will give you a <code>data.zip</code> file, which contains all your data in JSON format"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "It is always good practice to do this, because you will have a back-up of your data before making changes. If anything goes bad in your new update, or you go in a frenzy and start deleting everything, then you can recover from these mistakes if you have a back up of your data.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the next chapter, we will talk about how to you use github to store your data and all the history of your different versions of data and how to upload a new version of data to your cloud website."
+                            }
+                        ]
                     }
                 ]
             },
@@ -745,23 +1005,124 @@
                 "sections": [
                     {
                         "subtitle": "A brief overview of github",
-                        "space_after": false,
-                        "components": []
-                    },
-                    {
-                        "subtitle": "Why github",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "version control",
+                                        "href": "https://whatis.techtarget.com/definition/version-control"
+                                    },
+                                    {
+                                        "portion": "Github",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "Github is, at its core, a collaboration tool. It makes open-source projects much easier to maintain. One of its features is version control. \nWhat this means is that you can at any time revert your files back to a previous state. With this capability, Github becomes a great place to store files that you continuously update. This way, you will have access to all versions of your files, between updates."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Whenever you click the <span class='bg-success text-white p-1'>Save Changes</span> button, you are creating a new version of your data.  If you want to never lose this data and always have access to all the different versions, then you should use github to store it."
+                            }
+                        ]
                     },
                     {
                         "subtitle": "How to save your changes to github",
-                        "space_after": false,
-                        "components": []
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/admin",
+                                        "portion": "main admin interface"
+                                    }
+                                ],
+                                "text": "You can choose to download the data at any time using the <span class='bg-success text-white p-1'>Download Data</span> button in the main admin interface. Clicking this will give you a <code>data.zip</code> file, which contains all your data in JSON format. You should unzip the file, and save the folder <code>data</code> somewhere on your computer."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "href": "https://github.com/",
+                                                "portion": "github"
+                                            }
+                                        ],
+                                        "text": "Go to your github page and select the repository containing your website."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Press the <span class='border border-dark bg-white p-1 text-dark'>Upload files</span> button"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_upload.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Select <span class='text-info'><u>choose your files</u></span>"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Navigate to where you have saved your <code>data</code> folder and drag the entire folder to the github page. The upload will take several seconds depending on your connection speed."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You can add a commit message and commit description to identify this version later. It can be something related to what you added. For example if you added a new chapter, you can specify 'Added |chapter name|'. These are optional."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Press the <span class='bg-success p-1 text-white'>Commit changes</span> button."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commit.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "This will take a bit of time to complete, usually less than a minute. You will then be returned to your repository page. Nothing seemed to have happened, but if you press the <span class='text-dark border border-dark bg-white p-1'>commits</span> button, you will see that the version of your folder has been saved."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commitbutton.jpg"
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commithistory.jpg"
+                            }
+                        ]
                     },
                     {
                         "subtitle": "Re-deploying to Heroku",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Getting-the-website-running/chapter/Using-heroku",
+                                        "portion": "Using heroku"
+                                    }
+                                ],
+                                "text": "If you make any changes to the <code>data</code> folder locally and you want them to show up in the heroku website, you will have to re-upload your website to heroku. To do that, simply follow the steps in the <span style='font-size: 1.2rem'>Using heroku</span> section, after you have saved your changes to your github repository."
+                            }
+                        ]
                     }
                 ]
             }
@@ -830,6 +1191,63 @@
                 "blockname": "Components",
                 "name": "Other components",
                 "sections": []
+            }
+        ]
+    },
+    {
+        "name": "BlockBuster",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "New Section 1",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "link",
+                                        "href": "http://www.google.com"
+                                    }
+                                ],
+                                "text": "This is a paragraph component containing a link"
+                            },
+                            {
+                                "type": "link-pdf",
+                                "links": [
+                                    {
+                                        "text": "A Document Upload",
+                                        "link": "pdfs/youdontlookdisabled.pdf"
+                                    },
+                                    {
+                                        "text": "A Document Link",
+                                        "link": "pdfs/youdontlookdisabled.pdf"
+                                    }
+                                ],
+                                "subtitle": "A Document Component to upload documents"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "This is a"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "list component"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "containing paragraphs"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

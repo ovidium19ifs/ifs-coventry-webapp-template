@@ -130,6 +130,9 @@ module.exports = function(application){
             },
             getBlockLength: function(){
                 return data[current_bl_index].chapters.length;
+            },
+            getBlockName: function(){
+                return data[current_bl_index].name;
             }
         }
     }]);

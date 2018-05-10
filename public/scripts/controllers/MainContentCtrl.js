@@ -21,6 +21,7 @@ module.exports = function(application){
         $scope.data = data[0];
         $scope.index = data[1];
         $scope.blockLength = navigate.getBlockLength();
+        $scope.blockName = navigate.getBlockName();
         
         //here, we check if there is a hash in the url (there always is a hash in the url when coming from search
             // then if there is, we find the element and then scroll to it using the scroll CDN
