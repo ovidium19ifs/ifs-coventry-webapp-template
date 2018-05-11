@@ -16,7 +16,7 @@ module.exports = function(application){
                 }
             },
             controllerAs: 'ctrl',
-            controller: ["$scope",function($scope){
+            controller: ["$scope","$http","$sce","$jsonpCallbacks",function($scope,$http,$sce,$jsonpCallbacks){
                 function isitYoutube(url){
                     if (!url) return false;
                     
@@ -47,18 +47,14 @@ module.exports = function(application){
                 $scope.$watch(function(){
                     return ctrl.element.video.src;
                 },function(newV,oldV){
-                    if ($scope.componentSpecifics.url.$valid){
-                        let res = isitYoutube(newV);
-                        if (res){
-                            ctrl.youtube = true;
-                            ctrl.element.video.thumb = `https://img.youtube.com/vi/${res}/maxresdefault.jpg`;
-                            ctrl.currentImage = ctrl.element.video.thumb;
-                            ctrl.element.video.src =`https://www.youtube.com/embed/${res}`;
-                        }
-                        else{
-                            ctrl.youtube = false;
-                        }
-                        
+                    if ($scope.componentSpecifics.url.$valid) {
+                      let res = isitYoutube(newV);
+                      if (res) {
+                        ctrl.element.video.src = `https://www.youtube.com/embed/${res}`;
+                        ctrl.element.video.thumb = `https://img.youtube.com/vi/${res}/maxresdefault.jpg`;
+                        ctrl.currentImage = ctrl.element.video.thumb;
+                        ctrl.youtube = false;
+                      }
                     }
                 });
                 $scope.$on("receiveFile",function(e,args) {

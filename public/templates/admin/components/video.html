@@ -11,7 +11,7 @@
         <file-uploader context="ctrl.element" form="componentSpecifics">
             <input type="file"  class="fileUpload" name="fileInput" id="fileInput" ng-model="fileUp" accept="image/*" style="display:none" valid-file="(.jpg|.jpeg|.png)$" data-max-size="20">
             <button type="button" class="fileSelector btn btn-success form-control"><span class="fa fa-upload mr-3"></span>Add {{ctrl.element.video.thumb ? "Another" : ""}} image</button>
-            <p class="form-text small">You have entered a non-Youtube link. You have to upload your own thumbnail. Maximum allowed size is 20kb, so if your thumbnail doesn't work, resize it to dimensions 200x113</p>
+            <p class="form-text small">You can upload your own thumbnail here. Maximum allowed size is 20kb, so if your thumbnail doesn't work, resize it to dimensions 200x113</p>
             <p class="small bg-danger text-white" ng-if="componentSpecifics.$error.validFile">Your file is too big ({{this.file.size}}). Maximum allowed is 20KB.</p>
             <p class="small bg-danger text-white" ng-if="componentSpecifics.$error.validType">Your file has to be the an image (.jpg/.jpeg/.png)</p>
         </file-uploader>

@@ -22,7 +22,7 @@ module.exports = function(app){
                     fontSize: "3.5rem",
                     color: "blue",
                     transform:"rotate(-20deg)",
-                    zIndex: 9999
+                    zIndex: 100
                   });
                 }
                 else{
@@ -32,7 +32,7 @@ module.exports = function(app){
                     right:"35%",
                     fontSize: "3rem",
                     color: "red",
-                    zIndex: 9999
+                    zIndex: 100
                   });
                 }
                 

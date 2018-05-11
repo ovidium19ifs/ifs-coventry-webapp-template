@@ -10,11 +10,30 @@ module.exports = function(application){
             controllerAs: 'ctrl',
             controller: ["$scope",function($scope){
                 let ctrl = this;
+                $scope.exists = [];
                 $scope.uploadFile = function(i){
                     $('#fileElem'+i).click();
                 };
+                $scope.$on("move",function(e,args){
+                    console.log("caught move event in files.js");
+                    console.log(args);
+                    let changer = args.direction === 'up' ? -1 : 1;
+                    [$scope.exists[args.index],$scope.exists[args.index+changer]] = [$scope.exists[args.index+changer],$scope.exists[args.index]];
+                    
+                });
                 $scope.$on("receiveFile",function(e,args){
                     e.stopPropagation();
+                    if (args[2]){
+                        $scope.exists[args[0]]={
+                            res: true,
+                            link: args[3]
+                        };
+                        console.log("File exists");
+                    }
+                    else{
+                      $scope.exists[args[0]]={};
+                      console.log("File doesnt exist");
+                    }
                     let i = args[0];
                     args[0] = ctrl.files[i];
                     $scope.item.element.links[i].link = args[1].name;

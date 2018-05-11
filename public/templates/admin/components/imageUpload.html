@@ -1,5 +1,5 @@
 <ng-form name="componentSpecifics" class="sub-form" novalidate>
-    <file-uploader context="ctrl.element" form="componentSpecifics">
+    <file-uploader context="ctrl.element" form="componentSpecifics" file-type="images">
         <input type="file"  class="fileUpload" name="fileInput" id="fileInput" ng-model="fileUp" accept="image/*" style="display:none" valid-file="(.jpg|.jpeg|.png)$" data-max-size="80">
         <button type="button" class="fileSelector btn btn-success form-control"><span class="fa fa-upload mr-3"></span>Add {{ctrl.element.src ? "Another" : ""}} image</button>
         <p class="small text-danger" ng-if="componentSpecifics.$error.validFile">Your file is too big ({{this.file.size}}). Maximum allowed is 80KB.</p>

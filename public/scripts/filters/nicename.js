@@ -14,6 +14,26 @@ module.exports = function(application){
                     type: "list-text",
                     icon: "fa fa-list"
                 },
+              {
+                display: "Link(s)",
+                type: "link-website",
+                icon: "fa fa-globe"
+              },
+              {
+                display: "Image",
+                type: "image-single",
+                icon: 'fa fa-image'
+              },
+              {
+                display: "Video",
+                type: "video-single",
+                icon: "fa fa-play"
+              },
+              {
+                display: "Video(Multiple)",
+                type: "video-carousel",
+                icon: "fa fa-file-video-o"
+              },
                 {
                     display: "Link(PDF)",
                     type: "link-pdf",
@@ -34,21 +54,7 @@ module.exports = function(application){
                     type: "quiz",
                     icon: "fa fa-question-circle-o"
                 },
-                {
-                    display: "Video",
-                    type: "video-single",
-                    icon: "fa fa-play"
-                },
-                {
-                    display: "Video(Multiple)",
-                    type: "video-carousel",
-                    icon: "fa fa-file-video-o"
-                },
-                {
-                    display: "Link(Web)",
-                    type: "link-website",
-                    icon: "fa fa-globe"
-                },
+               
                 {
                     display: "Telephone Number",
                     type: "link-telephone",
@@ -69,11 +75,7 @@ module.exports = function(application){
                     type: "text-alert",
                     icon: "fa fa-exclamation"
                 },
-                {
-                    display: "Image",
-                    type: "image-single",
-                    icon: 'fa fa-image'
-                },
+                
                 {
                     display: "Profile",
                     type: "media-description",

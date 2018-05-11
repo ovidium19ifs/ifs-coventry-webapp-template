@@ -17,11 +17,31 @@ module.exports = function(application){
                     type: "list-text",
                     icon: "fa fa-list"
                 },
+              {
+                display: "Link(s)",
+                type: "link-website",
+                icon: "fa fa-globe"
+              },
+              {
+                display: "Image",
+                type: "image-single",
+                icon: 'fa fa-image'
+              },
                 {
                     display: "Documents",
                     type: "link-pdf",
                     icon: "fa fa-file-pdf-o"
                 },
+              {
+                display: "Video",
+                type: "video-single",
+                icon: "fa fa-play"
+              },
+              {
+                display: "Video Carousel",
+                type: "video-carousel",
+                icon: "fa fa-file-video-o"
+              },
                 {
                     display: "E-mail",
                     type: "link-email",
@@ -37,21 +57,8 @@ module.exports = function(application){
                     type: "quiz",
                     icon: "fa fa-question-circle-o"
                 },
-                {
-                    display: "Video",
-                    type: "video-single",
-                    icon: "fa fa-play"
-                },
-                {
-                    display: "Video Carousel",
-                    type: "video-carousel",
-                    icon: "fa fa-file-video-o"
-                },
-                {
-                    display: "Website Links",
-                    type: "link-website",
-                    icon: "fa fa-globe"
-                },
+               
+                
                 {
                     display: "Contact Number",
                     type: "link-telephone",
@@ -77,11 +84,7 @@ module.exports = function(application){
                     type: "text-alert",
                     icon: "fa fa-exclamation"
                 },
-                {
-                    display: "Image",
-                    type: "image-single",
-                    icon: 'fa fa-image'
-                },
+               
                 {
                     display: "Quote",
                     type: "text-quote",

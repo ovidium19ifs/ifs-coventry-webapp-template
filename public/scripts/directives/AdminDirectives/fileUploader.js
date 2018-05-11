@@ -7,7 +7,8 @@ module.exports = function(application){
             scope:{
                 index: "=",
                 form: "=",
-                context: "="
+                context: "=",
+                fileType: "@"
             },
             template: require('../../../templates/admin/file-uploader.html'),
             link: function(scope,elem,attrs,ctrl){
@@ -22,16 +23,21 @@ module.exports = function(application){
             controller: ["$scope",function($scope){
                 let prev;
                 let fup = this;
-                
                 this.handleChange = function(elem){
                     this.file = elem.files[0];
                     if (prev){
                         fileService.remove($scope.context,prev);
                     }
                     prev = this.file.name;
-                    $scope.$apply(function(){
-                        $scope.$emit("receiveFile",[$scope.index,fup.file]);
-                    });
+                    fileService.exists($scope.fileType,this.file.name).$promise.then(res => {
+                        console.log(res);
+                        $scope.$emit("receiveFile",[$scope.index,fup.file,res.response,`/${$scope.fileType}/${this.file.name}`]);
+                     
+                    })
+                      .catch(err => {
+                          console.log(err);
+                      })
+                   
                     
                 }
             }]

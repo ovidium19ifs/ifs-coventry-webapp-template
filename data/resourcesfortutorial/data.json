@@ -1136,46 +1136,539 @@
                 "name": "Introduction",
                 "sections": [
                     {
-                        "subtitle": "New Section 8",
+                        "subtitle": "Introduction",
                         "space_after": false,
-                        "components": []
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this block, we will go over all the available components you can use to build your pages. There is a variety of elements you can add to your page, from paragraphs, images and videos to links, lists, references and quizzes."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "We will explore each component in detail, give you an example of how to use the related form elements for each one, and show you what to expect from each component in terms of appearance."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "links": [],
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "In-depth discussion about each component."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Help you get familiar with the form looks  and controls."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Talk about some of the restrictions for each component."
+                                    }
+                                ]
+                            }
+                        ]
                     }
                 ]
             },
             {
                 "blockname": "Components",
                 "name": "Paragraph",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The Paragraph Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is the most common component you will use, so it is important to understand how to use it properly."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Google",
+                                        "href": "http://www.google.com"
+                                    }
+                                ],
+                                "text": "Wherever you see text, there's probably a paragraph component involved. Paragraphs are the main tool used for writing information. You can embed links in paragraphs, like this Google link, and you can add a background to a paragraph, like the paragraph below."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is a paragraph with background. This paragraph also has a separator drawn below.",
+                                "embolden": true,
+                                "subtitle": "This is a paragraph subtitle",
+                                "space_after": true
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Paragraph Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you click the <span class='fa fa-edit p-1 text-white bg-info' style='opacity:0.7'></span> icon on a paragraph component, you will see the following options."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_form.jpg",
+                                "subtitle": "Paragraph Form"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The <span class='bg-info p-1 text-white'>Component Basics</span> and <span class='bg-info p-1 text-white'>Component Type</span> are 2 form sections that you will see in every component form. The first one allows you to change the subtitle of the component and whether to draw a separator line at the end of it, the second one allows you to change the type of the component. We will not cover these two sections in the following chapters, because they are the same for all components. What changes from component to component is the last form section.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Text, background and links",
+                                "text": "The big text area is where you will enter the text that will be displayed. The checkbox that says <code> Emphasize text </code> will add a background to the paragraph. The button <span class='bg-info text-white p-1'>Embed Links </span> will open some more options for you to describe what words you want to be hyperlinked and what is the link."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_link.jpg",
+                                "subtitle": "Link Form"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The form above is what you will see after clicking the <span class='bg-info text-white p-1'>Embed Links</span> button. It is fairly straight-forward. In the first entry you have to enter the text to be hyper-linked, and the second entry is for the actual link."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can add multiple links. Simply press the <span class='bg-info text-white p-1'>Add Link</span> button and another Link entry will appear. The order of your links doesn't matter."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_linkmultiple.jpg",
+                                "subtitle": "Multiple Links"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Paragraph tips",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "embolden": true,
+                                        "text": "A link applies to all occurences of the typed text. If you link the word 'this', then it will link all occurences of the word this. Try to link only meaningful patters. Instead of this, you can have 'at this github link' and link the entire pattern."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You can change the order of your links, but that has no effect. To delete a link, simply press the trash can icon associated with each link."
+                                    }
+                                ],
+                                "space_after": false
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "HTML",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Bootstrap 4",
+                                        "href": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+                                    },
+                                    {
+                                        "portion": "Font Awesome 4",
+                                        "href": "https://fontawesome.com/v4.7.0/"
+                                    }
+                                ],
+                                "text": "Paragraphs support HTML code. The website comes equipped with Bootstrap 4 and Font Awesome 4. You can use their documentation to find out how to insert icons and how to edit the display of text. You can include awesome icons like this <span class='fa fa-check text-success' style='font-size:1.2rem'></span> check mark."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "List",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The List Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "this tutorial",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Components/chapter/Paragraph"
+                                    }
+                                ],
+                                "text": "The list is simply a collection of paragraphs. See this tutorial to find out about how to edit paragraphs. The order of your paragraphs matters in this case and you can edit them by using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons."
+                            },
+                            {
+                                "type": "list-text",
+                                "subtitle": "A List Example",
+                                "space_after": true,
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Paragraph 1"
+                                    },
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "Google",
+                                                "href": "http://www.google.com"
+                                            }
+                                        ],
+                                        "text": "Paragraph 2 that contains a Google link"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Paragraph 3 that has background",
+                                        "embolden": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The List Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "An empty list only comes with one button: <span class='bg-info text-white p-1'> Add list entry </span>. Pressing the button will add the first paragraph to your list. You can add multiple paragraphs by pressing the <span class='bg-info text-white p-1'> Add another </span> button."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/list_withparagraphs.jpg",
+                                "subtitle": "A list with 3 elements"
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Links",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The Link Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Link(s) component is a list of links. They are surrounded by a gray border. Use this component when you want to include some links that don't necesarily belong in a paragraph. It's a good component for grouping up together external related resources."
+                            },
+                            {
+                                "type": "link-website",
+                                "subtitle": "Link Component Subtitle",
+                                "space_after": true,
+                                "links": [
+                                    {
+                                        "text": "Google Link",
+                                        "link": "http://www.google.com"
+                                    },
+                                    {
+                                        "text": "Another Google Link",
+                                        "link": "http://www.google.com"
+                                    },
+                                    {
+                                        "text": "Home Page of this website",
+                                        "link": "http://localhost:8000"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Link Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is a simple form. It comes with a <span class='bg-info text-white p-1'> Add Link </span> button. Each link has an entry for the text to be displayed and an entry for the actual URL. The order of the links affects the order they are displayed in and you can change that order by using the corresponding <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Images",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The Image component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Image component lets you upload an image to the server for display. The form is very simple, it consists of an <span class='bg-success text-white p-1'>Add Image</span> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If the image name shows up written in red, then the image has been uploaded. Sometimes, you will have to save your form before seeing the image."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/placeholder.jpg",
+                                "subtitle": "Image Subtitle"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Image Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "There are several things to think about when uploading a single image. First of all, the size in memory of the image. The form will not allow you to upload an image that is more than <span class='text-white bg-danger px-1' style='font-size:1.3rem'>80kb</span> in size. Images have to be loaded by the browser when the page containing it is accessed. Images take a long time to load if they are too big, this restriction is here to make sure that the website still performs correctly even when it contains many images."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Another thing to think about is image width and height. The website does not enforce any width or height on your image, which means that you can include any type of image. It is important to think about how your image scales with screen size. I recommend for your images to have less then 600px width, more than that will make the image overflow from the edges of the containing document."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Document Link or upload",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "Document Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Document component is used to group and link documents (PDF or docx). You can either provide a URL that links to an online document, or you can upload your own document to the server. There is no restriction on the size of your document, but it has to be one of the following : <span class='bg-danger p-1 text-white'>.PDF .DOCX .DOC</span>"
+                            },
+                            {
+                                "type": "link-pdf",
+                                "links": [
+                                    {
+                                        "text": "Document 1 example",
+                                        "link": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                    },
+                                    {
+                                        "text": "Document 2 example",
+                                        "link": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                    }
+                                ],
+                                "subtitle": "Document Component Example",
+                                "space_after": true
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Document Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The component can hold multiple documents, so you will again have the common buttons for <span class='bg-info text-white p-1'>Add entry</span> and <span class='bg-info text-white p-1'>Add another</span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the documents using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons on the corresponding elements."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The form for a single document contains an entry for the label (text to be displayed) and an entry for a URL. If you are uploading a file, click the <span class='fa fa-upload bg-white border border-dark text-dark p-1'></span> icon, which will let you choose a document from your local computer"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you are simply linking to a document online, enter the URL of the document in the second box."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Getting a file name warning",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "image-single",
+                                "src": "images/file_samename.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This warning lets you know that a file with this name already exists on the server. This warning only happens when you try to upload a file. It shouldn't be an issue if you are reusing a file. You should be careful when trying to upload a file that has different content than the one with the same name on the server. The new file will replace the old file, and the old file will no longer be available."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Videos",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The Video component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "https://www.youtube.com/",
+                                        "portion": "Youtube"
+                                    }
+                                ],
+                                "text": "The video component allows you to link to an external video resource. You are not allowed to upload videos. If you have to upload videos, you should consider Youtube, they are a really good provider for this service."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The video form",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the video form, you have a field to enter a URL. You must enter a video resource URL here. In the case of youtube, you can enter any youtube URL."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you are entering another video URL, maybe from your own university media library, make sure to include the URL which contains only the video. ( ask for the embed URL)."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you enter a Youtube link, the form will automatically detect a suitable thumbnail for it.\nIf you provide another resource, then you will have to upload your thumbnail manually."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/video_thumbnailAdder.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Simlpy press the <span class='bg-success text-white p-1'><span class='fa fa-upload mr-2'></span> Add Image</span> button to add a thumbnail image for your video. Notice that the help text specifies that the thumbnail image cannot be more than <span class='bg-danger text-white p-1'>20kb</span> and to resize it to 200x113 px."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Video Carousel",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The video carousel is just a collection of videos. Press the <span class='bg-info text-white p-1'>Add Video</span>  button to add a Video to your list. Each Video needs to have a title. A video carousel looks like this:"
+                            },
+                            {
+                                "type": "video-carousel",
+                                "videos": [
+                                    {
+                                        "video": {
+                                            "src": "https://www.youtube.com/embed/zqAGm4_SjVc",
+                                            "thumb": "https://img.youtube.com/vi/zqAGm4_SjVc/maxresdefault.jpg"
+                                        },
+                                        "subtitle": "Mini Deadpool"
+                                    },
+                                    {
+                                        "subtitle": "Ryan Reynolds Bloopers",
+                                        "type": "video-single",
+                                        "video": {
+                                            "src": "https://www.youtube.com/embed/Rv9VC7ZPrH0",
+                                            "thumb": "https://img.youtube.com/vi/Rv9VC7ZPrH0/maxresdefault.jpg"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Contact Information",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "Email and Telephone components",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "E-mail and Telephone are two simple components that allow you to enter contact information for a person or company. Here are some examples"
+                            },
+                            {
+                                "type": "link-email",
+                                "links": [
+                                    {
+                                        "tag": "Email Label",
+                                        "text": "email@address.com",
+                                        "link": "mailto:email@address.com"
+                                    }
+                                ],
+                                "subtitle": "Email subtitle",
+                                "space_after": true
+                            },
+                            {
+                                "type": "link-telephone",
+                                "text": "telephone number",
+                                "subtitle": "Telephone subtitle:",
+                                "space_after": true
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Email and Telephone forms",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "E-mail",
+                                "space_after": false,
+                                "text": "The e-mail component can have multiple elements, so you can use the <span class='bg-info text-white p-1'>Add Entry</span> button to add an element and you can use the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></span></div> buttons to change the order of the elements."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The e-mail component itself has a <span class='bg-dark text-white p-1'>Label</span>  which represents some bolded text next to the e-mail address and a <span class='bg-dark text-white p-1'>E-mail</span> field which must contain an e-mail address.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Telephone",
+                                "text": "The telephone component only contains one entry for a telephone number. Use the component subtitle to label the entry, and use the <span class='bg-dark text-white p-1'>Telephone</span> field to enter the telephone number."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",

@@ -3,7 +3,7 @@
     <div class="w-100">
         <div class="card mb-2 link-card" collapsible-card ng-repeat="file in ctrl.files" ifs-editable="File" callback-array="ctrl.files" ifs-editable-class="mr-4">
             <div class="card-header p-1" >
-                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">File {{$index}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">File {{$index+1}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
             </div>
             <div class="card-body collapse">
                     <div class="form-row">
@@ -15,16 +15,22 @@
                     <div class="form-row">
                         <div class="form-group col">
                             <label for="file{{$index}}">File:</label>
-
                             <div class="form-inline">
                                 <input id="file{{$index}}" type="text" name="file{{$index}}" class="form-control ml-3" ng-model="file.link" placeholder="Copy URL or Add From Disk" ng-required="true">
-                                <file-uploader index="$index" context="file">
+                                <file-uploader index="$index" context="file" file-type="pdfs">
                                     <input type="file"  class="fileUpload" accept="application/pdf,.docx,.doc" style="display:none">
                                     <button type="button" class="fileSelector btn btn-sm bg-light btn-outline-dark form-control ml-3"><span class="fa fa-upload"></span></button>
+
                                 </file-uploader>
                             </div>
                         </div>
                     </div>
+                    <div ng-if="exists[$index].res">
+                        <p class="text-danger">The file already exists on the server. Press the link below to see it.</p>
+                        <a href="{{exists[$index].link}}" target="_blank" class="link-card">Click here to see the file</a>
+                        <p class="text-danger">If they are not the same file, then you should rename your file before uploading it, otherwise it will replace the file linked above.</p>
+                    </div>
+
                 </div>
         </div>
         <a class="btn btn-info float-right p-1" ng-if="ctrl.files.length>0" type="button" ng-click="ctrl.addFile($event)">Add another</a>

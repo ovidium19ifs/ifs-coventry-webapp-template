@@ -6,6 +6,7 @@ module.exports = function(application){
         var resource = $resource("/files/:folder",{folder:"@folder"},{
             'query': {method: 'GET',isArray: true},
         });
+        var file_resource = $resource("/exists/:type/:filename",{type: "@type",filename: "@filename"});
         var files = {};
         var urls = {};
         function constructBody(data){
@@ -50,7 +51,7 @@ module.exports = function(application){
                                 ctx.link = dir+key;
                                 break;
                             default:
-                                ctx.src = dir+key;
+                                ctx.link = dir+key;
                         }
                     }
                     data.push(files[key].file);
@@ -67,6 +68,9 @@ module.exports = function(application){
                    .catch(function(res){
                        return;
                    });
+            },
+            exists: function(type,fname){
+                return file_resource.get({type: type,filename: fname});
             },
             addFile: function(args){
                 let file = args[1];
