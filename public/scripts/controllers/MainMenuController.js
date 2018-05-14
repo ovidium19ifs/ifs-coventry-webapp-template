@@ -1,8 +1,8 @@
 //front page controller
 module.exports = function(application){
     "use strict";
-    application.controller("MainMenuController",["$scope","$location","dataBlock",
-        function($scope,$location,dataBlock){
+    application.controller("MainMenuController",["$scope","$location","dataBlock","$timeout",
+        function($scope,$location,dataBlock,$timeout){
                 "use strict";
                 //preload hover images
                  console.log("preloading images");
@@ -35,6 +35,20 @@ module.exports = function(application){
                     autoplay: true,
                     interval: 4500
                 });
+                console.log($scope.data.background_up);
+                console.log(`url("${$scope.data.background_down.src}")  no-repeat fixed top center`);
+                //setting image backgrounds
+                $timeout(function(){
+                  $(".main-page.one").css({
+                    background: `url("${$scope.data.background_up.src}")  no-repeat fixed top center`,
+                    backgroundSize: "cover"
+                  });
+                  $(".main-page.two").css({
+                    background: `url("${$scope.data.background_down.src}")  no-repeat fixed top center`,
+                    backgroundSize: "cover"
+                  });
+                },0);
+               
                 
                 //unused vars...will delete eventually still figuring if i need them
                 var body = angular.element(document.getElementById("mainContent"));

@@ -4,7 +4,8 @@ module.exports = function(application){
         return{
             restrict : 'E',
             scope:{
-                item: "="
+                item: "=",
+                maxSize: "@?"
             },
             template: require('../../../../templates/admin/components/imageUpload.html'),
             link: function(scope,elem,attrs,ctrl){
@@ -16,6 +17,10 @@ module.exports = function(application){
             controllerAs: 'ctrl',
             controller: ["$scope",function($scope){
                 let ctrl = this;
+                if (!$scope.maxSize){
+                    console.log("No maxSize defined");
+                    $scope.maxSize = 80;
+                }
                 ctrl.element = $scope.item;
                 if (!ctrl.element.src){
                     ctrl.currentFile = "None";

@@ -95,7 +95,7 @@
 
                 <div class="px-3" ng-repeat="aff in data.affiliations">
                     <a href="{{aff.href}}" target="_blank">
-                        <img src="{{aff.src}}" width="160" height="160" alt="{{aff.name}}" >
+                        <img src="{{aff.link}}" width="160" height="160" alt="{{aff.name}}" >
                     </a>
                 </div>
             </div>
@@ -105,7 +105,7 @@
             <div class="affiliations d-flex align-items-start justify-content-center">
                 <div class="px-3" ng-repeat="site in data.useful_sites">
                     <a href="{{site.href}}" target="_blank">
-                        <img src="{{site.src}}" width="160" height="160" alt="{{site.name}}" >
+                        <img src="{{site.link}}" width="160" height="160" alt="{{site.name}}" >
                     </a>
                 </div>
             </div>

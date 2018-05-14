@@ -44,11 +44,24 @@ module.exports = function(application){
           "list_elements": data[0].useful_sites
         }]
       };
-      newData[0].sections.push(videoSection,quotesSection,textSection,contactSection,affiliationSection,siteSection);
+      let backgroundUpSection = {
+        "subtitle": "background_up",
+        "components": [{
+          "type": "image-single",
+          "src": data[0].background_up.src.slice(2)
+        }]
+      };
+      let backgroundDownSection = {
+        "subtitle": "background_down",
+        "components": [{
+          "type": "image-single",
+          "src": data[0].background_down.src.slice(2)
+        }]
+      };
+      newData[0].sections.push(videoSection,quotesSection,textSection,contactSection,affiliationSection,siteSection,backgroundUpSection,backgroundDownSection);
       return newData;
     }
     function unsectionize(data){
-      console.log(data);
       let newData = [{
           mainVideo: {},
           quotes:[],
@@ -75,10 +88,15 @@ module.exports = function(application){
             case 'Useful Sites':
                 newData[0].useful_sites = block.components[0].list_elements;
                 break;
+          case 'background_up':
+          case 'background_down':
+                newData[0][block.subtitle] = {src: ".."+block.components[0].src};
+                break;
             default:
               newData[0].contact = block;
         }
       }
+      console.log(newData);
       return newData;
     }
     return{

@@ -77,7 +77,7 @@
                         <website-links-admin ng-if="item.element.type==='link-website'"></website-links-admin>
                         <list-admin ng-if="item.element.type==='list-text'"></list-admin>
                         <files-admin ng-if="item.element.type==='link-pdf'"></files-admin>
-                        <image-admin ng-if="item.element.type==='image-single'" item="item.element"></image-admin>
+                        <image-admin ng-if="item.element.type==='image-single'" item="item.element" max-size="280"></image-admin>
                         <video-admin ng-if="item.element.type==='video-single'" item="item.element"></video-admin>
                         <video-carousel-admin ng-if="item.element.type==='video-carousel'"></video-carousel-admin>
                         <quiz-admin ng-if="item.element.type==='quiz'"></quiz-admin>

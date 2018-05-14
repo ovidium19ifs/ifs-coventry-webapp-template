@@ -25,14 +25,6 @@ div.main-page {
   box-shadow: 0px 8px 5px -6px darkgray inset, 0px -8px 5px -6px darkgray inset;
   position: relative;
 }
-div.main-page.one {
-  background: url(./images/COV-HLS-3315.jpg) no-repeat fixed top center;
-  background-size: cover;
-}
-div.main-page.two {
-  background: url(./images/COV-HLS-3307.jpg) no-repeat fixed left top;
-  background-size: cover;
-}
 div.home-container.hide {
   transition: background-position 0.3s;
 }

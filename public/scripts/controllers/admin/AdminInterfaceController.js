@@ -548,12 +548,13 @@ module.exports = function(application){
         $scope.saveChanges = function(){
             
             console.log(`Saving data to ${$scope.group}`);
-            if ($scope.group ===  'mainpage'){
-                $scope.data = convertData.unsectionize($scope.data[0]);
-            }
+            
             console.log($scope.data);
             fileService.post().then(function(res){
                 console.log(res);
+              if ($scope.group ===  'mainpage'){
+                $scope.data = convertData.unsectionize($scope.data[0]);
+              }
                 dataFetcher.post($scope.group,$scope.data).$promise
                     .then(function(res){
                         let modalInstance = $uibModal.open({
