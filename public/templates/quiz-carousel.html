@@ -32,7 +32,7 @@
 
 </div>
 <div class="quiz-results" ng-show="quizFinished">
-    <h3 class="py-3">Congratulations! You scored <span class="score">{{score}}</span> % !!!</h3>
+    <h3 class="py-3">{{message}} You scored <span class="score">{{score}}</span> % !!!</h3>
     <ul class="list-group my-3">
         <li class="list-group-item results">
             <h2>Results</h2>
@@ -41,7 +41,7 @@
             <p class="question-text">{{r.text}}</p>
             <div class="question-answer">
                 <p ng-class="{'ans-correct':r.correct,'ans-incorrect': !r.correct}">
-                    You answered {{r.answer}}
+                    You answered: <span ng-class="{'text-success': r.correct, 'text-danger': !r.correct}" class="font-weight-bold">{{r.answer}}</span>
                     <i class="fa fa-check-circle text-success float-right ml-4 fa-2x" ng-show="r.correct"></i>
                     <i class="fa fa-times-circle text-danger float-right ml-4 fa-2x" ng-show="!r.correct"></i>
                 </p>
@@ -54,7 +54,7 @@
                     </div>
                 </div>
                 <div class="card-text">
-                    <p class="question-tip px-3">{{r.tip}}</p>
+                    <text-paragraph component="r.tip"></text-paragraph>
                 </div>
             </div>
         </li>

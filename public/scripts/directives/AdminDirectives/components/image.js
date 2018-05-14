@@ -27,6 +27,15 @@ module.exports = function(application){
                     ctrl.currentFile = ctrl.element.src.replace("image/","");
                 }
                 $scope.$on("receiveFile",function(e,args){
+                    if (args[2]){
+                        $scope.exists = {
+                            res: true,
+                            link: args[3]
+                        }
+                    }
+                    else{
+                        $scope.exists = {};
+                    }
                     e.stopPropagation();
                     args[0] = ctrl.element;
                     ctrl.currentFile = args[1].name;

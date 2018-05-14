@@ -50,6 +50,9 @@ module.exports = function(application){
                             case 'link-pdf':
                                 ctx.link = dir+key;
                                 break;
+                          case 'media-description':
+                                ctx.src = dir+key;
+                                break;
                             default:
                                 ctx.link = dir+key;
                         }

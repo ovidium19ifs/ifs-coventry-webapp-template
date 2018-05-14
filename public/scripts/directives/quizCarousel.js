@@ -31,7 +31,6 @@ module.exports = function(application){
                     console.log("cell: "+i);
                 
                     var cell =$(scope.row).children(".progress-cell").eq(i);
-                    console.log(cell);
                     if (ans){
                         $(cell).addClass("correct");
                         scope.correctAnswers++;
@@ -66,6 +65,12 @@ module.exports = function(application){
                     $scope.results.push(r);
                     if (q===$scope.questions.length-1)
                         $timeout(function(){
+                            if ($scope.score>50){
+                                $scope.message = "Congratulations!";
+                            }
+                            else{
+                                $scope.message = "Try Harder!";
+                            }
                             $scope.quizFinished = true;
                         },300);
                     else{

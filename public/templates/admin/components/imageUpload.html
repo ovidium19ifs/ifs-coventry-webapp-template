@@ -6,4 +6,9 @@
         <p class="small text-danger" ng-if="componentSpecifics.$error.validType">Your file has to be the an image (.jpg/.jpeg/.png)</p>
     </file-uploader>
     <p class="small mt-3">Current file: <span class="bg-danger text-white p-1">{{ctrl.currentFile}}</span></p>
+    <div ng-if="exists.res">
+        <p class="text-danger">The file already exists on the server. Press the link below to see it.</p>
+        <a href="{{exists.link}}" target="_blank" class="link-card">Click here to see the file</a>
+        <p class="text-danger">If they are not the same file, then you should rename your file before uploading it, otherwise it will replace the file linked above.</p>
+    </div>
 </ng-form>

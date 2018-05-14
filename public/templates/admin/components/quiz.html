@@ -1,3 +1,4 @@
+
 <ng-form name="componentSpecifics" novalidate>
     <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.items.length" ng-click="ctrl.createItems()">Add Questions</a>
     <div class="w-100">
@@ -7,16 +8,16 @@
             </div>
             <div class="card-body collapse">
                 <div class="form-group text-center">
-                    <label for="text{{$index}}">Text: </label>
-                    <textarea class="form-control" name="text{{$index}}" id="text{{$index}}" cols="30" rows="5" ng-model="item.text"  ng-required="true" ></textarea>
-                    <p class="small text-danger error-text" ng-if="componentSpecifics['text'+$index].$error.required">This field is required.</p>
+                    <label for="text{{$index}}">Question: </label>
+                    <textarea class="form-control" name="text{{$index}}" id="text{{$index}}" cols="12" rows="5" ng-model="item.text"  ng-required="true" ></textarea>
+                    <p class="small text-danger error-text" ng-if="!componentSpecifics['text'+$index].$pristine && componentSpecifics['text'+$index].$error.required">This field is required.</p>
                     <p class="small text-danger error-text" ng-if="componentSpecifics['text'+$index].$error.validAnswer">validAnswer is invalid</p>
                 </div>
                 <div class="form-group text-center">
                     <label for="answer{{$index}}">Answers: </label>
-                    <textarea class="form-control" name="answer{{$index}}" id="answer{{$index}}" cols="30" rows="5" ng-model="item.answers"  ng-required="true" valid-answer="answers"></textarea>
+                    <textarea class="form-control" name="answer{{$index}}" id="answer{{$index}}" cols="18" rows="5" ng-model="item.answers"  ng-required="true" valid-answer="answers"></textarea>
                     <p class="form-text bg-light text-success">Write each answer on a new line.</p>
-                    <p class="small text-danger error-text" ng-if="componentSpecifics['answer'+$index].$error.required">This field is required.</p>
+                    <p class="small text-danger error-text" ng-if="!componentSpecifics['answer'+$index].$pristine && componentSpecifics['answer'+$index].$error.required">This field is required.</p>
                 </div>
                 <interactive-tile ng-model="item['correct_answer']" ng-required></interactive-tile>
                 <!--
@@ -27,11 +28,20 @@
                     <p class="small text-danger error-text" ng-if="componentSpecifics['correct'+$index].$error.validAnswerCorrect">This answer cannot be found in the given ones above.</p>
                 </div>
                 -->
-                <div class="form-group text-center">
-                    <label for="help{{$index}}">Explanation: </label>
-                    <textarea class="form-control" name="help{{$index}}" id="help{{$index}}" cols="30" rows="5" ng-model="item.tip"></textarea>
+                <div class="form-section">
+                    <ng-form name="explanation" novalidate>
+                        <div class="card link-card mt-2" collapsible-card>
+                            <div class="card-header p-1">
+                                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Explanation<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+                            </div>
+                            <div class="card-body">
+                                <text-paragraph-admin form-name="help{{$index}}" item="item.tip"></text-paragraph-admin>
+                            </div>
+                        </div>
+                    </ng-form>
                 </div>
             </div>
+
         </div>
         <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.items.length>0" ng-click="ctrl.addItem()">Add another</a>
     </div>

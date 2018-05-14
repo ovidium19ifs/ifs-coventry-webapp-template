@@ -13,7 +13,20 @@ module.exports = function(application){
                 start: "="
             },
             link: function(scope,elem){
-                
+                var img = $(elem).find("img");
+                img.on("load",function(e){
+                    console.log("image was loaded");
+                    console.log(e);
+                });
+                img.on("error",function(e){
+                    console.log("error detected");
+                    console.log(e);
+                    if (e.currentTarget.attributes.src.value){
+                      console.log("Error loading image");
+                      console.log(e);
+                    }
+                 
+                });
                 scope.$on("stopVideo",function(e,v){
                     e.preventDefault();
                     if (scope.videoPlaying){

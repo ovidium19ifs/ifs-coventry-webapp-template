@@ -1673,70 +1673,345 @@
             {
                 "blockname": "Components",
                 "name": "Thought Bubbles",
-                "sections": []
+                "sections": [
+                    {
+                        "subtitle": "The Thought Bubble Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This component should be used to prompt the user to reflect on a topic.  An example below:"
+                            },
+                            {
+                                "type": "thought-bubble",
+                                "text": "This is a thought bubble example. Doesn't support links or HTML, simply type in what you want the user to reflect on."
+                            }
+                        ]
+                    }
+                ]
             },
             {
                 "blockname": "Components",
                 "name": "Quiz",
-                "sections": []
-            },
-            {
-                "blockname": "Components",
-                "name": "Other components",
-                "sections": []
-            }
-        ]
-    },
-    {
-        "name": "BlockBuster",
-        "chapters": [
-            {
-                "name": "Introduction",
                 "sections": [
                     {
-                        "subtitle": "New Section 1",
+                        "subtitle": "The Quiz Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can use the quiz component to create a quiz with as many questions as you want. This is a quiz with multiple choice questions, and for each question, you can have as many answers as you want, but only one correct answer."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Try to do the following quiz to get a feel for it. It contains questions related to other parts of this tutorial."
+                            },
+                            {
+                                "type": "quiz",
+                                "questions": [
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "/content/tutorial/blocks/Saving-your-work/chapter/Using-github-to-save-your-changes",
+                                                    "portion": "github"
+                                                }
+                                            ],
+                                            "text": "See github page for more information."
+                                        },
+                                        "text": "What is github?",
+                                        "answers": [
+                                            {
+                                                "text": "version control system"
+                                            },
+                                            {
+                                                "text": "collaboration tool"
+                                            },
+                                            {
+                                                "text": "cloud storage"
+                                            },
+                                            {
+                                                "text": "all of the above and more"
+                                            }
+                                        ],
+                                        "correct_answer": "all of the above and more"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "/content/tutorial/blocks/Introduction/chapter/Prerequisites#Heroku",
+                                                    "portion": "heroku"
+                                                }
+                                            ],
+                                            "text": "See heroku here."
+                                        },
+                                        "text": "What is heroku?",
+                                        "answers": [
+                                            {
+                                                "text": "A website containing japanese poetry"
+                                            },
+                                            {
+                                                "text": "A dating website"
+                                            },
+                                            {
+                                                "text": "A tool for deploying websites"
+                                            },
+                                            {
+                                                "text": "A cookie"
+                                            }
+                                        ],
+                                        "correct_answer": "A tool for deploying websites"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [],
+                                            "text": "Remember the hierarchy: <span class='text-success font-weight-bold' style='font-size:1.2rem'>Blocks</span> contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Chapters</span>, which contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Sections</span> which contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Components</span>."
+                                        },
+                                        "text": "The left-side menu contains all the available blocks. What do blocks contain?",
+                                        "answers": [
+                                            {
+                                                "text": "Sections"
+                                            },
+                                            {
+                                                "text": "Chapters"
+                                            },
+                                            {
+                                                "text": "Components"
+                                            },
+                                            {
+                                                "text": "Links"
+                                            }
+                                        ],
+                                        "correct_answer": "Chapters"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "http://localhost:8000/content/tutorial/blocks/Getting-the-website-running/chapter/Using-github",
+                                                    "portion": "this"
+                                                }
+                                            ],
+                                            "text": "See this page for an explanation about forks."
+                                        },
+                                        "text": "What does 'forking a repository' mean, in terms of github ?",
+                                        "answers": [
+                                            {
+                                                "text": "Splitting a repository in two."
+                                            },
+                                            {
+                                                "text": "Creating a repository as a copy of an existing one."
+                                            },
+                                            {
+                                                "text": "Giving access to your repository to other users."
+                                            },
+                                            {
+                                                "text": "None of the above"
+                                            }
+                                        ],
+                                        "correct_answer": "Creating a repository as a copy of an existing one."
+                                    }
+                                ],
+                                "subtitle": "Admin Tutorial"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Quiz Form",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is the most complicated form and you will need some practice to understand exactly what each box means."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "First, as many other components, this one also contains multiple elements, which means you can use the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1'></span></div> buttons to change their order and delete."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Let's take a look now at the quiz form when you create a new quiz."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "When you create a new quiz, you can select the subtitle of the quiz from the <span class='bg-info p-1 text-white'>Component Basics</span> form section. This subtitle will show up in the  <span class='bg-success p-1 text-white'>Start Quiz</span>button like this:"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "<span class='bg-success p-1 text-white'>Start Quiz - Your subtitle</span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-info p-1 text-white'>Quiz Options</span> form section, there is only one button in the beginning: <span class='bg-info p-1 text-white'>Add Questions</span>. Clicking it will add the first question to the quiz."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Question Form",
                         "space_after": false,
                         "components": [
                             {
                                 "type": "text-paragraph",
-                                "links": [
-                                    {
-                                        "portion": "link",
-                                        "href": "http://www.google.com"
-                                    }
-                                ],
-                                "text": "This is a paragraph component containing a link"
+                                "links": [],
+                                "text": "A Question form looks something like this:"
                             },
                             {
-                                "type": "link-pdf",
-                                "links": [
-                                    {
-                                        "text": "A Document Upload",
-                                        "link": "pdfs/youdontlookdisabled.pdf"
-                                    },
-                                    {
-                                        "text": "A Document Link",
-                                        "link": "pdfs/youdontlookdisabled.pdf"
-                                    }
-                                ],
-                                "subtitle": "A Document Component to upload documents"
+                                "type": "image-single",
+                                "src": "images/quiz_question.jpg",
+                                "space_after": true
                             },
                             {
-                                "type": "list-text",
-                                "list_elements": [
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-dark text-white px-1'>Question</span> entry, just type in the question text."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-dark text-white px-1'>Answers</span> entry, you will type in all the available answers for the question. Each of your answers should end with a new line character( pressing  <span class='fa fa-keyboard-o bg-dark text-white'></span>Enter on your keyboard)"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "After you have typed in at least 1 answer, the part that lets you select the correct answer will pop up. Simply click on the desired correct answer and it will be registered as the correct answer for the question."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/quiz_question_correct.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can enter as many answers as you want, but the question must have at least 1 answer.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-info text-white px-1'>Explanation</span> tab, you can enter a paragraph that will show up as a tip for the question when the results are displayed. This paragraph supports links and HTML."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Other components",
+                "sections": [
+                    {
+                        "subtitle": "Alert Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Emphasized text meant to attract attention over an important message. Does not support links or HTML, just plain text. Example:"
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "This is an alert !!!"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Myth Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Myth Component contains a list of <span class='bg-danger text-white px-1'>Myth</span> -  <span class='bg-success text-white px-1'>Fact</span>. Each myth and fact is just plain text that doesn't support links or HTML. Example:"
+                            },
+                            {
+                                "type": "text-mythfact",
+                                "myths": [
                                     {
-                                        "links": [],
-                                        "text": "This is a"
+                                        "myth": "This is Myth 1.",
+                                        "fact": "This is Fact 1."
                                     },
                                     {
-                                        "links": [],
-                                        "text": "list component"
-                                    },
-                                    {
-                                        "links": [],
-                                        "text": "containing paragraphs"
+                                        "myth": "This is Myth 2, you can write a lot here.",
+                                        "fact": "This is Fact 2, you can write a lot here as well."
                                     }
                                 ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Reference Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The reference component allows you to create a detailed reference to some content. You can include a title, list of authors, year, page, volume, etc. You can also include a link to an online resource, that will apply to the title of the reference.\nExample:"
+                            },
+                            {
+                                "type": "link-reference",
+                                "title": "This is a reference example",
+                                "volume": "1",
+                                "year": "2018",
+                                "pages": "1-2",
+                                "publisher": "Coventry University",
+                                "link": "http://libguides.lub.lu.se/c.php?g=297505&p=1984175",
+                                "authors": [
+                                    {
+                                        "name": "Ovidiu Mitroi"
+                                    },
+                                    {
+                                        "name": "Another author"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Quote Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Quote component is plain text formatted to look like a quote. You can specify an author and a year for the quote, but it's best to pair it with a reference component for more details. Example:"
+                            },
+                            {
+                                "type": "text-quote",
+                                "text": "This is a quote by a very famous person.",
+                                "year": "2018",
+                                "author": "Ovidiu Mitroi"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Profile Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Profile Component lets you enter detailed information about a person. It supports a picture, a Job Title, Job Description, Profile Link. You can use this component on the About page, to enter information about your team. An example below:"
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/ovidiu_mitroi.jpg",
+                                "description": {
+                                    "links": [],
+                                    "text": "<span class='bg-dark text-white px-1'>This is a description paragraph, with a bit of HTML and Bootstrap in it.</span>"
+                                },
+                                "name": "Ovidiu Mitroi",
+                                "title": "Web Developer",
+                                "url": "www.linkedin.com/in/ovidiu-mitroi",
+                                "link": "blob:http://localhost:8000/61ee87ea-31f9-4c79-8602-6b2ed0f08289"
                             }
                         ]
                     }

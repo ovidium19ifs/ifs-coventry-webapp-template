@@ -4,9 +4,9 @@ module.exports = function(application){
         return{
             restrict:'A',
             link: function(scope,elem,attrs,ctrl){
-                let header = $(elem).find('.card-header');
-                let sign = $(header).find('span');
-                let body = $(elem).find('.card-body');
+                let header = $(elem).find('.card-header').first();
+                let sign = $(header).find('span').first();
+                let body = $(elem).find('.card-body').first();
                 header.click(function(e){
                    body.toggleClass('collapse');
                     if (body.hasClass('collapse')){
