@@ -1,9 +1,9 @@
-<div class="card card-inner">
+<div class="card card-inner" ng-if="component.phones.length>0">
     <div class="card-body py-2">
         <div class="card-subtitle">
             {{component.subtitle || "Telephone:"}}
         </div>
-        <div class="card-text">
+        <div class="card-text" >
             <div ng-repeat="phone in component.phones">
                 <span class="email-tag mr-4" ng-show="phone.tag">{{phone.tag}}: </span>
                 <span class="fa fa-phone"></span>
