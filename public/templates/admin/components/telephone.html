@@ -1,7 +1,20 @@
 <ng-form name="componentSpecifics" novalidate>
-    <div class="form-group text-center">
-        <label for="tel">Contact No:</label>
-        <input class="form-control" name="tel" id="tel"  ng-model="item.element.text" ng-required="true">
-        <p class="form-text small text-danger" ng-if="componentSpecifics.tel.$error.required">Write the telephone number here. Cannot be empty</p>
+    <a class="btn btn-info float-right text-white p-1" ng-if="!ctrl.phones.length" ng-click="ctrl.createPhones()">Add Phone Number</a>
+    <div class="w-100">
+        <div class="card mb-2 link-card" collapsible-card ng-repeat="tel in ctrl.phones" ifs-editable="Link" callback-array="ctrl.phones" ifs-editable-class="mr-4">
+            <div class="card-header p-1" >
+                <p class="form-subtitle p-0 m-0 pl-3 font-weight-bold">Phone {{$index+1}}<span class="fa fa-minus float-right" style="line-height: 1.5" ></span></p>
+            </div>
+            <div class="card-body collapse">
+                <div class="form-group text-center">
+                    <label for="label{{$index}}">Label:</label>
+                    <input id="label{{$index}}"  name="label{{$index}}" class="form-control m-auto" ng-model="tel.tag" placeholder="Label to show" optional>
+                    <label for="myth{{$index}}">Telephone number:</label>
+                    <input id="myth{{$index}}" type="text" name="myth{{$index}}" class="form-control m-auto" ng-model="tel.text" ng-model-options="{updateOn: 'blur'}" placeholder="Enter Tel" ng-required="true">
+                    <p class="form-text small text-danger" ng-if="componentSpecifics['myth'+$index].$error.required">You must enter a phone number. Delete this entry if you don't need it.</p>
+                </div>
+            </div>
+        </div>
+        <a class="btn btn-info float-right text-white p-1" ng-if="ctrl.phones.length>0" ng-click="ctrl.addPhone()">Add another</a>
     </div>
 </ng-form>

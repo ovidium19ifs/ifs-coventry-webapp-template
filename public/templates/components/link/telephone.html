@@ -4,8 +4,11 @@
             {{component.subtitle || "Telephone:"}}
         </div>
         <div class="card-text">
-            <span class="fa fa-phone"></span>
-            {{component.text}}
+            <div ng-repeat="phone in component.phones">
+                <span class="email-tag mr-4" ng-show="phone.tag">{{phone.tag}}: </span>
+                <span class="fa fa-phone"></span>
+                {{phone.text}}
+            </div>
         </div>
     </div>
 </div>

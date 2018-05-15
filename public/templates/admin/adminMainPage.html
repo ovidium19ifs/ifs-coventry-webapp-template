@@ -14,6 +14,7 @@
                 <div class="card-body">
 
                     <div id="{{section.subtitle | lowercase | nospaces}}" class="section-block mb-5 editable-section"  collapsible-elem="Section" ng-repeat="section in selChapter.sections">
+                        <edit-element context-array="selChapter.sections" index-in-context="$index" chapter="selChapter" edit-type="Section" ng-if="$index===3"></edit-element>
                         <h4 class="card-subtitle">{{section.subtitle}}</h4>
                         <div class="collapsible">
                             <div  ng-repeat="component in section.components" class="editable-component my-3"  collapsible-elem="Component"  >
@@ -23,6 +24,7 @@
                                     <list-text  ng-if="component.type==='list-text'" element="component"></list-text>
                                     <list-images ng-if="component.type==='list-images'" component="component"></list-images>
                                     <ng-include  src="'templates/components/list/quote.html'" ng-if="component.type==='quote-list'"></ng-include>
+                                    <ng-include  src="'templates/components/text/alert.html'" ng-if="component.type==='text-alert'"></ng-include>
                                     <ng-include  src="'templates/components/list/text.html'" ng-if="component.type==='list-text'"></ng-include>
                                     <ng-include  src="'templates/components/link/email.html'" ng-if="component.type==='link-email'"></ng-include>
                                     <ng-include  src="'templates/components/link/telephone.html'" ng-if="component.type==='link-telephone'"></ng-include>

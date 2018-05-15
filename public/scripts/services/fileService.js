@@ -42,6 +42,7 @@ module.exports = function(application){
                     for (let ctx of files[key].context){
                         switch (ctx.type){
                             case 'image-single':
+                            case 'image-list':
                                 ctx.src = dir+key;
                                 break;
                             case 'video-single':

@@ -31,11 +31,16 @@
         },
         "contact": {
             "subtitle": "Disabilities Team",
+            "editable": "expose",
             "components": [
                 {
-                    "subtitle": "Telephone",
                     "type": "link-telephone",
-                    "text": "+44 (0)24 7765 8029",
+                    "phones": [
+                        {
+                            "tag": "Careers and Employability Services",
+                            "text":"+44 (0)24 7765 8029"
+                        }
+                    ],
                     "space_after": false
                 },
                 {
@@ -60,26 +65,28 @@
         },
         "affiliations": [
             {
+                "type": "image-list",
                 "name": "CELE Coventry",
                 "href": "https://cele.coventry.ac.uk",
-                "link": "images/logo_cele.png"
+                "src": "images/logo_cele.png"
             },
             {
+                "type": "image-list",
                 "name": "Coventry University",
                 "href": "http://www.coventry.ac.uk/",
-                "link": "images/cov_logo.jpg"
+                "src": "images/cov_logo.jpg"
             }
         ],
         "useful_sites": [
             {
                 "name": "HCPC",
                 "href": "http://www.hpc-uk.org/",
-                "link": "images/hcpc-logo.jpg"
+                "src": "images/hcpc-logo.jpg"
             },
             {
                 "name": "NMC",
                 "href": "https://www.nmc.org.uk/",
-                "link": "/images/nmc_logo.jpg"
+                "src": "/images/nmc_logo.jpg"
             }
         ],
         "background_up": {

@@ -15,7 +15,7 @@ module.exports = function(application){
           this.items = $scope.item.element["list_elements"];
         };
         this.addItem = function(){
-          this.items.push({src: ""});
+          this.items.push({src: "",type:"image-list"});
         };
         $scope.$on("destroy",function(){
           console.log(ctrl.items);

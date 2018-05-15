@@ -79,10 +79,9 @@
 <div class="footer py-5 mb-5" style="">
     <div class="d-flex align-items-stretch justify-content-around footer-content ">
         <div class="footer-links ">
-            <h4 class="footer-column-title text-center mb-5 pb-3">Contacts</h4>
-            <div class="footer-contacts">
-                <h5 class="w-100 pb-1 pl-2" style="border-bottom:2px solid #669999">{{data.contact.subtitle}}</h5>
-                <div ng-repeat="comp in data.contact.components">
+            <h4 class="footer-column-title text-center mb-5 pb-3 ">{{data.contact.subtitle}}</h4>
+            <div class="footer-contacts text-center mx-auto w-50">
+                <div class="" ng-repeat="comp in data.contact.components">
                     <link-telephone component="comp" ng-if="comp.type==='link-telephone'"></link-telephone>
                     <link-email component="comp" ng-if="comp.type==='link-email'"></link-email>
                 </div>
@@ -91,11 +90,11 @@
         </div>
         <div class="footer-affiliations pb-5">
             <h4 class="footer-column-title text-center mb-5 pb-3">Affiliations</h4>
-            <div class="affiliations d-flex align-items-start justify-content-center">
+            <div class="affiliations d-flex align-items-start justify-content-center flex-wrap">
 
                 <div class="px-3" ng-repeat="aff in data.affiliations">
                     <a href="{{aff.href}}" target="_blank">
-                        <img src="{{aff.link}}" width="160" height="160" alt="{{aff.name}}" >
+                        <img src="{{aff.src}}" width="160" height="160" alt="{{aff.name}}" >
                     </a>
                 </div>
             </div>
@@ -105,7 +104,7 @@
             <div class="affiliations d-flex align-items-start justify-content-center">
                 <div class="px-3" ng-repeat="site in data.useful_sites">
                     <a href="{{site.href}}" target="_blank">
-                        <img src="{{site.link}}" width="160" height="160" alt="{{site.name}}" >
+                        <img src="{{site.src}}" width="160" height="160" alt="{{site.name}}" >
                     </a>
                 </div>
             </div>

@@ -1,0 +1,9 @@
+<ng-form name="componentSpecifics" novalidate>
+    <div class="form-group text-center">
+        <label for="tel">Subtitle</label>
+        <input class="form-control" name="tel" id="tel"  ng-model="item.element.subtitle" ng-required="true">
+        <p class="form-text small text-danger" ng-if="componentSpecifics.tel.$error.required">
+            Subtitle cannot be empty.
+        </p>
+    </div>
+</ng-form>

@@ -499,6 +499,7 @@ div.overlay-content{
 
 .content{
     .content-background();
+    .navigation-scrollbar;
     overflow-y: auto;
     height:90vh;
     min-width: 600px;
@@ -523,13 +524,14 @@ div.overlay-content{
   .footer-style();
   h4.footer-column-title{
     margin:auto;
-    width: 85%;
+    width: 65%;
   }
   .footer-content {
-
-    @media (min-width: 1078px ){
-      flex-direction: row;
+    .footer-contacts{
+      padding-left:20px;
+      padding-right:20px;
     }
+    flex-direction: column;
     @media (max-width: 1077px){
       .footer-contacts{
         padding-left:20px;
@@ -537,16 +539,13 @@ div.overlay-content{
       }
       flex-direction: column;
     }
-    & > *{
-      @media (min-width: 1078px) {
-        width: 33%;
-      }
-    }
-
 
   }
   .affiliations{
-
+    margin: -6px;
+    & > * {
+      margin: 6px;
+    }
   }
 }
 /* buttons used to navigate through content step by step */
@@ -574,11 +573,12 @@ div.overlay-content{
     }
 }
 .aside{
+  .navigation-scrollbar;
   overflow-y: auto;
   max-height: 100vh;
     .aside-style();
     @media screen{
-      @media (max-width: 1128px){
+      @media (max-width: 968px){
         display: none;
       }
     }

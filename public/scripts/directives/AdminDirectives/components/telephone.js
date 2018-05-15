@@ -9,7 +9,14 @@ module.exports = function(application){
             },
             controllerAs: 'ctrl',
             controller: ["$scope",function($scope){
-            
+              this.phones = $scope.item.element.phones;
+              this.createPhones = function(){
+                $scope.item.element.phones = [{}];
+                this.phones = $scope.item.element.phones;
+              };
+              this.addPhone = function(){
+                this.phones.push({});
+              };
             }]
         }
     }]);

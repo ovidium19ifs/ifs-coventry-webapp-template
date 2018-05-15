@@ -200,9 +200,13 @@
                         "subtitle": "Contact Details",
                         "components": [
                             {
-                                "subtitle": "Telephone",
                                 "type": "link-telephone",
-                                "text": "+44 (0)24 7765 8029",
+                                "phones": [
+                                    {
+                                        "tag": "Careers and Employability Services",
+                                        "text":"+44 (0)24 7765 8029"
+                                    }
+                                ],
                                 "space_after": false
                             },
                             {

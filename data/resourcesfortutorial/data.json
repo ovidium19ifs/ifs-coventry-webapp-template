@@ -1639,7 +1639,13 @@
                                 "type": "link-telephone",
                                 "text": "telephone number",
                                 "subtitle": "Telephone subtitle:",
-                                "space_after": true
+                                "space_after": true,
+                                "phones": [
+                                    {
+                                        "tag": "Telephone Label",
+                                        "text": "07xx xxxx xxxxx"
+                                    }
+                                ]
                             }
                         ]
                     },
@@ -1664,7 +1670,7 @@
                                 "type": "text-paragraph",
                                 "links": [],
                                 "subtitle": "Telephone",
-                                "text": "The telephone component only contains one entry for a telephone number. Use the component subtitle to label the entry, and use the <span class='bg-dark text-white p-1'>Telephone</span> field to enter the telephone number."
+                                "text": "The same applies to the telephone form as well. Use the component subtitle to give a title to your group of contact details, the <span class='bg-dark text-white p-1'>Label</span> to give a title to individual phone numbers and use the <span class='bg-dark text-white p-1'>Telephone</span> field to enter the telephone number."
                             }
                         ]
                     }
@@ -2012,6 +2018,198 @@
                                 "title": "Web Developer",
                                 "url": "www.linkedin.com/in/ovidiu-mitroi",
                                 "link": "blob:http://localhost:8000/61ee87ea-31f9-4c79-8602-6b2ed0f08289"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Main Page Content",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Main Page",
+                                        "href": "/"
+                                    }
+                                ],
+                                "text": "In this block, we will talk about editing the Main Page. Although it contains components which have been discussed previously, there are some things to clarify about what you can and can't edit on the front page of the website."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Discuss what the main page contains."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to change the background images and other various elements of the front page."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Main page sections",
+                "sections": [
+                    {
+                        "subtitle": "Sections of the main page",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "main admin interface",
+                                        "href": "/admin"
+                                    }
+                                ],
+                                "text": "I have exposed almost everything on the front page for you to be able to edit. In order to access this exposed content, simply go to the main admin interface and choose <span class='bg-success text-white p-1'>Main Page Content</span> ."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "We will go over each section and talk about what you can edit and what you cannot."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Introduction Video",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Video element",
+                                        "href": "http://localhost:8000/content/tutorial/blocks/Components/chapter/Videos"
+                                    }
+                                ],
+                                "text": "The first section allows you to edit the Introduction Video. You can change the thumbnail and the video link. Notice that you cannot add a subtitle to this component. The subtitle is not displayed. Apart from that, the interface looks very similar to the Video element discussed before."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Quotes component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main page contains a screen where various quotes show up. You can edit these quotes from this section. Clicking the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon will expose the quotes. You can add, remove or change the order of the quotes using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1 fa-sm'></span></div> and the <span class='bg-info text-white p-1'>Add Quote</span> buttons."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each quote contains a text field, an Author field and a Year field. They are pretty straightforward."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that you can't delete the entire section. You need to have the section, but you can delete all quotes if you don't want them to show up. You can also just write anything else here, not necessarily quotes. The Author and Year fields are optional."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Main paragraph",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main paragraph represents the text displayed in the purple box on the front page. You can edit that text from the Main Paragraph section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Alert form",
+                                        "href": "/content/tutorial/blocks/Components/chapter/Other-components"
+                                    }
+                                ],
+                                "text": "The form resembles the Alert form discussed before. The only thing you can edit is the text. the element is displayed as an Alert box in the admin interface, but this doesn't have any influence to how the element is displayed on the front page."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You cannot delete this section. The main paragraph of the front page must exist."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Contact Details",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Components/chapter/Contact-Information",
+                                        "portion": "Contact Information form"
+                                    }
+                                ],
+                                "text": "In the main page footer, you can see a list of contact details, with telephone numbers and e-mails. You can use this section to edit those details, add as many telephone numbers and e-mails as you want. The form looks exactly like the previously discussed Contact Information form."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The section comes with the default name of <span class='bg-dark text-white p-1'>Disabilities Team</span>, but you can change this by editing the section."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Image Links",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Focusing on the main page footer now, you can see two sections there called <span class='bg-info text-white p-1'>Affiliations</span> and <span class='bg-info text-white p-1'>Useful Sites</span>. These sections contain images that link to a specific website when clicked. It is a good place to put external resources and affiliations."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Components/chapter/Images",
+                                        "portion": "Image form"
+                                    }
+                                ],
+                                "text": "You can add as many affiliations and useful sites as you want, or you can delete the components. The form is similar to the Image form, but you have to add a URL as well which will be the destination link when the user clicks the image."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Backgrounds",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The last two sections are called <span class='bg-dark text-white p-1 my-1'>background_up</span> and <span class='bg-dark text-white p-1 my-1'>background_down</span>. These represent the two background images on the main page. You can upload other images if you want, and the <span class='bg-danger text-white p-1 my-1'>80KB</span> is lifted in this case and you can upload images with maximum size of <span class='bg-danger text-white p-1 my-1'>280KB</span>. These images will be stretched to fill the space, so make sure to play with your image size before uploading. As a guideline, the current background images have a size of <span class='bg-info text-white p-1 my-1'>968 x 644</span> pixels."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can have the same image in both backgrounds. You will have to upload the same file in both sections."
                             }
                         ]
                     }

@@ -26,7 +26,7 @@ module.exports = function(application){
       let textSection = {
         "subtitle": "Main Paragraph",
         "components": [{
-          "type": "text-paragraph",
+          "type": "text-alert",
           "text": data[0].mainParagraph.text
         }]};
       let contactSection  = data[0].contact;
