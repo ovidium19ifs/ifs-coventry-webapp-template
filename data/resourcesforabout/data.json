@@ -4,6 +4,22 @@
         "name": "Introduction",
         "chapters": [
             {
+                "name": "Your About Details",
+                "sections": [
+                    {
+                        "subtitle": "About",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Use this section to provide information on your team. You must include the <span class='bg-success text-white p-1'>Information on this resource</span> page untouched, as it acknowledges the team that created this resource. Please do not delete that chapter, however you can put it wherever you want in your block/chapter hierarchy."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
                 "blockname": "Introduction",
                 "name": "Information on this resource",
                 "sections": [
