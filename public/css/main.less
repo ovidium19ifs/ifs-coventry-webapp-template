@@ -74,7 +74,7 @@ DEFAULT:
     }
     .navbar-brand{
       color: #9fb8ad;
-  }
+    }
     .nav-link:not(.disabled):hover{
       color: #f4ad46;
     }
@@ -190,27 +190,35 @@ DEFAULT:
 }
 
 html{
-    font-size: 16px;
-    overflow: hidden;
-    max-height: 100vh;
-    height: 100vh;
-    a{
-      text-decoration: none;
-    }
+  font-size: 16px;
+  overflow: hidden;
+  max-height: 100vh;
+  height: 100vh;
+  a{
+    text-decoration: none;
+  }
 }
 
 body{
-    box-sizing: border-box;
-    height: 95vh;
-    max-height: 95vh;
+  box-sizing: border-box;
+  height: 95vh;
+  max-height: 95vh;
 }
 div.main-page{
-    min-height: 75vh;
-    margin-left: -2rem ;
-    margin-right: -2rem;
-    box-shadow: 0px 8px 5px -6px darkgray inset, 0px -8px 5px -6px darkgray inset;
+  min-height: 75vh;
+  margin-left: -2rem ;
+  margin-right: -2rem;
+  &.one{
+    background: url(../images/COV-HLS-3315.jpg) no-repeat fixed top center;
+    background-size: cover;
+  }
+  &.two{
+    background: url(../images/COV-HLS-3307.jpg) no-repeat fixed left top;
+    background-size: cover;
+  }
+  box-shadow: 0px 8px 5px -6px darkgray inset, 0px -8px 5px -6px darkgray inset;
 
-    position:relative;
+  position:relative;
 }
 
 div.home-container.hide{
@@ -368,67 +376,67 @@ div.overlay-content{
 }
 
 .footer{
-    margin-left: -2rem;
-    margin-right: -2rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
 }
 
 /* the sticky nav-bar at the top*/
 .top-bar{
-    display:flex;
-    flex-direction: column;
-    #robust-theme{
-      background: #f7c1bb;
-      color: #353a47;
+  display:flex;
+  flex-direction: column;
+  #robust-theme{
+    background: #f7c1bb;
+    color: #353a47;
+  }
+  #default-theme{
+    background: #f6e5d4;
+    color: #4c8696;
+  }
+  #ocean-theme{
+    background: #f4ad46;
+    color: #2f4858;
+  }
+  .btn-toolbar .btn{
+    cursor:pointer;
+  }
+  .dropdown-menu{
+    .dropdown-item:hover{
+      font-size: 1.1rem;
+      background-color: black;
+      color: white;
     }
-    #default-theme{
-      background: #f6e5d4;
-      color: #4c8696;
+    &.align-left{
+      left:-40%;
     }
-    #ocean-theme{
-        background: #f4ad46;
-        color: #2f4858;
-    }
-    .btn-toolbar .btn{
-      cursor:pointer;
-    }
-    .dropdown-menu{
-      .dropdown-item:hover{
-        font-size: 1.1rem;
-        background-color: black;
-        color: white;
-      }
-      &.align-left{
-        left:-40%;
-      }
-    }
+  }
 
-    .btn-fonts{
-      background: #fff;
-      border:0.5px solid black;
-      border-top:1px solid black;
-      border-bottom:1px solid black;
-      width:50px;
-      max-width: 75px;
-    }
-    .font-sizer{
-      position:relative;
-      top:-0.4rem;
-      left:-0.2rem;
-      padding:0;
-      margin:0;
-    }
-    /*background: radial-gradient(#9575CD 40%, #311B92 175% );*/
-    .top-bar;
-    @media screen{
-      @media (max-width: 768px){
-        h1 {
-          display: none;
-        }
-        .form-inline{
-          display: none;
-        }
+  .btn-fonts{
+    background: #fff;
+    border:0.5px solid black;
+    border-top:1px solid black;
+    border-bottom:1px solid black;
+    width:50px;
+    max-width: 75px;
+  }
+  .font-sizer{
+    position:relative;
+    top:-0.4rem;
+    left:-0.2rem;
+    padding:0;
+    margin:0;
+  }
+  /*background: radial-gradient(#9575CD 40%, #311B92 175% );*/
+  .top-bar;
+  @media screen{
+    @media (max-width: 768px){
+      h1 {
+        display: none;
+      }
+      .form-inline{
+        display: none;
       }
     }
+  }
   h1{
     padding: 0.1rem;
   }
@@ -442,12 +450,12 @@ div.overlay-content{
 }
 
 .row.main-content{
-    flex-wrap: nowrap;
-    @media screen{
-      @media (max-width: 768px){
-        flex-wrap:wrap;
-      }
+  flex-wrap: nowrap;
+  @media screen{
+    @media (max-width: 768px){
+      flex-wrap:wrap;
     }
+  }
 }
 .icon-resources {
   width: 33%;
@@ -498,16 +506,15 @@ div.overlay-content{
 }
 
 .content{
-    .content-background();
-    .navigation-scrollbar;
-    overflow-y: auto;
-    height:90vh;
-    min-width: 600px;
-    @media screen {
-      @media (max-width: 768px){
-        border: 1px solid black;
-      }
+  .content-background();
+  overflow-y: auto;
+  height:90vh;
+  min-width: 600px;
+  @media screen {
+    @media (max-width: 768px){
+      border: 1px solid black;
     }
+  }
 }
 .content.no-scroll{
   overflow-y: hidden;
@@ -524,14 +531,13 @@ div.overlay-content{
   .footer-style();
   h4.footer-column-title{
     margin:auto;
-    width: 65%;
+    width: 85%;
   }
   .footer-content {
-    .footer-contacts{
-      padding-left:20px;
-      padding-right:20px;
+
+    @media (min-width: 1078px ){
+      flex-direction: row;
     }
-    flex-direction: column;
     @media (max-width: 1077px){
       .footer-contacts{
         padding-left:20px;
@@ -539,21 +545,24 @@ div.overlay-content{
       }
       flex-direction: column;
     }
+    & > *{
+      @media (min-width: 1078px) {
+        width: 33%;
+      }
+    }
+
 
   }
   .affiliations{
-    margin: -6px;
-    & > * {
-      margin: 6px;
-    }
+
   }
 }
 /* buttons used to navigate through content step by step */
 .btn.content-nav{
-    .content-nav-style();
-    border-radius: 10px;
-    width:7rem;
-    cursor: pointer;
+  .content-nav-style();
+  border-radius: 10px;
+  width:7rem;
+  cursor: pointer;
 }
 .btn.content-nav.nav-small{
   width: 40%;
@@ -561,26 +570,24 @@ div.overlay-content{
 
 /* the list on the right-side panel used to navigate the page content */
 .summary-list{
-    list-style-type: none;
-    font-size: 0.8em;
-    margin-left: -1.75rem;
-    li{
-      cursor:pointer;
-      .summary-list-style();
-      &.scrolled{
-        font-size:1.5rem;
-      }
+  list-style-type: none;
+  font-size: 0.8em;
+  margin-left: -1.75rem;
+  li{
+    cursor:pointer;
+    .summary-list-style();
+    &.scrolled{
+      font-size:1.5rem;
     }
+  }
 }
 .aside{
-  .navigation-scrollbar;
   overflow-y: auto;
   max-height: 100vh;
-    .aside-style();
-    @media screen{
-      @media (max-width: 968px){
-        display: none;
-      }
+  .aside-style();
+  @media screen{
+    @media (max-width: 1128px){
+      display: none;
     }
+  }
 }
-
