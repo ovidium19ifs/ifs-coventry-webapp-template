@@ -1,15 +1,17 @@
 <div class="card">
     <div class="card-header main p-0">
         <p class="mb-0">
-            Delete
-            <span class="float-right fa fa-close" style="cursor:pointer" ng-click="dismissModal()"></span>
+            Saved
         </p>
 
     </div>
     <div class="card-body text-center">
-        <p> Data saved successfully!!</p>
+        <p class="text-center bg-success text-white p-1 mb-1">Data saved successfully!!</p>
+        <p class="text-center">You should download your data if your server is in the cloud.</p>
     </div>
     <div class="card-footer text-center">
-        <button class="btn btn-success mx-4 w-25" ng-click="closeModal()" style="cursor: pointer"> Great!</button>
+        <button class="d-block btn btn-info w-25 mx-auto  my-2 " ng-click="closeModal()" style="cursor: pointer"> Close</button>
+        <button class="d-block btn btn-info w-50 mx-auto  my-2 " ng-click="downloadData()" style="cursor: pointer" ng-show="!downloaded"> Download data</button>
+        <h5 class="bg-dark text-white p-1" ng-show="downloaded">Data downloaded successfully!</h5>
     </div>
 </div>

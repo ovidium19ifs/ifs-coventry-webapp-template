@@ -208,7 +208,7 @@ div.home-container.hide{
     display: none;
   }
   @media screen{
-    @media (max-height:710px){
+    @media (max-height:650px){
       display: none;
     }
   }
@@ -269,18 +269,22 @@ div.overlay-content{
       position: absolute;
       bottom:-20%;
       align-self: baseline;
-      @media screen{
-        @media (max-width: 675px){
-          bottom:-20%;
+      @media screen {
+        @media (max-width: 675px) {
+          bottom: 20%;
         }
+        @media (max-height: 1000px) {
+          bottom: -20%;
+        }
+        @media (max-height: 725px) {
+          top: -10%;
+        }
+
       }
       li{
         border-radius: 50%;
         height:18px;
         width: 18px;
-        &.active{
-
-        }
       }
     }
     .carousel-inner{

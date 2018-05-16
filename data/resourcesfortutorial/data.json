@@ -1798,7 +1798,7 @@
                                         "tip": {
                                             "links": [
                                                 {
-                                                    "href": "http://localhost:8000/content/tutorial/blocks/Getting-the-website-running/chapter/Using-github",
+                                                    "href": "/content/tutorial/blocks/Getting-the-website-running/chapter/Using-github",
                                                     "portion": "this"
                                                 }
                                             ],
