@@ -1,0 +1,94 @@
+[
+    {
+        "mainVideo": {
+            "type": "video-single",
+            "video": {
+                "src": "https://www.youtube.com/embed/QTpNqgNIV3o",
+                "thumb": "https://img.youtube.com/vi/QTpNqgNIV3o/maxresdefault.jpg"
+            }
+        },
+        "quotes": [
+            {
+                "text": "Student nurses value a welcoming workplace where staff and educators are happy to help and have a positive attitude to student presence on the wards",
+                "author": "Doyle et al, (2017) Nurse Education Today 49 pages 27–32",
+                "year": "",
+                "embolden": true
+            },
+            {
+                "text": "Before anything else, preparation is the key to success.",
+                "author": "Alexander Graham Bell",
+                "year": "",
+                "embolden": true
+            },
+            {
+                "text": "I believe success is preparation, because opportunity is going to knock on your door sooner or later but are you prepared to answer that?",
+                "author": "Omar Epps",
+                "embolden": true
+            }
+        ],
+        "mainParagraph": {
+            "text": "The message here will be displayed on your front page. Edit this from the Admin Interface -> Main Page Content section."
+        },
+        "contact": {
+            "subtitle": "Contact Team for Help",
+            "editable": "expose",
+            "components": [
+                {
+                    "type": "link-telephone",
+                    "phones": [
+                        {
+                            "tag": "Example Phone Number",
+                            "text": "07xx xxxx xxxxx"
+                        }
+                    ],
+                    "space_after": false
+                },
+                {
+                    "subtitle": "E-mails",
+                    "type": "link-email",
+                    "links": [
+                        {
+                            "tag": "Ovidiu Mitroi",
+                            "text": "ac7228@coventry.ac.uk",
+                            "link": "mailto:ac7228@coventry.ac.uk"
+                        }
+                    ],
+                    "space_after": false
+                }
+            ],
+            "space_after": false
+        },
+        "affiliations": [
+            {
+                "type": "image-list",
+                "name": "CELE Coventry",
+                "href": "https://cele.coventry.ac.uk",
+                "src": "images/logo_cele.png"
+            },
+            {
+                "type": "image-list",
+                "name": "Coventry University",
+                "href": "http://www.coventry.ac.uk/",
+                "src": "images/cov_logo.jpg"
+            }
+        ],
+        "useful_sites": [
+            {
+                "name": "HCPC",
+                "href": "http://www.hpc-uk.org/",
+                "src": "images/hcpc-logo.jpg"
+            },
+            {
+                "name": "NMC",
+                "href": "https://www.nmc.org.uk/",
+                "src": "/images/nmc_logo.jpg"
+            }
+        ],
+        "background_up": {
+            "src": "../images/COV-HLS-3307.jpg"
+        },
+        "background_down": {
+            "src": "../images/COV-HLS-3315.jpg"
+        }
+    }
+]

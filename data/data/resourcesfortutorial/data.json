@@ -1,0 +1,2220 @@
+[
+    {
+        "block": "About",
+        "name": "Introduction",
+        "chapters": [
+            {
+                "blockname": "Introduction",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Welcome to this tutorial",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Heroku",
+                                        "href": "https://www.heroku.com/home"
+                                    },
+                                    {
+                                        "portion": "GitHub",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "In this tutorial, you will learn how to deploy your own version of this website. This tutorial will teach you how to deploy using Heroku, which is a very straight-forward service, very easy to use and FREE! You will also use GitHub, to download the website to your account and to upload the website to Heroku."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "This tutorial will only talk about deploying with Heroku. If you want to deploy your website on a local server, check the Github description page for the website linked below."
+                            },
+                            {
+                                "type": "link-website",
+                                "links": [
+                                    {
+                                        "text": "Github page for this website",
+                                        "link": "https://github.com/ovidium19/ifs-coventry-webapp-template"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This tutorial will also teach you how to use the various tools available on the website to edit its content. You can use the admin features to create your own version of content, embed links, images, videos and all sorts of components with minimal effort."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "Heroku",
+                                                "href": "https://www.heroku.com/home"
+                                            },
+                                            {
+                                                "portion": "Github",
+                                                "href": "https://github.com/"
+                                            }
+                                        ],
+                                        "text": "In this chapter, we will simply create a Heroku and a Github account. These tools will be needed in order to download the website to your Github account and upload it to Heroku, which is a cloud server that will make your website available for other users to see for FREE!"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Introduction",
+                "name": "Prerequisites",
+                "sections": [
+                    {
+                        "subtitle": "Github",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Github",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "First, you will need a Github account. Go to their website(linked in the name) and create an account. This is a simple process resembling all other sign-up forms you have probably used before.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Once you have created the account, you should login. Your landing page will look something like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_landing.jpg",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can read the guide for a bit to understand what github does, but for the purpose of this tutorial, it is not necessary."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Heroku",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Heroku",
+                                        "href": "https://id.heroku.com/login"
+                                    }
+                                ],
+                                "text": "We will do the same with Heroku. Create an account and then log in.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The landing page will look something like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_landing.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can click the 'New' Button and then 'Create New App'. This will prompt you to the second screen which looks like this."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_create.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The name you choose will be the name of you website. For example, if you choose test-server-2018, then the name of your website will be https://test-server-2018.herokuapp.com"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Introduction",
+                "name": "Summary",
+                "sections": [
+                    {
+                        "subtitle": "Before you go on...",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Try to have your Github and Heroku accounts set up. In Heroku, you can also create your new app at this point and name it however you want.\nThese are necessities in order to continue to the next chapter."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Getting the website running",
+        "chapters": [
+            {
+                "blockname": "New Block 1",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this chapter, you will do all the necessary work to upload and start your website on your heroku server."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to fork a repository on Github."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to link your github repository to your heroku app."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to deploy your website using heroku."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website",
+                "name": "Using github",
+                "sections": [
+                    {
+                        "subtitle": "Fork the website repository",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In github, every user can have repositories. These can be private and public. A repository is a collection of files, that is stored on the cloud. Github also comes with a version control system, meaning that the state of your files is saved between changes. This means that you can see previous versions of your files after you have made changes. In our context, this can be useful if you have made mistakes when editing the content of the website and want to revert back to a previous state."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "https://help.github.com/articles/fork-a-repo/",
+                                        "portion": "forking a repository"
+                                    },
+                                    {
+                                        "portion": "You can find it here",
+                                        "href": "https://github.com/ovidium19/ifs-coventry-webapp-template"
+                                    }
+                                ],
+                                "text": "This website is available in the format of a github repository. You can find it here. In order to continue at this point, you need to get a copy of this repository into your own github account. In order to do that, there is a process in github called forking a repository.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "this repository",
+                                        "href": "https://github.com/ovidium19/ifs-coventry-webapp-template"
+                                    }
+                                ],
+                                "text": "In order to complete this step, you need to fork a copy of the website template page into your own github account. Simply go to this repository and click the 'Fork' button on the top-right side. This process will take several seconds, and then you will end up with a repository in your github account that has the name 'ifs-template-website'."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website",
+                "name": "Using heroku",
+                "sections": [
+                    {
+                        "subtitle": "Using heroku",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You now have a repository in your github account called 'ifs-template-website'. Congratulations!!"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The next step is letting our heroku app know where our repository is."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "dashboard",
+                                                "href": "https://dashboard.heroku.com/apps"
+                                            }
+                                        ],
+                                        "text": "Go to your dashboard and select the previously created heroku app."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Go to the 'Deploy' tab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_deplymenu.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Where it says 'Deployment Method', click on Github."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Below that, there is a form with the title 'Search for a repository to connect to'. Start typing the name of your repository, which should be 'ifs-template-website' if you haven't changed the name."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_gitdeploy.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Once you click 'Search', the results will show just below. Click 'Connect' on the search result that pops up."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "After you connect the repository to heroku, more options will appear on the screen. You don't have to worry about these. Simply scroll all the way down to the section labelled 'Manual Deploy' and then click the button 'Deploy Branch'."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "After you click the button, the repository is copied on the heroku server. This takes some time, but you are provided feedback in the logs below. Once this process is done, another button will pop up , the 'View' button. Clicking this will take you to your new website."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Getting the website running",
+                "name": "Summary",
+                "sections": [
+                    {
+                        "subtitle": "Congratulations",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have done a lot of work in this chapter, and you now have a brand new website ready and deployed. It is time now to take a look at how to protect its admin features so that you are the only one that can access them. Let's talk about Authentication."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Authentication",
+        "chapters": [
+            {
+                "blockname": "New Block 2",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Setting up authentication",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The admin page of this website lets you edit the entire content of the website, and the button to access it is available from the top bar. The admin page has been exposed in such way to make it easier for you and other content creators to access it."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Because it is so exposed, there are a couple of authentication methods available to restrict access to it. If you opt for any of the authentication methods, you can better protect the content of the website."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "None of the two authentication methods are mandatory, but it is highly advised to include at least the local authentication."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "To explain how local authentication works and how to set it up"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "To learn how to set up github authentication and how to use it."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Authentication",
+                "name": "Local Authentication",
+                "sections": [
+                    {
+                        "subtitle": "Setting username and password",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The username and password for the admin features are stored in environment variables."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "To create these on a local server, there are instructions on the template's github repository."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "To do this on Heroku, follow these steps:"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "dashboard",
+                                                "href": "https://dashboard.heroku.com/apps"
+                                            }
+                                        ],
+                                        "text": "Open your app from your dashboard"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Go to the Settings Tab"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_settings.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Click on Reveal Config Vars"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You must enter two variables, one for the username, one for the password.\nThere is a KEY field and a VALUE field and a button ADD."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "For the username, enter USERNAME in the key field (must be all caps) and in the value field enter your desired username and click ADD."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "For the password, enter PASSWORD in the key field (must be all caps) and in the value field enter your desired password and click ADD."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/heroku_vars.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Test it",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have now set up some authentication for your website.\nTry to access the admin page now and if everything is all right, you should be prompted to enter these variables. \nYou now have a secure admin page!"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Authentication",
+                "name": "Github Authentication",
+                "sections": [
+                    {
+                        "subtitle": "Setting up external authentication (Optional)",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Will come in the future."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Admin Primer",
+        "chapters": [
+            {
+                "blockname": "New Block 3",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this chapter, I will go over the admin page, its structure and elements and try to get you familiar with all the various components that are available, how to add and remove them."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn the terminology."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the various widgets and buttons available on the admin page."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the Undo queue and learn how to correct mistakes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to add and remove elements."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Explore the available components in small detail."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Getting to grips with page structure",
+                "sections": [
+                    {
+                        "subtitle": "Terminology",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Blocks",
+                                "text": "Blocks are the main elements of your data. They encapsulate all chapters and are available in the navigation menu on the left. The blocks in this case are: Introduction, Getting the website running, Authentication etc."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks are made of chapters. Below there is an example of blocks.",
+                                "space_after": false
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/blocks.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Chapters",
+                                "text": "Chapters are the containers inside a block. For example, the chapters for the 'Admin Primer' block are : Introduction, Getting to grips with page structure, Adding and removing elements, etc. See below an example of chapters in the block <span class='bg-info text-white p-1'>Admin Primer</span>",
+                                "space_after": false
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/chapters.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "space_after": false,
+                                "subtitle": "Sections",
+                                "text": "Each page is made of several sections. A section starts with a coloured title. Sections also appear on the right side navigation menu for quick navigation. An example of a section can be seen below"
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/sections.jpg"
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "It is good practice to give your Blocks, Chapters and Sections very relevant names, as they appear in navigation menus and allow the user to quickly navigate to what they are looking for",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Components",
+                                "text": "Everything else is a component. All paragraphs, images, videos, alerts, links are components. When you create a page, it will usually be several sections which contain several components. We will go over components more in a later chapter. An example of some components can be seen below."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/components.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Menus",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main menu on the left contains all the Blocks and Chapters, while the menu on the right will display all sections on the currently selected Block+Chapter."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that when you select a Block, it will automatically select the first Chapter from it. A block cannot contain anything else besides Chapters."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "All Blocks, Chapters and Sections must have a name. Name is optional for components."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "When you edit the content, you must always have at least 1 Block with 1 Chapter. The website will not let you delete content if you have less than required."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Widgets",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can notice many buttons on the admin page. Everything in here is editable, therefore there are many ways you can interact with your blocks, chapters, sections and components."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Add Buttons",
+                                "space_after": false,
+                                "text": "There are 4 different Add buttons available. You can add Blocks and Chapters from the menu on the left. You can add Sections to a Page through the Add Section button at the bottom of the page, or the Add New Section button on the right-side menu."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "space_after": true,
+                                "text": "You can add components with the Add Component button. Since components must belong to a Section, every Section comes equipped with this button at the bottom of the Section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Colored Borders",
+                                "text": "There are coloured borders displayed for Sections and Components. Sections have a blue border, and Components have a red border. This is so you can easily identify which component and section you are currently editing."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that components(red borders) are encapsulated in sections(blue borders). You must understand this hierarchy before proceeding forward."
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "Blocks contain chapters, which contain sections, which contain components.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "The Collapse Button",
+                                "space_after": true,
+                                "text": "Sections and Components can get fairly big in size, making it hard to navigate your page. These two elements come equipped with a Collapse button at the beginning. Clicking this will collapse the contents of the element, making the page shorter. It is good practice to collapse Sections that you have finished editing, and only leave the Section you are currently working on uncollapsed."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Move and Delete Widgets",
+                                "space_after": true,
+                                "text": "Every element has these widgets. It's a group of three buttons that can move the element up or down in the hierarchy, or delete it. You can easily change the order of your elements with these buttons, or delete an element. You will be prompted to accept when you try to delete something. They look something like this: <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1 fa-sm'></span></div>"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Adding and removing elements",
+                "sections": [
+                    {
+                        "subtitle": "Blocks",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks are the main containers of data. You can see them listed on the left hand side menu. You can add a new block by clicking on the <div class='d-inline bg-info p-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Block</div> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the blocks using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a block by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Chapters",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Chapters are parts of a block. You can see them listed on the left hand side menu. When you click on a block, you see all the chapters inside that block. You can add a new chapter by clicking on the <div class='d-inline bg-success p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Chapter</div> button. The chapter is added in the current active block."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the chapters within a block by using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a chapter by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Sections",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Sections are the main elements of a chapter (a page). Sections also appear on the right-side menu for quick navigation (their name is displayed there). You can add a new section by clicking on the <div class='d-inline bg-success p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add new Section</div> button available on the right-side menu."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can also add sections from the <div class='d-inline bg-info p-1 m-1 text-white'><span class='fa fa-plus-circle mr-2 text-light'></span>Add Section</div> button avaiable at the bottom of the page."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the sections within a page using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a section by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Components",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Components are everything else on the page. They have a red border. Every section of the page is made of components. There are several types of components, like image, text, video, quote, reference etc. You can add a new component by clicking on the <div class='d-inline bg-warning p-1 m-1 text-dark'><span class='fa fa-plus-circle mr-2 text-dark'></span>Add Component</div> button available at the bottom of every section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the components within a section using the <span class='fa fa-arrow-up text-success'></span> and <span class='fa fa-arrow-down text-success'></span> buttons. You can delete a component by pressing the <span class='fa fa-trash text-danger'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Undo Stack",
+                                        "href": "/content/tutorial/blocks/Admin-Primer/chapter/Undo-Stack"
+                                    }
+                                ],
+                                "text": "All of these actions are reversible from the Undo Stack"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Editing",
+                "sections": [
+                    {
+                        "subtitle": "The Edit Icon",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Once you access a chapter (a page), you will see all the elements of the page exposed. Most elements will have this <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon on the top-left or next to their name."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Clicking on the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon will open an interface on the right side which lets you edit the corresponding element."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Blocks and Chapters",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Blocks and chapters only have a name property. There is no <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> button on the navigation menu on the left-hand side, simply because it was obscuring the names too much. To change the name of a block or a chapter, first you must access the chapter page, and at the top of the page you will see the block name with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon next to it and underneath there is the chapter name with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon next to it. Accessing the interface for the block or chapter will let you change their name."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Sections",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Sections are the parts of the page with blue borders. They contain components, but they also have a name property which is mandatory, and a checkbox property for drawing a horizontal line at the end of the section. The <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon lets you access the section interface to edit these two properties. It is situated in the top-left corner of the section, which is enclosed in blue borders."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Components",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each component also comes equipped with the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon which is situated in the top-left corner. Just a reminder, components are enclosed in red borders."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Components are more complex, they contain various properties depending on the type. We will not go in-depth here about each component, we will talk about what properties all components share."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "When you open the interface for a component, you will see three tabs. The first tab is called <span class='text-white font-weight-bold bg-info p-1'>Component Basics</span> and here you can edit the subtitle of the component and the checkbox property that draws a horizontal line at the end of the component."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The next tab is called <span class='text-white font-weight-bold bg-info p-1'>Component Type</span>. Here you can change the type of the component, if you are not happy with the type you chose when you created it."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "at this link",
+                                        "href": "/content/tutorial/blocks/Components/chapter/Introduction"
+                                    }
+                                ],
+                                "text": "The last tab is custom, based on what type you selected for the component. It is usually named <span class='text-white font-weight-bold bg-info p-1'>{{Type}} Options</span>. Here you can edit all the various properties of a specific component type. You can find more information on component types and their properties at this link."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Admin Primer",
+                "name": "Undo Stack",
+                "sections": [
+                    {
+                        "subtitle": "The Undo Stack",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "On the far-right side of the page, you can see this button: <span class='fa fa-undo p-1 bg-dark text-white' style='opacity: 0.6; font-size: 1.2rem'></span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Most of your actions while editing are registered in this stack. You can see your previous actions by clicking the <span class='fa fa-undo p-1 bg-dark text-white' style='opacity: 0.6; font-size: 1.2rem'></span> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each of these actions gives you a brief description about where the change was made ( which block, chapter, section and component) and also displays an icon to show what type of action was made ( delete, move, add, edit). Each entry has an <span class='bg-warning text-dark p-1'>UNDO</span> button that allows you to revert the state of your document back to how it was before that change.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "When you click UNDO, you are reverting back the document to how it was before that change. That means that if you UNDO the 6th element in the stack, you will also lose the changes made in the 5 elements above. Think of this as hitting CTRL + Z on a windows machine. It reverts your previous change, but in order to revert back to the 6th previous change you made, you have to undo the 5 before as well."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Saving your work",
+        "chapters": [
+            {
+                "blockname": "New Block 1",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Learn what happens when you save your changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to download your data after you made changes."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to save your new data to your github repository."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how and when you should re-upload your github repository to your heroku app."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Saving your work",
+                "name": "Getting the data",
+                "sections": [
+                    {
+                        "subtitle": "Download you data after making changes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-alert",
+                                "text": "This section only applies to you if your website is on a cloud server like Heroku where you cannot access your data. If you have your website on a local server, then whenever you press the 'Save Changes' button, your data is automatically saved in the folder called Data at the location of your website folder."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You have made some changes, added some content and pressed the <span class='bg-success text-white p-1'>Save Changes</span> button in the top-right part of the page. Congratulations!! But what exactly happens to your data?"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "All data is stored in some files in the website folder. These files are grouped in a folder called 'Data'. If your website is on a cloud server, then you don't have access to the newly updated data straight away."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can choose to download the data at any time using the <span class='bg-success text-white p-1'>Download Data</span> button in the main admin interface. Clicking this will give you a <code>data.zip</code> file, which contains all your data in JSON format"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "It is always good practice to do this, because you will have a back-up of your data before making changes. If anything goes bad in your new update, or you go in a frenzy and start deleting everything, then you can recover from these mistakes if you have a back up of your data.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the next chapter, we will talk about how to you use github to store your data and all the history of your different versions of data and how to upload a new version of data to your cloud website."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Saving your work",
+                "name": "Using github to save your changes",
+                "sections": [
+                    {
+                        "subtitle": "A brief overview of github",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "version control",
+                                        "href": "https://whatis.techtarget.com/definition/version-control"
+                                    },
+                                    {
+                                        "portion": "Github",
+                                        "href": "https://github.com/"
+                                    }
+                                ],
+                                "text": "Github is, at its core, a collaboration tool. It makes open-source projects much easier to maintain. One of its features is version control. \nWhat this means is that you can at any time revert your files back to a previous state. With this capability, Github becomes a great place to store files that you continuously update. This way, you will have access to all versions of your files, between updates."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Whenever you click the <span class='bg-success text-white p-1'>Save Changes</span> button, you are creating a new version of your data.  If you want to never lose this data and always have access to all the different versions, then you should use github to store it."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "How to save your changes to github",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/admin",
+                                        "portion": "main admin interface"
+                                    }
+                                ],
+                                "text": "You can choose to download the data at any time using the <span class='bg-success text-white p-1'>Download Data</span> button in the main admin interface. Clicking this will give you a <code>data.zip</code> file, which contains all your data in JSON format. You should unzip the file, and save the folder <code>data</code> somewhere on your computer."
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [
+                                            {
+                                                "href": "https://github.com/",
+                                                "portion": "github"
+                                            }
+                                        ],
+                                        "text": "Go to your github page and select the repository containing your website."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Press the <span class='border border-dark bg-white p-1 text-dark'>Upload files</span> button"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_upload.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Select <span class='text-info'><u>choose your files</u></span>"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Navigate to where you have saved your <code>data</code> folder and drag the entire folder to the github page. The upload will take several seconds depending on your connection speed."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You can add a commit message and commit description to identify this version later. It can be something related to what you added. For example if you added a new chapter, you can specify 'Added |chapter name|'. These are optional."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Press the <span class='bg-success p-1 text-white'>Commit changes</span> button."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commit.jpg"
+                            },
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "This will take a bit of time to complete, usually less than a minute. You will then be returned to your repository page. Nothing seemed to have happened, but if you press the <span class='text-dark border border-dark bg-white p-1'>commits</span> button, you will see that the version of your folder has been saved."
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commitbutton.jpg"
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/github_commithistory.jpg"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Re-deploying to Heroku",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Getting-the-website-running/chapter/Using-heroku",
+                                        "portion": "Using heroku"
+                                    }
+                                ],
+                                "text": "If you make any changes to the <code>data</code> folder locally and you want them to show up in the heroku website, you will have to re-upload your website to heroku. To do that, simply follow the steps in the <span style='font-size: 1.2rem'>Using heroku</span> section, after you have saved your changes to your github repository."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Components",
+        "chapters": [
+            {
+                "blockname": "New Block 2",
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In this block, we will go over all the available components you can use to build your pages. There is a variety of elements you can add to your page, from paragraphs, images and videos to links, lists, references and quizzes."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "We will explore each component in detail, give you an example of how to use the related form elements for each one, and show you what to expect from each component in terms of appearance."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "links": [],
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "In-depth discussion about each component."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Help you get familiar with the form looks  and controls."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Talk about some of the restrictions for each component."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Paragraph",
+                "sections": [
+                    {
+                        "subtitle": "The Paragraph Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is the most common component you will use, so it is important to understand how to use it properly."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Google",
+                                        "href": "http://www.google.com"
+                                    }
+                                ],
+                                "text": "Wherever you see text, there's probably a paragraph component involved. Paragraphs are the main tool used for writing information. You can embed links in paragraphs, like this Google link, and you can add a background to a paragraph, like the paragraph below."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is a paragraph with background. This paragraph also has a separator drawn below.",
+                                "embolden": true,
+                                "subtitle": "This is a paragraph subtitle",
+                                "space_after": true
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Paragraph Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you click the <span class='fa fa-edit p-1 text-white bg-info' style='opacity:0.7'></span> icon on a paragraph component, you will see the following options."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_form.jpg",
+                                "subtitle": "Paragraph Form"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The <span class='bg-info p-1 text-white'>Component Basics</span> and <span class='bg-info p-1 text-white'>Component Type</span> are 2 form sections that you will see in every component form. The first one allows you to change the subtitle of the component and whether to draw a separator line at the end of it, the second one allows you to change the type of the component. We will not cover these two sections in the following chapters, because they are the same for all components. What changes from component to component is the last form section.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Text, background and links",
+                                "text": "The big text area is where you will enter the text that will be displayed. The checkbox that says <code> Emphasize text </code> will add a background to the paragraph. The button <span class='bg-info text-white p-1'>Embed Links </span> will open some more options for you to describe what words you want to be hyperlinked and what is the link."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_link.jpg",
+                                "subtitle": "Link Form"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The form above is what you will see after clicking the <span class='bg-info text-white p-1'>Embed Links</span> button. It is fairly straight-forward. In the first entry you have to enter the text to be hyper-linked, and the second entry is for the actual link."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can add multiple links. Simply press the <span class='bg-info text-white p-1'>Add Link</span> button and another Link entry will appear. The order of your links doesn't matter."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/paragraph_linkmultiple.jpg",
+                                "subtitle": "Multiple Links"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Paragraph tips",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "embolden": true,
+                                        "text": "A link applies to all occurences of the typed text. If you link the word 'this', then it will link all occurences of the word this. Try to link only meaningful patters. Instead of this, you can have 'at this github link' and link the entire pattern."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "You can change the order of your links, but that has no effect. To delete a link, simply press the trash can icon associated with each link."
+                                    }
+                                ],
+                                "space_after": false
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "HTML",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Bootstrap 4",
+                                        "href": "https://getbootstrap.com/docs/4.1/getting-started/introduction/"
+                                    },
+                                    {
+                                        "portion": "Font Awesome 4",
+                                        "href": "https://fontawesome.com/v4.7.0/"
+                                    }
+                                ],
+                                "text": "Paragraphs support HTML code. The website comes equipped with Bootstrap 4 and Font Awesome 4. You can use their documentation to find out how to insert icons and how to edit the display of text. You can include awesome icons like this <span class='fa fa-check text-success' style='font-size:1.2rem'></span> check mark."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "List",
+                "sections": [
+                    {
+                        "subtitle": "The List Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "this tutorial",
+                                        "href": "/content/tutorial/blocks/Components/chapter/Paragraph"
+                                    }
+                                ],
+                                "text": "The list is simply a collection of paragraphs. See this tutorial to find out about how to edit paragraphs. The order of your paragraphs matters in this case and you can edit them by using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons."
+                            },
+                            {
+                                "type": "list-text",
+                                "subtitle": "A List Example",
+                                "space_after": true,
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Paragraph 1"
+                                    },
+                                    {
+                                        "links": [
+                                            {
+                                                "portion": "Google",
+                                                "href": "http://www.google.com"
+                                            }
+                                        ],
+                                        "text": "Paragraph 2 that contains a Google link"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Paragraph 3 that has background",
+                                        "embolden": true
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The List Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "An empty list only comes with one button: <span class='bg-info text-white p-1'> Add list entry </span>. Pressing the button will add the first paragraph to your list. You can add multiple paragraphs by pressing the <span class='bg-info text-white p-1'> Add another </span> button."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/list_withparagraphs.jpg",
+                                "subtitle": "A list with 3 elements"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Links",
+                "sections": [
+                    {
+                        "subtitle": "The Link Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Link(s) component is a list of links. They are surrounded by a gray border. Use this component when you want to include some links that don't necesarily belong in a paragraph. It's a good component for grouping up together external related resources."
+                            },
+                            {
+                                "type": "link-website",
+                                "subtitle": "Link Component Subtitle",
+                                "space_after": true,
+                                "links": [
+                                    {
+                                        "text": "Google Link",
+                                        "link": "http://www.google.com"
+                                    },
+                                    {
+                                        "text": "Another Google Link",
+                                        "link": "http://www.google.com"
+                                    },
+                                    {
+                                        "text": "Home Page of this website",
+                                        "link": "http://localhost:8000"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Link Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is a simple form. It comes with a <span class='bg-info text-white p-1'> Add Link </span> button. Each link has an entry for the text to be displayed and an entry for the actual URL. The order of the links affects the order they are displayed in and you can change that order by using the corresponding <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Images",
+                "sections": [
+                    {
+                        "subtitle": "The Image component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Image component lets you upload an image to the server for display. The form is very simple, it consists of an <span class='bg-success text-white p-1'>Add Image</span> button."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If the image name shows up written in red, then the image has been uploaded. Sometimes, you will have to save your form before seeing the image."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/placeholder.jpg",
+                                "subtitle": "Image Subtitle"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Image Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "There are several things to think about when uploading a single image. First of all, the size in memory of the image. The form will not allow you to upload an image that is more than <span class='text-white bg-danger px-1' style='font-size:1.3rem'>80kb</span> in size. Images have to be loaded by the browser when the page containing it is accessed. Images take a long time to load if they are too big, this restriction is here to make sure that the website still performs correctly even when it contains many images."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Another thing to think about is image width and height. The website does not enforce any width or height on your image, which means that you can include any type of image. It is important to think about how your image scales with screen size. I recommend for your images to have less then 600px width, more than that will make the image overflow from the edges of the containing document."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Document Link or upload",
+                "sections": [
+                    {
+                        "subtitle": "Document Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Document component is used to group and link documents (PDF or docx). You can either provide a URL that links to an online document, or you can upload your own document to the server. There is no restriction on the size of your document, but it has to be one of the following : <span class='bg-danger p-1 text-white'>.PDF .DOCX .DOC</span>"
+                            },
+                            {
+                                "type": "link-pdf",
+                                "links": [
+                                    {
+                                        "text": "Document 1 example",
+                                        "link": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                    },
+                                    {
+                                        "text": "Document 2 example",
+                                        "link": "http://unec.edu.az/application/uploads/2014/12/pdf-sample.pdf"
+                                    }
+                                ],
+                                "subtitle": "Document Component Example",
+                                "space_after": true
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Document Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The component can hold multiple documents, so you will again have the common buttons for <span class='bg-info text-white p-1'>Add entry</span> and <span class='bg-info text-white p-1'>Add another</span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can change the order of the documents using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></div> buttons on the corresponding elements."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The form for a single document contains an entry for the label (text to be displayed) and an entry for a URL. If you are uploading a file, click the <span class='fa fa-upload bg-white border border-dark text-dark p-1'></span> icon, which will let you choose a document from your local computer"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you are simply linking to a document online, enter the URL of the document in the second box."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Getting a file name warning",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "image-single",
+                                "src": "images/file_samename.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This warning lets you know that a file with this name already exists on the server. This warning only happens when you try to upload a file. It shouldn't be an issue if you are reusing a file. You should be careful when trying to upload a file that has different content than the one with the same name on the server. The new file will replace the old file, and the old file will no longer be available."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Videos",
+                "sections": [
+                    {
+                        "subtitle": "The Video component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "https://www.youtube.com/",
+                                        "portion": "Youtube"
+                                    }
+                                ],
+                                "text": "The video component allows you to link to an external video resource. You are not allowed to upload videos. If you have to upload videos, you should consider Youtube, they are a really good provider for this service."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The video form",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the video form, you have a field to enter a URL. You must enter a video resource URL here. In the case of youtube, you can enter any youtube URL."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you are entering another video URL, maybe from your own university media library, make sure to include the URL which contains only the video. ( ask for the embed URL)."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "If you enter a Youtube link, the form will automatically detect a suitable thumbnail for it.\nIf you provide another resource, then you will have to upload your thumbnail manually."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/video_thumbnailAdder.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Simlpy press the <span class='bg-success text-white p-1'><span class='fa fa-upload mr-2'></span> Add Image</span> button to add a thumbnail image for your video. Notice that the help text specifies that the thumbnail image cannot be more than <span class='bg-danger text-white p-1'>20kb</span> and to resize it to 200x113 px."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Video Carousel",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The video carousel is just a collection of videos. Press the <span class='bg-info text-white p-1'>Add Video</span>  button to add a Video to your list. Each Video needs to have a title. A video carousel looks like this:"
+                            },
+                            {
+                                "type": "video-carousel",
+                                "videos": [
+                                    {
+                                        "video": {
+                                            "src": "https://www.youtube.com/embed/zqAGm4_SjVc",
+                                            "thumb": "https://img.youtube.com/vi/zqAGm4_SjVc/maxresdefault.jpg"
+                                        },
+                                        "subtitle": "Mini Deadpool"
+                                    },
+                                    {
+                                        "subtitle": "Ryan Reynolds Bloopers",
+                                        "type": "video-single",
+                                        "video": {
+                                            "src": "https://www.youtube.com/embed/Rv9VC7ZPrH0",
+                                            "thumb": "https://img.youtube.com/vi/Rv9VC7ZPrH0/maxresdefault.jpg"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Contact Information",
+                "sections": [
+                    {
+                        "subtitle": "Email and Telephone components",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "E-mail and Telephone are two simple components that allow you to enter contact information for a person or company. Here are some examples"
+                            },
+                            {
+                                "type": "link-email",
+                                "links": [
+                                    {
+                                        "tag": "Email Label",
+                                        "text": "email@address.com",
+                                        "link": "mailto:email@address.com"
+                                    }
+                                ],
+                                "subtitle": "Email subtitle",
+                                "space_after": true
+                            },
+                            {
+                                "type": "link-telephone",
+                                "text": "telephone number",
+                                "subtitle": "Telephone subtitle:",
+                                "space_after": true,
+                                "phones": [
+                                    {
+                                        "tag": "Telephone Label",
+                                        "text": "07xx xxxx xxxxx"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Email and Telephone forms",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "E-mail",
+                                "space_after": false,
+                                "text": "The e-mail component can have multiple elements, so you can use the <span class='bg-info text-white p-1'>Add Entry</span> button to add an element and you can use the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span></span></div> buttons to change the order of the elements."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The e-mail component itself has a <span class='bg-dark text-white p-1'>Label</span>  which represents some bolded text next to the e-mail address and a <span class='bg-dark text-white p-1'>E-mail</span> field which must contain an e-mail address.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Telephone",
+                                "text": "The same applies to the telephone form as well. Use the component subtitle to give a title to your group of contact details, the <span class='bg-dark text-white p-1'>Label</span> to give a title to individual phone numbers and use the <span class='bg-dark text-white p-1'>Telephone</span> field to enter the telephone number."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Thought Bubbles",
+                "sections": [
+                    {
+                        "subtitle": "The Thought Bubble Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This component should be used to prompt the user to reflect on a topic.  An example below:"
+                            },
+                            {
+                                "type": "thought-bubble",
+                                "text": "This is a thought bubble example. Doesn't support links or HTML, simply type in what you want the user to reflect on."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Quiz",
+                "sections": [
+                    {
+                        "subtitle": "The Quiz Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can use the quiz component to create a quiz with as many questions as you want. This is a quiz with multiple choice questions, and for each question, you can have as many answers as you want, but only one correct answer."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Try to do the following quiz to get a feel for it. It contains questions related to other parts of this tutorial."
+                            },
+                            {
+                                "type": "quiz",
+                                "questions": [
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "/content/tutorial/blocks/Saving-your-work/chapter/Using-github-to-save-your-changes",
+                                                    "portion": "github"
+                                                }
+                                            ],
+                                            "text": "See github page for more information."
+                                        },
+                                        "text": "What is github?",
+                                        "answers": [
+                                            {
+                                                "text": "version control system"
+                                            },
+                                            {
+                                                "text": "collaboration tool"
+                                            },
+                                            {
+                                                "text": "cloud storage"
+                                            },
+                                            {
+                                                "text": "all of the above and more"
+                                            }
+                                        ],
+                                        "correct_answer": "all of the above and more"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "/content/tutorial/blocks/Introduction/chapter/Prerequisites#Heroku",
+                                                    "portion": "heroku"
+                                                }
+                                            ],
+                                            "text": "See heroku here."
+                                        },
+                                        "text": "What is heroku?",
+                                        "answers": [
+                                            {
+                                                "text": "A website containing japanese poetry"
+                                            },
+                                            {
+                                                "text": "A dating website"
+                                            },
+                                            {
+                                                "text": "A tool for deploying websites"
+                                            },
+                                            {
+                                                "text": "A cookie"
+                                            }
+                                        ],
+                                        "correct_answer": "A tool for deploying websites"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [],
+                                            "text": "Remember the hierarchy: <span class='text-success font-weight-bold' style='font-size:1.2rem'>Blocks</span> contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Chapters</span>, which contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Sections</span> which contain <span class='text-success font-weight-bold' style='font-size:1.2rem'>Components</span>."
+                                        },
+                                        "text": "The left-side menu contains all the available blocks. What do blocks contain?",
+                                        "answers": [
+                                            {
+                                                "text": "Sections"
+                                            },
+                                            {
+                                                "text": "Chapters"
+                                            },
+                                            {
+                                                "text": "Components"
+                                            },
+                                            {
+                                                "text": "Links"
+                                            }
+                                        ],
+                                        "correct_answer": "Chapters"
+                                    },
+                                    {
+                                        "tip": {
+                                            "links": [
+                                                {
+                                                    "href": "/content/tutorial/blocks/Getting-the-website-running/chapter/Using-github",
+                                                    "portion": "this"
+                                                }
+                                            ],
+                                            "text": "See this page for an explanation about forks."
+                                        },
+                                        "text": "What does 'forking a repository' mean, in terms of github ?",
+                                        "answers": [
+                                            {
+                                                "text": "Splitting a repository in two."
+                                            },
+                                            {
+                                                "text": "Creating a repository as a copy of an existing one."
+                                            },
+                                            {
+                                                "text": "Giving access to your repository to other users."
+                                            },
+                                            {
+                                                "text": "None of the above"
+                                            }
+                                        ],
+                                        "correct_answer": "Creating a repository as a copy of an existing one."
+                                    }
+                                ],
+                                "subtitle": "Admin Tutorial"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Quiz Form",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "This is the most complicated form and you will need some practice to understand exactly what each box means."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "First, as many other components, this one also contains multiple elements, which means you can use the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1'></span></div> buttons to change their order and delete."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Let's take a look now at the quiz form when you create a new quiz."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "When you create a new quiz, you can select the subtitle of the quiz from the <span class='bg-info p-1 text-white'>Component Basics</span> form section. This subtitle will show up in the  <span class='bg-success p-1 text-white'>Start Quiz</span>button like this:"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "<span class='bg-success p-1 text-white'>Start Quiz - Your subtitle</span>"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-info p-1 text-white'>Quiz Options</span> form section, there is only one button in the beginning: <span class='bg-info p-1 text-white'>Add Questions</span>. Clicking it will add the first question to the quiz."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "The Question Form",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "A Question form looks something like this:"
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/quiz_question.jpg",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-dark text-white px-1'>Question</span> entry, just type in the question text."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-dark text-white px-1'>Answers</span> entry, you will type in all the available answers for the question. Each of your answers should end with a new line character( pressing  <span class='fa fa-keyboard-o bg-dark text-white'></span>Enter on your keyboard)"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "After you have typed in at least 1 answer, the part that lets you select the correct answer will pop up. Simply click on the desired correct answer and it will be registered as the correct answer for the question."
+                            },
+                            {
+                                "type": "image-single",
+                                "src": "images/quiz_question_correct.jpg"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can enter as many answers as you want, but the question must have at least 1 answer.",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "In the <span class='bg-info text-white px-1'>Explanation</span> tab, you can enter a paragraph that will show up as a tip for the question when the results are displayed. This paragraph supports links and HTML."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Components",
+                "name": "Other components",
+                "sections": [
+                    {
+                        "subtitle": "Alert Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Emphasized text meant to attract attention over an important message. Does not support links or HTML, just plain text. Example:"
+                            },
+                            {
+                                "type": "text-alert",
+                                "text": "This is an alert !!!"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Myth Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Myth Component contains a list of <span class='bg-danger text-white px-1'>Myth</span> -  <span class='bg-success text-white px-1'>Fact</span>. Each myth and fact is just plain text that doesn't support links or HTML. Example:"
+                            },
+                            {
+                                "type": "text-mythfact",
+                                "myths": [
+                                    {
+                                        "myth": "This is Myth 1.",
+                                        "fact": "This is Fact 1."
+                                    },
+                                    {
+                                        "myth": "This is Myth 2, you can write a lot here.",
+                                        "fact": "This is Fact 2, you can write a lot here as well."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Reference Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The reference component allows you to create a detailed reference to some content. You can include a title, list of authors, year, page, volume, etc. You can also include a link to an online resource, that will apply to the title of the reference.\nExample:"
+                            },
+                            {
+                                "type": "link-reference",
+                                "title": "This is a reference example",
+                                "volume": "1",
+                                "year": "2018",
+                                "pages": "1-2",
+                                "publisher": "Coventry University",
+                                "link": "http://libguides.lub.lu.se/c.php?g=297505&p=1984175",
+                                "authors": [
+                                    {
+                                        "name": "Ovidiu Mitroi"
+                                    },
+                                    {
+                                        "name": "Another author"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Quote Component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Quote component is plain text formatted to look like a quote. You can specify an author and a year for the quote, but it's best to pair it with a reference component for more details. Example:"
+                            },
+                            {
+                                "type": "text-quote",
+                                "text": "This is a quote by a very famous person.",
+                                "year": "2018",
+                                "author": "Ovidiu Mitroi"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Profile Component",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The Profile Component lets you enter detailed information about a person. It supports a picture, a Job Title, Job Description, Profile Link. You can use this component on the About page, to enter information about your team. An example below:"
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/ovidiu_mitroi.jpg",
+                                "description": {
+                                    "links": [],
+                                    "text": "<span class='bg-dark text-white px-1'>This is a description paragraph, with a bit of HTML and Bootstrap in it.</span>"
+                                },
+                                "name": "Ovidiu Mitroi",
+                                "title": "Web Developer",
+                                "url": "www.linkedin.com/in/ovidiu-mitroi",
+                                "link": "blob:http://localhost:8000/61ee87ea-31f9-4c79-8602-6b2ed0f08289"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "Main Page Content",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Main Page",
+                                        "href": "/"
+                                    }
+                                ],
+                                "text": "In this block, we will talk about editing the Main Page. Although it contains components which have been discussed previously, there are some things to clarify about what you can and can't edit on the front page of the website."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Discuss what the main page contains."
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "Learn how to change the background images and other various elements of the front page."
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Main page sections",
+                "sections": [
+                    {
+                        "subtitle": "Sections of the main page",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "main admin interface",
+                                        "href": "/admin"
+                                    }
+                                ],
+                                "text": "I have exposed almost everything on the front page for you to be able to edit. In order to access this exposed content, simply go to the main admin interface and choose <span class='bg-success text-white p-1'>Main Page Content</span> ."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "We will go over each section and talk about what you can edit and what you cannot."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Introduction Video",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Video element",
+                                        "href": "/content/tutorial/blocks/Components/chapter/Videos"
+                                    }
+                                ],
+                                "text": "The first section allows you to edit the Introduction Video. You can change the thumbnail and the video link. Notice that you cannot add a subtitle to this component. The subtitle is not displayed. Apart from that, the interface looks very similar to the Video element discussed before."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Quotes component",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main page contains a screen where various quotes show up. You can edit these quotes from this section. Clicking the <span class='fa fa-edit bg-info p-1 text-white' style='opacity: 0.7'></span> icon will expose the quotes. You can add, remove or change the order of the quotes using the <div class='d-inline text-white' style='opacity:0.7'><span class='fa fa-arrow-up bg-info p-1'></span><span class='fa fa-arrow-down bg-info p-1'></span><span class='fa fa-trash bg-danger p-1 fa-sm'></span></div> and the <span class='bg-info text-white p-1'>Add Quote</span> buttons."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Each quote contains a text field, an Author field and a Year field. They are pretty straightforward."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Notice that you can't delete the entire section. You need to have the section, but you can delete all quotes if you don't want them to show up. You can also just write anything else here, not necessarily quotes. The Author and Year fields are optional."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Main paragraph",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The main paragraph represents the text displayed in the purple box on the front page. You can edit that text from the Main Paragraph section."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Alert form",
+                                        "href": "/content/tutorial/blocks/Components/chapter/Other-components"
+                                    }
+                                ],
+                                "text": "The form resembles the Alert form discussed before. The only thing you can edit is the text. the element is displayed as an Alert box in the admin interface, but this doesn't have any influence to how the element is displayed on the front page."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You cannot delete this section. The main paragraph of the front page must exist."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Contact Details",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Components/chapter/Contact-Information",
+                                        "portion": "Contact Information form"
+                                    }
+                                ],
+                                "text": "In the main page footer, you can see a list of contact details, with telephone numbers and e-mails. You can use this section to edit those details, add as many telephone numbers and e-mails as you want. The form looks exactly like the previously discussed Contact Information form."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The section comes with the default name of <span class='bg-dark text-white p-1'>Disabilities Team</span>, but you can change this by editing the section."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Image Links",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Focusing on the main page footer now, you can see two sections there called <span class='bg-info text-white p-1'>Affiliations</span> and <span class='bg-info text-white p-1'>Useful Sites</span>. These sections contain images that link to a specific website when clicked. It is a good place to put external resources and affiliations."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "href": "/content/tutorial/blocks/Components/chapter/Images",
+                                        "portion": "Image form"
+                                    }
+                                ],
+                                "text": "You can add as many affiliations and useful sites as you want, or you can delete the components. The form is similar to the Image form, but you have to add a URL as well which will be the destination link when the user clicks the image."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Backgrounds",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The last two sections are called <span class='bg-dark text-white p-1 my-1'>background_up</span> and <span class='bg-dark text-white p-1 my-1'>background_down</span>. These represent the two background images on the main page. You can upload other images if you want, and the <span class='bg-danger text-white p-1 my-1'>80KB</span> is lifted in this case and you can upload images with maximum size of <span class='bg-danger text-white p-1 my-1'>280KB</span>. These images will be stretched to fill the space, so make sure to play with your image size before uploading. As a guideline, the current background images have a size of <span class='bg-info text-white p-1 my-1'>968 x 644</span> pixels."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "You can have the same image in both backgrounds. You will have to upload the same file in both sections."
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

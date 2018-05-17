@@ -1,0 +1,159 @@
+[
+    {
+        "name": "Template 1",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Simple paragraph component to explain the purpose of this block."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "List component for presenting the learning outcomes for this block"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "in"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "list"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "form"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Chapter 1",
+                "sections": []
+            },
+            {
+                "name": "Chapter 2",
+                "sections": []
+            }
+        ]
+    },
+    {
+        "name": "Template 2",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Introduction",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Simple paragraph component to explain the purpose of this block."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Learning Outcomes",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "List component for presenting the learning outcomes for this block"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "in"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "list"
+                                    },
+                                    {
+                                        "links": [],
+                                        "text": "form"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "name": "Chapter 1",
+                "sections": []
+            },
+            {
+                "name": "Chapter 2",
+                "sections": []
+            }
+        ]
+    },
+    {
+        "name": "Template 3",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": []
+            },
+            {
+                "name": "Chapter 1",
+                "sections": []
+            },
+            {
+                "name": "Chapter 2",
+                "sections": []
+            }
+        ]
+    },
+    {
+        "name": "Block 1",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": [
+                    {
+                        "subtitle": "Section 1",
+                        "space_after": false,
+                        "components": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "name": "This is a new block",
+        "chapters": [
+            {
+                "name": "Introduction",
+                "sections": []
+            },
+            {
+                "name": "This is a new chapter",
+                "sections": []
+            }
+        ]
+    }
+]

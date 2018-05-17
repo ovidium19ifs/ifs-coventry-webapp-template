@@ -1,0 +1,352 @@
+[
+    {
+        "block": "About",
+        "name": "Introduction",
+        "chapters": [
+            {
+                "name": "Your About Details",
+                "sections": [
+                    {
+                        "subtitle": "About",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Use this section to provide information on your team. You must include the <span class='bg-success text-white p-1'>Information on this resource</span> page untouched, as it acknowledges the team that created this resource. Please do not delete that chapter, however you can put it wherever you want in your block/chapter hierarchy."
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "blockname": "Introduction",
+                "name": "Information on this resource",
+                "sections": [
+                    {
+                        "subtitle": "Project details",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "Research Centre for Global Learning: Education and Attainment at Coventry University",
+                                        "href": "https://www.coventry.ac.uk/research/areas-of-research/global-learning/"
+                                    },
+                                    {
+                                        "portion": "Higher Education Funding Council for England",
+                                        "href": "http://www.hefce.ac.uk/"
+                                    }
+                                ],
+                                "text": "This website is a resource developed by the Research Centre for Global Learning: Education and Attainment at Coventry University. It was funded by the Higher Education Funding Council for England (HEFCE) as part of its catalyst fund. It aims to provide information, evidence-based support and guidance to students, university staff and educators/mentors in practice education with a view to enhancing placement experiences, particularly for disabled students."
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Intervention for Success: Project Steering Committee",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Christine Broughan",
+                                "text": "Institutional Lead",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Amanda Reece",
+                                "space_after": true,
+                                "text": "Project Manager"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Arinola Adefila",
+                                "space_after": true,
+                                "text": "Project Coordinator"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Diane Phimister",
+                                "space_after": true,
+                                "text": "Academic Lead"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Andrew Brooks",
+                                "text": "Data and Technical Lead",
+                                "space_after": true
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Helen Bogusz, Dove McColm and Tizzie Frankish",
+                                "space_after": true,
+                                "text": "Student Support representative (Disabilities and Wellbeing Office)"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Joanne Opie",
+                                "space_after": true,
+                                "text": "Academic Skills Tutor representative"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Contributors",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "media-description",
+                                "name": "Arinola Adefila",
+                                "title": "Project Coordinator Intervention for Success Project",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                },
+                                "src": "images/placeholder.jpg"
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/amanda_reece.jpg",
+                                "description": {
+                                    "links": []
+                                },
+                                "name": "Amanda Reece",
+                                "title": "Project Manager"
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/placeholder.jpg",
+                                "name": "Joanne Opie",
+                                "title": "Principal Lecturer and Faculty Learning Support Coordinator",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                }
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/placeholder.jpg",
+                                "name": "Dove McColm",
+                                "title": "Dyslexia Support Tutor",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                }
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/placeholder.jpg",
+                                "name": "Tizzie Frankish",
+                                "title": "Dyslexia Support Tutor",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                }
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/placeholder.jpg",
+                                "name": "Christine Broughan",
+                                "title": "Intervention for Success Project Principal Investigator",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                }
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/alex_andriuc.jpg",
+                                "description": {
+                                    "links": []
+                                },
+                                "name": "Alex Andriuc",
+                                "title": "Intervention for Success Project - Camera Work"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Developers",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [
+                                    {
+                                        "portion": "The Centre for Excellence in Learning Enhancement",
+                                        "href": "https://cele.coventry.ac.uk/"
+                                    },
+                                    {
+                                        "portion": "Coventry University",
+                                        "href": "https://www.coventry.ac.uk/"
+                                    }
+                                ],
+                                "text": "The Centre for Excellence in Learning Enhancement (CELE) is a specialist teaching and learning, research, and development centre hosted within the Faculty of Health and Life Sciences at Coventry University. They have been responsible for developing this resource."
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/ovidiu_mitroi.jpg",
+                                "name": "Ovidiu Mitroi",
+                                "title": "Web Developer",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "Student intern at CELE Coventry. Responsible for web development tasks and maintenance.",
+                                    "links": [],
+                                    "embolden": true
+                                },
+                                "url": "https://www.linkedin.com/in/ovidiu-mitroi/"
+                            },
+                            {
+                                "type": "media-description",
+                                "src": "images/placeholder.jpg",
+                                "name": "Andrew Brooks",
+                                "title": "Research Learning Technologist",
+                                "description": {
+                                    "type": "text-paragraph",
+                                    "text": "some description"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Student Consultants",
+                        "space_after": true,
+                        "components": [
+                            {
+                                "type": "list-text",
+                                "subtitle": "Symran Bhogun-Scott"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Tasz Bailey"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "",
+                                "subtitle": "Gianina Petre"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Omolola Oyefunke Oyeyinka"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Emily Sherring"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Matthew Wilson"
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Acknowledgements",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "We are grateful to all the stakeholders who contributed and facilitated the development of the Successful Placement App."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "Chaired by Joanne Guy. Members - Jo Kucharska, Teresa Rushton, Jean Astley-Cooper, Teresa Horgan, Michael Clewes Susan Law, Susan Lees, Sandra Nightingale, Dean Newman, Nigel Williams, Raymond Bell, Caroline Green Rosie Kneafsey, Sarah Baxter, Amanda Royston and Kathleen Hennessy-Priest",
+                                "space_after": true,
+                                "subtitle": "Placement Education Group (HLS)"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "We would also like to thank:",
+                                "text": "Our colleagues Jan Furlong, Kerry Archer and _______________ from our Faculty, Placement Connect team and the Employment Support Unit who developed a lot of materials and resources  for previous projects which were used in this web application. Their participation enriched the development and refining of the Successful Placement App. Thank you for providing useful feedback and comments."
+                            },
+                            {
+                                "type": "list-text",
+                                "links": [],
+                                "subtitle": "Special thanks to:",
+                                "list_elements": [
+                                    {
+                                        "links": [],
+                                        "text": "Alex Andruic for shooting the introductory video",
+                                        "embolden": false
+                                    },
+                                    {
+                                        "links": [
+                                            {
+                                                "href": "https://www.linkedin.com/in/tara-hepworth-5b622664/",
+                                                "portion": "Tara Hepworth"
+                                            }
+                                        ],
+                                        "text": "Tara Hepworth for proof-reading and editing from a legal perspective."
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Contact Information",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "link-email",
+                                "links": [
+                                    {
+                                        "tag": "Arinola Adefila",
+                                        "text": "ab0191@coventry.ac.uk",
+                                        "link": "mailto:ab0191@coventry.ac.uk"
+                                    }
+                                ]
+                            },
+                            {
+                                "type": "link-website",
+                                "links": [
+                                    {
+                                        "text": "Intervention for Success Project",
+                                        "link": "https://sites.google.com/site/interventionsprojectnews/about"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "subtitle": "Reusing this resource",
+                        "space_after": false,
+                        "components": [
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "text": "The reuse of the app is authorised, provided the source is acknowledged and the original meaning or message of the texts are not distorted."
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "How to cite this application:",
+                                "text": "All images Marketing and Communications © Coventry University 2018, Illustrations and animations – Andrew Brooks"
+                            },
+                            {
+                                "type": "text-paragraph",
+                                "links": [],
+                                "subtitle": "Title:",
+                                "text": "Successful Placement App",
+                                "embolden": true
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
